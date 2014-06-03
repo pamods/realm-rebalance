@@ -61,7 +61,7 @@
 	"display_name": "Base Commander",
 	"show_in_orbital_layer": true,
 	"storage": {
-		"energy": 20000,
+		"energy": 40000,
 		"metal": 2000
 	},
 	"events": {

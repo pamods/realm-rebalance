@@ -47,7 +47,7 @@
 		"muzzle_bone": ["socket_rightMuzzle", "socket_leftMuzzle"]
 	}],
 	"TEMP_texelinfo": 4.07719,
-	"guard_radius": 150,
+	"guard_radius": 180,
 	"mesh_bounds": [4,
 	4,
 	4],
