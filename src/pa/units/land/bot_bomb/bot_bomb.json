@@ -46,7 +46,7 @@
 	"display_group": 40,
 	"events": {
 		"died": {
-			"effect_scale": 5,
+			"effect_scale": 2.5,
 			"audio_cue": "/SE/Death/Bot"
 		},
 		"build_complete": {
