@@ -1,5 +1,5 @@
 {
-	"base_spec": "/pa/tools/base_bot_weapon/base_bot_weapon.json",
+	"base_spec": "/pa/tools/base_artillery_turret_unit/base_artillery_turret_unit.json",
 	"ammo_id": "/pa/units/land/bot_grenadier/bot_grenadier_ammo.json",
 	"rate_of_fire": 0.6,
 	"max_range": 140,
