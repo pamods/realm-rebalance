@@ -16,7 +16,7 @@
 	"command_caps": ["ORDER_Move",
 	"ORDER_Patrol",
 	"ORDER_Reclaim",
-	"ORDER_Repair",
+	"ORDER_Repair"
 	],
 	"build_metal_cost": 350,
 	"TEMP_texelinfo": 5.11028,

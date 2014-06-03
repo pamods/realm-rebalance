@@ -29,6 +29,13 @@
 			"audio_cue": "/SE/Death/Veh_small"
 		}
 	},
+	"tools": [{
+	"aim_bone": "socket_aim",
+	"spec_id": "/pa/units/land/land_scout/land_scout_tool_weapon.json",
+	"muzzle_bone": "socket_muzzle"
+	}],
+		
+	
 	"attachable": {
 		"offsets": {
 			"root": [0,
