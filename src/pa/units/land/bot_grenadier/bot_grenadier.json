@@ -1,5 +1,5 @@
 {
-	"description": "Grenadier: Area effect, lobbing assault bot",
+	"description": "Mortar: Area effect, lobbing assault bot",
 	"attachable": {
 		"offsets": {
 			"head": [0,
@@ -10,7 +10,7 @@
 			0]
 		}
 	},
-	"display_name": "Grenadier",
+	"display_name": "Thumper",
 	"events": {
 		"build_complete": {
 			"audio_cue": "/SE/Build_Complete/bot"
