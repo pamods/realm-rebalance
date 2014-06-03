@@ -74,7 +74,7 @@
 	"guard_radius": 90,
 	"TEMP_texelinfo": 4.07719,
 	"tools": [{
-		"muzzle_bone": "socket_rightMuzzle", "socket_leftMuzzle",
+		"muzzle_bone": ["socket_rightMuzzle", "socket_leftMuzzle"],
 		"spec_id": "/pa/units/land/assault_bot/assault_bot_tool_weapon.json",
 		"aim_bone": "socket_aim"
 	}],

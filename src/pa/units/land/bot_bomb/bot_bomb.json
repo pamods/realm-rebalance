@@ -72,7 +72,7 @@
 		"spec_id": "/pa/units/land/bot_bomb/bot_bomb_tool_weapon.json",
 		"muzzle_bone": "bone_root",
 		"aim_bone": "bone_root"
-	}
+	},
 	{
 		"death_weapon": true,
 		"spec_id": "/pa/units/land/bot_bomb/bot_bomb_tool_deathweapon.json"

@@ -8,7 +8,7 @@
 	"lifetime": 2,
 	"fx_trail": {
 		"filename": "/pa/units/land/laser_defense_single/laser_defense_single_ammo_trail.pfx"
-	}
+	},
 	"events": {
 		"spawned": {
 			"audio_cue": "/SE/Weapons/commander/Commander_gun_fire"

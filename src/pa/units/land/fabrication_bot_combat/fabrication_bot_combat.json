@@ -17,7 +17,8 @@
 	"ORDER_Patrol",
 	"ORDER_Reclaim",
 	"ORDER_Repair",
-		"build_metal_cost": 350,
+	],
+	"build_metal_cost": 350,
 	"TEMP_texelinfo": 5.11028,
 	"guard_radius": 50,
 	"tools": [{
@@ -36,7 +37,7 @@
 		}
 	},
 	"buildable_types": "CombatFabBuild",
-	"description": "Fabrication: Combat-oriented Reclaim Engineer",
+	"description": "Fabrication: Combat oriented Reclaim Engineer",
 	"display_group": 100,
 	"fx_offsets": [{
 		"bone": "socket_muzzle",
