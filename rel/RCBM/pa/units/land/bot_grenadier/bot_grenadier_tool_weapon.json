@@ -1,1 +1,17 @@
-{"base_spec": "/pa/tools/base_bot_weapon/base_bot_weapon.json","ammo_id": "/pa/units/land/bot_grenadier/bot_grenadier_ammo.json","max_firing_velocity": 75,"min_firing_velocity": 25,"rate_of_fire": 0.75,"idle_aim_delay": 1.0,"max_range": 160,"yaw_rate": 360,"pitch_rate": 360,"yaw_range": 180,"pitch_range": 90,"auto_attack": true,"arc_type": "ARC_Low","target_layers": ["WL_LandHorizontal","WL_Seafloor","WL_WaterSurface"]}
+{
+	"base_spec": "/pa/tools/base_bot_weapon/base_bot_weapon.json",
+	"ammo_id": "/pa/units/land/bot_grenadier/bot_grenadier_ammo.json",
+	"rate_of_fire": 0.6,
+	"max_range": 140,
+	"yaw_rate": 15,
+	"pitch_rate": 15,
+	"yaw_range": 180,
+	"pitch_range": 89.9,
+	"firing_arc_yaw": 5,
+	"firing_arc_pitch": 5,
+	"auto_attack": true,
+	"firing_standard_deviation": 25,
+	"target_layers": ["WL_LandHorizontal",
+	"WL_Seafloor",
+	"WL_WaterSurface"]
+}
