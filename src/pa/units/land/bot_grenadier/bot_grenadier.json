@@ -52,7 +52,7 @@
 		"spec_id": "/pa/units/land/bot_grenadier/bot_grenadier_tool_weapon.json"
 	}],
 	"TEMP_texelinfo": 4.07719,
-	"guard_radius": 90,
+	"guard_radius": 150,
 	"mesh_bounds": [4,
 	4,
 	4],
