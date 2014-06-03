@@ -25,12 +25,12 @@
 		"shape": "Box",
 		"collision_layers": "WL_AnyHorizontalGroundOrWaterSurface",
 		"radius": 1,
-		"push_class": 254,
+		"push_class": 200,
 		"air_friction": 1.0,
-		"allow_pushing": false,
-		"push_sideways": false,
+		"allow_pushing": true,
+		"push_sideways": true,
 		"allow_underground": false,
-		"ignore_collisions": true
+		"ignore_collisions": false
 	},
 	"recon": {
 		"observer": {
