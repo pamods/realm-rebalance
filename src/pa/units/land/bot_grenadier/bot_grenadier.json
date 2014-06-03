@@ -44,7 +44,7 @@
 	"tools": [{
 		"aim_bone": "bone_leftRecoil",
 		"spec_id": "/pa/units/land/bot_grenadier/bot_grenadier_tool_weapon.json",
-		"muzzle_bone": "socket_leftMuzzle"
+		"muzzle_bone": ["socket_rightMuzzle", "socket_leftMuzzle"],
 	},
 	{
 		"aim_bone": "bone_rightRecoil",
