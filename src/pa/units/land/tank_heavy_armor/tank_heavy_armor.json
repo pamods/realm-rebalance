@@ -4,8 +4,8 @@
 	"description": "Vanguard: Short range, heavily armored vehicle.",
 	"display_group": 60,
 	"display_index": 115,
-	"max_health": 5000,
-	"build_metal_cost": 2000,
+	"max_health": 6000,
+	"build_metal_cost": 1500,
 	"attachable": {
 		"offsets": {
 			"root": [0,
