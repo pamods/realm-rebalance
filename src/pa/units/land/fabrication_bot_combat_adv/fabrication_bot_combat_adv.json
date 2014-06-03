@@ -20,10 +20,15 @@
 		"brake": 120,
 		"acceleration": 120
 	},
-	"build_metal_cost": 1250,
+	"build_metal_cost": 900,
 	"tools": [{
 		"spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_build_arm.json",
 		"aim_bone": "bone_turretBack"
+	},
+	{
+		"spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_tool_weapon.json",
+		"aim_bone": "bone_turretFront",
+		"muzzle_bone": "socket_muzzleFront"
 	}],
 	"TEMP_texelinfo": 6.38702,
 	"guard_radius": 60,
