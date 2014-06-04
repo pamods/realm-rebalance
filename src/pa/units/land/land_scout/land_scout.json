@@ -59,7 +59,7 @@
 	"recon": {
 		"observer": {
 			"items": [{
-				"radius": 200,
+				"radius": 160,
 				"shape": "capsule",
 				"layer": "surface_and_air",
 				"channel": "sight"
