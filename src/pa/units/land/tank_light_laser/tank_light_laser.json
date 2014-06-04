@@ -23,8 +23,8 @@
 			0]
 		}
 	},
-	"display_name": "Bolo",
-	"description": "Tank: Anti-land and anti-ship guns",
+	"display_name": "Marshall",
+	"description": "Tank: Anti-land and anti-ship guns, Quick",
 	"TEMP_texelinfo": 5.84968,
 	"guard_radius": 120,
 	"tools": [{
