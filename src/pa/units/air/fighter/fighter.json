@@ -15,7 +15,7 @@
 	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
 	"events": {
 		"firing": {
-			"/SE/Weapons/veh/land_scout_fire"
+			"audio_cue": "/SE/Weapons/veh/land_scout_fire"
 		},
 		"died": {
 			"effect_spec": "/pa/effects/specs/default_explosion.pfx",
@@ -52,7 +52,7 @@
 		"arrows": 5,
 		"filename": "/pa/units/air/fighter/fighter.papa"
 	},
-	"description": "Fighter: Armed with a multi-purpose laser Gatling gun.",
+	"description": "Fighter: Armed with a multi-purpose laser Gatling gun",
 	"recon": {
 		"observer": {
 			"items": [{
@@ -73,7 +73,7 @@
 		"turn_speed": 180,
 		"move_speed": 90,
 		"acceleration": 180,
-		"aggressive_distance": 50,
+		"aggressive_distance": 120,
 		"type": "air"
 	}
 }
