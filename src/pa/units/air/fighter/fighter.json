@@ -69,8 +69,8 @@
 	"guard_radius": 200,
 	"navigation": {
 		"bank_factor": 10,
-		"brake": 90,
-		"turn_speed": 180,
+		"brake": 180,
+		"turn_speed": 90,
 		"move_speed": 90,
 		"acceleration": 180,
 		"aggressive_distance": 120,

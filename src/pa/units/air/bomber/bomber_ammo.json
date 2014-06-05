@@ -6,5 +6,5 @@
 	"full_damage_splash_radius": 5,
 	"initial_velocity": 50.0,
 	"max_velocity": 50.0,
-	"lifetime": 7
+	"lifetime": 2
 }
