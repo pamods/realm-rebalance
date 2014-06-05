@@ -1,6 +1,6 @@
 {
 	"build_metal_cost": 175,
-	"guard_radius": 150,
+	"guard_radius": 220,
 	"max_health": 300,
 	"display_index": 80,
 	"area_build_separation": 18,
