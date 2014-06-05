@@ -1,1 +1,79 @@
-{"display_group":60,"fx_offsets":[{"offset":[0,2.9,0.836],"type":"moving_forward","filename":"/pa/units/air/fighter/fighter_jets.pfx"}],"physics":{"gravity_scalar":1,"radius":6,"push_class":2},"base_spec":"/pa/units/air/base_flyer/base_flyer.json","events":{"firing":{"audio_cue":"/SE/Weapons/air/fighter_fire"},"died":{"effect_spec":"/pa/effects/specs/default_explosion.pfx","audio_cue":"/SE/Death/Air"},"build_complete":{"audio_cue":"/SE/Build_Complete/air"}},"display_name":"Hummingbird","guard_layer":"WL_Air","tools":[{"aim_bone":"bone_root","spec_id":"/pa/units/air/fighter/fighter_tool_weapon.json","muzzle_bone":"bone_root"}],"audio":{"loops":{"move":{"should_start_func":"is_moving","flag":"vel_changed","should_stop_func":"is_not_moving","cue":"/SE/Movement/air/air_fighter_loop"}}},"unit_types":["UNITTYPE_Fighter","UNITTYPE_Air","UNITTYPE_Mobile","UNITTYPE_Basic","UNITTYPE_FactoryBuild"],"TEMP_texelinfo":6.1803,"model":{"arrows":5,"filename":"/pa/units/air/fighter/fighter.papa"},"description":"Fighter: Anti-air missiles","recon":{"observer":{"items":[{"layer":"surface_and_air","radius":150,"channel":"sight","shape":"capsule"}]}},"build_metal_cost":135,"display_index":80,"max_health":50,"guard_radius":200,"navigation":{"bank_factor":10,"brake":90,"turn_speed":270,"move_speed":90,"acceleration":90,"aggressive_distance":50,"type":"air"}}
+{
+	"display_group": 60,
+	"fx_offsets": [{
+		"offset": [0,
+		2.9,
+		0.836],
+		"type": "moving_forward",
+		"filename": "/pa/units/air/fighter/fighter_jets.pfx"
+	}],
+	"physics": {
+		"gravity_scalar": 1,
+		"radius": 6,
+		"push_class": 2
+	},
+	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
+	"events": {
+		"firing": {
+			"audio_cue": "/SE/Weapons/veh/land_scout_fire"
+		},
+		"died": {
+			"effect_spec": "/pa/effects/specs/default_explosion.pfx",
+			"audio_cue": "/SE/Death/Air"
+		},
+		"build_complete": {
+			"audio_cue": "/SE/Build_Complete/air"
+		}
+	},
+	"display_name": "Hummingbird",
+	"guard_layer": "WL_Air",
+	"tools": [{
+		"aim_bone": "bone_root",
+		"spec_id": "/pa/units/air/fighter/fighter_tool_weapon.json",
+		"muzzle_bone": "bone_root"
+	}],
+	"audio": {
+		"loops": {
+			"move": {
+				"should_start_func": "is_moving",
+				"flag": "vel_changed",
+				"should_stop_func": "is_not_moving",
+				"cue": "/SE/Movement/air/air_fighter_loop"
+			}
+		}
+	},
+	"unit_types": ["UNITTYPE_Fighter",
+	"UNITTYPE_Air",
+	"UNITTYPE_Mobile",
+	"UNITTYPE_Basic",
+	"UNITTYPE_FactoryBuild"],
+	"TEMP_texelinfo": 6.1803,
+	"model": {
+		"arrows": 5,
+		"filename": "/pa/units/air/fighter/fighter.papa"
+	},
+	"description": "Fighter: Armed with a multi-purpose laser Gatling gun",
+	"recon": {
+		"observer": {
+			"items": [{
+				"layer": "surface_and_air",
+				"radius": 150,
+				"channel": "sight",
+				"shape": "capsule"
+			}]
+		}
+	},
+	"build_metal_cost": 200,
+	"display_index": 80,
+	"max_health": 75,
+	"guard_radius": 200,
+	"navigation": {
+		"bank_factor": 10,
+		"brake": 180,
+		"turn_speed": 90,
+		"move_speed": 90,
+		"acceleration": 180,
+		"aggressive_distance": 120,
+		"type": "air"
+	}
+}
