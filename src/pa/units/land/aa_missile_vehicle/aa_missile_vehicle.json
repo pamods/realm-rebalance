@@ -8,7 +8,7 @@
 	},
 	"build_metal_cost": 300,
 	"max_health": 400,
-	"guard_radius": 120,
+	"guard_radius": 220,
 	"display_index": 80,
 	"description": "AA: Anti-air missiles",
 	"attachable": {
