@@ -1,1 +1,19 @@
-{"base_spec":"/pa/tools/base_bot_weapon/base_bot_weapon.json","ammo_id":"/pa/units/air/gunship/gunship_ammo.json","rate_of_fire":4.0,"idle_aim_delay":0.25,"max_range":80,"yaw_rate":360,"pitch_rate":360,"yaw_range":360,"pitch_range":100,"auto_attack":true,"target_layers":["WL_LandHorizontal","WL_WaterSurface","WL_Seafloor"]}
+{
+	"base_spec": "/pa/tools/base_bot_weapon/base_bot_weapon.json",
+	"ammo_id": "/pa/units/air/gunship/gunship_ammo.json",
+	"ammo_source": "energy",
+	"ammo_capacity": 600,
+	"ammo_demand": 100,
+	"ammo_per_shot": 40,
+	"rate_of_fire": 7.5,
+	"idle_aim_delay": 0.25,
+	"max_range": 80,
+	"yaw_rate": 360,
+	"pitch_rate": 360,
+	"yaw_range": 360,
+	"pitch_range": 100,
+	"auto_attack": true,
+	"target_layers": ["WL_LandHorizontal",
+	"WL_WaterSurface",
+	"WL_Seafloor"]
+}

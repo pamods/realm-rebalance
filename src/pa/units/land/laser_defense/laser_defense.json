@@ -1,7 +1,7 @@
 {
 	"base_spec": "/pa/units/land/base_structure/base_structure.json",
-	"display_name": "Laser Defense Tower",
-	"description": "Defense: Direct fire anti-land, and anti-ship defense",
+	"display_name": "Dual-Laser Defense Tower",
+	"description": "High Powered Defense: Direct fire anti-land & anti-ship, Costs energy",
 	"display_group": 20,
 	"display_index": 95,
 	"max_health": 1000,

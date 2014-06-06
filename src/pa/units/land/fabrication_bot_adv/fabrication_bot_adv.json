@@ -59,7 +59,7 @@
 		}
 	},
 	"display_name": "Advanced Fabrication Bot",
-	"buildable_types": "Land & Structure & Advanced - Factory| Factory & Advanced & Bot & Land | FabAdvBuild | FabBuild",
+	"buildable_types": "Land & Structure & Advanced - Factory | Factory & Advanced & Bot & Land | FabAdvBuild",
 	"description": "Advanced Fabrication: Builds structures",
 	"display_group": 100,
 	"fx_offsets": [{
