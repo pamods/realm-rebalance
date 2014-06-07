@@ -63,7 +63,7 @@ function BuildHotkeyModel() {
             "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat.json": ["bot", 13],
             "/pa/units/land/bot_aa/bot_aa.json": ["bot", 14],
      
-            
+            "/pa/units/orbital/orbital_missile/orbital_missile.json": ["orbital", 5],
             "/pa/units/orbital/orbital_laser/orbital_laser.json": ["orbital", 6],
             "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.json": ["orbital", 7],
             "/pa/units/orbital/solar_array/solar_array.json": ["orbital", 8],
