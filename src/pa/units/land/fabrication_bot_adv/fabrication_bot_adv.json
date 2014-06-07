@@ -116,7 +116,7 @@
 	"ORDER_Repair",
 	"ORDER_Assist",
 	"ORDER_Use"],
-	"build_metal_cost": 750,
+	"build_metal_cost": 500,
 	"TEMP_texelinfo": 6.38702,
 	"tools": [{
 		"aim_bone": "bone_root",
