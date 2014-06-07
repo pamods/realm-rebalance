@@ -6,7 +6,7 @@
 	"max_range": 180,
 	"ammo_source": "energy",
 	"ammo_capacity": 5000,
-	"ammo_demand": 500,
+	"ammo_demand": 550,
 	"ammo_per_shot": 5000,
 	"yaw_rate": 90,
 	"pitch_rate": 90,
