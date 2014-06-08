@@ -1,5 +1,5 @@
 {
-	"max_health": 2000,
+	"max_health": 300,
 	"events": {
 		"firing": {
 			"audio_cue": "/SE/Weapons/air/bomber_fire"
@@ -36,9 +36,9 @@
 	"ORDER_Patrol",
 	"ORDER_Assist"],
 	"navigation": {
-		"brake": 15,
-		"acceleration": 15,
-		"move_speed": 15,
+		"brake": 90,
+		"acceleration": 5,
+		"move_speed": 60,
 		"hover_time": -1,
 		"type": "orbital",
 		"turn_speed": 90
@@ -50,10 +50,9 @@
 				"channel": "radar",
 				"shape": "capsule",
 				"uses_energy": true,
-				"radius": 360
+				"radius": 400
 			},
 			{
-				"uses_energy": true,
 				"radius": 100,
 				"shape": "capsule",
 				"channel": "sight",
@@ -62,7 +61,7 @@
 			{
 				"channel": "radar",
 				"layer": "orbital",
-				"radius": 360,
+				"radius": 400,
 				"uses_energy": true,
 				"shape": "capsule"
 			},
@@ -70,8 +69,7 @@
 				"channel": "sight",
 				"layer": "orbital",
 				"shape": "capsule",
-				"uses_energy": true,
-				"radius": 100
+				"radius": 200
 			}]
 		}
 	},
