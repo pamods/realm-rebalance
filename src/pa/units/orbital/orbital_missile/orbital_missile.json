@@ -1,9 +1,9 @@
 {
 	"TEMP_texelinfo": 5,
 	"tools": [{
-		"aim_bone": "Armature",
+		"aim_bone": "bone_root",
 		"spec_id": "/pa/units/orbital/orbital_missile/orbital_missile_tool_weapon.json",
-		"muzzle_bone": "Armature"
+		"muzzle_bone": "bone_root"
 	},
 	{
 		"death_weapon": true,
@@ -30,17 +30,6 @@
 		"acceleration": 45,
 		"brake": 150
 	},
-	"fx_offsets": [{
-		"type": "moving",
-		"bone": "Armature",
-		"offset": [0,
-		8.9,
-		0],
-		"filename": "/pa/units/air/gunship/gunship_jets.pfx",
-		"orientation": [0,
-		0,
-		0]
-	}],
 	"max_health": 100,
 	"events": {
 		"died": {
@@ -62,7 +51,8 @@
 	"display_name": "Artemis",
 	"description": "Orbital Missile: High velocity Exo-atmospheric kill vehicle.",
 	"model": {
-		"filename": "/pa/units/air/missile_anti_nuke/missile_anti_nuke.papa"
+		"arrows":5,
+		"filename": "/pa/units/air/air_scout/air_scout.papa"
 		}
 	},
 	"system_velocity_multiplier": 6,
