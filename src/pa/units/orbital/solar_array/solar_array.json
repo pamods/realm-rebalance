@@ -1,13 +1,16 @@
 {
-	"base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
+	"base_spec": "/pa/units/land/base_structure/base_structure.json",
+	"spawn_layers": "WL_Orbital",
 	"display_name": "Solar Array",
 	"description": "Solar Array: Orbital energy generation.",
-	"max_health": 2000,
+	"max_health": 500,
 	"build_metal_cost": 400,
 	"spawn_layers": "WL_Orbital",
 	"attachable": {
 		"offsets": {
-			"root": [0,0,0]
+			"root": [0,
+			0,
+			0]
 		}
 	},
 	"production": {
@@ -15,15 +18,17 @@
 	},
 	"unit_types": ["UNITTYPE_Structure",
 	"UNITTYPE_Orbital",
-	"UNITTYPE_FabOrbBuild",
 	"UNITTYPE_EnergyProduction",
-	"UNITTYPE_Economy"
-	],
+	"UNITTYPE_Economy",
+	"UNITTYPE_Advanced",
+	"UNITTYPE_FabOrbBuild"],
+	"command_caps": ["ORDER_Move",
+	"ORDER_Patrol",
+	"ORDER_Assist"],
 	"physics": {
-		"radius": 20,
-		"push_class": 15,
-		"collision_layers": "WL_Orbital",
-		"ignore_gravity": true
+		"radius": 8,
+		"push_class": 25,
+		"gravity_scalar": 0.001
 	},
 	"recon": {
 		"observer": {
@@ -37,22 +42,27 @@
 	},
 	"model": {
 		"filename": "/pa/units/orbital/solar_array/solar_array.papa",
-		"animtree": "/pa/anim/anim_trees/satellite_launched.json",
 		"animations": {
 			"open": "/pa/units/orbital/solar_array/solar_array_anim_open.papa",
 			"closed": "/pa/units/orbital/solar_array/solar_array_anim_closed.papa",
 			"deploy": "/pa/units/orbital/solar_array/solar_array_anim_deploy.papa"
-		}
+		},
+		"animtree": "/pa/anim/anim_trees/satellite_launched.json"
 	},
 	"events": {
 		"build_complete": {
 			"audio_cue": "/SE/Build_Complete/orbital"
+		},
+		"firing": {
+			"audio_cue": "/SE/Weapons/air/bomber_fire"
 		},
 		"died": {
 			"audio_cue": "/SE/Death/orbital",
 			"effect_spec": "/pa/effects/specs/default_explosion.pfx"
 		}
 	},
-	"mesh_bounds": [45,15,15],
+	"mesh_bounds": [45,
+	15,
+	15],
 	"TEMP_texelinfo": 25.0
 }

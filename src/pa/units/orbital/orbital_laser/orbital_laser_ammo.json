@@ -7,17 +7,18 @@
 	"splash_radius": 50,
 	"full_damage_splash_radius": 2,
 	"initial_velocity": 0.1,
-	"max_velocity": 1000.0,
+	"max_velocity": 10000.0,
 	"lifetime": 20,
 	"model": {
 		"filename": "/pa/units/air/missile_anti_nuke/missile_anti_nuke.papa"
 	},
 	"fx_trail": {
-		"filename": "/pa/units/orbital/orbital_laser/orbital_laser_proj_trail.pfx"
+		"filename": "/pa/effects/specs/shell_proj_trail.pfx",
+		"offset": [0.0,	1.2, 0.0]
 	},
 	"events": {
 		"died": {
-			"audio_cue": "/SE/Impacts/cannon_uber",
+			"audio_cue": "/SE/Impacts/missile_tactical",
 			"effect_spec": "/pa/effects/specs/uber_proj_explosion.pfx"
 		}
 	},
@@ -26,6 +27,6 @@
 		"push_class": 1,
 		"gravity_scalar": 20,
 		"ignore_gravity": false,
-		"add_to_spatial_db": false
+		"add_to_spatial_db": true
 	}
 }
