@@ -30,7 +30,7 @@
 		"acceleration": 45,
 		"brake": 150
 	},
-	"max_health": 100,
+	"max_health": 10,
 	"events": {
 		"died": {
 			"effect_scale": 2.5,
