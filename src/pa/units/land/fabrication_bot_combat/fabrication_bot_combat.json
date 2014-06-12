@@ -51,7 +51,7 @@
 		0,
 		0]
 	}],
-	"max_health": 250,
+	"max_health": 300,
 	"events": {
 		"build_complete": {
 			"audio_cue": "/SE/Build_Complete/fab"

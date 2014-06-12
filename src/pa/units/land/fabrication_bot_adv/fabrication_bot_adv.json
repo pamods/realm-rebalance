@@ -84,7 +84,7 @@
 		"bone": "socket_leftMuzzle",
 		"type": "build"
 	}],
-	"max_health": 150,
+	"max_health": 180,
 	"events": {
 		"build_complete": {
 			"audio_cue": "/SE/Build_Complete/fab"

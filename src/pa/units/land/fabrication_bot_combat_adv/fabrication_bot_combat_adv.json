@@ -14,7 +14,7 @@
 	"ORDER_Use"],
 	"navigation": {
 		"group_preference": "back",
-		"move_speed": 10,
+		"move_speed": 15,
 		"turn_speed": 720,
 		"type": "land-small",
 		"brake": 120,
@@ -54,7 +54,7 @@
 			"audio_cue": "/SE/Build_Complete/fab"
 		}
 	},
-	"max_health": 300,
+	"max_health": 240,
 	"fx_offsets": [{
 		"type": "build",
 		"bone": "socket_muzzleBack",
