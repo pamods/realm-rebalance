@@ -28,12 +28,7 @@
 	"tools": [{
 		"aim_bone": "bone_rightRecoil",
 		"spec_id": "/pa/units/air/gunship/gunship_tool_weapon.json",
-		"muzzle_bone": "socket_rightMuzzle"
-	},
-	{
-		"spec_id": "/pa/units/air/gunship/gunship_tool_weapon.json",
-		"aim_bone": "bone_leftRecoil",
-		"muzzle_bone": "socket_leftMuzzle"
+		"muzzle_bone": ["socket_rightMuzzle", "socket_leftMuzzle"]
 	}],
 	"model": {
 		"animtree": "/pa/anim/anim_trees/gunship.json",
@@ -52,7 +47,7 @@
 		"circle_min_time": 2,
 		"aggressive_behavior": "circle",
 		"brake": 45,
-		"move_speed": 60,
+		"move_speed": 45,
 		"circle_max_time": 3,
 		"acceleration": 20,
 		"hover_time": 20,
