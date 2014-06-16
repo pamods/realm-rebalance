@@ -15,13 +15,13 @@
 	"tools": [{
 		"spec_id": "/pa/units/land/air_defense_adv/air_defense_adv_tool_weapon.json",
 		"aim_bone": "bone_pitch",
-		"muzzle_bone": ["socket_rightMuzzle01",	"socket_leftMuzzle02"}],
+		"muzzle_bone": ["socket_rightMuzzle01",	"socket_leftMuzzle02"]},
 		{
 		"spec_id": "/pa/units/land/air_defense_adv/air_defense_adv_tool_weapon.json",
 		"aim_bone": "bone_pitch",
-		"muzzle_bone": ["socket_leftMuzzle01", "socket_rightMuzzle02",]
+		"muzzle_bone": ["socket_leftMuzzle01", "socket_rightMuzzle02"]
 		}
-	}],
+	],
 	"atrophy_rate": 20,
 	"model": [{
 		"layer": "WL_LandHorizontal",
