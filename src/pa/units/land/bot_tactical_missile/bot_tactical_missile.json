@@ -24,7 +24,7 @@
 	"transportable": {
 		"size": 1
 	},
-	"guard_radius": 120,
+	"guard_radius": 220,
 	"guard_layer": "WL_Air",
 	"navigation": {
 		"type": "land-small",
@@ -45,6 +45,12 @@
 				"channel": "sight",
 				"shape": "capsule",
 				"radius": 100
+				},
+				{
+				"layer": "orbital",
+				"channel": "sight",
+				"shape": "capsule",
+				"radius": 300
 			}]
 		}
 	},
@@ -57,44 +63,39 @@
 			"idle": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_anim_idle.papa"
 		},
 		"animtree": "/pa/anim/anim_trees/bot_tactical_missile.json",
-		"walk_speed": 12
+		"walk_speed": 9
 	},
-	"nearby_target_tick_update_interval": 3,
 	"tools": [{
 		"spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_tool_weapon.json",
 		"aim_bone": "bone_backpack",
-		"muzzle_bone": ["socket_rightMuzzle"]
+		"muzzle_bone": "socket_rightMuzzle",
+		"aim_weapon": true
 		},
 		{
 		"spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_tool_weapon.json",
 		"aim_bone": "bone_backpack",
-		"muzzle_bone": ["socket_leftMuzzle"]
+		"muzzle_bone": "socket_leftMuzzle"
 		},
 		{
 		"spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_tool_weapon.json",
 		"aim_bone": "bone_backpack",
-		"muzzle_bone": ["socket_rightMuzzle"]
+		"muzzle_bone": "socket_rightMuzzle"
 		},
 		{
 		"spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_tool_weapon.json",
 		"aim_bone": "bone_backpack",
-		"muzzle_bone": ["socket_leftMuzzle"]
+		"muzzle_bone": "socket_leftMuzzle"
 		},
 		{
 		"spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_tool_weapon.json",
 		"aim_bone": "bone_backpack",
-		"muzzle_bone": ["socket_rightMuzzle"]
+		"muzzle_bone": "socket_rightMuzzle"
 		},
 		{
 		"spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_tool_weapon.json",
 		"aim_bone": "bone_backpack",
-		"muzzle_bone": ["socket_leftMuzzle"]
-		},
-		{
-		"spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_antisat_tool_weapon.json",
-		"aim_bone": "bone_backpack",
-		"muzzle_bone": ["socket_rightMuzzle","socket_leftMuzzle"]
-	}],
+		"muzzle_bone": "socket_leftMuzzle"
+		}],
 	"events": {
 		"build_complete": {
 			"audio_cue": "/SE/Build_Complete/bot"

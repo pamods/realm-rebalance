@@ -1,5 +1,5 @@
 {
-	"TEMP_texelinfo": 5,
+	"TEMP_texelinfo": 15,
 	"tools": [{
 		"aim_bone": "bone_root",
 		"spec_id": "/pa/units/orbital/orbital_missile/orbital_missile_tool_weapon.json",

@@ -51,7 +51,7 @@
 		"ignores_gravity": false,
 		"ignores_LOS": false,
 		"stage_duration": 5000,
-		"stage_turn_rate": 270,
+		"stage_turn_rate": 160,
 		"rotates_to_velocity": true
 	}]
 }
