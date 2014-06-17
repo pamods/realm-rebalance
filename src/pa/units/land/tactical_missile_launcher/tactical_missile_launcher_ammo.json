@@ -3,7 +3,7 @@
 	"damage": 750,
 	"splash_damage": 0,
 	"splash_radius": 0,
-	"cruise_height": 100,
+	"cruise_height": 120,
 	"initial_velocity": 80.0,
 	"max_velocity": 80.0,
 	"turn_rate": 15,
@@ -51,7 +51,7 @@
 		"ignores_gravity": false,
 		"ignores_LOS": false,
 		"stage_duration": 5000,
-		"stage_turn_rate": 160,
+		"stage_turn_rate": 180,
 		"rotates_to_velocity": true
 	}]
 }
