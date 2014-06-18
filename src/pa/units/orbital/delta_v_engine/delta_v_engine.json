@@ -4,8 +4,8 @@
 	"description": "Delta V Engine - Used to move small to medium celestial bodies.",
 	"display_group": 70,
 	"display_index": 20,
-	"max_health": 12250,
-	"build_metal_cost": 20000,
+	"max_health": 3500,
+	"build_metal_cost": 15000,
 	"atrophy_rate": 100.0,
 	"atrophy_cool_down": 30.0,
 	"spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
@@ -25,7 +25,7 @@
 				"layer": "surface_and_air",
 				"channel": "sight",
 				"shape": "capsule",
-				"radius": 110
+				"radius": 100
 			}]
 		}
 	},

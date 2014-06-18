@@ -1,7 +1,7 @@
 {
 	"base_spec": "/pa/units/land/base_structure/base_structure.json",
-	"display_name": "Anti-Ballistic Missile Launcher",
-	"description": "Ballistic Defence: Anti-nuclear missile and anti satellite weapon.",
+	"display_name": "Anti-Ballistic Missile Silo",
+	"description": "Ballistic Defence: Anti-nuclear missile.",
 	"display_group": 0,
 	"display_index": 15,
 	"max_health": 3500,
@@ -12,10 +12,8 @@
 	"area_build_separation": 100,
 	"spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
 	"buildable_projectiles": [
-		"/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json",
-		"/pa/units/land/anti_nuke_launcher/anti_sat_launcher_ammo.json"
-	],
-	"factory_cooldown_time": 5,
+		"/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json"],
+	"factory_cooldown_time": 2.5,
 	"factory": {
 		"store_units": true,
 		"spawn_points": ["socket_missile01",
