@@ -3,20 +3,23 @@
 	"damage": 750,
 	"splash_damage": 0,
 	"splash_radius": 0,
-	"initial_velocity": 400.0,
-	"max_velocity": 400.0,
+	"initial_velocity": 1000.0,
+	"max_velocity": 1000.0,
 	"lifetime": 5,
+	"physics": {
+		"radius": 1,
+		"push_class": 1,
+		"ignore_gravity": true,
+		"allow_underground": true
+	},
 	"fx_trail": {
-		"filename": "/pa/effects/specs/shell_proj_trail.pfx",
-		"lifetime": 5.0,
-		"size": {
-				"keys": [
-						[0, 0.8],
-						[0.4, 0.3],
-						[1.6, 0.2],
-						[2,	0]
-						],
-				"stepped": false
-			}
+		"filename": "/pa/effects/specs/shell_artillery_large_proj_trail.pfx",
+		"lifetime": 10.0,
+		"gravity": 0.0,
+		"red": 1.0,
+		"green": 1.0,
+		"blue": 1.0,
+		"sizeX": 5.0,
+		"maxParticles": 600,
 	}
 }
