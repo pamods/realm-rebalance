@@ -14,7 +14,7 @@
 	"firing_arc_yaw": 5,
 	"firing_arc_pitch": 5,
 	"auto_attack": true,
-	"firing_standard_deviation": 1,
+	"firing_standard_deviation": 1.5,
 	"physics": {
 		"radius": 1,
 		"push_class": 1,
