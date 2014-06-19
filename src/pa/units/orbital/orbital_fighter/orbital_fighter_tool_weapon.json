@@ -9,7 +9,7 @@
 	"firing_arc_yaw": 5,
 	"firing_arc_pitch": 15,
 	"rate_of_fire": 1,
-	"max_range": 350,
+	"max_range": 500,
 	"auto_attack": true,
 	"yaw_range": 5,
 	"pitch_range": 5,
