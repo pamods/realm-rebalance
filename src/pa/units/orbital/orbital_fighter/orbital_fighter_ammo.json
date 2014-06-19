@@ -1,5 +1,5 @@
 {
-	"base_spec": "/pa/ammo/base_laser_blast/base_laser_blast.json",
+	"base_spec": "/pa/ammo/base_shell/base_shell.json",
 	"damage": 750,
 	"splash_damage": 0,
 	"splash_radius": 0,
@@ -7,6 +7,16 @@
 	"max_velocity": 400.0,
 	"lifetime": 5,
 	"fx_trail": {
-		"filename": "/pa/units/land/laser_defense_adv/laser_defense_adv_ammo_trail.pfx"
+		"filename": "/pa/effects/specs/shell_proj_trail.pfx",
+		"lifetime": 5.0,
+		"size": {
+				"keys": [
+						[0, 0.8],
+						[0.4, 0.3],
+						[1.6, 0.2],
+						[2,	0]
+						],
+				"stepped": false
+			}
 	}
 }
