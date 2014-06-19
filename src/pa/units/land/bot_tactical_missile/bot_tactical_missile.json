@@ -1,11 +1,11 @@
 {
 	"base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
 	"display_name": "Bluehawk",
-	"description": "Tactical Missile Bot: Medium range artillery bot.",
+	"description": "Tactical Missile Bot: Medium range precision artillery bot.",
 	"display_group": 40,
 	"display_index": 60,
 	"build_metal_cost": 500,
-	"max_health": 200,
+	"max_health": 250,
 	"attachable": {
 		"offsets": {
 			"root": [0,
@@ -24,8 +24,8 @@
 	"transportable": {
 		"size": 1
 	},
-	"guard_radius": 220,
-	"guard_layer": "WL_Air",
+	"guard_radius": 250,
+	"guard_layer": "WL_Orbital",
 	"navigation": {
 		"type": "land-small",
 		"acceleration": 120,
@@ -36,7 +36,7 @@
 	},
 	"physics": {
 		"radius": 3.5,
-		"push_class": 2
+		"push_class": 15
 	},
 	"recon": {
 		"observer": {
@@ -45,12 +45,12 @@
 				"channel": "sight",
 				"shape": "capsule",
 				"radius": 100
-				},
-				{
+			},
+			{
 				"layer": "orbital",
 				"channel": "sight",
 				"shape": "capsule",
-				"radius": 300
+				"radius": 200
 			}]
 		}
 	},
@@ -65,37 +65,13 @@
 		"animtree": "/pa/anim/anim_trees/bot_tactical_missile.json",
 		"walk_speed": 9
 	},
+	"nearby_target_tick_update_interval": 3,
 	"tools": [{
 		"spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_tool_weapon.json",
 		"aim_bone": "bone_backpack",
-		"muzzle_bone": "socket_rightMuzzle",
-		"aim_weapon": true
-		},
-		{
-		"spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_tool_weapon.json",
-		"aim_bone": "bone_backpack",
-		"muzzle_bone": "socket_leftMuzzle"
-		},
-		{
-		"spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_tool_weapon.json",
-		"aim_bone": "bone_backpack",
-		"muzzle_bone": "socket_rightMuzzle"
-		},
-		{
-		"spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_tool_weapon.json",
-		"aim_bone": "bone_backpack",
-		"muzzle_bone": "socket_leftMuzzle"
-		},
-		{
-		"spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_tool_weapon.json",
-		"aim_bone": "bone_backpack",
-		"muzzle_bone": "socket_rightMuzzle"
-		},
-		{
-		"spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile_tool_weapon.json",
-		"aim_bone": "bone_backpack",
-		"muzzle_bone": "socket_leftMuzzle"
-		}],
+		"muzzle_bone": ["socket_rightMuzzle",
+		"socket_leftMuzzle"]
+	}],
 	"events": {
 		"build_complete": {
 			"audio_cue": "/SE/Build_Complete/bot"
@@ -106,7 +82,7 @@
 		},
 		"died": {
 			"audio_cue": "/SE/Death/bot",
-			"effect_scale": 0.6
+			"effect_scale": 1.0
 		}
 	},
 	"audio": {

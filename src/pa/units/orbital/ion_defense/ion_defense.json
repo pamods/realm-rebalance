@@ -26,7 +26,7 @@
 				"layer": "surface_and_air",
 				"channel": "sight",
 				"shape": "capsule",
-				"radius": 200
+				"radius": 100
 			},
 			{
 				"layer": "orbital",
