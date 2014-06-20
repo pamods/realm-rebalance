@@ -87,11 +87,6 @@
 		"spec_id": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_tool_weapon.json",
 		"aim_bone": "bone_root",
 		"muzzle_bone": "bone_root"
-	},
-	{
-		"spec_id": "/pa/units/land/anti_nuke_launcher/anti_sat_launcher_tool_weapon.json",
-		"aim_bone": "bone_root",
-		"muzzle_bone": "bone_root"
 	}],
 	"events": {
 		"build_complete": {
