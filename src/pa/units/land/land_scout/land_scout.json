@@ -46,8 +46,8 @@
 			1.6]
 		}
 	},
-	"display_name": "Skitter",
-	"description": "Scout: Multi-Purpose, fast speed",
+	"display_name": "Pulse",
+	"description": "Tank: Small harassment vehicle",
 	"model": {
 		"filename": "/pa/units/land/land_scout/land_scout.papa",
 		"arrows": 5,
