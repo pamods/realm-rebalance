@@ -9,10 +9,10 @@
 		"aggressive_behavior": "circle",
 		"circle_min_time": 1
 	},
-	"build_metal_cost": 1000,
+	"build_metal_cost": 375,
 	"display_index": 100,
 	"guard_radius": 60,
-	"max_health": 100,
+	"max_health": 250,
 	"recon": {
 		"observer": {
 			"items": [{

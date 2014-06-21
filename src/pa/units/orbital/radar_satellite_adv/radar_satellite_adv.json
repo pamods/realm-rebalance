@@ -1,1 +1,72 @@
-{"consumption":{"energy":9000},"events":{"firing":{"audio_cue":"/SE/Weapons/air/bomber_fire"},"build_complete":{"audio_cue":"/SE/Build_Complete/orbital"},"died":{"effect_spec":"/pa/effects/specs/default_explosion.pfx","audio_cue":"/SE/Death/orbital"}},"max_health":10000,"description":"Advanced Radar Satellite: Detects a large area for enemy land, sea, and air units","attachable":{"offsets":{"root":[0,0,0]}},"display_name":"Advanced Radar Satellite","TEMP_texelinfo":22.7385,"build_metal_cost":5300,"navigation":{"brake":10,"acceleration":10,"hover_time":-1,"move_speed":10,"turn_speed":90,"type":"orbital"},"unit_types":["UNITTYPE_Mobile","UNITTYPE_Orbital","UNITTYPE_Advanced","UNITTYPE_Recon","UNITTYPE_FactoryBuild"],"command_caps":["ORDER_Move","ORDER_Patrol","ORDER_Assist"],"gravwell_velocity_multiplier":6,"physics":{"gravity_scalar":0.001,"push_class":15,"radius":5},"spawn_layers":"WL_Orbital","base_spec":"/pa/units/orbital/base_orbital/base_orbital.json","recon":{"observer":{"items":[{"uses_energy":true,"radius":1000,"shape":"capsule","channel":"radar","layer":"surface_and_air"},{"layer":"surface_and_air","channel":"sight","uses_energy":true,"radius":600,"shape":"capsule"},{"layer":"orbital","channel":"sight","shape":"capsule","uses_energy":true,"radius":600},{"uses_energy":true,"radius":1200,"shape":"capsule","layer":"orbital","channel":"radar"}]}},"mesh_bounds":[25,15,15],"system_velocity_multiplier":6,"model":{"animtree":"/pa/anim/anim_trees/satellite_launched.json","filename":"/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.papa","animations":{"closed":"/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_closed.papa","open":"/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_open.papa","deploy":"/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_deploy.papa"}},"energy_efficiency_requirement":0.9}
+{
+	"consumption": {
+		"energy": 2000
+	},
+	"events": {
+		"firing": {
+			"audio_cue": "/SE/Weapons/air/bomber_fire"
+		},
+		"build_complete": {
+			"audio_cue": "/SE/Build_Complete/orbital"
+		},
+		"died": {
+			"effect_spec": "/pa/effects/specs/default_explosion.pfx",
+			"audio_cue": "/SE/Death/orbital"
+		}
+	},
+	"max_health": 300,
+	"description": "Deep space Radar Array: Shows units moving between planets.",
+	"attachable": {
+		"offsets": {
+			"root": [0,
+			0,
+			0]
+		}
+	},
+	"display_name": "Argus",
+	"TEMP_texelinfo": 22.7385,
+	"build_metal_cost": 300,
+	"unit_types": ["UNITTYPE_Structure",
+	"UNITTYPE_Orbital",
+	"UNITTYPE_Advanced",
+	"UNITTYPE_Recon",
+	"UNITTYPE_FabOrbBuild"],
+	"physics": {
+		"gravity_scalar": 0.001,
+		"push_class": 15,
+		"radius": 5
+	},
+	"spawn_layers": "WL_Orbital",
+	"base_spec": "/pa/units/land/base_structure/base_structure.json",
+	"recon": {
+		"observer": {
+			"items": [{
+				"uses_energy": true,
+				"radius": 1,
+				"shape": "capsule",
+				"channel": "sight",
+				"layer": "celestial"
+			},
+			{
+				"layer": "orbital",
+				"channel": "sight",
+				"shape": "capsule",
+				"uses_energy": true,
+				"radius": 200
+			}]
+		}
+	},
+	"mesh_bounds": [25,
+	15,
+	15],
+	"model": {
+		"animtree": "/pa/anim/anim_trees/satellite_launched.json",
+		"filename": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.papa",
+		"animations": {
+			"closed": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_closed.papa",
+			"open": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_open.papa",
+			"deploy": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_deploy.papa"
+		}
+	},
+	"energy_efficiency_requirement": 0.9
+}

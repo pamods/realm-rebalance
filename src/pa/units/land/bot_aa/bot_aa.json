@@ -59,7 +59,7 @@
 	"max_health": 100,
 	"display_index": 80,
 	"guard_radius": 120,
-	"build_metal_cost": 120,
+	"build_metal_cost": 150,
 	"navigation": {
 		"type": "land-small",
 		"move_speed": 10,

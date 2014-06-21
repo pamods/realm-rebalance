@@ -42,7 +42,7 @@
 		"walk_speed": 20,
 		"animtree": "/pa/anim/anim_trees/bot_bomb.json"
 	},
-	"max_health": 20,
+	"max_health": 45,
 	"display_group": 40,
 	"events": {
 		"died": {
@@ -83,7 +83,7 @@
 	"UNITTYPE_Basic",
 	"UNITTYPE_FactoryBuild"],
 	"navigation": {
-		"move_speed": 25,
+		"move_speed": 28,
 		"type": "land-small",
 		"turn_speed": 720,
 		"brake": 200,

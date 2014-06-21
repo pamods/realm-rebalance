@@ -1,1 +1,121 @@
-{"model":{"animations":{"closed":"/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot_anim_closed.papa","deploy":"/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot_anim_deploy.papa","open":"/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot_anim_open.papa"},"filename":"/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.papa","animtree":"/pa/anim/anim_trees/orbital_fabrication_bot.json"},"system_velocity_multiplier":6,"audio":{"loops":{"move":{"flag":"vel_changed","should_start_func":"is_moving","cue":"/SE/Movement/air/fab_air_loop","should_stop_func":"is_not_moving"},"build":{"flag":"build_target_changed","should_start_func":"has_build_target","cue":"/SE/Construction/Fab_contruction_beam_loop_orbital","should_stop_func":"no_build_target"}}},"display_index":80,"mesh_bounds":[20,10,15],"physics":{"radius":5,"push_class":15},"transportable":{"size":1},"spawn_layers":"WL_Orbital","base_spec":"/pa/units/orbital/base_orbital/base_orbital.json","recon":{"observer":{"items":[{"layer":"surface_and_air","channel":"radar","radius":100,"shape":"capsule"},{"shape":"capsule","radius":100,"channel":"sight","layer":"orbital"}]}},"guard_layer":"WL_Orbital","gravwell_velocity_multiplier":6,"navigation":{"acceleration":10,"brake":10,"turn_speed":75,"type":"orbital","bank_factor":10,"hover_time":-1,"move_speed":20,"aggressive_behavior":"circle","aggressive_distance":120},"command_caps":["ORDER_Move","ORDER_Patrol","ORDER_Build","ORDER_Reclaim","ORDER_Repair","ORDER_Assist","ORDER_Use"],"unit_types":["UNITTYPE_Orbital","UNITTYPE_Fabber","UNITTYPE_Construction","UNITTYPE_Mobile","UNITTYPE_Basic","UNITTYPE_FactoryBuild"],"TEMP_texelinfo":7.54279,"tools":[{"aim_bone":"bone_root","spec_id":"/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot_build_arm.json"}],"guard_radius":120,"build_metal_cost":750,"attachable":{"offsets":{"root":[0,0,0]}},"display_name":"Orbital Fabrication Bot","buildable_types":"FabOrbBuild","description":"Orbital Fabrication Bot: Builds Orbital satellites and ships","max_health":100,"fx_offsets":[{"orientation":[0,0,-90],"filename":"/pa/effects/specs/fab_spray.pfx","offset":[1.755,0,0],"bone":"bone_nozzle","type":"build"}],"display_group":100,"events":{"build_complete":{"audio_cue":"/SE/Build_Complete/fab_orbital"},"died":{"audio_cue":"/SE/Death/orbital"}}}
+{
+	"model": {
+		"animations": {
+			"closed": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot_anim_closed.papa",
+			"deploy": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot_anim_deploy.papa",
+			"open": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot_anim_open.papa"
+		},
+		"filename": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.papa",
+		"animtree": "/pa/anim/anim_trees/orbital_fabrication_bot.json"
+	},
+	"system_velocity_multiplier": 6,
+	"audio": {
+		"loops": {
+			"move": {
+				"flag": "vel_changed",
+				"should_start_func": "is_moving",
+				"cue": "/SE/Movement/air/fab_air_loop",
+				"should_stop_func": "is_not_moving"
+			},
+			"build": {
+				"flag": "build_target_changed",
+				"should_start_func": "has_build_target",
+				"cue": "/SE/Construction/Fab_contruction_beam_loop_orbital",
+				"should_stop_func": "no_build_target"
+			}
+		}
+	},
+	"display_index": 80,
+	"mesh_bounds": [20,
+	10,
+	15],
+	"physics": {
+		"radius": 5,
+		"push_class": 15
+	},
+	"transportable": {
+		"size": 1
+	},
+	"spawn_layers": "WL_Orbital",
+	"base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
+	"recon": {
+		"observer": {
+			"items": [{
+				"layer": "surface_and_air",
+				"channel": "radar",
+				"radius": 100,
+				"shape": "capsule"
+			},
+			{
+				"shape": "capsule",
+				"radius": 100,
+				"channel": "sight",
+				"layer": "orbital"
+			}]
+		}
+	},
+	"guard_layer": "WL_Orbital",
+	"gravwell_velocity_multiplier": 6,
+	"navigation": {
+		"acceleration": 10,
+		"brake": 10,
+		"turn_speed": 75,
+		"type": "orbital",
+		"bank_factor": 10,
+		"hover_time": -1,
+		"move_speed": 20,
+		"aggressive_behavior": "circle",
+		"aggressive_distance": 120
+	},
+	"command_caps": ["ORDER_Move",
+	"ORDER_Patrol",
+	"ORDER_Build",
+	"ORDER_Reclaim",
+	"ORDER_Repair",
+	"ORDER_Assist",
+	"ORDER_Use"],
+	"unit_types": ["UNITTYPE_Orbital",
+	"UNITTYPE_Fabber",
+	"UNITTYPE_Construction",
+	"UNITTYPE_Mobile",
+	"UNITTYPE_Basic",
+	"UNITTYPE_FactoryBuild"],
+	"TEMP_texelinfo": 7.54279,
+	"tools": [{
+		"aim_bone": "bone_root",
+		"spec_id": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot_build_arm.json"
+	}],
+	"guard_radius": 120,
+	"build_metal_cost": 750,
+	"attachable": {
+		"offsets": {
+			"root": [0,
+			0,
+			0]
+		}
+	},
+	"display_name": "Orbital Fabrication Bot",
+	"buildable_types": "FabOrbBuild",
+	"description": "Orbital Fabrication Bot: Builds Orbital satellites and ships",
+	"max_health": 100,
+	"fx_offsets": [{
+		"orientation": [0,
+		0,
+		-90],
+		"filename": "/pa/effects/specs/fab_spray.pfx",
+		"offset": [1.755,
+		0,
+		0],
+		"bone": "bone_nozzle",
+		"type": "build"
+	}],
+	"display_group": 100,
+	"events": {
+		"build_complete": {
+			"audio_cue": "/SE/Build_Complete/fab_orbital"
+		},
+		"died": {
+			"audio_cue": "/SE/Death/orbital"
+		}
+	}
+}
