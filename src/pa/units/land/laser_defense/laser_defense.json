@@ -1,7 +1,7 @@
 {
 	"base_spec": "/pa/units/land/base_structure/base_structure.json",
-	"display_name": "Dual-Laser Defense Tower",
-	"description": "High Powered Defense: Direct fire anti-land & anti-ship, Costs energy",
+	"display_name": "Turbo-Laser Turret",
+	"description": "High Powered Defense: Perfect for stopping Rebel Attack Runs",
 	"display_group": 20,
 	"display_index": 95,
 	"max_health": 1000,
@@ -42,8 +42,12 @@
 	"tools": [{
 		"spec_id": "/pa/units/land/laser_defense/laser_defense_tool_weapon.json",
 		"aim_bone": "bone_pitch",
-		"muzzle_bone": ["socket_rightMuzzle",
-		"socket_leftMuzzle"]
+		"muzzle_bone": "socket_rightMuzzle"
+	},
+	{
+		"spec_id": "/pa/units/land/laser_defense/laser_defense_tool_weapon.json",
+		"aim_bone": "bone_pitch",
+		"muzzle_bone": "socket_leftMuzzle"]
 	}],
 	"events": {
 		"build_complete": {
