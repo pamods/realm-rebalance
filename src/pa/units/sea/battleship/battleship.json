@@ -95,6 +95,67 @@
 		"muzzle_bone":["socket_muzzle12"],
 		"spec_id":"/pa/units/sea/battleship/battleship_tool_weapon.json",
 		"aim_bone":"bone_pitch04"
+			},
+//HERE COMES THE FLAK TRAIN
+			{
+		"spec_id":"/pa/units/sea/battleship/battleship_flak_tool_weapon.json",
+		"muzzle_bone":["socket_muzzle01"],
+		"aim_bone":"bone_pitch01"
+			},
+			{
+		"spec_id":"/pa/units/sea/battleship/battleship_flak_tool_weapon.json",
+		"muzzle_bone":["socket_muzzle02"],
+		"aim_bone":"bone_pitch01"
+			},
+			{
+		"aim_bone":"bone_pitch01",
+		"spec_id":"/pa/units/sea/battleship/battleship_flak_tool_weapon.json",
+		"muzzle_bone":["socket_muzzle03"]
+			},
+			{
+		"aim_bone":"bone_pitch02",
+		"muzzle_bone":["socket_muzzle04"],
+		"spec_id":"/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
+			},
+			{
+		"aim_bone":"bone_pitch02",
+		"spec_id":"/pa/units/sea/battleship/battleship_flak_tool_weapon.json",
+		"muzzle_bone":["socket_muzzle05"]
+			},
+			{
+		"aim_bone":"bone_pitch02",
+		"spec_id":"/pa/units/sea/battleship/battleship_flak_tool_weapon.json",
+		"muzzle_bone":["socket_muzzle06"]
+			},
+			{
+		"muzzle_bone":["socket_muzzle07"],
+		"spec_id":"/pa/units/sea/battleship/battleship_flak_tool_weapon.json",
+		"aim_bone":"bone_pitch03"
+			},
+			{
+		"aim_bone":"bone_pitch03",
+		"muzzle_bone":["socket_muzzle08"],
+		"spec_id":"/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
+			},
+			{
+		"muzzle_bone":["socket_muzzle09"],
+		"spec_id":"/pa/units/sea/battleship/battleship_flak_tool_weapon.json",
+		"aim_bone":"bone_pitch03"
+			},
+			{
+		"muzzle_bone":["socket_muzzle10"],
+		"spec_id":"/pa/units/sea/battleship/battleship_flak_tool_weapon.json",
+		"aim_bone":"bone_pitch04"
+			},
+			{
+		"aim_bone":"bone_pitch04",
+		"muzzle_bone":["socket_muzzle11"],
+		"spec_id":"/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
+			},
+			{
+		"muzzle_bone":["socket_muzzle12"],
+		"spec_id":"/pa/units/sea/battleship/battleship_flak_tool_weapon.json",
+		"aim_bone":"bone_pitch04"
 			}
 			],
 	"TEMP_texelinfo":47.2606,
