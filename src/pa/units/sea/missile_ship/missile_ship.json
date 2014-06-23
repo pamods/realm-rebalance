@@ -10,20 +10,7 @@
 			"socket_missile_muzzle006"
 						],
 		"aim_bone":"socket_missile_aim"
-			}
-//		REMOVED AA, the file needs deleting unless we are going to use it later
-//			,
-//			{
-//		"muzzle_bone":[
-//			"socket_missile_muzzle003",
-//			"socket_missile_muzzle004",
-//			"socket_missile_muzzle007",
-//			"socket_missile_muzzle008"
-//						],
-//		"spec_id":"/pa/units/sea/missile_ship/missile_ship_aa_tool_weapon.json",
-//		"aim_bone":"socket_missile_aim"
-//			}
-			],
+			}],
 	"build_metal_cost":3000,
 	"navigation":{
 		"acceleration":3,
@@ -65,11 +52,9 @@
 	"radius":12
 			},
 	"base_spec":"/pa/units/sea/base_ship/base_ship.json",
-	//AS PER DOCUMENT: The cost of running a radar
 	"consumption": {
 		"energy": 250
 				},
-	//AS PER DOCUMENT Added radar (but range is same as observation post sight range: 500 would make radar redundant), also added orbital sight
 	"recon":{
 		"observer":{
 			"items":[{
@@ -82,8 +67,7 @@
 				"layer":"orbital",
 				"channel":"sight",
 				"shape":"capsule",
-				"radius":200,
-				// Should orbital require power to see?
+				"radius":200
 					},
 					{
 				"layer":"surface_and_air",

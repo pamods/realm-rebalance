@@ -3,7 +3,6 @@
 	"ammo_id": "/pa/units/land/air_defense_adv/air_defense_adv_ammo.json",
 	"rate_of_fire": 2,
 	"max_range": 110,
-// I've changed the yaw/pitch rates and angles to be the same as main turrets
 	"yaw_rate":60,
 	"pitch_rate":45,
 	"yaw_range":180,

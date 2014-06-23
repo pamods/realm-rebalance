@@ -58,15 +58,7 @@
 		"spec_id":"/pa/units/sea/frigate/frigate_tool_weapon_aa.json",
 		"aim_bone":"bone_pitch02",
 		"muzzle_bone":["socket_rightMuzzle02","socket_leftMuzzle02"]
-			}
-// REMOVED THE TORPEDO -> will use the same one for Sunfish
-//			,
-//			{
-//		"muzzle_bone":"bone_root",
-//		"aim_bone":"bone_root",
-//		"spec_id":"/pa/units/sea/destroyer/destroyer_tool_torpedo.json"
-//			}
-			],
+			}],
 	"audio":{
 		"loops":{
 			"move":{

@@ -96,7 +96,6 @@
 		"spec_id":"/pa/units/sea/battleship/battleship_tool_weapon.json",
 		"aim_bone":"bone_pitch04"
 			},
-//HERE COMES THE FLAK TRAIN
 			{
 		"spec_id":"/pa/units/sea/battleship/battleship_flak_tool_weapon.json",
 		"muzzle_bone":["socket_muzzle01"],

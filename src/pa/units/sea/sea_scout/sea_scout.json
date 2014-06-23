@@ -49,7 +49,7 @@
 				],
 	"tools":[{
 		"aim_bone":"bone_root",
-		"spec_id":"/pa/units/sea/sea_scout/sea_scout_tool_weapon.json"
+		"spec_id":"/pa/units/sea/sea_scout/sea_scout_tool_weapon.json",
 		"muzzle_bone":"bone_root"
 			}],
 	"TEMP_texelinfo":4.24257,
@@ -68,6 +68,5 @@
 			}
 			},
 	"max_health":500,
-
 	"display_group":80
 }
