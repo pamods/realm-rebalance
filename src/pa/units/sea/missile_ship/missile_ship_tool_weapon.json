@@ -14,9 +14,11 @@
   "rate_of_fire": 1.0, 
   "spread_fire": true, 
   "target_layers": [
-    "WL_LandHorizontal", 
-    "WL_Orbital", 
-    "WL_WaterSurface"
+    "WL_LandHorizontal",
+    "WL_Orbital",
+    "WL_WaterSurface",
+	"WL_Underwater",
+	"WL_Seafloor"
   ], 
   "target_priorities": [
     "Orbital"
