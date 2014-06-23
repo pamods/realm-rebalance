@@ -234,11 +234,6 @@
         "socket_muzzle12"
       ], 
       "spec_id": "/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
-    },
-	{
-      "aim_bone": "bone_root",
-	  "muzzle_bone":"bone_root",
-      "spec_id": "/pa/units/sea/battleship/battleship_tool_tactical_defence.json"
     }
   ], 
   "unit_types": [
