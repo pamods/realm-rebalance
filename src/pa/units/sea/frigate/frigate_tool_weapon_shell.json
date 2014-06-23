@@ -8,7 +8,7 @@
 	"yaw_range":180,
 	"pitch_range":60,
 	"auto_attack":true,
-	"target_layers":["WL_LandHorizontal","WL_Seafloor","WL_WaterSurface"]
+	"target_layers":["WL_LandHorizontal","WL_Seafloor","WL_WaterSurface"],
 	"max_firing_velocity":170,
 	"min_firing_velocity":150
 }

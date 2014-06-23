@@ -7,7 +7,7 @@
 	"initial_velocity":600.00,
 	"physics": {
 		"radius": 1,
-		"gravity_scalar": 80,
+		"gravity_scalar": 5,
 		"add_to_spatial_db": false
 	},
 	"splash_damages_allies":false,
