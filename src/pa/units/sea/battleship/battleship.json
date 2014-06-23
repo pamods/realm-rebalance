@@ -230,10 +230,13 @@
     }, 
     {
       "aim_bone": "bone_pitch04", 
-      "muzzle_bone": [
-        "socket_muzzle12"
-      ], 
+      "muzzle_bone": ["socket_muzzle12"], 
       "spec_id": "/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
+    }, 
+    {
+      "aim_bone": "bone_pitch04", 
+      "muzzle_bone": ["socket_muzzle12"], 
+      "spec_id": "/pa/units/sea/battleship/battleship_antimissile_tool_weapon.json"
     }
   ], 
   "unit_types": [
