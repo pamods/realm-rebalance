@@ -49,8 +49,7 @@
 				],
 	"tools":[{
 		"aim_bone":"bone_root",
-// I've replaced the scout weapon with destroyer torpedo
-		"spec_id":"/pa/units/sea/destroyer/destroyer_tool_torpedo.json"
+		"spec_id":"/pa/units/sea/sea_scout/sea_scout_tool_weapon.json"
 		"muzzle_bone":"bone_root"
 			}],
 	"TEMP_texelinfo":4.24257,
