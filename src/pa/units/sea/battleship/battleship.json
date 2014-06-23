@@ -184,7 +184,7 @@
 			"audio_cue":"/SE/Build_Complete/sea"
 						}
 			},
-		"max_health":3500,
+		"max_health":7500,
 		"display_group":20,
 		"description":"Battleship Class: Long range, anti-ship and anti-land guns, anti-air Flak cannons",
 		"display_name":"Leviathan"
