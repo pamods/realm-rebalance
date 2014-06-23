@@ -1,23 +1,26 @@
 {
-	"base_spec":"/pa/tools/base_missile_tactical_turret/base_missile_tactical_turret.json",
-	"ammo_id":"/pa/units/sea/missile_ship/missile_ship_ammo.json",
-	"ammo_source":"metal",
-	"rate_of_fire":1.0,
-	"ammo_capacity":1000,
-	"ammo_demand":15,
-	"ammo_per_shot":100,
-	"max_range":300,
-	"yaw_rate":30,
-	"pitch_rate":3600,
-	"yaw_range":180,
-	"pitch_range":85,
-	"carpet_fire":true,
-	"firing_arc_yaw":360,
-	"firing_arc_pitch":360,
-	"spread_fire":true,
-	"auto_attack":true,
-	"target_priorities": ["Orbital"],
-	"target_layers": ["WL_LandHorizontal", 
-	"WL_Orbital",
-	"WL_WaterSurface"]
+  "ammo_capacity": 1000, 
+  "ammo_demand": 15, 
+  "ammo_id": "/pa/units/sea/missile_ship/missile_ship_ammo.json", 
+  "ammo_per_shot": 100, 
+  "ammo_source": "metal", 
+  "auto_attack": true, 
+  "base_spec": "/pa/tools/base_missile_tactical_turret/base_missile_tactical_turret.json", 
+  "firing_arc_pitch": 360, 
+  "firing_arc_yaw": 360, 
+  "max_range": 300, 
+  "pitch_range": 85, 
+  "pitch_rate": 3600, 
+  "rate_of_fire": 1.0, 
+  "spread_fire": true, 
+  "target_layers": [
+    "WL_LandHorizontal", 
+    "WL_Orbital", 
+    "WL_WaterSurface"
+  ], 
+  "target_priorities": [
+    "Orbital"
+  ], 
+  "yaw_range": 180, 
+  "yaw_rate": 30
 }
