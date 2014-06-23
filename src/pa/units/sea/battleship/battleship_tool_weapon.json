@@ -10,6 +10,6 @@
 	"yaw_range":135,
 	"pitch_range":45,
 	"auto_attack":true,
-	"firing_standard_deviation":1,
+	"firing_standard_deviation":1.0,
 	"target_layers":["WL_LandHorizontal","WL_Seafloor","WL_WaterSurface"]
 }
