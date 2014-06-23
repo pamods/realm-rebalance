@@ -32,6 +32,10 @@
 	"guard_radius":220,
 	"build_metal_cost":650,
 	"description":"Frigate Class: Guided missiles and guns",
+	"consumption": {
+		"energy": 200
+	},
+	"energy_efficiency_requirement": 0.9,
 	"recon":{
 		"observer":{
 			"items":[{
@@ -39,6 +43,13 @@
 				"layer":"surface_and_air",
 				"shape":"capsule",
 				"channel":"sight"
+					},
+					{
+				"layer": "surface_and_air",
+				"channel": "radar",
+				"shape": "capsule",
+				"radius": 325,
+				"uses_energy": true
 					}]
 					}
 			},

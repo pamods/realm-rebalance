@@ -11,6 +11,5 @@
 	"target_priorities": ["WL_Air"],
 	"target_layers":["WL_Air",
 	"WL_WaterSurface",
-	"WL_Seafloor",
 	"WL_LandHorizontal"]
 }
