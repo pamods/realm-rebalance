@@ -1,14 +1,18 @@
 {
-	"base_spec":"/pa/tools/base_shell_turret/base_shell_turret.json",
-	"ammo_id":"/pa/units/sea/frigate/frigate_ammo_shell.json",
-	"rate_of_fire":1.5,
-	"max_range":90,
-	"yaw_rate":45,
-	"pitch_rate":45,
-	"yaw_range":180,
-	"pitch_range":60,
-	"auto_attack":true,
-	"target_layers":["WL_LandHorizontal","WL_Seafloor","WL_WaterSurface"],
-	"max_firing_velocity":170,
-	"min_firing_velocity":150
+  "ammo_id": "/pa/units/sea/frigate/frigate_ammo_shell.json", 
+  "auto_attack": true, 
+  "base_spec": "/pa/tools/base_shell_turret/base_shell_turret.json", 
+  "max_firing_velocity": 170, 
+  "max_range": 90, 
+  "min_firing_velocity": 150, 
+  "pitch_range": 60, 
+  "pitch_rate": 45, 
+  "rate_of_fire": 1.5, 
+  "target_layers": [
+    "WL_LandHorizontal", 
+    "WL_Seafloor", 
+    "WL_WaterSurface"
+  ], 
+  "yaw_range": 180, 
+  "yaw_rate": 45
 }
