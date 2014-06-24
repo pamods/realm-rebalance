@@ -1,0 +1,8 @@
+{
+	"ammo_type": "PBAOE",
+	"damage": 15,
+	"splash_damage": 15,
+	"splash_radius": 15,
+	"splash_damages_allies": false,
+	"sim_fire_effect": "/pa/ammo/base_flak/flak_ent.json"
+}
