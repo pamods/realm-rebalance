@@ -1,8 +1,8 @@
 {
 	"base_spec":"/pa/tools/base_shell_turret/base_shell_turret.json",
 	"ammo_id":"/pa/units/sea/destroyer/destroyer_ammo.json",
-	"max_firing_velocity":210,
-	"min_firing_velocity":190,
+	"max_firing_velocity":600,
+	"min_firing_velocity":600,
 	"rate_of_fire":0.4,
 	"max_range":180,
 	"yaw_rate":90,
