@@ -1,7 +1,7 @@
 {
 	"base_spec": "/pa/units/land/base_bot/base_bot.json",
-	"display_name": "Advanced Combat Fabrication Bot",
-	"description": "Advanced Combat Fabrication: Repairs units and builds battlefield structures. Can only build units for which it has a blueprint.",
+	"display_name": "A.R.M",
+	"description": "Advanced Repair Mechanic, Amphibious.",
 	"display_group": 100,
 	"display_index": 50,
 	"max_health": 250,
@@ -26,6 +26,7 @@
 	"UNITTYPE_Advanced",
 	"UNITTYPE_FactoryBuild"],
 	"command_caps": ["ORDER_Move",
+	"ORDER_Attack",
 	"ORDER_Patrol",
 	"ORDER_Build",
 	"ORDER_Reclaim",
@@ -38,7 +39,7 @@
 	"guard_radius": 60,
 	"guard_layer": "WL_LandHorizontal",
 	"navigation": {
-		"type": "land-small",
+		"type": "amphibious",
 		"acceleration": 120,
 		"brake": 120,
 		"move_speed": 15,
@@ -71,9 +72,15 @@
 		"walk_speed": 12,
 		"arrows": 5
 	},
-	"tools": [{
+	"tools": [
+	{
 		"spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_build_arm.json",
 		"aim_bone": "bone_turretBack"
+	},
+	{
+		"muzzle_bone": ["socket_muzzleFront"],
+		"spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_tool_weapon.json",
+		"aim_bone": "bone_turretFront"
 	}],
 	"events": {
 		"build_complete": {
