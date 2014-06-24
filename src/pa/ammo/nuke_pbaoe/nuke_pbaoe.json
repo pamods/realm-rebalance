@@ -1,15 +1,15 @@
 {
 	"ammo_type": "PBAOE",
-	"damage": 20000,
-	"splash_damage": 20000,
-	"splash_radius": 300,
+	"damage": 90000,
+	"splash_damage": 90000,
+	"splash_radius": 250,
 	"splash_damages_allies": true,
 	"damage_volume": {
 		"initial_radius": 110.0,
 		"radius_velocity": 50.0,
 		"radius_accel": 100.0,
 		"delay": 1.0,
-		"burnable_remove_radius": 300.0
+		"burnable_remove_radius": 250.0
 	},
 	"sim_fire_effect": "/pa/effects/specs/default_commander_explosion_ent.json"
 }

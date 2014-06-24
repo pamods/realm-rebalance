@@ -6,7 +6,7 @@
   "lifetime": 5.0, 
   "physics": {
     "add_to_spatial_db": false, 
-    "gravity_scalar": 20, 
+    "gravity_scalar": 30, 
     "radius": 1
   }, 
   "splash_damage": 100, 
