@@ -59,6 +59,7 @@
 	"guard_radius":240,
 	"build_metal_cost":850,
 	"navigation":{
+		"aggressive_distance": 180,
 		"brake":45,
 		"acceleration":5,
 		"move_speed":18,
