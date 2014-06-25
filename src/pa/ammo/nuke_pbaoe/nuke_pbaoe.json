@@ -1,9 +1,9 @@
 {
 	"ammo_type": "PBAOE",
-	"damage": 12500,
-	"splash_damage": 12500,
-	"splash_radius": 175,
-	"full_damage_splash_radius": 175,
+	"damage": 25000,
+	"splash_damage": 25000,
+	"splash_radius": 150,
+	"full_damage_splash_radius": 150,
 	"splash_damages_allies": true,
 	"armor_damage_map":{"AT_Commander":500.0},
 	"damage_volume": {
