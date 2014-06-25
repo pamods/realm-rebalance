@@ -14,7 +14,7 @@
 	"UNITTYPE_Advanced",
 	"UNITTYPE_FactoryBuild"],
 	"build_metal_cost": 750,
-	"guard_radius": 140,
+	"guard_radius": 220,
 	"TEMP_texelinfo": 5.32966,
 	"tools": [{
 		"muzzle_bone": "socket_muzzle",
