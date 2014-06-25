@@ -6,7 +6,7 @@
 	"full_damage_splash_radius": 45,
 	"initial_velocity": 10.0,
 	"max_velocity": 10.0,
-	"splash_damages_allies": true,
+	"splash_damages_allies": false,
 	"lifetime": 5,
 	"impact_decals": ["/pa/effects/specs/scorch_c_01.json"],
 	"events": {
