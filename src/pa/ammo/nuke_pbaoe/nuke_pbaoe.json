@@ -5,7 +5,7 @@
 	"splash_radius": 175,
 	"full_damage_splash_radius": 175,
 	"splash_damages_allies": true,
-	"armor_damage_map":{"AT_Commander":10.0},
+	"armor_damage_map":{"AT_Commander":500.0},
 	"damage_volume": {
 		"initial_radius": 110.0,
 		"radius_velocity": 50.0,
