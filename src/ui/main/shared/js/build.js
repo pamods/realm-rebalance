@@ -97,6 +97,7 @@ function BuildHotkeyModel() {
 			"/pa/units/land/anti_nuke_launcher/anti_sat_launcher_ammo.json": ["ammo", 12],
             "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json": ["ammo", 13],
             "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json": ["ammo", 14],
+			"/pa/units/land/nuke_launcher/nuke_launcher_tactical_ammo.json": ["ammo", 13],
         }
     );
 };
