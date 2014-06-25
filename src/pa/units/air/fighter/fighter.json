@@ -75,10 +75,10 @@
 	"build_metal_cost": 200,
 	"display_index": 80,
 	"max_health": 75,
-	"guard_radius": 100,
+	"guard_radius": 150,
 	"navigation": {
 		"aggressive_height": 100,
-		"aggressive_distance": 250,
+		"aggressive_distance": 5,
 		"turn_speed": 180,
 		"type": "air",
 		"dodge_multiplier": 0,

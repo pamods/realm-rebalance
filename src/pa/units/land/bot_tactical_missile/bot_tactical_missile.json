@@ -24,7 +24,7 @@
 	"transportable": {
 		"size": 1
 	},
-	"guard_radius": 250,
+	"guard_radius": 260,
 	"guard_layer": "WL_Orbital",
 	"navigation": {
 		"type": "land-small",
@@ -32,7 +32,8 @@
 		"brake": 120,
 		"move_speed": 9,
 		"turn_speed": 720,
-		"group_preference": "back"
+		"group_preference": "back",
+		"aggressive_distance": 240
 	},
 	"physics": {
 		"radius": 3.5,

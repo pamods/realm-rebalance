@@ -1,5 +1,5 @@
 {
-	"base_spec": "/pa/units/land/base_structure/base_structure.json",
+	"base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
 	"display_name": "Aegis",
 	"description": "Orbital Flak Platform: Heavy orbital offensive and defensive platform",
 	"max_health": 1000,

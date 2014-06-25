@@ -29,6 +29,7 @@
 	"max_health": 120,
 	"navigation": {
 		"move_speed": 8,
+		"aggressive_distance": 135,
 		"turn_speed": 360,
 		"type": "land-small",
 		"brake": 120,

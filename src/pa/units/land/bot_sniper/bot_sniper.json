@@ -5,7 +5,8 @@
 		"move_speed": 9,
 		"group_preference": "back",
 		"acceleration": 120,
-		"brake": 120
+		"brake": 120,
+		"aggressive_distance": 215,
 	},
 	"unit_types": ["UNITTYPE_Bot",
 	"UNITTYPE_Mobile",
@@ -14,7 +15,7 @@
 	"UNITTYPE_Advanced",
 	"UNITTYPE_FactoryBuild"],
 	"build_metal_cost": 750,
-	"guard_radius": 220,
+	"guard_radius": 140,
 	"TEMP_texelinfo": 5.32966,
 	"tools": [{
 		"muzzle_bone": "socket_muzzle",
