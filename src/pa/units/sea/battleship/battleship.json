@@ -79,189 +79,145 @@
     }, 
     {
       "aim_bone": "bone_pitch01", 
-      "muzzle_bone": [
-        "socket_muzzle02"
-		"primary_weapon": true,
-		"aim_weapon": true
-      ], 
+      "muzzle_bone": ["socket_muzzle02"], 
+	  "primary_weapon": true,
+	"aim_weapon": true
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch01", 
 	  "primary_weapon": true,
 		"aim_weapon": true
-      "muzzle_bone": [
-        "socket_muzzle03"
-      ], 
+      "muzzle_bone": ["socket_muzzle03"], 
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch02", 
 	  "primary_weapon": true,
 		"aim_weapon": true
-      "muzzle_bone": [
-        "socket_muzzle04"
-      ], 
+      "muzzle_bone": ["socket_muzzle04"], 
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch02", 
 	  "primary_weapon": true,
 		"aim_weapon": true
-      "muzzle_bone": [
-        "socket_muzzle05"
-      ], 
+      "muzzle_bone": ["socket_muzzle05"], 
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch02", 
 	  "primary_weapon": true,
 		"aim_weapon": true
-      "muzzle_bone": [
-        "socket_muzzle06"
-      ], 
+      "muzzle_bone": ["socket_muzzle06"], 
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch03", 
 	  "primary_weapon": true,
 		"aim_weapon": true
-      "muzzle_bone": [
-        "socket_muzzle07"
-      ], 
+      "muzzle_bone": ["socket_muzzle07"], 
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch03", 
 	  "primary_weapon": true,
 		"aim_weapon": true
-      "muzzle_bone": [
-        "socket_muzzle08"
-      ], 
+      "muzzle_bone": ["socket_muzzle08"], 
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch03", 
 	  "primary_weapon": true,
 		"aim_weapon": true
-      "muzzle_bone": [
-        "socket_muzzle09"
-      ], 
+      "muzzle_bone": ["socket_muzzle09"], 
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch04", 
 	  "primary_weapon": true,
 		"aim_weapon": true
-      "muzzle_bone": [
-        "socket_muzzle10"
-      ], 
+      "muzzle_bone": ["socket_muzzle10"], 
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch04", 
 	  "primary_weapon": true,
 		"aim_weapon": true
-      "muzzle_bone": [
-        "socket_muzzle11"
-      ], 
+      "muzzle_bone": ["socket_muzzle11"], 
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch04", 
 	  "primary_weapon": true,
 		"aim_weapon": true
-      "muzzle_bone": [
-        "socket_muzzle12"
-      ], 
+      "muzzle_bone": ["socket_muzzle12"], 
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch01", 
 	  "primary_weapon": false,
-      "muzzle_bone": [
-        "socket_muzzle01"
-      ], 
+      "muzzle_bone": ["socket_muzzle01"], 
       "spec_id": "/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch01", 
 	  "primary_weapon": false,
-      "muzzle_bone": [
-        "socket_muzzle02"
-      ], 
+      "muzzle_bone": ["socket_muzzle02"], 
       "spec_id": "/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch01", 
 	  "primary_weapon": false,
-      "muzzle_bone": [
-        "socket_muzzle03"
-      ], 
+      "muzzle_bone": ["socket_muzzle03"], 
       "spec_id": "/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch02", 
 	  "primary_weapon": false,
-      "muzzle_bone": [
-        "socket_muzzle04"
-      ], 
+      "muzzle_bone": ["socket_muzzle04"], 
       "spec_id": "/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch02", 
 	  "primary_weapon": false,
-      "muzzle_bone": [
-        "socket_muzzle05"
-      ], 
+      "muzzle_bone": ["socket_muzzle05"], 
       "spec_id": "/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch02", 
 	  "primary_weapon": false,
-      "muzzle_bone": [
-        "socket_muzzle06"
-      ], 
+      "muzzle_bone": ["socket_muzzle06"], 
       "spec_id": "/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch03", 
 	  "primary_weapon": false,
-      "muzzle_bone": [
-        "socket_muzzle07"
-      ], 
+      "muzzle_bone": ["socket_muzzle07"], 
       "spec_id": "/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch03", 
 	  "primary_weapon": false,
-      "muzzle_bone": [
-        "socket_muzzle08"
-      ], 
+      "muzzle_bone": ["socket_muzzle08"], 
       "spec_id": "/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch03", 
 	  "primary_weapon": false,
-      "muzzle_bone": [
-        "socket_muzzle09"
-      ], 
+      "muzzle_bone": ["socket_muzzle09"], 
       "spec_id": "/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch04", 
 	  "primary_weapon": false,
-      "muzzle_bone": [
-        "socket_muzzle10"
-      ], 
+      "muzzle_bone": ["socket_muzzle10"], 
       "spec_id": "/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch04", 
 	  "primary_weapon": false,
-      "muzzle_bone": [
-        "socket_muzzle11"
-      ], 
+      "muzzle_bone": ["socket_muzzle11"], 
       "spec_id": "/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
     }, 
     {
