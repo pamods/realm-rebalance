@@ -72,6 +72,8 @@
       "aim_bone": "bone_pitch01", 
       "muzzle_bone": [
         "socket_muzzle01"
+		"primary_weapon": true,
+		"aim_weapon": true
       ], 
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     }, 
@@ -79,11 +81,15 @@
       "aim_bone": "bone_pitch01", 
       "muzzle_bone": [
         "socket_muzzle02"
+		"primary_weapon": true,
+		"aim_weapon": true
       ], 
       "spec_id": "/pa/units/sea/battleship/battleship_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch01", 
+	  "primary_weapon": true,
+		"aim_weapon": true
       "muzzle_bone": [
         "socket_muzzle03"
       ], 
@@ -91,6 +97,8 @@
     }, 
     {
       "aim_bone": "bone_pitch02", 
+	  "primary_weapon": true,
+		"aim_weapon": true
       "muzzle_bone": [
         "socket_muzzle04"
       ], 
@@ -98,6 +106,8 @@
     }, 
     {
       "aim_bone": "bone_pitch02", 
+	  "primary_weapon": true,
+		"aim_weapon": true
       "muzzle_bone": [
         "socket_muzzle05"
       ], 
@@ -105,6 +115,8 @@
     }, 
     {
       "aim_bone": "bone_pitch02", 
+	  "primary_weapon": true,
+		"aim_weapon": true
       "muzzle_bone": [
         "socket_muzzle06"
       ], 
@@ -112,6 +124,8 @@
     }, 
     {
       "aim_bone": "bone_pitch03", 
+	  "primary_weapon": true,
+		"aim_weapon": true
       "muzzle_bone": [
         "socket_muzzle07"
       ], 
@@ -119,6 +133,8 @@
     }, 
     {
       "aim_bone": "bone_pitch03", 
+	  "primary_weapon": true,
+		"aim_weapon": true
       "muzzle_bone": [
         "socket_muzzle08"
       ], 
@@ -126,6 +142,8 @@
     }, 
     {
       "aim_bone": "bone_pitch03", 
+	  "primary_weapon": true,
+		"aim_weapon": true
       "muzzle_bone": [
         "socket_muzzle09"
       ], 
@@ -133,6 +151,8 @@
     }, 
     {
       "aim_bone": "bone_pitch04", 
+	  "primary_weapon": true,
+		"aim_weapon": true
       "muzzle_bone": [
         "socket_muzzle10"
       ], 
@@ -140,6 +160,8 @@
     }, 
     {
       "aim_bone": "bone_pitch04", 
+	  "primary_weapon": true,
+		"aim_weapon": true
       "muzzle_bone": [
         "socket_muzzle11"
       ], 
@@ -147,6 +169,8 @@
     }, 
     {
       "aim_bone": "bone_pitch04", 
+	  "primary_weapon": true,
+		"aim_weapon": true
       "muzzle_bone": [
         "socket_muzzle12"
       ], 
@@ -154,6 +178,7 @@
     }, 
     {
       "aim_bone": "bone_pitch01", 
+	  "primary_weapon": false,
       "muzzle_bone": [
         "socket_muzzle01"
       ], 
@@ -161,6 +186,7 @@
     }, 
     {
       "aim_bone": "bone_pitch01", 
+	  "primary_weapon": false,
       "muzzle_bone": [
         "socket_muzzle02"
       ], 
@@ -168,6 +194,7 @@
     }, 
     {
       "aim_bone": "bone_pitch01", 
+	  "primary_weapon": false,
       "muzzle_bone": [
         "socket_muzzle03"
       ], 
@@ -175,6 +202,7 @@
     }, 
     {
       "aim_bone": "bone_pitch02", 
+	  "primary_weapon": false,
       "muzzle_bone": [
         "socket_muzzle04"
       ], 
@@ -182,6 +210,7 @@
     }, 
     {
       "aim_bone": "bone_pitch02", 
+	  "primary_weapon": false,
       "muzzle_bone": [
         "socket_muzzle05"
       ], 
@@ -189,6 +218,7 @@
     }, 
     {
       "aim_bone": "bone_pitch02", 
+	  "primary_weapon": false,
       "muzzle_bone": [
         "socket_muzzle06"
       ], 
@@ -196,6 +226,7 @@
     }, 
     {
       "aim_bone": "bone_pitch03", 
+	  "primary_weapon": false,
       "muzzle_bone": [
         "socket_muzzle07"
       ], 
@@ -203,6 +234,7 @@
     }, 
     {
       "aim_bone": "bone_pitch03", 
+	  "primary_weapon": false,
       "muzzle_bone": [
         "socket_muzzle08"
       ], 
@@ -210,6 +242,7 @@
     }, 
     {
       "aim_bone": "bone_pitch03", 
+	  "primary_weapon": false,
       "muzzle_bone": [
         "socket_muzzle09"
       ], 
@@ -217,6 +250,7 @@
     }, 
     {
       "aim_bone": "bone_pitch04", 
+	  "primary_weapon": false,
       "muzzle_bone": [
         "socket_muzzle10"
       ], 
@@ -224,6 +258,7 @@
     }, 
     {
       "aim_bone": "bone_pitch04", 
+	  "primary_weapon": false,
       "muzzle_bone": [
         "socket_muzzle11"
       ], 
@@ -231,11 +266,13 @@
     }, 
     {
       "aim_bone": "bone_pitch04", 
+	  "primary_weapon": false,
       "muzzle_bone": ["socket_muzzle12"], 
       "spec_id": "/pa/units/sea/battleship/battleship_flak_tool_weapon.json"
     }, 
     {
       "aim_bone": "bone_pitch04", 
+	  "primary_weapon": false,
       "muzzle_bone": ["socket_muzzle12"], 
       "spec_id": "/pa/units/sea/battleship/battleship_antimissile_tool_weapon.json"
     }
