@@ -15,7 +15,7 @@
 	"manual_fire": true,
 	"auto_attack": false,
 	"auto_task_type": "anti_entity",
-	"anti_entity_targets": ["/pa/units/land/nuke_launcher/nuke_launcher_ammo.json"],
+	"anti_entity_targets": ["/pa/units/land/nuke_launcher/nuke_launcher_ammo.json","/pa/units/land/nuke_launcher/nuke_launcher_tactical_ammo.json"],
 	"target_layers": ["WL_LandHorizontal",
 	"WL_WaterSurface",
 	"WL_Orbital"]
