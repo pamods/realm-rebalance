@@ -21,6 +21,13 @@
   }, 
   "splash_damage": 0, 
   "splash_radius": 0, 
+  "physics": {
+	  "radius": 1,
+	  "push_class": 1,
+	  "gravity_scalar": 5,
+	  "ignore_gravity": true,
+	  "add_to_spatial_db": true
+	},  
   "stages": [
     {
       "ignores_LOS": true, 
@@ -44,6 +51,6 @@
       "stage_duration": 5000, 
       "stage_turn_rate": 540
     }
-  ], 
+  ],
   "turn_rate": 45
 }
