@@ -31,7 +31,7 @@
 	"max_health":1000,
 	"guard_radius":220,
 	"build_metal_cost":650,
-	"description":"Frigate Class: Guided missiles and guns",
+	"description":"Anti-land and anti-ship guns with anti-air missile",
 	"consumption": {
 		"energy": 200
 	},
