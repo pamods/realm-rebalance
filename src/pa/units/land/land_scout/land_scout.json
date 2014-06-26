@@ -14,6 +14,8 @@
 		"turn_speed": 180,
 		"type": "land-small"
 	},
+	"guard_radius": 55,
+	"guard_layer": "WL_LandHorizontal",
 	"display_group": 80,
 	"max_health": 300,
 	"events": {
@@ -34,8 +36,6 @@
 	"spec_id": "/pa/units/land/land_scout/land_scout_tool_weapon.json",
 	"muzzle_bone": "socket_muzzle"
 	}],
-		
-	
 	"attachable": {
 		"offsets": {
 			"root": [0,
@@ -46,8 +46,8 @@
 			1.6]
 		}
 	},
-	"display_name": "Skitter",
-	"description": "Scout: Multi-Purpose, fast speed",
+	"display_name": "Pulse",
+	"description": "Fast attack vehicle",
 	"model": {
 		"filename": "/pa/units/land/land_scout/land_scout.papa",
 		"arrows": 5,
