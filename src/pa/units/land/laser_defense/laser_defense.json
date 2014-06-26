@@ -5,7 +5,7 @@
 	"display_group": 20,
 	"display_index": 95,
 	"max_health": 1000,
-	"build_metal_cost": 800,
+	"build_metal_cost": 650,
 	"atrophy_rate": 25.0,
 	"atrophy_cool_down": 15.0,
 	"spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
