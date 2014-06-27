@@ -3,5 +3,10 @@
 	"splash_damage": 500,
 	"splash_radius": 25,
 	"splash_damages_allies": false,
-	"sim_fire_effect": "/pa/effects/specs/default_explosion.pfx"
+	"events": {
+		"died": {
+			"audio_cue": "/SE/Impacts/shell_artillery",
+			"effect_spec": "/pa/effects/specs/default_building_explosion.pfx"
+		}
+	}
 }
