@@ -30,6 +30,20 @@
 		"acceleration": 45,
 		"brake": 150
 	},
+	"fx_offsets": [{
+		"type": "moving",
+		"bone": "bone_root",
+		"offset": [0,0.5,-1],
+		"filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+		"orientation": [0,0,0]
+	},
+	{
+		"type": "moving",
+		"bone": "bone_root",
+		"offset": [0,0.5,1],
+		"filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+		"orientation": [0,0,0]
+	}],
 	"max_health": 10,
 	"events": {
 		"died": {
@@ -79,7 +93,8 @@
 			]
 		}
 	},
+	"influence_radius": 10,
 	"guard_layer": "WL_Orbital",
 	"wreckage_health_frac": 0,
-	"mesh_bounds": [5,2,2]
+	"mesh_bounds": [18,18,15]
 }
