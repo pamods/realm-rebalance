@@ -5,7 +5,7 @@
 		"spec_id": "/pa/units/orbital/orbital_fighter/orbital_fighter_tool_weapon.json",
 		"muzzle_bone": "bone_recoil01"
 	}],
-	"guard_radius": 500,
+	"guard_radius": 550,
 	"build_metal_cost": 1500,
 	"gravwell_velocity_multiplier": 6,
 	"unit_types": ["UNITTYPE_Mobile",
@@ -17,12 +17,13 @@
 	"ORDER_Attack",
 	"ORDER_Assist"],
 	"navigation": {
-		"aggressive_distance": 500,
+		"aggressive_distance": 490,
 		"type": "orbital",
 		"bank_factor": 1,
 		"turn_speed": 30,
 		"move_speed": 60,
-		"circle_min_time": 2,
+		"aggressive_behavior": "circle",
+		"circle_min_time": 1,
 		"hover_time": -1,
 		"acceleration": 10,
 		"brake": 90
