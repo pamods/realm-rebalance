@@ -1,5 +1,5 @@
 {
-	"TEMP_texelinfo": 15,
+	"TEMP_texelinfo": 1,
 	"tools": [{
 		"aim_bone": "bone_root",
 		"spec_id": "/pa/units/orbital/orbital_missile/orbital_missile_tool_weapon.json",
@@ -56,9 +56,9 @@
 	},
 	"system_velocity_multiplier": 6,
 	"physics": {
-		"push_class": 15,
+		"push_class": 1,
 		"gravity_scalar": 0.001,
-		"radius": 5
+		"radius": 1
 	},
 	"spawn_layers": "WL_Orbital",
 	"base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
