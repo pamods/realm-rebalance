@@ -52,7 +52,7 @@
 	"description": "Orbital Missile: High velocity Exo-atmospheric kill vehicle.",
 	"model": {
 		"arrows":5,
-		"filename": "/pa/units/air/missile_anti_nuke/missile_anti_nuke.papa"
+		"filename": "/pa/units/orbital/orbital_missile/orbital_missile.papa"
 	},
 	"system_velocity_multiplier": 6,
 	"physics": {
