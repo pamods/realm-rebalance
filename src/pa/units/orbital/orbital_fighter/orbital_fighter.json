@@ -40,7 +40,7 @@
 		0,
 		0]
 	}],
-	"max_health": 500,
+	"max_health": 100,
 	"events": {
 		"died": {
 			"audio_cue": "/SE/Death/orbital",
