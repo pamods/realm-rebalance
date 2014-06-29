@@ -32,7 +32,12 @@
 		"muzzle_bone": "bone_root",
 		"primary_weapon": true,
 		"aim_weapon": true
-
+	},
+	{
+	"aim_bone": "bone_root",
+		"spec_id": "/pa/units/air/fighter/fighter_tool_aa_weapon.json",
+		"muzzle_bone": "bone_leftWing",
+		"primary_weapon": false
 	},
 	{
 		"aim_bone": "bone_root",
