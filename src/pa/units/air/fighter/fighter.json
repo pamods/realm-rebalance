@@ -72,7 +72,7 @@
 	},
 	"build_metal_cost": 300,
 	"display_index": 80,
-	"max_health": 75,
+	"max_health": 35,
 	"guard_radius": 200,
 	"guard_layer": "WL_Air",
 	"navigation": {
