@@ -3,7 +3,7 @@
 	"guard_radius": 200,
 	"max_health": 250,
 	"display_index": 80,
-	"area_build_separation": 18,
+	"area_build_separation": 8,
 	"atrophy_cool_down": 30,
 	"command_caps": ["ORDER_Attack"],
 	"unit_types": ["UNITTYPE_Structure",

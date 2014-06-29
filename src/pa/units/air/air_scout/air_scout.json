@@ -30,7 +30,7 @@
 		"wobble_factor": 0.1,
 		"dodge_radius": 10
 	},
-	"build_metal_cost": 100,
+	"build_metal_cost": 80,
 	"display_index": 80,
 	"max_health": 30,
 	"recon": {
