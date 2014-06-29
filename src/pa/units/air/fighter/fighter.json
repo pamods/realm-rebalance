@@ -78,7 +78,7 @@
 	"navigation": {
 		"aggressive_height": 100,
 		"aggressive_distance": 120,
-		"turn_speed": 180,
+		"turn_speed": 75,
 		"type": "air",
 		"dodge_multiplier": 0,
 		"dodge_radius": 0,
