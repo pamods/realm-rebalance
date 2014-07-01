@@ -34,7 +34,7 @@
 	"display_index": 80,
 	"model": {
 		"filename": "/pa/units/land/assault_bot/assault_bot.papa",
-		"walk_speed": 10,
+		"walk_speed": 15,
 		"animtree": "/pa/anim/anim_trees/bipedal_mech.json",
 		"animations": {
 			"death01": "/pa/units/land/assault_bot/assault_bot_anim_death01.papa",

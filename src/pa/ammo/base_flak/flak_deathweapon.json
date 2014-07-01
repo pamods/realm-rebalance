@@ -1,0 +1,5 @@
+{
+	"tool_type": "TOOL_Weapon",
+	"ammo_id": "/pa/ammo/base_flak/flak_pbaoe.json",
+	"manual_fire": true
+}

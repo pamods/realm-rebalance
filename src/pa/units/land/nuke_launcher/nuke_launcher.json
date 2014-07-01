@@ -1,7 +1,7 @@
 {
 	"base_spec": "/pa/units/land/base_structure/base_structure.json",
 	"display_name": "Nuclear Missile Launcher",
-	"description": "Nuke: Long range, large area damage, nuclear missile",
+	"description": "Nuke: Long range, large area damage, nuclear missile silo",
 	"display_group": 20,
 	"display_index": 10,
 	"max_health": 3500,
@@ -9,11 +9,10 @@
 	"atrophy_rate": 20.0,
 	"atrophy_cool_down": 30.0,
 	"spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
-	"buildable_projectiles": ["/pa/units/land/nuke_launcher/nuke_launcher_ammo.json"],
+	"buildable_projectiles": ["/pa/units/land/nuke_launcher/nuke_launcher_ammo.json","/pa/units/land/nuke_launcher/nuke_launcher_tactical_ammo.json"],
 	"factory": {
 		"store_units": true,
 		"spawn_points": ["bone_missile01"],
-		"initial_build_spec": "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json",
 		"default_build_stance": "Continuous"
 	},
 	"unit_types": ["UNITTYPE_Land",

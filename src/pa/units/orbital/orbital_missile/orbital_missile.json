@@ -1,5 +1,5 @@
 {
-	"TEMP_texelinfo": 15,
+	"TEMP_texelinfo": 1,
 	"tools": [{
 		"aim_bone": "bone_root",
 		"spec_id": "/pa/units/orbital/orbital_missile/orbital_missile_tool_weapon.json",
@@ -30,6 +30,20 @@
 		"acceleration": 45,
 		"brake": 150
 	},
+	"fx_offsets": [{
+		"type": "moving",
+		"bone": "bone_root",
+		"offset": [0,0.5,-1],
+		"filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+		"orientation": [0,0,0]
+	},
+	{
+		"type": "moving",
+		"bone": "bone_root",
+		"offset": [0,0.5,1],
+		"filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
+		"orientation": [0,0,0]
+	}],
 	"max_health": 10,
 	"events": {
 		"died": {
@@ -52,13 +66,13 @@
 	"description": "Orbital Missile: High velocity Exo-atmospheric kill vehicle.",
 	"model": {
 		"arrows":5,
-		"filename": "/pa/units/air/missile_anti_nuke/missile_anti_nuke.papa"
+		"filename": "/pa/units/orbital/orbital_missile/orbital_missile.papa"
 	},
 	"system_velocity_multiplier": 6,
 	"physics": {
-		"push_class": 15,
+		"push_class": 1,
 		"gravity_scalar": 0.001,
-		"radius": 5
+		"radius": 1
 	},
 	"spawn_layers": "WL_Orbital",
 	"base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
@@ -79,7 +93,10 @@
 			]
 		}
 	},
+	"influence_radius": 10,
 	"guard_layer": "WL_Orbital",
 	"wreckage_health_frac": 0,
-	"mesh_bounds": [5,2,2]
+	"mesh_bounds": [5, 
+	5, 
+	3]
 }

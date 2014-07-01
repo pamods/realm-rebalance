@@ -1,7 +1,7 @@
 {
 	"ammo_type": "PBAOE",
 	"splash_damage": 100,
-	"splash_radius": 20,
+	"splash_radius": 11,
 	"splash_damages_allies": false,
 	"sim_fire_effect": "/pa/effects/specs/default_explosion.pfx"
 }

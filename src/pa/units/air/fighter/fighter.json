@@ -26,15 +26,13 @@
 		}
 	},
 	"display_name": "Hummingbird",
-	"guard_layer": "WL_AnySurface",
 	"tools": [{
 		"aim_bone": "bone_root",
 		"spec_id": "/pa/units/air/fighter/fighter_tool_weapon_fake.json",
 		"muzzle_bone": "bone_root",
 		"primary_weapon": true,
 		"aim_weapon": true
-
-	},
+	},		
 	{
 		"aim_bone": "bone_root",
 		"spec_id": "/pa/units/air/fighter/fighter_tool_weapon.json",
@@ -72,14 +70,15 @@
 			}]
 		}
 	},
-	"build_metal_cost": 200,
+	"build_metal_cost": 300,
 	"display_index": 80,
-	"max_health": 75,
-	"guard_radius": 100,
+	"max_health": 35,
+	"guard_radius": 200,
+	"guard_layer": "WL_Air",
 	"navigation": {
 		"aggressive_height": 100,
-		"aggressive_distance": 250,
-		"turn_speed": 180,
+		"aggressive_distance": 120,
+		"turn_speed": 75,
 		"type": "air",
 		"dodge_multiplier": 0,
 		"dodge_radius": 0,
@@ -87,6 +86,7 @@
 		"wobble_speed": 0.1,
 		"acceleration": 180,
 		"move_speed": 90,
+		"hover_time": 2,
 		"brake": 45
 	}
 }

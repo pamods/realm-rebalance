@@ -10,6 +10,7 @@
 	"atrophy_cool_down": 30.0,
 	"spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
 	"unit_types": ["UNITTYPE_Structure",
+	"UNITTYPE_CombatFabAdvBuild",
 	"UNITTYPE_Basic",
 	"UNITTYPE_Land",
 	"UNITTYPE_SurfaceDefense",

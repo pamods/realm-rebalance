@@ -1,1 +1,90 @@
-{"guard_layer":"WL_AnySurface","events":{"died":{"audio_cue":"/SE/Death/Sea_large"},"build_complete":{"audio_cue":"/SE/Build_Complete/sea"},"firing":{"audio_cue":"/SE/Weapons/sea/frigate_fire_1"}},"display_name":"Narwhal","base_spec":"/pa/units/sea/base_ship/base_ship.json","physics":{"push_class":2,"radius":10},"display_group":60,"spawn_layers":"WL_WaterSurface","mesh_bounds":[5,20,5],"navigation":{"move_speed":7,"brake":3,"turn_speed":20,"acceleration":3,"type":"water"},"display_index":100,"max_health":560,"guard_radius":220,"build_metal_cost":360,"description":"Frigate Class: Anti-air missiles, anti-ship guns","recon":{"observer":{"items":[{"radius":150,"layer":"surface_and_air","shape":"capsule","channel":"sight"}]}},"nearby_target_tick_update_interval":3,"TEMP_texelinfo":19.1546,"model":{"arrows":5,"animtree":"/pa/anim/anim_trees/frigate.json","filename":"/pa/units/sea/frigate/frigate.papa"},"tools":[{"spec_id":"/pa/units/sea/frigate/frigate_tool_weapon_shell.json","aim_bone":"bone_pitch01","muzzle_bone":["socket_muzzle01"]},{"spec_id":"/pa/units/sea/frigate/frigate_tool_weapon_aa.json","aim_bone":"bone_pitch02","muzzle_bone":["socket_rightMuzzle02","socket_leftMuzzle02"]},{"muzzle_bone":"bone_root","aim_bone":"bone_root","spec_id":"/pa/units/sea/destroyer/destroyer_tool_torpedo.json"}],"audio":{"loops":{"move":{"cue":"/SE/Movement/sea/frigate_loop","should_stop_func":"is_not_moving","flag":"vel_changed","should_start_func":"is_moving"}}},"unit_types":["UNITTYPE_Naval","UNITTYPE_Mobile","UNITTYPE_Basic","UNITTYPE_AirDefense","UNITTYPE_FactoryBuild"]}
+{
+	"guard_layer":"WL_AnySurface",
+	"events":{
+		"died":{
+			"audio_cue":"/SE/Death/Sea_large"
+				},
+		"build_complete":{
+			"audio_cue":"/SE/Build_Complete/sea"
+						},
+		"firing":{
+			"audio_cue":"/SE/Weapons/sea/frigate_fire_1"
+				}
+			},
+	"display_name":"Narwhal",
+	"base_spec":"/pa/units/sea/base_ship/base_ship.json",
+	"physics":{
+		"push_class":2,
+		"radius":10
+			},
+	"display_group":60,
+	"spawn_layers":"WL_WaterSurface",
+	"mesh_bounds":[5,20,5],
+	"navigation":{
+		"move_speed":18,
+		"brake":63,
+		"turn_speed":30,
+		"acceleration":7,
+		"type":"water"
+				},
+	"display_index":100,
+	"max_health":1000,
+	"guard_radius":220,
+	"build_metal_cost":650,
+	"description":"Anti-land and anti-ship guns with anti-air missile",
+	"consumption": {
+		"energy": 200
+	},
+	"energy_efficiency_requirement": 0.9,
+	"recon":{
+		"observer":{
+			"items":[{
+				"radius":150,
+				"layer":"surface_and_air",
+				"shape":"capsule",
+				"channel":"sight"
+					},
+					{
+				"layer": "surface_and_air",
+				"channel": "radar",
+				"shape": "capsule",
+				"radius": 325,
+				"uses_energy": true
+					}]
+					}
+			},
+	"nearby_target_tick_update_interval":3,
+	"TEMP_texelinfo":19.1546,
+	"model":{
+		"arrows":5,
+		"animtree":"/pa/anim/anim_trees/frigate.json",
+		"filename":"/pa/units/sea/frigate/frigate.papa"
+			},
+	"tools":[{
+		"spec_id":"/pa/units/sea/frigate/frigate_tool_weapon_shell.json",
+		"aim_bone":"bone_pitch01",
+		"muzzle_bone":["socket_muzzle01"]
+			},
+			{
+		"spec_id":"/pa/units/sea/frigate/frigate_tool_weapon_aa.json",
+		"aim_bone":"bone_pitch02",
+		"muzzle_bone":["socket_rightMuzzle02","socket_leftMuzzle02"]
+			}],
+	"audio":{
+		"loops":{
+			"move":{
+				"cue":"/SE/Movement/sea/frigate_loop",
+				"should_stop_func":"is_not_moving",
+				"flag":"vel_changed",
+				"should_start_func":"is_moving"
+					}
+				}
+			},
+	"unit_types":[
+		"UNITTYPE_Naval",
+		"UNITTYPE_Mobile",
+		"UNITTYPE_Basic",
+		"UNITTYPE_AirDefense",
+		"UNITTYPE_FactoryBuild"
+				]
+}

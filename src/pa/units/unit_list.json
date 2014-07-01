@@ -121,8 +121,6 @@
 	"/pa/units/sea/nuclear_sub/nuclear_sub.json",
 	"/pa/units/sea/sea_mine/sea_mine.json",
 	"/pa/units/sea/sea_scout/sea_scout.json",
-	"/pa/units/sea/sonar/sonar.json",
-	"/pa/units/sea/sonar_adv/sonar_adv.json",
 	"/pa/units/sea/torpedo_launcher/torpedo_launcher.json",
 	"/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv.json"]
 }
