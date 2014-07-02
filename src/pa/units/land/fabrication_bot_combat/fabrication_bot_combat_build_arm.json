@@ -6,7 +6,7 @@
 	"auto_repair": true,
 	"auto_reclaim": true,
 	"construction_demand": {
-		"energy": 1000,
+		"energy": 100,
 		"metal": 10
 	}
 }
