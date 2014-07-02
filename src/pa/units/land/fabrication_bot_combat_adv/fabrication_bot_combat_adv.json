@@ -4,7 +4,7 @@
 	"description": "Advanced Repair Mechanic, Amphibious.",
 	"display_group": 100,
 	"display_index": 50,
-	"max_health": 250,
+	"max_health": 300,
 	"spawn_layers": "WL_LandHorizontal",
 	"build_metal_cost": 900,
 	"attachable": {

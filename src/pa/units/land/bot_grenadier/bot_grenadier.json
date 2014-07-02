@@ -33,7 +33,8 @@
 		"turn_speed": 360,
 		"type": "land-small",
 		"brake": 120,
-		"acceleration": 120
+		"acceleration": 120,
+		"group_preference": "back"
 	},
 	"unit_types": ["UNITTYPE_Bot",
 	"UNITTYPE_Mobile",
