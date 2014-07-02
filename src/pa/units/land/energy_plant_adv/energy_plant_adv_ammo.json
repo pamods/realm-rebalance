@@ -1,0 +1,6 @@
+{
+	"ammo_type": "PBAOE",
+	"splash_damage": 3000,
+	"splash_radius": 35,
+	"splash_damages_allies": true
+}
