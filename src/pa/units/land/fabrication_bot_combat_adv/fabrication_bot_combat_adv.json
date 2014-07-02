@@ -42,7 +42,7 @@
 		"type": "amphibious",
 		"acceleration": 120,
 		"brake": 120,
-		"move_speed": 15,
+		"move_speed": 20,
 		"turn_speed": 720,
 		"group_preference": "back"
 	},
@@ -69,18 +69,20 @@
 			"walk": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_anim_run.papa"
 		},
 		"animtree": "/pa/anim/anim_trees/fabrication_bot_combat_adv.json",
-		"walk_speed": 12,
+		"walk_speed": 10,
 		"arrows": 5
 	},
 	"tools": [
 	{
 		"spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_build_arm.json",
+		"build_arm": true,
 		"aim_bone": "bone_turretBack"
 	},
 	{
 		"muzzle_bone": ["socket_muzzleFront"],
 		"spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_tool_weapon.json",
-		"aim_bone": "bone_turretFront"
+		"aim_bone": "bone_turretFront",
+		"primary_weapon": true
 	}],
 	"events": {
 		"build_complete": {
@@ -89,6 +91,10 @@
 		"died": {
 			"audio_cue": "/SE/Death/Bot",
 			"effect_scale": 0.8
+		},
+		"firing": {
+			"effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzleFront",
+			"audio_cue": "/SE/Weapons/bot/assault_fire"
 		}
 	},
 	"audio": {
