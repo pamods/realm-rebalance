@@ -71,7 +71,7 @@
 	"guard_layer": "WL_Air",
 	"navigation": {
 		"aggressive_height": 100,
-		"aggressive_distance": 120,
+		"aggressive_distance": 90,
 		"turn_speed": 75,
 		"type": "air",
 		"dodge_multiplier": 0,
