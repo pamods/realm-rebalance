@@ -54,8 +54,8 @@
       ]
     }
   },
-  "display_name": "Pulse",
-  "description": "Fast attack vehicle",
+  "display_name": "Skitter",
+  "description": "Light Raider Car: A very swift scout with rapid-fire laser. Weak vs Defence & Assault",
   "model": {
     "filename": "/pa/units/land/land_scout/land_scout.papa",
     "arrows": 5,

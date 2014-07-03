@@ -54,7 +54,7 @@
       ]
     }
   },
-  "description": "Anti-air and anti-ground missiles",
+  "description": "Skirmish Anti-Air Bot: Fires missiles at both Ground & Air targets. Weak vs Heavy and Assault",
   "recon": {
     "observer": {
       "items": [

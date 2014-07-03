@@ -45,7 +45,7 @@
       }
     }
   },
-  "description": "Bomber: Anti-land and anti-naval bombs",
+  "description": "Salvo Suppression Plane: A carpet bomber with wide area attack. Weak vs Air & Anti-Air",
   "recon": {
     "observer": {
       "items": [

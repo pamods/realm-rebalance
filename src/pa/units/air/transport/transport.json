@@ -138,7 +138,7 @@
   "consumption": {
     "energy": 100
   },
-  "description": "Air Transport: Load a land unit for rapid long distance travel.",
+  "description": "Heavy Radar Transport: Slow-moving single unit transport. Weak vs Anti-air & Fast",
   "attachable": {
     "offsets": {
       "root": [

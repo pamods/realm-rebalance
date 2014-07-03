@@ -45,7 +45,7 @@
       ]
     }
   },
-  "description": "Scout: Weak anti-land laser, fast speed",
+  "description": "Fast Scout Plane: Cheap plane with a large vision radius. Weak vs Anti-air & Suppression",
   "command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",

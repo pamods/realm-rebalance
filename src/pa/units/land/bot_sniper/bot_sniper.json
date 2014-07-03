@@ -26,7 +26,7 @@
       "aim_bone": "bone_turret"
     }
   ],
-  "description": "Sniper Bot: Long range, anti-land, and anti-ship bot",
+  "description": "Slow Long-Range Heavy-Hitter: A precision attack bot armed with a high powered cannon. Uses energy. Weak vs Flanker & Swarm",
   "attachable": {
     "offsets": {
       "root": [

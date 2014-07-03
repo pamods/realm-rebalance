@@ -27,8 +27,8 @@
       ]
     }
   },
-  "display_name": "Bolo",
-  "description": "Tank: Anti-land and anti-ship guns",
+  "display_name": "Tank",
+  "description": "Heavy Assault Tank: A fast, well armoured unit. Weak vs Heavy-Hitters & Swarms",
   "TEMP_texelinfo": 5.84968,
   "guard_radius": 120,
   "tools": [

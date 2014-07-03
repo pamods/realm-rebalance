@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "display_name": "Vanguard",
-  "description": "Vanguard: Short range, heavily armored vehicle.",
+  "description": "Heavy Riot-Control Tank: A slow moving, heavily armored tank armed with a machine gun. Week vs Heavy Hitters & Fast",
   "display_group": 60,
   "display_index": 115,
   "max_health": 6000,

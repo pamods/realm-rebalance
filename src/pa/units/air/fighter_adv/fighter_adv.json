@@ -1,5 +1,5 @@
 {
-  "description": "Advanced Fighter: Advanced anti-air advanced missiles which are advanced",
+  "description": "Anti-Air Salvo Plane: An air superiority fighter armed with an array of missiles. Uses energy. Weak vs Ground & Anti-Air",
   "recon": {
     "observer": {
       "items": [

@@ -63,7 +63,7 @@
   },
   "display_group": 40,
   "max_health": 140,
-  "description": "Infantry: Slow but packs a punch. Anti-land",
+  "description": "Light Assault Bot: A slow moving, high DPS unit. Weak vs Riot Control & Suppression",
   "display_name": "Dox",
   "attachable": {
     "offsets": {

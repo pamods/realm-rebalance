@@ -43,7 +43,7 @@
   },
   "display_group": 40,
   "max_health": 800,
-  "description": "Advanced Assault: Heavily armoured and armed with Dual flamethrowers.",
+  "description": "Heavy Short-Range Assault Bot: Heavily armored and armed with two flame throwers, but slow. Weak vs Fast & Heavy-Hitter",
   "attachable": {
     "offsets": {
       "root": [
