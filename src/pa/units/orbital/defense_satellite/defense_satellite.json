@@ -1,97 +1,110 @@
 {
-	"base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-	"display_name": "Aegis",
-	"description": "Orbital Flak Platform: Heavy orbital offensive and defensive platform",
-	"max_health": 1000,
-	"build_metal_cost": 1200,
-	"spawn_layers": "WL_Orbital",
-	"system_velocity_multiplier": 6.0,
-	"gravwell_velocity_multiplier": 6.0,
-	"wreckage_health_frac": 0.0,
-
-	"attachable": {
-		"offsets": {
-			"root": [0,
-			0,
-			0]
-		}
-	},
-	"unit_types": ["UNITTYPE_Mobile",
-	"UNITTYPE_Orbital",
-	"UNITTYPE_Defense",
-	"UNITTYPE_OrbitalDefense",
-	"UNITTYPE_Advanced",
-	"UNITTYPE_FactoryBuild"],
-	"command_caps": ["ORDER_Move",
-	"ORDER_Assist",
-	"ORDER_Patrol",
-	"ORDER_Attack"],
-	"guard_radius": 100,
-	"guard_layer": "WL_Orbital",
-	"navigation": {
-		"brake": 90,
-		"acceleration": 5,
-		"move_speed": 60,
-		"hover_time": -1,
-		"type": "orbital",
-		"turn_speed": 30
-	},
-	"physics": {
-		"radius": 15,
-		"push_class": 50,
-		"gravity_scalar": 0.001,
-		"collision_layers": "WL_Orbital"
-	},
-	"recon": {
-		"observer": {
-			"items": [{
-				"layer": "orbital",
-				"channel": "sight",
-				"shape": "sphere",
-				"radius": 100
-			}]
-		}
-	},
-	"tools": [{
-		"spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json",
-		"aim_bone": "bone_turret01",
-		"muzzle_bone": "bone_turret01"
-	},
-	{
-		"spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json",
-		"aim_bone": "bone_turret02",
-		"muzzle_bone": "bone_turret02"
-	},
-	{
-		"spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json",
-		"aim_bone": "bone_turret03",
-		"muzzle_bone": "bone_turret03"
-	},
-	{
-		"spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json",
-		"aim_bone": "bone_turret04",
-		"muzzle_bone": "bone_turret04"
-	}],
-	"model": {
-		"filename": "/pa/units/orbital/defense_satellite/defense_satellite.papa",
-		"animtree": "/pa/anim/anim_trees/defense_satellite.json"
-	},
-	"events": {
-		"build_complete": {
-			"audio_cue": "/SE/Build_Complete/orbital"
-		},
-		"firing": {
-			"audio_cue": "/SE/Weapons/orb/defense_satellite_fire"
-		},
-		"died": {
-			"audio_cue": "/SE/Death/orbital",
-			"effect_spec": "/pa/effects/specs/default_explosion.pfx"
-		}
-	},
-	"mesh_bounds": [25,
-	25,
-	15],
-	"placement_size": [30,
-	30],
-	"TEMP_texelinfo": 26.4194
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
+  "display_name": "Aegis",
+  "description": "Orbital Flak Platform: Heavy orbital offensive and defensive platform",
+  "max_health": 1000,
+  "build_metal_cost": 1200,
+  "spawn_layers": "WL_Orbital",
+  "system_velocity_multiplier": 6,
+  "gravwell_velocity_multiplier": 6,
+  "wreckage_health_frac": 0,
+  "attachable": {
+    "offsets": {
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "unit_types": [
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Orbital",
+    "UNITTYPE_Defense",
+    "UNITTYPE_OrbitalDefense",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild"
+  ],
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Assist",
+    "ORDER_Patrol",
+    "ORDER_Attack"
+  ],
+  "guard_radius": 100,
+  "guard_layer": "WL_Orbital",
+  "navigation": {
+    "brake": 90,
+    "acceleration": 5,
+    "move_speed": 60,
+    "hover_time": -1,
+    "type": "orbital",
+    "turn_speed": 30
+  },
+  "physics": {
+    "radius": 15,
+    "push_class": 50,
+    "gravity_scalar": 0.001,
+    "collision_layers": "WL_Orbital"
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "layer": "orbital",
+          "channel": "sight",
+          "shape": "sphere",
+          "radius": 100
+        }
+      ]
+    }
+  },
+  "tools": [
+    {
+      "spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json",
+      "aim_bone": "bone_turret01",
+      "muzzle_bone": "bone_turret01"
+    },
+    {
+      "spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json",
+      "aim_bone": "bone_turret02",
+      "muzzle_bone": "bone_turret02"
+    },
+    {
+      "spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json",
+      "aim_bone": "bone_turret03",
+      "muzzle_bone": "bone_turret03"
+    },
+    {
+      "spec_id": "/pa/units/orbital/defense_satellite/defense_satellite_tool_weapon.json",
+      "aim_bone": "bone_turret04",
+      "muzzle_bone": "bone_turret04"
+    }
+  ],
+  "model": {
+    "filename": "/pa/units/orbital/defense_satellite/defense_satellite.papa",
+    "animtree": "/pa/anim/anim_trees/defense_satellite_anim_tree.json"
+  },
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/orbital"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/orbital",
+      "effect_spec": "/pa/effects/specs/default_explosion.pfx"
+    },
+    "fired": {
+      "audio_cue": "/SE/Weapons/orb/defense_satellite_fire"
+    }
+  },
+  "mesh_bounds": [
+    25,
+    25,
+    15
+  ],
+  "placement_size": [
+    30,
+    30
+  ],
+  "TEMP_texelinfo": 26.4194
 }

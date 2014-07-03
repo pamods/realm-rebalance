@@ -1,1 +1,80 @@
-{"death":{"decals":["/pa/effects/specs/scorch_a_01.json"]},"teleportable":{},"recon":{"observer":{"items":[{"radius":85,"shape":"capsule","layer":"surface_and_air","channel":"sight"}]}},"armor_type":"AT_Bot","physics":{"push_class":2,"air_friction":1,"radius":8},"display_index":99,"audio":{"loops":{"move":{"cue":"/SE/Movement/bot/assault_loop","should_start_func":"is_moving","should_stop_func":"is_not_moving","flag":"vel_changed"}}},"build_metal_cost":1,"TEMP_texelinfo":1,"command_caps":["ORDER_Move","ORDER_Patrol","ORDER_Attack","ORDER_Assist","ORDER_Use"],"unit_types":["UNITTYPE_Bot","UNITTYPE_Mobile","UNITTYPE_Land","UNITTYPE_NoBuild"],"navigation":{"move_speed":1,"turn_speed":1,"type":"land-small","dodge_radius":15,"brake":1,"acceleration":1,"wobble_speed":0.2,"wobble_factor":0.1,"dodge_multiplier":1},"max_health":2,"display_group":99,"events":{"died":{"effect_spec":"/pa/effects/specs/default_explosion.pfx","audio_cue":"/SE/Death/Bot"},"firing":{"audio_cue":"/SE/Weapons/base/base_fire_laser","effect_spec":"/pa/effects/specs/default_muzzle_flash.pfx socket_muzzle"},"build_complete":{"audio_cue":"/SE/Build_Complete/bot"}},"display_name":"Base Bot","description":"Base Bot Description - If you're seeing this, something is wrong in your bot."}
+{
+  "death": {
+    "decals": [
+      "/pa/effects/specs/scorch_a_01.json"
+    ]
+  },
+  "teleportable": {},
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "radius": 85,
+          "shape": "capsule",
+          "layer": "surface_and_air",
+          "channel": "sight"
+        }
+      ]
+    }
+  },
+  "armor_type": "AT_Bot",
+  "physics": {
+    "push_class": 2,
+    "air_friction": 1,
+    "radius": 8
+  },
+  "display_index": 99,
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/bot/assault_loop",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving",
+        "flag": "vel_changed"
+      }
+    }
+  },
+  "build_metal_cost": 1,
+  "TEMP_texelinfo": 1,
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Attack",
+    "ORDER_Assist",
+    "ORDER_Use"
+  ],
+  "unit_types": [
+    "UNITTYPE_Bot",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Land",
+    "UNITTYPE_NoBuild"
+  ],
+  "navigation": {
+    "move_speed": 1,
+    "turn_speed": 1,
+    "type": "land-small",
+    "dodge_radius": 15,
+    "brake": 1,
+    "acceleration": 1,
+    "wobble_speed": 0.2,
+    "wobble_factor": 0.1,
+    "dodge_multiplier": 1
+  },
+  "max_health": 2,
+  "display_group": 99,
+  "events": {
+    "died": {
+      "effect_spec": "/pa/effects/specs/default_explosion.pfx",
+      "audio_cue": "/SE/Death/Bot"
+    },
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/bot"
+    },
+    "fired": {
+      "audio_cue": "/SE/Weapons/base/base_fire_laser",
+      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_muzzle"
+    }
+  },
+  "display_name": "Base Bot",
+  "description": "Base Bot Description - If you're seeing this, something is wrong in your bot."
+}
