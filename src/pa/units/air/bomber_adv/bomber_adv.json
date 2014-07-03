@@ -1,96 +1,86 @@
 {
-  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-  "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/air"
-    },
-    "died": {
-      "effect_spec": "/pa/effects/specs/default_explosion.pfx",
-      "audio_cue": "/SE/Death/Air"
-    },
-    "fired": {
-      "audio_cue": "/SE/Weapons/air/bomber_fire"
-    }
-  },
-  "display_name": "Hornet",
-  "guard_layer": "WL_AnySurface",
-  "display_group": 40,
-  "fx_offsets": [
-    {
-      "filename": "/pa/units/air/bomber_adv/bomber_adv_jets.pfx",
-      "type": "moving_forward",
-      "offset": [
-        0,
-        4.21,
-        2.658
-      ]
-    }
-  ],
-  "physics": {
-    "air_friction": 1,
-    "push_class": 2,
-    "push_sideways": false,
-    "radius": 9,
-    "gravity_scalar": 1,
-    "allow_pushing": false
-  },
-  "build_metal_cost": 1000,
-  "guard_radius": 100,
-  "display_index": 100,
-  "max_health": 200,
-  "navigation": {
-    "aggressive_height": 100,
-    "turn_speed": 45,
-    "aggressive_distance": 300,
-    "dodge_multiplier": 0,
-    "type": "air",
-    "dodge_radius": 0,
-    "wobble_factor": 0.05,
-    "brake": 20,
-    "move_speed": 80,
-    "wobble_speed": 0.1,
-    "acceleration": 50
-  },
-  "tools": [
-    {
-      "spec_id": "/pa/units/air/bomber_adv/bomber_adv_tool_weapon.json",
-      "aim_bone": "bone_root",
-      "muzzle_bone": "bone_root"
-    }
-  ],
-  "unit_types": [
-    "UNITTYPE_Bomber",
-    "UNITTYPE_Mobile",
-    "UNITTYPE_Air",
-    "UNITTYPE_Advanced",
-    "UNITTYPE_FactoryBuild"
-  ],
-  "audio": {
-    "loops": {
-      "move": {
-        "should_start_func": "is_moving",
-        "flag": "vel_changed",
-        "should_stop_func": "is_not_moving",
-        "cue": "/SE/Movement/air/air_bomber_loop"
-      }
-    }
-  },
-  "TEMP_texelinfo": 11.3221,
-  "model": {
-    "filename": "/pa/units/air/bomber_adv/bomber_adv.papa",
-    "arrows": 5
-  },
-  "description": "Advanced Bomber: Strong anti-land and anti-naval bombs",
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "shape": "capsule",
-          "channel": "sight",
-          "radius": 120,
-          "layer": "surface_and_air"
-        }
-      ]
-    }
-  }
+	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
+	"events": {
+		"build_complete": {
+			"audio_cue": "/SE/Build_Complete/air"
+		},
+		"died": {
+			"effect_spec": "/pa/effects/specs/default_explosion.pfx",
+			"audio_cue": "/SE/Death/Air"
+		},
+		"firing": {
+			"audio_cue": "/SE/Weapons/air/bomber_fire"
+		}
+	},
+	"display_name": "Hornet",
+	"guard_layer": "WL_AnySurface",
+	"display_group": 40,
+	"fx_offsets": [{
+		"filename": "/pa/units/air/bomber_adv/bomber_adv_jets.pfx",
+		"type": "moving_forward",
+		"offset": [0,
+		4.21,
+		2.658]
+	}],
+	"physics": {
+		"air_friction": 1,
+		"push_class": 2,
+		"push_sideways": false,
+		"radius": 9,
+		"gravity_scalar": 1,
+		"allow_pushing": false
+	},
+	"build_metal_cost": 1000,
+	"guard_radius": 100,
+	"display_index": 100,
+	"max_health": 200,
+	"navigation": {
+		"aggressive_height": 100,
+		"turn_speed": 45,
+		"aggressive_distance": 300,
+		"dodge_multiplier": 0,
+		"type": "air",
+		"dodge_radius": 0,
+		"wobble_factor": 0.05,
+		"brake": 20,
+		"move_speed": 80,
+		"wobble_speed": 0.1,
+		"acceleration": 50
+	},
+	"tools": [{
+		"spec_id": "/pa/units/air/bomber_adv/bomber_adv_tool_weapon.json",
+		"aim_bone": "bone_root",
+		"muzzle_bone": "bone_root"
+	}],
+	"unit_types": ["UNITTYPE_Bomber",
+	"UNITTYPE_Mobile",
+	"UNITTYPE_Air",
+	"UNITTYPE_Advanced",
+	"UNITTYPE_FactoryBuild"],
+	"audio": {
+		"loops": {
+			"move": {
+				"should_start_func": "is_moving",
+				"flag": "vel_changed",
+				"should_stop_func": "is_not_moving",
+				"cue": "/SE/Movement/air/air_bomber_loop"
+			}
+		}
+	},
+	"TEMP_texelinfo": 11.3221,
+	"model": {
+		"filename": "/pa/units/air/bomber_adv/bomber_adv.papa",
+		"arrows": 5
+	},
+	"description": "Advanced Bomber: Strong anti-land and anti-naval bombs",
+	"recon": {
+		"observer": {
+			"items": [{
+				"shape": "capsule",
+				"channel": "sight",
+				"radius": 120,
+				"layer": "surface_and_air"
+			}]
+		}
+	}
 }

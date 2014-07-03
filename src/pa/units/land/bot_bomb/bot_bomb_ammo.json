@@ -1,12 +1,12 @@
 {
-  "ammo_type": "PBAOE",
-  "splash_damage": 500,
-  "splash_radius": 25,
-  "splash_damages_allies": false,
-  "events": {
-    "died": {
-      "audio_cue": "/SE/Impacts/shell_artillery",
-      "effect_spec": "/pa/effects/specs/default_building_explosion.pfx"
-    }
-  }
+	"ammo_type": "PBAOE",
+	"splash_damage": 500,
+	"splash_radius": 25,
+	"splash_damages_allies": false,
+	"events": {
+		"died": {
+			"audio_cue": "/SE/Impacts/shell_artillery",
+			"effect_spec": "/pa/effects/specs/default_building_explosion.pfx"
+		}
+	}
 }
