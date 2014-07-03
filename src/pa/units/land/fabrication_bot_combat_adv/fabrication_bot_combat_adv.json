@@ -85,14 +85,12 @@
             "aim_bone": "bone_turretBack"
         },
         {
-            "muzzle_bone": [
-                "socket_muzzleFront"
-            ],
+            "muzzle_bone": ["socket_muzzleFront"],
             "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_tool_weapon.json",
             "aim_bone": "bone_turretFront",
             "primary_weapon": true
         }
-    ],
+	],
     "events": {
         "build_complete": {
             "audio_cue": "/SE/Build_Complete/fab"
