@@ -1,126 +1,148 @@
 {
-	"display_index": 100,
-	"audio": {
-		"loops": {
-			"build": {
-				"should_stop_func": "no_build_target",
-				"should_start_func": "has_build_target",
-				"cue": "/SE/Construction/Fab_contruction_beam_loop",
-				"flag": "build_target_changed"
-			},
-			"move": {
-				"should_stop_func": "is_not_moving",
-				"cue": "/SE/Movement/bot/T2_fab_loop",
-				"should_start_func": "is_moving",
-				"flag": "vel_changed"
-			}
-		}
-	},
-	"recon": {
-		"observer": {
-			"items": [{
-				"layer": "surface_and_air",
-				"channel": "sight",
-				"radius": 100,
-				"shape": "capsule"
-			}]
-		}
-	},
-	"transportable": {
-		"size": 1
-	},
-	"physics": {
-		"push_class": 100,
-		"allow_pushing": true,
-		"radius": 4
-	},
-	"spawn_layers": "WL_LandHorizontal",
-	"base_spec": "/pa/units/land/base_bot/base_bot.json",
-	"guard_layer": "WL_LandHorizontal",
-	"model": {
-		"animations": {
-			"death01": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv_anim_death01.papa",
-			"aim_down": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv_anim_aimDown.papa",
-			"walk": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv_anim_run.papa",
-			"aim_up": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv_anim_aimUp.papa"
-		},
-		"filename": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv.papa",
-		"animtree": "/pa/anim/anim_trees/fabrication_bipedal_mech.json",
-		"walk_speed": 4.9
-	},
-	"attachable": {
-		"offsets": {
-			"head": [0,
-			0.25,
-			4.5],
-			"root": [0,
-			0,
-			0]
-		}
-	},
-	"display_name": "Advanced Fabrication Bot",
-	"buildable_types": "Land & Structure & Advanced - Factory | Factory & Advanced & Bot & Land | FabAdvBuild",
-	"description": "Advanced Fabrication: Builds structures",
-	"display_group": 100,
-	"fx_offsets": [{
-		"type": "build",
-		"bone": "socket_rightMuzzle",
-		"offset": [0,
-		0,
-		0],
-		"filename": "/pa/effects/specs/fab_spray.pfx",
-		"orientation": [0,
-		0,
-		0]
-	},
-	{
-		"filename": "/pa/effects/specs/fab_spray.pfx",
-		"orientation": [0,
-		0,
-		0],
-		"offset": [0,
-		0,
-		0],
-		"bone": "socket_leftMuzzle",
-		"type": "build"
-	}],
-	"max_health": 180,
-	"events": {
-		"build_complete": {
-			"audio_cue": "/SE/Build_Complete/fab"
-		},
-		"died": {
-			"effect_scale": 0.8,
-			"audio_cue": "/SE/Death/Bot"
-		}
-	},
-	"navigation": {
-		"acceleration": 120,
-		"brake": 120,
-		"turn_speed": 720,
-		"type": "land-small",
-		"move_speed": 12,
-		"group_preference": "back"
-	},
-	"unit_types": ["UNITTYPE_Fabber",
-	"UNITTYPE_Construction",
-	"UNITTYPE_Bot",
-	"UNITTYPE_Mobile",
-	"UNITTYPE_Land",
-	"UNITTYPE_Advanced",
-	"UNITTYPE_FactoryBuild"],
-	"command_caps": ["ORDER_Move",
-	"ORDER_Patrol",
-	"ORDER_Build",
-	"ORDER_Reclaim",
-	"ORDER_Repair",
-	"ORDER_Assist",
-	"ORDER_Use"],
-	"build_metal_cost": 500,
-	"TEMP_texelinfo": 6.38702,
-	"tools": [{
-		"aim_bone": "bone_root",
-		"spec_id": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv_build_arm.json"
-	}],
-	"guard_radius": 60
+  "display_index": 100,
+  "audio": {
+    "loops": {
+      "build": {
+        "should_stop_func": "no_build_target",
+        "should_start_func": "has_build_target",
+        "cue": "/SE/Construction/Fab_contruction_beam_loop",
+        "flag": "build_target_changed"
+      },
+      "move": {
+        "should_stop_func": "is_not_moving",
+        "cue": "/SE/Movement/bot/T2_fab_loop",
+        "should_start_func": "is_moving",
+        "flag": "vel_changed"
+      }
+    }
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "layer": "surface_and_air",
+          "channel": "sight",
+          "radius": 100,
+          "shape": "capsule"
+        }
+      ]
+    }
+  },
+  "transportable": {
+    "size": 1
+  },
+  "physics": {
+    "push_class": 100,
+    "allow_pushing": true,
+    "radius": 4
+  },
+  "spawn_layers": "WL_LandHorizontal",
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "guard_layer": "WL_LandHorizontal",
+  "model": {
+    "animations": {
+      "death01": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv_anim_death01.papa",
+      "aim_down": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv_anim_aimDown.papa",
+      "walk": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv_anim_run.papa",
+      "aim_up": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv_anim_aimUp.papa"
+    },
+    "filename": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv.papa",
+    "animtree": "/pa/anim/anim_trees/fabrication_bipedal_mech_anim_tree.json",
+    "walk_speed": 4.9
+  },
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0.25,
+        4.5
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "display_name": "Advanced Fabrication Bot",
+  "buildable_types": "Land & Structure & Advanced - Factory | Factory & Advanced & Bot & Land | FabAdvBuild",
+  "description": "Advanced Fabrication: Builds structures",
+  "display_group": 100,
+  "fx_offsets": [
+    {
+      "type": "build",
+      "bone": "socket_rightMuzzle",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "filename": "/pa/effects/specs/fab_spray.pfx",
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "filename": "/pa/effects/specs/fab_spray.pfx",
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "bone": "socket_leftMuzzle",
+      "type": "build"
+    }
+  ],
+  "max_health": 180,
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/fab"
+    },
+    "died": {
+      "effect_scale": 0.8,
+      "audio_cue": "/SE/Death/Bot"
+    }
+  },
+  "navigation": {
+    "acceleration": 120,
+    "brake": 120,
+    "turn_speed": 720,
+    "type": "land-small",
+    "move_speed": 12,
+    "group_preference": "back"
+  },
+  "unit_types": [
+    "UNITTYPE_Fabber",
+    "UNITTYPE_Construction",
+    "UNITTYPE_Bot",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Land",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild"
+  ],
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Build",
+    "ORDER_Reclaim",
+    "ORDER_Repair",
+    "ORDER_Assist",
+    "ORDER_Use"
+  ],
+  "build_metal_cost": 500,
+  "TEMP_texelinfo": 6.38702,
+  "tools": [
+    {
+      "aim_bone": "bone_root",
+      "spec_id": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv_build_arm.json"
+    }
+  ],
+  "guard_radius": 60
 }

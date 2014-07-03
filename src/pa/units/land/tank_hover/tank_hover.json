@@ -1,1 +1,111 @@
-{"tools":[{"aim_bone":"socket_aim","muzzle_bone":"socket_muzzle","spec_id":"/pa/units/land/tank_hover/tank_hover_tool_weapon.json"}],"TEMP_texelinfo":5.84968,"guard_radius":120,"build_metal_cost":225,"headlights":[{"far_distance":20,"offset":[0,-1,1.5],"gobo":"/pa/effects/textures/gobo/spotlight_gobo.papa","near_distance":1.2,"color":[0.9,0.92,1],"intensity":1.4,"orientation":[0,65,0],"near_width":2,"near_height":2}],"navigation":{"wobble_speed":0.2,"acceleration":7,"brake":7,"dodge_radius":15,"type":"land-small","turn_speed":60,"move_speed":7,"wobble_factor":0.1,"dodge_multiplier":1},"unit_types":["UNITTYPE_Tank","UNITTYPE_Mobile","UNITTYPE_Land","UNITTYPE_Basic"],"events":{"died":{"audio_cue":"/SE/Death/Veh"},"build_complete":{"audio_cue":"/SE/Build_Complete/veh"},"firing":{"effect_spec":"/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle","audio_cue":"/SE/Weapons/veh/tank_light_fire"}},"display_group":40,"max_health":250,"description":"Tank: Anti-land and anti-ship guns","display_name":"Ant","model":{"filename":"/pa/units/land/tank_hover/tank_hover.papa","arrows":5,"animtree":"/pa/anim/anim_trees/turret.json"},"guard_layer":"WL_LandHorizontal","physics":{"radius":3,"air_friction":0.5,"push_class":2},"base_spec":"/pa/units/land/base_vehicle/base_vehicle.json","recon":{"observer":{"items":[{"radius":100,"shape":"capsule","channel":"sight","layer":"surface_and_air"}]}},"wreckage_health_frac":1,"mesh_bounds":[4.93769,7.57193,2.6835],"audio":{"loops":{"move":{"cue":"/SE/Movement/veh/tank_hover_loop","should_start_func":"is_moving","should_stop_func":"is_not_moving","flag":"vel_changed"}}},"display_index":80}
+{
+  "tools": [
+    {
+      "aim_bone": "socket_aim",
+      "muzzle_bone": "socket_muzzle",
+      "spec_id": "/pa/units/land/tank_hover/tank_hover_tool_weapon.json"
+    }
+  ],
+  "TEMP_texelinfo": 5.84968,
+  "guard_radius": 120,
+  "build_metal_cost": 225,
+  "headlights": [
+    {
+      "far_distance": 20,
+      "offset": [
+        0,
+        -1,
+        1.5
+      ],
+      "gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
+      "near_distance": 1.2,
+      "color": [
+        0.9,
+        0.92,
+        1
+      ],
+      "intensity": 1.4,
+      "orientation": [
+        0,
+        65,
+        0
+      ],
+      "near_width": 2,
+      "near_height": 2
+    }
+  ],
+  "navigation": {
+    "wobble_speed": 0.2,
+    "acceleration": 7,
+    "brake": 7,
+    "dodge_radius": 15,
+    "type": "land-small",
+    "turn_speed": 60,
+    "move_speed": 7,
+    "wobble_factor": 0.1,
+    "dodge_multiplier": 1
+  },
+  "unit_types": [
+    "UNITTYPE_Tank",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Land",
+    "UNITTYPE_Basic"
+  ],
+  "events": {
+    "died": {
+      "audio_cue": "/SE/Death/Veh"
+    },
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/veh"
+    },
+    "fired": {
+      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle",
+      "audio_cue": "/SE/Weapons/veh/tank_light_fire"
+    }
+  },
+  "display_group": 40,
+  "max_health": 250,
+  "description": "Tank: Anti-land and anti-ship guns",
+  "display_name": "Ant",
+  "model": {
+    "filename": "/pa/units/land/tank_hover/tank_hover.papa",
+    "arrows": 5,
+    "animtree": "/pa/anim/anim_trees/turret_anim_tree.json"
+  },
+  "guard_layer": "WL_LandHorizontal",
+  "physics": {
+    "radius": 3,
+    "air_friction": 0.5,
+    "push_class": 2
+  },
+  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "radius": 100,
+          "shape": "capsule",
+          "channel": "sight",
+          "layer": "surface_and_air"
+        }
+      ]
+    }
+  },
+  "wreckage_health_frac": 1,
+  "mesh_bounds": [
+    4.93769,
+    7.57193,
+    2.6835
+  ],
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/veh/tank_hover_loop",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving",
+        "flag": "vel_changed"
+      }
+    }
+  },
+  "display_index": 80
+}

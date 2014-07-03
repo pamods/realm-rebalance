@@ -1,16 +1,16 @@
 {
-	"ammo_type": "PBAOE",
-	"damage": 25000,
-	"splash_damage": 25000,
-	"splash_radius": 150,
-	"full_damage_splash_radius": 150,
-	"splash_damages_allies": true,
-	"damage_volume": {
-		"initial_radius": 110.0,
-		"radius_velocity": 50.0,
-		"radius_accel": 100.0,
-		"delay": 1.0,
-		"burnable_remove_radius": 250.0
-	},
-	"sim_fire_effect": "/pa/effects/specs/default_commander_explosion_ent.json"
+  "ammo_type": "PBAOE",
+  "damage": 25000,
+  "splash_damage": 25000,
+  "splash_radius": 150,
+  "full_damage_splash_radius": 150,
+  "splash_damages_allies": true,
+  "damage_volume": {
+    "initial_radius": 110,
+    "radius_velocity": 50,
+    "radius_accel": 100,
+    "delay": 1,
+    "burnable_remove_radius": 250
+  },
+  "sim_fire_effect": "/pa/effects/specs/default_commander_explosion_ent.json"
 }

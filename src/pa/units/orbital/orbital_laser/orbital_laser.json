@@ -1,87 +1,99 @@
 {
-	"model": {
-		"filename": "/pa/units/orbital/orbital_laser/orbital_laser.papa",
-		"animtree": "/pa/anim/anim_trees/orbital_laser.json",
-		"animations": {
-			"open": "/pa/units/orbital/orbital_laser/orbital_laser_anim_open.papa",
-			"deploy": "/pa/units/orbital/orbital_laser/orbital_laser_anim_deploy.papa",
-			"closed": "/pa/units/orbital/orbital_laser/orbital_laser_anim_closed.papa"
-		}
-	},
-	"system_velocity_multiplier": 6,
-	"mesh_bounds": [38,
-	38,
-	40],
-	"recon": {
-		"observer": {
-			"items": [{
-				"channel": "sight",
-				"layer": "surface_and_air",
-				"shape": "capsule",
-				"radius": 50
-			},
-			{
-				"shape": "sphere",
-				"radius": 150,
-				"channel": "sight",
-				"layer": "orbital"
-			}]
-		}
-	},
-	"physics": {
-		"push_class": 15,
-		"gravity_scalar": 0.001,
-		"radius": 10
-	},
-	"spawn_layers": "WL_Orbital",
-	"base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
-	"guard_layer": "WL_AnySurface",
-	"gravwell_velocity_multiplier": 6,
-	"command_caps": ["ORDER_Move",
-	"ORDER_Patrol",
-	"ORDER_Attack"],
-	"unit_types": ["UNITTYPE_Mobile",
-	"UNITTYPE_Orbital",
-	"UNITTYPE_LaserPlatform",
-	"UNITTYPE_Advanced",
-	"UNITTYPE_FactoryBuild"],
-	"navigation": {
-		"turn_speed": 90,
-		"type": "orbital",
-		"hover_time": -1,
-		"move_speed": 25,
-		"acceleration": 10,
-		"brake": 10
-	},
-	"build_metal_cost": 1000,
-	"TEMP_texelinfo": 31.6199,
-	"tools": [{
-		"muzzle_bone": "socket_muzzle",
-		"spec_id": "/pa/units/orbital/orbital_laser/orbital_laser_tool_weapon.json",
-		"aim_bone": "bone_recoil"
-	}],
-	"guard_radius": 100,
-	"attachable": {
-		"offsets": {
-			"root": [0,
-			0,
-			0]
-		}
-	},
-	"display_name": "SXX-1304 Bombardment Platform",
-	"description": "Orbital Bombardment Platform: Death from above",
-	"max_health": 200,
-	"events": {
-		"died": {
-			"effect_spec": "/pa/effects/specs/default_explosion.pfx",
-			"audio_cue": "/SE/Death/orbital"
-		},
-		"build_complete": {
-			"audio_cue": "/SE/Build_Complete/orbital"
-		},
-		"firing": {
-			"effect_spec": "/pa/units/orbital/orbital_laser/orbital_laser_muzzle_flash.pfx socket_muzzle",
-			"audio_cue": "/SE/Weapons/orb/orb_laser_fire"
-		}
-	}
+  "model": {
+    "filename": "/pa/units/orbital/orbital_laser/orbital_laser.papa",
+    "animtree": "/pa/anim/anim_trees/orbital_laser_anim_tree.json",
+    "animations": {
+      "open": "/pa/units/orbital/orbital_laser/orbital_laser_anim_open.papa",
+      "deploy": "/pa/units/orbital/orbital_laser/orbital_laser_anim_deploy.papa",
+      "closed": "/pa/units/orbital/orbital_laser/orbital_laser_anim_closed.papa"
+    }
+  },
+  "system_velocity_multiplier": 6,
+  "mesh_bounds": [
+    38,
+    38,
+    40
+  ],
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight",
+          "layer": "surface_and_air",
+          "shape": "capsule",
+          "radius": 50
+        },
+        {
+          "shape": "sphere",
+          "radius": 150,
+          "channel": "sight",
+          "layer": "orbital"
+        }
+      ]
+    }
+  },
+  "physics": {
+    "push_class": 15,
+    "gravity_scalar": 0.001,
+    "radius": 10
+  },
+  "spawn_layers": "WL_Orbital",
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json",
+  "guard_layer": "WL_AnySurface",
+  "gravwell_velocity_multiplier": 6,
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Attack"
+  ],
+  "unit_types": [
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Orbital",
+    "UNITTYPE_LaserPlatform",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild"
+  ],
+  "navigation": {
+    "turn_speed": 90,
+    "type": "orbital",
+    "hover_time": -1,
+    "move_speed": 25,
+    "acceleration": 10,
+    "brake": 10
+  },
+  "build_metal_cost": 1000,
+  "TEMP_texelinfo": 31.6199,
+  "tools": [
+    {
+      "muzzle_bone": "socket_muzzle",
+      "spec_id": "/pa/units/orbital/orbital_laser/orbital_laser_tool_weapon.json",
+      "aim_bone": "bone_recoil"
+    }
+  ],
+  "guard_radius": 100,
+  "attachable": {
+    "offsets": {
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "display_name": "SXX-1304 Bombardment Platform",
+  "description": "Orbital Bombardment Platform: Death from above",
+  "max_health": 200,
+  "events": {
+    "died": {
+      "effect_spec": "/pa/effects/specs/default_explosion.pfx",
+      "audio_cue": "/SE/Death/orbital"
+    },
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/orbital"
+    },
+    "fired": {
+      "effect_spec": "/pa/units/orbital/orbital_laser/orbital_laser_muzzle_flash.pfx socket_muzzle",
+      "audio_cue": "/SE/Weapons/orb/orb_laser_fire"
+    }
+  }
 }
