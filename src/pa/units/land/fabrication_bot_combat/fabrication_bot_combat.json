@@ -3,7 +3,7 @@
 	"display_name": "Combat Fabrication Bot",
 	"description": "Medium Support Bot: A bot armed with a combat lathe designed for reclamation of wrecks or enemy units. Weak vs Heavy & Swarm",
 	"max_health": 450,
-	"build_metal_cost": 200,
+	"build_metal_cost": 150,
 	"attachable": {
 		"offsets": {
 			"root": [0,
