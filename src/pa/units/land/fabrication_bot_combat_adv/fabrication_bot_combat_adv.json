@@ -1,7 +1,7 @@
 {
     "base_spec": "/pa/units/land/base_bot/base_bot.json",
     "display_name": "A.R.M",
-    "description": "Submersible Support Bot: A quadruped bot with combat repair and build tool and a short range cannon. Weak vs Long-Range & Skirmishers",
+    "description": "Submersible Support Bot: A fast bot with a strong combat-repair Lathe and short-range cannon. Weak vs Long-Range & Skirmishers",
     "max_health": 250,
     "spawn_layers": "WL_LandHorizontal",
     "build_metal_cost": 900,
@@ -86,11 +86,10 @@
         },
         {
             "muzzle_bone": ["socket_muzzleFront"],
-            "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_tool_weapon.json",
-            "aim_bone": "bone_turretFront",
-            "primary_weapon": true
+            "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_tool_weapon.json",
+            "aim_bone": "bone_turretFront"
         }
-	],
+    ],
     "events": {
         "build_complete": {
             "audio_cue": "/SE/Build_Complete/fab"
@@ -100,8 +99,8 @@
             "effect_scale": 0.8
         },
         "fired": {
-            "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzleFront",
-            "audio_cue": "/SE/Weapons/bot/assault_fire"
+            "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfxsocket_muzzleFront",
+            "audio_cue": "/SE/Weapons/veh/tank_light_fire"
         }
     },
     "audio": {
