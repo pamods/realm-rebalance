@@ -1,1 +1,21 @@
-{    "enabled" : true,    "context" : "server",    "identifier" : "com.realmmods.rebalance",    "display_name" : "The Realm Community Rebalance",    "description" : "Performs Many changes to game direction and balance",    "author" : "The Realm",    "version" : "3.9.0",    "signature" : "(not yet implemented)"}
+{
+    "context": "server",
+    "identifier": "com.realmmods.rebalance",
+    "display_name": "The Realm Community Rebalance",
+    "description": "Performs Many changes to game direction and balance",
+    "author": "The Realm",
+    "version": "3.9.9",
+    "build": "68331",
+    "date": "2014/07/05",
+    "signature": "not yet implemented",
+    "forum": "hhttps://forums.uberent.com/threads/wip-the-realm-community-balance-mod.58942/",
+    "icon": "http://i.imgur.com/6B02xLS.png",
+    "category": [
+        "in-game",
+        "ui",
+		"balance"
+    ],
+    "id": "RCBM",
+    "priority": 100,
+    "enabled": true
+}
