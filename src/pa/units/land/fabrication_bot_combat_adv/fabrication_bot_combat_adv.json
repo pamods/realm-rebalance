@@ -36,6 +36,7 @@
         "ORDER_Reclaim",
         "ORDER_Repair",
         "ORDER_Assist",
+		"ORDER_Attack",
         "ORDER_Use"
     ],
     "transportable": {
@@ -83,8 +84,13 @@
         {
             "spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_build_arm.json",
             "aim_bone": "bone_turretBack"
-        }
-    ],
+        },
+		{
+		"muzzle_bone": "socket_muzzleFront",
+		"spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv_tool_weapon.json",
+		"aim_bone": "bone_turretFront"
+		}
+	],
     "events": {
         "build_complete": {
             "audio_cue": "/SE/Build_Complete/fab"
