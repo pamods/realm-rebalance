@@ -93,12 +93,12 @@
       "effect_scale": 0.6
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/bot/bot_antiair_fire",
+      "audio_cue": "/SE/Weapons/structure/air_defence_fire",
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
     }
   },
   "display_name": "Stinger",
-  "base_spec": "/pa/units/land/base_vehicle/base_bot.json",
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
   "guard_layer": "WL_Air",
   "transportable": {
     "size": 1
