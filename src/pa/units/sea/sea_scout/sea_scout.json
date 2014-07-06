@@ -64,7 +64,7 @@
   ],
   "TEMP_texelinfo": 4.24257,
   "build_metal_cost": 300,
-  "description": "Fast Attack Craft: Fast speed and torpedoes",
+  "description": "Light Raider Ship: A highly maneuverable twin-torpedo boat. Weak vs Riot-Control & Long-Range",
   "display_name": "Sun Fish",
   "events": {
     "build_complete": {

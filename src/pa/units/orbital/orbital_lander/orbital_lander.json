@@ -128,7 +128,7 @@
   ],
   "max_health": 300,
   "usable": true,
-  "description": "Orbital Lander: Load it up, get units to other planets.",
+  "description": "Slow Orbital Transport: A single unit transport designed for interplanetary travel. Weak vs Anti-Orbital & Anti-Air",
   "attachable": {
     "offsets": {
       "root": [

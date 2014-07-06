@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "display_name": "Jellyfish",
-  "description": "Defense: Detonates when subs or ships are near",
+  "display_name": "Sea Mine",
+  "description": "Heavy-Hitter Suicide Unit: An underwater explosive with proximity sensor. Weak vs Long-Range & Radar",
   "display_group": 50,
   "display_index": 40,
   "max_health": 50,

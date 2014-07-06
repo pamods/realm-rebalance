@@ -89,7 +89,7 @@
     }
   },
   "display_name": "Artemis",
-  "description": "Orbital Missile: High velocity Exo-atmospheric kill vehicle.",
+  "description": "Fast Suicide Missile: A Missile filled with explosives for taking out orbital units. Weak vs Riot-Control & Heavy",
   "model": {
     "arrows": 5,
     "filename": "/pa/units/orbital/orbital_missile/orbital_missile.papa"

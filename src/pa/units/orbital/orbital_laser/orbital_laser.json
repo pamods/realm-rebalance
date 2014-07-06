@@ -81,7 +81,7 @@
     }
   },
   "display_name": "SXX-1304 Bombardment Platform",
-  "description": "Orbital Bombardment Platform: Death from above",
+  "description": "Slow Suppression Satellite: Bombardment unit that fires lasers. Uses Energy. Weak vs Anti-Orbital & Orbital",
   "max_health": 200,
   "events": {
     "died": {

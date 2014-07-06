@@ -15,7 +15,7 @@
     }
   },
   "max_health": 300,
-  "description": "Deep space Radar Array: Shows units moving between planets.",
+  "description": "Celestial Radar Satellite: A unit for detecting interplanetary travel. Uses energy. Weak vs Anti-orbital & skirmish",
   "attachable": {
     "offsets": {
       "root": [

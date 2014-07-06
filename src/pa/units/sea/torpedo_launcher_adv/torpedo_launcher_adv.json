@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "display_name": "Advanced Torpedo Launcher",
-  "description": "Defense: Slow, Long-Range Torpedo. Anti-sub & Anti-ship Weapon",
+  "description": "Long-Range Heavy-Hitting Torpedo Launcher. Fires high damage torpedoes. Uses energy. Weak vs Flankers & Swarms",
   "display_group": 50,
   "display_index": 75,
   "max_health": 1000,

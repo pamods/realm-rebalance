@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "display_name": "Torpedo Launcher",
-  "description": "Defense: Fast Torpedo. Anti-Ship & Anti-Sub weapon",
+  "description": "Short-Range Riot-Control Torpedo Launcher: An area denial torpedo launcher. Weak vs Long-Range & Heavy-Hitting",
   "display_group": 50,
   "display_index": 70,
   "max_health": 1750,

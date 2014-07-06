@@ -76,7 +76,7 @@
     }
   },
   "display_name": "Aurora",
-  "description": "Orbital Laser: Armed with a devastating long range laser",
+  "description": "Long-Range Heavy-Hitter Fighter: Armed with a slow-firing laser. Uses energy. Weak against Flanker & Swarm",
   "model": {
     "filename": "/pa/units/orbital/orbital_fighter/orbital_fighter.papa",
     "animtree": "/pa/anim/anim_trees/orbital_fighter_anim_tree.json",

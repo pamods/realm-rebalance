@@ -25,7 +25,7 @@
       ]
     }
   },
-  "description": "Radar Satellite: Detects a large area for enemy land, sea, and air units",
+  "description": "Orbital Radar Satellite: An orbital intelligence gathering platform. Uses Energy. Weak vs Skirmisher & Anti-Orbital",
   "build_metal_cost": 300,
   "TEMP_texelinfo": 10.6806,
   "gravwell_velocity_multiplier": 6,

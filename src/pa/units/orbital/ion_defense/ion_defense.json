@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "display_name": "Umbrella",
-  "description": "Ion Defense Platform: Designed to take out orbital units above it.",
+  "description": "Anti-Orbital Suppression Cannon: A low-damage Ion Cannon. Weak vs Heavy & Swarm",
   "display_group": 20,
   "display_index": 95,
   "max_health": 800,
