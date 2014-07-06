@@ -15,7 +15,7 @@
     }
   },
   "max_health": 300,
-  "description": "Celestial Radar Satellite: A unit for detecting interplanetary travel. Uses energy. Weak vs Anti-orbital & skirmish",
+  "description": "Celestial Radar Satellite: For detecting interplanetary travel. Uses energy. Weak vs Anti-orbital & skirmish",
   "attachable": {
     "offsets": {
       "root": [

@@ -11,7 +11,7 @@
       ]
     }
   },
-  "description": "Heavy Assault Gunship: Slow moving VTOL with an array of forward facing cannons. Uses energy. Weak vs Swarm & Fast",
+  "description": "Heavy Assault Gunship: Slow moving VTOL with forward facing cannons. Uses energy. Weak vs Swarm & Fast",
   "unit_types": [
     "UNITTYPE_Gunship",
     "UNITTYPE_Air",
