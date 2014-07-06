@@ -80,7 +80,7 @@
     "filename": "/pa/units/air/bomber_adv/bomber_adv.papa",
     "arrows": 5
   },
-  "description": "Heavy-Hitter Plane: A fast bomber armed with a single high-powered bomb. Weak vs Anti-Air & Suppression",
+  "description": "Fast Heavy-Hitter Plane: A bomber armed with a single high-powered bomb. Weak vs Anti-Air & Suppression",
   "recon": {
     "observer": {
       "items": [

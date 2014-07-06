@@ -1,5 +1,5 @@
 {
-  "description": "Anti-Air Salvo Plane: An air superiority fighter armed with an array of missiles. Uses energy. Weak vs Ground & Anti-Air",
+  "description": "Anti-Air Salvo Plane: Air superiority fighter with an array of missiles. Uses energy. Weak vs Ground & Anti-Air",
   "recon": {
     "observer": {
       "items": [
