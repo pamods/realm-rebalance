@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "display_name": "Anti-Ballistic Missile Silo",
-  "description": "Ballistic Defence: Anti-nuclear missile.",
+  "description": "Long-Range Anti-Missile Silo: A launcher for missile based countermeasures. Weak vs Ground & Air",
   "display_group": 0,
   "display_index": 15,
   "max_health": 3500,

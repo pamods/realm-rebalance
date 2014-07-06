@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
-  "display_name": "Nuclear Missile Launcher",
-  "description": "Nuke: Long range, large area damage, nuclear missile silo",
+  "display_name": "ICBM Silo",
+  "description": "Extreme-Range Multi-Purpose Silo: A launcher for manually targeted missiles. Weak vs Anti-Missile & Fast",
   "display_group": 20,
   "display_index": 10,
   "max_health": 3500,
