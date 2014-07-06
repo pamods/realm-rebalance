@@ -2,20 +2,20 @@
   "TEMP_texelinfo": 5.47132,
   "model": {
     "animations": {
-      "death01": "/pa/units/land/bot_aa/bot_aa_anim_death01.papa",
-      "aim_up": "/pa/units/land/bot_aa/bot_aa_anim_aimUp.papa",
-      "walk": "/pa/units/land/bot_aa/bot_aa_anim_run.papa",
-      "aim_down": "/pa/units/land/bot_aa/bot_aa_anim_aimDown.papa"
+      "death01": "/pa/units/land/bot_antiair/bot_antiair_anim_death01.papa",
+      "aim_up": "/pa/units/land/bot_antiair/bot_antiair_anim_aimUp.papa",
+      "walk": "/pa/units/land/bot_antiair/bot_antiair_anim_run.papa",
+      "aim_down": "/pa/units/land/bot_antiair/bot_antiair_anim_aimDown.papa"
     },
     "arrows": 5,
-    "animtree": "/pa/anim/anim_trees/bot_aa_anim_tree.json",
+    "animtree": "/pa/anim/anim_trees/bot_antiair_anim_tree.json",
     "walk_speed": 11.2,
-    "filename": "/pa/units/land/bot_aa/bot_aa.papa"
+    "filename": "/pa/units/land/bot_antiair/bot_antiair.papa"
   },
   "tools": [
     {
       "aim_bone": "bone_turret",
-      "spec_id": "/pa/units/land/bot_aa/bot_aa_tool_weapon.json",
+      "spec_id": "/pa/units/land/bot_antiair/bot_antiair_tool_weapon.json",
       "muzzle_bone": [
         "socket_rightMuzzle",
         "socket_leftMuzzle"
@@ -93,12 +93,12 @@
       "effect_scale": 0.6
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/bot/bot_aa_fire",
+      "audio_cue": "/SE/Weapons/bot/bot_antiair_fire",
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
     }
   },
   "display_name": "Stinger",
-  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+  "base_spec": "/pa/units/land/base_vehicle/base_bot.json",
   "guard_layer": "WL_Air",
   "transportable": {
     "size": 1
