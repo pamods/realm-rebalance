@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "display_name": "Pelter",
-  "description": "Artillery Defense: Medium range, anti-land, and anti-ship gun",
+  "description": "Long-Range Suppression Artillery: A fast-firing low-damage artillery cannon. Uses energy. Weak vs Air & Flanker",
   "display_group": 20,
   "display_index": 50,
   "max_health": 500,

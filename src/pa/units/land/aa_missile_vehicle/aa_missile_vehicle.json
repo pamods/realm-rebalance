@@ -10,7 +10,7 @@
   "max_health": 400,
   "guard_radius": 120,
   "display_index": 80,
-  "description": "Anti-Air Salvo Tank: Targets only Air with rapid-fire missiles. Uses Energy. Weak vs Any Ground",
+  "description": "Anti-Air Salvo Tank: Targets only Air with rapid-fire missiles. Uses Energy. Weak vs Heavy and Heavy-Hitter",
   "attachable": {
     "offsets": {
       "head": [

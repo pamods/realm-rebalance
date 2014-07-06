@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "display_name": "Bluehawk",
-  "description": "Long-Range Suppression Bot: A monkeybot armed with a tactical missile backpack, that can also target orbital units. Uses Metal. Weak vs Flankers & Assault",
+  "description": "Long-Range Suppression Bot: Tactical missiles, can target orbital units. Uses Metal. Weak vs Flankers & Assault",
   "display_group": 40,
   "display_index": 60,
   "build_metal_cost": 550,

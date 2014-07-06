@@ -1,6 +1,6 @@
 {
   "display_name": "Land Mine",
-  "description": "Land Mine: Detonates when enemy combat units get too close",
+  "description": "Heavy-Hitter Suicide Unit: An invisible explosive with proximity sensor. Weak vs Long-Range & Radar",
   "display_group": 50,
   "display_index": 40,
   "max_health": 5,

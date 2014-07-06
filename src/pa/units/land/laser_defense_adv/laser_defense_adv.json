@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "display_name": "Barrage Laser Defense Tower",
-  "description": "Advanced Defense: Direct fire Anti-Land & Ship, Costs lots of Energy",
+  "description": "Salvo Heavy-Hitter Tower: Shreds units at medium range. Uses energy. Weak against Long-Range & Heavy-Hitter ",
   "display_group": 20,
   "display_index": 100,
   "max_health": 1600,

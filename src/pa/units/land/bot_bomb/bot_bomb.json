@@ -70,7 +70,7 @@
     }
   },
   "display_name": "Boom",
-  "description": "Fast Swarm Suicide Bot: Leaps at enemies in close range causing large AoE damage. Weak vs Riot-Control and Suppression",
+  "description": "Fast Suicide Bot: Leaps at enemies causing large AoE damage. Weak vs Riot-Control and Suppression",
   "build_metal_cost": 50,
   "TEMP_texelinfo": 6.38702,
   "guard_radius": 110,

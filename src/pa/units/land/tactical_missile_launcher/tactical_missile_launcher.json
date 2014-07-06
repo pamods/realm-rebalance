@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "display_name": "Catapult",
-  "description": "Artillery: Long range anti-land missile launcher",
+  "description": "Long-Range Suppression Silo: A silo that holds long-range tactical missiles. Uses metal. Weak vs Fast & Flanker",
   "display_group": 20,
   "display_index": 20,
   "max_health": 500,

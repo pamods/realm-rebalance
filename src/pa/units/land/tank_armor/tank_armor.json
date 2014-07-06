@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "display_name": "Inferno",
-  "description": "Short-Range Flanker Tank: A fast tank with a short range, high damage flame thrower. Weak vs Suicide & Assault",
+  "description": "Short-Range Flanker Tank: A fast tank with a short range, high DPS flame thrower. Weak vs Suicide & Assault",
   "display_group": 60,
   "display_index": 110,
   "max_health": 500,

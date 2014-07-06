@@ -1,5 +1,5 @@
 {
-  "description": "Light Suppression Bot: A light bot armed with a medium range mortar. Weak vs Flanker & Long Range",
+  "description": "Light Suppression Bot: A light bot armed with a medium range mortar. Weak vs Flanker & Long-Range",
   "attachable": {
     "offsets": {
       "head": [

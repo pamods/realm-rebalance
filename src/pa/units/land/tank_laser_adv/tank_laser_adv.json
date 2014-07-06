@@ -81,7 +81,7 @@
   },
   "max_health": 500,
   "display_group": 40,
-  "description": "Fast Heavy-Hitter Tank: A fast tank with twin-linked slow-firing, high damage cannons. Weak vs Swarms & Flankers",
+  "description": "Fast Heavy-Hitter Tank: Fast, with twin-linked slow-firing, high damage cannons. Weak vs Swarms & Flankers",
   "display_name": "Leveler",
   "attachable": {
     "offsets": {

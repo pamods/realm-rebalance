@@ -1,7 +1,7 @@
 {
 	"base_spec": "/pa/units/land/base_bot/base_bot.json",
 	"display_name": "Combat Fabrication Bot",
-	"description": "Medium Support Bot: A bot armed with a combat lathe designed for reclamation of wrecks or enemy units. Weak vs Heavy & Swarm",
+	"description": "Medium Support Bot: Has a combat lathe for reclamation of wrecks or enemy units. Weak vs Heavy & Swarm",
 	"max_health": 450,
 	"build_metal_cost": 150,
 	"attachable": {

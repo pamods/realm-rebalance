@@ -2,7 +2,7 @@
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "unit_name": "Teleporter",
   "display_name": "Teleporter",
-  "description": "Teleporter: Teleports units from one to another.",
+  "description": "Unit Transport Gate: For teleportation between starting and exit gate. Uses energy. Weak vs Flanker & Assault",
   "display_group": 50,
   "display_index": 60,
   "max_health": 2250,
