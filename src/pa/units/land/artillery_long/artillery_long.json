@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "display_name": "Holkins",
-  "description": "Extreme-Range Heavy-Hitter Artillery: A strategic artillery piece. Uses energy. Weak vs Fast & Heavy-Hitter",
+  "description": "Extreme-Range Heavy-Hitter Artillery: A strategic artillery. Uses energy. Weak vs Fast & Heavy-Hitter",
   "display_group": 50,
   "display_index": 55,
   "max_health": 3500,

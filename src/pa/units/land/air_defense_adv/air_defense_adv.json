@@ -70,7 +70,7 @@
     }
   },
   "nearby_target_tick_update_interval": 3,
-  "description": "Anti-Air Riot-Control Tower: A fast-firing air defence, intercepts tactical missiles. Weak against Ground & Long-range",
+  "description": "Anti-Air Riot-Control Tower: A fast-firing defence, intercepts tactical missiles. Weak against Ground & Long-range",
   "base_spec": "/pa/units/land/base_structure/base_structure.json",
   "display_name": "Flak Cannon",
   "events": {
