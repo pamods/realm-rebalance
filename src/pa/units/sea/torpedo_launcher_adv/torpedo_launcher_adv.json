@@ -42,7 +42,11 @@
     {
       "spec_id": "/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv_tool_weapon.json",
       "aim_bone": "bone_turret",
-      "muzzle_bone": "socket_rightMuzzle"
+      "muzzle_bone": [
+        "socket_rightMuzzle",
+        "socket_centerMuzzle",
+        "socket_leftMuzzle"
+      ]
     }
   ],
   "TEMP_texelinfo": 14.1009
