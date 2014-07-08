@@ -4,7 +4,7 @@
   "description": "Advanced Energy: Produces energy",
   "display_group": 80,
   "display_index": 65,
-  "max_health": 3000,
+  "max_health": 2000,
   "build_metal_cost": 4000,
   "atrophy_rate": 70,
   "atrophy_cool_down": 30,

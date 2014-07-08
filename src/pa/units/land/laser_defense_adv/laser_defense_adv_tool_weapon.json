@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/tools/base_laser_turret/base_laser_turret.json",
   "ammo_id": "/pa/units/land/laser_defense_adv/laser_defense_adv_ammo.json",
-  "rate_of_fire": 6,
+  "rate_of_fire": 3,
   "ammo_source": "energy",
   "ammo_capacity": 6000,
   "ammo_demand": 250,

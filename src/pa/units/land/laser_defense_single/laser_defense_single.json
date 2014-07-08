@@ -4,7 +4,7 @@
   "description": "Light Riot-Control Tower: A cheap and weak short-range fast-firing tower. Weak vs Assault & Heavy",
   "display_group": 20,
   "display_index": 95,
-  "max_health": 400,
+  "max_health": 275,
   "build_metal_cost": 100,
   "atrophy_rate": 10,
   "atrophy_cool_down": 30,
