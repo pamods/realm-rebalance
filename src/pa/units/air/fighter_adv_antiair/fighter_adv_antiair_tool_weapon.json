@@ -1,6 +1,6 @@
 {
   "base_spec": "/pa/tools/base_fighter_turret/base_fighter_turret.json",
-  "ammo_id": "/pa/units/air/fighter_adv/fighter_adv_ammo.json",
+  "ammo_id": "/pa/units/air/fighter_adv_antiair/fighter_adv_antiair_ammo.json",
   "rate_of_fire": 1.5,
   "max_range": 200,
   "ammo_source": "energy",

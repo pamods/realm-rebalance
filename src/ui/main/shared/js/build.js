@@ -76,7 +76,7 @@ function BuildHotkeyModel() {
             "/pa/units/orbital/orbital_factory/orbital_factory.json": ["orbital", 14],
                  
             "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv.json": ["air", 5],
-            "/pa/units/air/fighter_adv/fighter_adv.json": ["air", 6],
+            "/pa/units/air/fighter_adv_antiair/fighter_adv_antiair.json": ["air", 6],
             "/pa/units/air/bomber_adv/bomber_adv.json": ["air", 7],
             "/pa/units/air/gunship/gunship.json": ["air", 8],
             "/pa/units/air/transport/transport.json": ["air", 9],

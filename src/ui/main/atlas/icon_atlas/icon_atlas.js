@@ -39,7 +39,7 @@ $(document).ready(function () {
             'air_defense',
             'air_defense_adv',
             'fighter',
-            'fighter_adv',
+            'fighter_adv_antiair',
             'bomber_adv',
             'bomber',
             'fabrication_aircraft_adv',

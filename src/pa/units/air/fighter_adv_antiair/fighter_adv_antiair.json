@@ -15,10 +15,10 @@
   "TEMP_texelinfo": 7.96209,
   "model": {
     "animations": {
-      "landed": "/pa/units/air/fighter_adv/fighter_adv_anim_landed.papa"
+      "landed": "/pa/units/air/fighter_adv_antiair/fighter_adv_antiair_anim_landed.papa"
     },
-    "animtree": "/pa/anim/anim_trees/fighter_adv_anim_tree.json",
-    "filename": "/pa/units/air/fighter_adv/fighter_adv.papa"
+    "animtree": "/pa/anim/anim_trees/fighter_adv_antiair_anim_tree.json",
+    "filename": "/pa/units/air/fighter_adv_antiair/fighter_adv_antiair.papa"
   },
   "tools": [
     {
@@ -27,7 +27,7 @@
         "bone_rightWing"
       ],
       "aim_bone": "bone_root",
-      "spec_id": "/pa/units/air/fighter_adv/fighter_adv_tool_weapon.json"
+      "spec_id": "/pa/units/air/fighter_adv_antiair/fighter_adv_antiair_tool_weapon.json"
     }
   ],
   "audio": {
@@ -73,7 +73,7 @@
         4.35,
         0.836
       ],
-      "filename": "/pa/units/air/fighter_adv/fighter_adv_jets.pfx",
+      "filename": "/pa/units/air/fighter_adv_antiair/fighter_adv_antiair_jets.pfx",
       "type": "moving_forward"
     }
   ],
