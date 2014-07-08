@@ -42,23 +42,8 @@
       "bone": "bone_root",
       "offset": [
         0,
-        0.5,
-        -1
-      ],
-      "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
-      "orientation": [
-        0,
-        0,
+        2.3,
         0
-      ]
-    },
-    {
-      "type": "moving",
-      "bone": "bone_root",
-      "offset": [
-        0,
-        0.5,
-        1
       ],
       "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
       "orientation": [
