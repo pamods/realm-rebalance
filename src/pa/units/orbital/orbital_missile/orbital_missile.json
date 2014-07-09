@@ -56,7 +56,7 @@
   "max_health": 10,
   "events": {
     "died": {
-      "effect_scale": 2.5,
+      "effect_scale": 1.5,
       "audio_cue": "/SE/Death/orbital",
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     },
