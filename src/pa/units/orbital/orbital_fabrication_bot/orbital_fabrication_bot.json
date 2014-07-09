@@ -106,9 +106,9 @@
       ]
     }
   },
-  "display_name": "Orbital Fabrication Bot",
+  "display_name": "Orbital Fabrication Satellite",
   "buildable_types": "FabOrbBuild",
-  "description": "Orbital Fabrication Bot: Builds Orbital satellites and ships",
+  "description": "Orbital Fabrication Satellite: Builds Orbital satellites and ships",
   "max_health": 100,
   "fx_offsets": [
     {
