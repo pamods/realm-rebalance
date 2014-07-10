@@ -5,10 +5,6 @@
       "aim_bone": "bone_root",
       "spec_id": "/pa/units/orbital/orbital_missile/orbital_missile_tool_weapon.json",
       "muzzle_bone": "bone_root"
-    },
-    {
-      "death_weapon": true,
-      "spec_id": "/pa/units/orbital/orbital_missile/orbital_missile_tool_weapon.json"
     }
   ],
   "guard_radius": 200,
