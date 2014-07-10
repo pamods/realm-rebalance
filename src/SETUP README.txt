@@ -14,5 +14,20 @@
 	Rename the file to "mods.json".
 
 3. 	
+	Copy "ui" and "modinfo.json" and place them inside this filepath:
+
+		C:\Users\USERNAME\AppData\Local\Uber Entertainment\Planetary Annihilation\client_mods\RCBM
+
+4.
+	Open this new "modinfo.json" (...\client_mods\RCBM) in a text editor and change 
+		"context": "server",
+	to
+		"context": "client",
+	Then save the file.
+
+5.
+	copy "mods.json" from ...\server_mods and place it inside ...\client_mods.	
+
+6.
 	Launch Planetary Annihilation and have fun! Remember to tell your teammates to set their filters to see modded games and you should be good to host a game for anyone to join.
 
