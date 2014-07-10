@@ -1,0 +1,15 @@
+{
+  "base_spec": "/pa/tools/base_flak_turret/base_flak_turret.json",
+  "ammo_id": "/pa/units/sea/battleship/battleship_flak_ammo.json",
+  "rate_of_fire": 6,
+  "max_range": 110,
+  "yaw_rate": 360,
+  "pitch_rate": 360,
+  "yaw_range": 360,
+  "pitch_range": 89.9,
+  "firing_standard_deviation": 1.5,
+  "auto_attack": true,
+  "target_layers": [
+    "WL_Air"
+  ]
+}
