@@ -124,62 +124,62 @@
 		"bone": "bone_recoil04",
 		"recoil_dist": 4.0,
 		"restore_time": 2.0,
-		"unit_event": "fired1"
+		"unit_event": "fired0"
 	},
 	{
 		"type": "recoil",
 		"bone": "bone_recoil05",
 		"recoil_dist": 4.0,
 		"restore_time": 2.0,
-		"unit_event": "fired1"
+		"unit_event": "fired0"
 	},
 	{
 		"type": "recoil",
 		"bone": "bone_recoil06",
 		"recoil_dist": 4.0,
 		"restore_time": 2.0,
-		"unit_event": "fired1"
+		"unit_event": "fired0"
 	},
 	{
 		"type": "recoil",
 		"bone": "bone_recoil07",
 		"recoil_dist": 4.0,
 		"restore_time": 2.0,
-		"unit_event": "fired2"
+		"unit_event": "fired1"
 	},
 	{
 		"type": "recoil",
 		"bone": "bone_recoil08",
 		"recoil_dist": 4.0,
 		"restore_time": 2.0,
-		"unit_event": "fired2"
+		"unit_event": "fired1"
 	},
 	{
 		"type": "recoil",
 		"bone": "bone_recoil09",
 		"recoil_dist": 4.0,
 		"restore_time": 2.0,
-		"unit_event": "fired2"
+		"unit_event": "fired1"
 	},
 	{
 		"type": "recoil",
 		"bone": "bone_recoil10",
 		"recoil_dist": 4.0,
 		"restore_time": 2.0,
-		"unit_event": "fired3"
+		"unit_event": "fired1"
 	},
 	{
 		"type": "recoil",
 		"bone": "bone_recoil11",
 		"recoil_dist": 4.0,
 		"restore_time": 2.0,
-		"unit_event": "fired3"
+		"unit_event": "fired1"
 	},
 	{
 		"type": "recoil",
 		"bone": "bone_recoil12",
 		"recoil_dist": 4.0,
 		"restore_time": 2.0,
-		"unit_event": "fired3"
+		"unit_event": "fired1"
 	}]
 }
