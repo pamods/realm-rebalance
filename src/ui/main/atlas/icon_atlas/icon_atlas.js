@@ -107,7 +107,8 @@ $(document).ready(function () {
             'bot_bomb',
             'land_mine',
             'orbital_factory',
-            'transport'
+            'transport',
+			'orbital_missile'
         ]);
 
         self.sendIconList = function () {
