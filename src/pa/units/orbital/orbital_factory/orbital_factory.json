@@ -4,7 +4,7 @@
   "description": "Orbital: Builds orbital satellites",
   "display_group": 75,
   "display_index": 65,
-  "max_health": 10000,
+  "max_health": 5000,
   "build_metal_cost": 1500,
   "atrophy_rate": 50,
   "atrophy_cool_down": 30,
