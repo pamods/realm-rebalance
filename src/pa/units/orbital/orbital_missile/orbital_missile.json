@@ -38,7 +38,7 @@
       "bone": "bone_root",
       "offset": [
         0,
-        3.1,
+        5,
         0
       ],
       "filename": "/pa/units/air/fabrication_aircraft/fabrication_aircraft_jets.pfx",
@@ -52,7 +52,7 @@
   "max_health": 10,
   "events": {
     "died": {
-      "effect_scale": 1.5,
+      "effect_scale": 2,
       "audio_cue": "/SE/Death/orbital",
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     },
