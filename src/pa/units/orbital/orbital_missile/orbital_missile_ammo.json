@@ -7,5 +7,8 @@
   "splash_radius": 0,
   "initial_velocity": 200,
   "max_velocity": 200,
-  "spawn_layers": "WL_Orbital"
+  "spawn_layers": "WL_Orbital",
+  "fx_trail": {
+    "filename": null
+	}
 }
