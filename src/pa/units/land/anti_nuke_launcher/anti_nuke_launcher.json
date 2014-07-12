@@ -31,7 +31,6 @@
     "UNITTYPE_Defense",
     "UNITTYPE_NukeDefense",
     "UNITTYPE_Advanced",
-    "UNITTYPE_Factory",
     "UNITTYPE_FabAdvBuild"
   ],
   "command_caps": [
