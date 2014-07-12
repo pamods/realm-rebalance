@@ -12,7 +12,7 @@
     "UNITTYPE_FactoryBuild"
   ],
   "guard_radius": 200,
-  "guard_layer": "WL_AnySurface",
+  "guard_layer": "WL_Air",
   "navigation": {
     "type": "air",
     "acceleration": 180,
