@@ -8,7 +8,8 @@
     "UNITTYPE_Fighter",
     "UNITTYPE_Air",
     "UNITTYPE_Mobile",
-    "UNITTYPE_Advanced"
+    "UNITTYPE_Advanced",
+	"UNITTYPE_FactoryBuild"
   ],
   "guard_radius": 200,
   "guard_layer": "WL_Air",
