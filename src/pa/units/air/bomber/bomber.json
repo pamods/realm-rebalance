@@ -1,7 +1,7 @@
 {
 	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
 	"display_name": "Bumblebee",
-	"description": "Analysis: Bomber- Equipped with basic anti-land and anti-naval bombs.",
+	"description": "Salvo Suppression Plane: A carpet bomber with wide area attack. Weak vs Air & Anti-Air.",
 	"max_health": 250,
 	"build_metal_cost": 500,
 	"unit_types": ["UNITTYPE_Bomber",
@@ -38,7 +38,7 @@
 				"layer": "surface_and_air",
 				"channel": "sight",
 				"shape": "capsule",
-				"radius": 200
+				"radius": 100
 			}]
 		}
 	},
