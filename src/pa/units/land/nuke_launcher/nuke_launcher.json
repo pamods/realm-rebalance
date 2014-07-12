@@ -26,7 +26,6 @@
     "UNITTYPE_Offense",
     "UNITTYPE_Advanced",
     "UNITTYPE_Nuke",
-    "UNITTYPE_Factory",
     "UNITTYPE_FabAdvBuild"
   ],
   "command_caps": [
