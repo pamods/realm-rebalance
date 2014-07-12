@@ -1,86 +1,92 @@
 {
-	"display_group": 60,
-	"fx_offsets": [{
-		"offset": [0,
-		2.9,
-		0.836],
-		"type": "moving_forward",
-		"filename": "/pa/units/air/fighter/fighter_jets.pfx"
-	}],
-	"physics": {
-		"gravity_scalar": 1,
-		"radius": 6,
-		"push_class": 2
-	},
-	"base_spec": "/pa/units/air/base_flyer/base_flyer.json",
-	"events": {
-		"fired": {
-			"audio_cue": "/SE/Weapons/veh/land_scout_fire"
-		},
-		"died": {
-			"effect_spec": "/pa/effects/specs/default_explosion.pfx",
-			"audio_cue": "/SE/Death/Air"
-		},
-		"build_complete": {
-			"audio_cue": "/SE/Build_Complete/air"
-		}
-	},
-	"display_name": "Hummingbird",
-	"tools": [
-	{
-		"aim_bone": "bone_root",
-		"spec_id": "/pa/units/air/fighter/fighter_tool_weapon.json",
-		"muzzle_bone": "bone_root",
-		"primary_weapon": false
-	}],
-	"audio": {
-		"loops": {
-			"move": {
-				"should_start_func": "is_moving",
-				"flag": "vel_changed",
-				"should_stop_func": "is_not_moving",
-				"cue": "/SE/Movement/air/air_fighter_loop"
-			}
-		}
-	},
-	"unit_types": ["UNITTYPE_Fighter",
-	"UNITTYPE_Air",
-	"UNITTYPE_Mobile",
-	"UNITTYPE_Basic",
-	"UNITTYPE_FactoryBuild"],
-	"TEMP_texelinfo": 6.1803,
-	"model": {
-		"arrows": 5,
-		"filename": "/pa/units/air/fighter/fighter.papa"
-	},
-	"description": "Multi-Purpose Raider Plane: A fighter-bomber equipped with twin laser cannons. Weak vs Riot-control & Heavy",
-	"recon": {
-		"observer": {
-			"items": [{
-				"layer": "surface_and_air",
-				"radius": 150,
-				"channel": "sight",
-				"shape": "capsule"
-			}]
-		}
-	},
-	"build_metal_cost": 300,
-	"display_index": 80,
-	"max_health": 35,
-	"guard_radius": 200,
-	"guard_layer": "WL_Air",
-	"navigation": {
-		"aggressive_height": 100,
-		"aggressive_distance": 90,
-		"turn_speed": 75,
-		"type": "air",
-		"dodge_multiplier": 0,
-		"dodge_radius": 0,
-		"wobble_factor": 0.05,
-		"wobble_speed": 0.1,
-		"acceleration": 180,
-		"move_speed": 90,
-		"hover_time": 2,
-		"brake": 45
-	}
+  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
+  "display_name": "Hummingbird",
+  "description": "Multi-Purpose Raider Plane: A fighter equipped with a gattling laser. Weak vs Riot-control & Heavy",
+  "max_health": 35,
+  "build_metal_cost": 300,
+  "unit_types": [
+    "UNITTYPE_Fighter",
+    "UNITTYPE_Air",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Basic",
+    "UNITTYPE_FactoryBuild"
+  ],
+  "guard_radius": 200,
+  "guard_layer": "WL_AnySurface",
+  "navigation": {
+    "type": "air",
+    "acceleration": 180,
+    "brake": 45,
+    "move_speed": 90,
+    "turn_speed": 75,
+    "aggressive_distance": 90,
+    "bank_factor": 10
+  },
+  "physics": {
+    "radius": 6,
+    "gravity_scalar": 1,
+    "push_class": 2
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "layer": "surface_and_air",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 120
+        }
+      ]
+    }
+  },
+  "model": {
+    "filename": "/pa/units/air/fighter/fighter.papa",
+    "arrows": 5
+  },
+  "tools": [
+    {
+      "spec_id": "/pa/units/air/fighter/fighter_tool_weapon.json",
+      "aim_bone": "bone_root",
+      "muzzle_bone": "bone_root"
+    }
+  ],
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/air"
+    },
+    "fired": {
+      "audio_cue": "/SE/Weapons/air/fighter_fire"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/Air",
+      "effect_spec": "/pa/effects/specs/default_explosion.pfx"
+    }
+  },
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/air/air_fighter_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    }
+  },
+  "fx_offsets": [
+    {
+      "type": "moving_forward",
+      "filename": "/pa/units/air/fighter/fighter_jets.pfx",
+      "offset": [
+        0,
+        2.9,
+        0.836
+      ]
+    }
+  ],
+  "TEMP_texelinfo": 6.1803,
+  "mesh_bounds": [
+    9,
+    6.5,
+    3.1
+  ]
 }
