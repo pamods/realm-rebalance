@@ -1,6 +1,6 @@
 {
   "ammo_type": "Projectile",
-  "build_metal_cost": 10000,
+  "build_metal_cost": 12000,
   "flight_type": "Staged",
   "damage": 10000,
   "splash_damage": 2250,
