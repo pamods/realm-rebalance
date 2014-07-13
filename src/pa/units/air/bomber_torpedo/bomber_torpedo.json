@@ -11,12 +11,12 @@
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild"
   ],
-  "guard_radius": 100,
-  "guard_layer": "WL_AnySurface",
+  "guard_radius": 200,
+  "guard_layer": "WL_WaterSurface",
   "navigation": {
     "aggressive_height": 100,
-    "turn_speed": 35,
-    "aggressive_distance": 10,
+    "turn_speed": 50,
+    "aggressive_distance": 100,
     "dodge_multiplier": 0,
     "type": "air",
     "dodge_radius": 0,
