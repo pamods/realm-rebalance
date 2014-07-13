@@ -1,6 +1,6 @@
 {
 	"base_spec": "/pa/ammo/laser_blast_small/laser_blast_small.json",
-	"damage": 8,
+	"damage": 12,
 	"splash_damage": 0,
 	"splash_radius": 0,
 	"initial_velocity": 300.0,

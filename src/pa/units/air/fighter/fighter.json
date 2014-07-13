@@ -19,7 +19,7 @@
     "brake": 45,
     "move_speed": 90,
     "turn_speed": 75,
-    "aggressive_distance": 90,
+    "aggressive_distance": 40,
     "bank_factor": 10
   },
   "physics": {
