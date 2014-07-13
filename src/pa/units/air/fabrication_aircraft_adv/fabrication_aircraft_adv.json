@@ -4,7 +4,7 @@
   "description": "Analysis: Advanced fabricator- Wired to build structures.",
   "max_health": 250,
   "build_metal_cost": 375,
-  "buildable_types": "Land & Structure & Advanced - Factory | Factory & Advanced & Air | FabAdvBuild - Factory",
+  "buildable_types": "Land & Structure & Advanced - Factory | Factory & Advanced & Air | FabAdvBuild - Bot - Vehicle - Naval",
   "attachable": {
     "offsets": {
       "root": [
