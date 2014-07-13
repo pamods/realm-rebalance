@@ -1,0 +1,105 @@
+{
+  "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
+  "display_name": "Albatross",
+  "description": "Naval Heavy-Hitter Plane: A bomber armed two long range torpedoes. Weak vs Anti-Air & Suppression",
+  "max_health": 325,
+  "build_metal_cost": 400,
+  "unit_types": [
+    "UNITTYPE_Bomber",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Air",
+    "UNITTYPE_Basic",
+    "UNITTYPE_FactoryBuild"
+  ],
+  "guard_radius": 100,
+  "guard_layer": "WL_AnySurface",
+  "navigation": {
+    "aggressive_height": 100,
+    "turn_speed": 35,
+    "aggressive_distance": 10,
+    "dodge_multiplier": 0,
+    "type": "air",
+    "dodge_radius": 0,
+    "wobble_factor": 0.01,
+    "brake": 20,
+    "move_speed": 90,
+    "wobble_speed": 0.01,
+    "acceleration": 40
+  },
+  "physics": {
+    "radius": 9,
+    "gravity_scalar": 1,
+    "push_class": 2,
+    "push_sideways": false,
+    "allow_pushing": false,
+    "air_friction": 0.2
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "layer": "surface_and_air",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 120
+        }
+      ]
+    }
+  },
+  "model": {
+    "filename": "/pa/units/air/bomber_torpedo/bomber_torpedo.papa",
+    "arrows": 5
+  },
+  "tools": [
+    {
+      "spec_id": "/pa/units/air/bomber_torpedo/bomber_torpedo_tool_weapon.json",
+      "aim_bone": "bone_root",
+      "muzzle_bone": "bone_socketMuzzle_left"
+    },
+    {
+      "spec_id": "/pa/units/air/bomber_torpedo/bomber_torpedo_tool_weapon.json",
+      "aim_bone": "bone_root",
+      "muzzle_bone": "bone_socketMuzzle_right"
+    },
+	
+  ],
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/air"
+    },
+    "fired": {
+      "audio_cue": "/SE/Weapons/air/bomber_fire"
+    },
+    "died": {
+      "audio_cue": "/SE/Death/Air",
+      "effect_spec": "/pa/units/air/missile_nuke/missile_nuke_implosion.pfx"
+    }
+  },
+  "fx_offsets": [
+    {
+      "filename": "/pa/units/air/bomber_adv/bomber_adv_jets.pfx",
+      "type": "moving_forward",
+      "offset": [
+        0,
+        4.21,
+        2.658
+      ]
+    }
+  ],
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/air/air_bomber_loop",
+        "flag": "vel_changed",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    }
+  },
+  "TEMP_texelinfo": 11.3221,
+  "mesh_bounds": [
+    23,
+    9.5,
+    4.8
+  ]
+}
