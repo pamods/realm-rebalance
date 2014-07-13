@@ -109,6 +109,7 @@ $(document).ready(function () {
             'orbital_factory',
             'transport',
 			'orbital_missile'
+			'bomber_torpedo'
         ]);
 
         self.sendIconList = function () {
