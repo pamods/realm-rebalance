@@ -108,7 +108,7 @@ $(document).ready(function () {
             'land_mine',
             'orbital_factory',
             'transport',
-			'orbital_missile'
+			'orbital_missile',
 			'bomber_torpedo'
         ]);
 
