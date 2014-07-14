@@ -130,6 +130,7 @@
     "UNITTYPE_Fabber", 
     "UNITTYPE_Construction", 
     "UNITTYPE_Mobile", 
-    "UNITTYPE_Basic" 
+    "UNITTYPE_Basic",
+	"UNITTYPE_FactoryBuild"
   ]
 }

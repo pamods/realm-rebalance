@@ -13,7 +13,7 @@
       ]
     }
   }, 
-  "base_spec": "/pa/units/orbital/base_orbital_structure/base_orbital_structure.json", 
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json", 
   "build_metal_cost": 1200, 
   "command_caps": [
     "ORDER_Move",
@@ -37,7 +37,7 @@
   }, 
   "gravwell_velocity_multiplier": 6.0, 
   "guard_layer": "WL_Orbital", 
-  "guard_radius": 100, 
+  "guard_radius": 140, 
   "max_health": 1000, 
   "mesh_bounds": [
     23, 
@@ -62,10 +62,6 @@
     "push_class": 50, 
     "radius": 15
   }, 
-  "placement_size": [
-    50, 
-    50
-  ], 
   "recon": {
     "observer": {
       "items": [
@@ -102,10 +98,9 @@
     }
   ], 
   "unit_types": [
-    "UNITTYPE_Structure", 
     "UNITTYPE_Orbital", 
-    "UNITTYPE_Defense", 
-    "UNITTYPE_OrbitalDefense", 
-    "UNITTYPE_Advanced" 
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild",
+    "UNITTYOE_Mobile"
   ]
 }

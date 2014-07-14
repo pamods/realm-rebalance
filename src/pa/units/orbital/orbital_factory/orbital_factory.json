@@ -192,5 +192,5 @@
     "UNITTYPE_FabOrbBuild", 
     "UNITTYPE_Structure"
   ], 
-  "wait_to_rolloff_time": 0, 
+  "wait_to_rolloff_time": 0 
 }
