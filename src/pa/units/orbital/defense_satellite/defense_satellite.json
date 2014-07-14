@@ -16,6 +16,8 @@
   "base_spec": "/pa/units/orbital/base_orbital_structure/base_orbital_structure.json", 
   "build_metal_cost": 1200, 
   "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
     "ORDER_Attack", 
     "ORDER_Assist"
   ], 
@@ -104,7 +106,6 @@
     "UNITTYPE_Orbital", 
     "UNITTYPE_Defense", 
     "UNITTYPE_OrbitalDefense", 
-    "UNITTYPE_Advanced", 
-    "UNITTYPE_FabOrbBuild"
+    "UNITTYPE_Advanced" 
   ]
 }
