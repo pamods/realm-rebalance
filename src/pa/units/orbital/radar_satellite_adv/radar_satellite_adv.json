@@ -1,47 +1,68 @@
 {
-  "consumption": {
-    "energy": 2000
-  },
-  "events": {
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/orbital"
-    },
-    "died": {
-      "effect_spec": "/pa/effects/specs/default_explosion.pfx",
-      "audio_cue": "/SE/Death/orbital"
-    },
-    "fired": {
-      "audio_cue": "/SE/Weapons/air/bomber_fire"
-    }
-  },
-  "max_health": 300,
-  "description": "Celestial Radar Satellite: For detecting interplanetary travel. Uses energy. Weak vs Anti-orbital & skirmish",
+  "TEMP_texelinfo": 22.7385, 
   "attachable": {
     "offsets": {
       "root": [
-        0,
-        0,
+        0, 
+        0, 
         0
       ]
     }
-  },
-  "display_name": "Argus",
-  "TEMP_texelinfo": 22.7385,
-  "build_metal_cost": 300,
-  "unit_types": [
-    "UNITTYPE_Structure",
-    "UNITTYPE_Orbital",
-    "UNITTYPE_Advanced",
-    "UNITTYPE_Recon",
-    "UNITTYPE_FabOrbBuild"
-  ],
+  }, 
+  "base_spec": "/pa/units/orbital/base_orbital/base_orbital.json", 
+  "build_metal_cost": 300, 
+  "command_caps": [
+    "ORDER_Move", 
+    "ORDER_Patrol", 
+    "ORDER_Assist"
+  ], 
+  "consumption": {
+    "energy": 2000
+  }, 
+  "description": "Celestial Radar Satellite: For detecting interplanetary travel. Uses energy. Weak vs Anti-orbital & skirmish", 
+  "display_name": "Argus", 
+  "energy_efficiency_requirement": 0.9, 
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/orbital"
+    }, 
+    "died": {
+      "audio_cue": "/SE/Death/orbital", 
+      "effect_spec": "/pa/effects/specs/default_explosion.pfx"
+    }, 
+    "fired": {
+      "audio_cue": "/SE/Weapons/air/bomber_fire"
+    }
+  }, 
+  "gravwell_velocity_multiplier": 6.0, 
+  "max_health": 300, 
+  "mesh_bounds": [
+    25, 
+    15, 
+    15
+  ], 
+  "model": {
+    "animations": {
+      "closed": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_closed.papa", 
+      "deploy": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_deploy.papa", 
+      "open": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_open.papa"
+    }, 
+    "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json", 
+    "filename": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.papa"
+  }, 
+  "navigation": {
+    "acceleration": 10, 
+    "brake": 10, 
+    "hover_time": -1.0, 
+    "move_speed": 10, 
+    "turn_speed": 90, 
+    "type": "orbital"
+  }, 
   "physics": {
-    "gravity_scalar": 0.001,
-    "push_class": 15,
+    "gravity_scalar": 0.001, 
+    "push_class": 15, 
     "radius": 5
-  },
-  "spawn_layers": "WL_Orbital",
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  }, 
   "recon": {
     "observer": {
       "items": [
@@ -51,30 +72,22 @@
           "shape": "capsule",
           "channel": "sight",
           "layer": "celestial"
-        },
+        }, 
         {
-          "layer": "orbital",
-          "channel": "sight",
-          "shape": "capsule",
-          "uses_energy": true,
-          "radius": 200
-        }
+          "channel": "sight", 
+          "layer": "orbital", 
+          "radius": 200, 
+          "shape": "capsule" 
+        } 
       ]
     }
-  },
-  "mesh_bounds": [
-    25,
-    15,
-    15
-  ],
-  "model": {
-    "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json",
-    "filename": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.papa",
-    "animations": {
-      "closed": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_closed.papa",
-      "open": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_open.papa",
-      "deploy": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv_anim_deploy.papa"
-    }
-  },
-  "energy_efficiency_requirement": 0.9
+  }, 
+  "spawn_layers": "WL_Orbital", 
+  "unit_types": [
+    "UNITTYPE_Mobile", 
+    "UNITTYPE_Orbital", 
+    "UNITTYPE_Advanced", 
+    "UNITTYPE_Recon", 
+    "UNITTYPE_FactoryBuild"
+  ]
 }
