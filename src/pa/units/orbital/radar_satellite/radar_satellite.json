@@ -90,7 +90,7 @@
           "channel": "sight", 
           "layer": "orbital", 
           "radius": 200, 
-          "shape": "capsule", 
+          "shape": "capsule" 
         }
       ]
     }
