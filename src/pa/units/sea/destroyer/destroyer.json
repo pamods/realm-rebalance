@@ -68,8 +68,8 @@
   "build_metal_cost": 900,
   "navigation": {
     "aggressive_distance": 180,
-    "brake": 45,
-    "acceleration": 5,
+    "brake": 12,
+    "acceleration": 4,
     "move_speed": 18,
     "turn_speed": 20,
     "type": "water"

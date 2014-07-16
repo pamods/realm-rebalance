@@ -40,8 +40,8 @@
     "type": "water",
     "turn_speed": 90,
     "move_speed": 20,
-    "acceleration": 12,
-    "brake": 90
+    "acceleration": 6,
+    "brake": 18
   },
   "unit_types": [
     "UNITTYPE_Naval",
