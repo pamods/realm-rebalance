@@ -18,7 +18,7 @@
 	"unit_types": ["UNITTYPE_Tank",
 	"UNITTYPE_Mobile",
 	"UNITTYPE_Land",
-	"UNITTYPE_Basic",
+	"UNITTYPE_Advanced",
 	"UNITTYPE_FactoryBuild"],
 	"transportable": {
 		"size": 1
