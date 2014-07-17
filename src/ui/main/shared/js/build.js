@@ -31,7 +31,7 @@ function BuildHotkeyModel() {
             "/pa/units/land/laser_defense_adv/laser_defense_adv.json": ["combat", 0],                   
             "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher.json": ["combat", 2],
             "/pa/units/land/laser_defense/laser_defense.json": ["combat", 5],
-            "/pa/units/land/air_defense_adv/air_defense_adv.json": ["combat", 6],       
+            "/pa/units/land/air_defense_flak/air_defense_flak.json": ["combat", 6],       
             "/pa/units/land/artillery_long/artillery_long.json": ["combat", 7],
             "/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv.json": ["combat", 8],
             "/pa/units/land/nuke_launcher/nuke_launcher.json": ["combat", 9],

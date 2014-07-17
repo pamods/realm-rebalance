@@ -43,7 +43,7 @@
     "/pa/units/commanders/tank_base/tank_base.json", 
     "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.json",
     "/pa/units/land/air_defense/air_defense.json",
-    "/pa/units/land/air_defense_adv/air_defense_adv.json",
+    "/pa/units/land/air_defense_flak/air_defense_flak.json",
     "/pa/units/land/amphibious_bot/amphibious_bot.json",
     "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher.json",
     "/pa/units/land/artillery_long/artillery_long.json",

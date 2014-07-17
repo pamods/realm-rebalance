@@ -18,7 +18,7 @@
   ],
   "tools": [
     {
-      "spec_id": "/pa/units/land/air_defense_adv/air_defense_adv_tool_weapon.json",
+      "spec_id": "/pa/units/land/air_defense_flak/air_defense_flak_tool_weapon.json",
       "aim_bone": "bone_pitch",
       "muzzle_bone": [
         "socket_rightMuzzle01",
@@ -26,7 +26,7 @@
       ]
     },
     {
-      "spec_id": "/pa/units/land/air_defense_adv/air_defense_adv_tool_weapon.json",
+      "spec_id": "/pa/units/land/air_defense_flak/air_defense_flak_tool_weapon.json",
       "aim_bone": "bone_pitch",
       "muzzle_bone": [
         "socket_leftMuzzle01",
@@ -34,7 +34,7 @@
       ]
     },
     {
-      "spec_id": "/pa/units/land/air_defense_adv/air_defense_adv_antimissile_tool_weapon.json",
+      "spec_id": "/pa/units/land/air_defense_flak/air_defense_flak_antimissile_tool_weapon.json",
       "aim_bone": "bone_pitch",
       "muzzle_bone": [
         "socket_leftMuzzle01",
@@ -46,14 +46,14 @@
   "model": [
     {
       "layer": "WL_LandHorizontal",
-      "animtree": "/pa/anim/anim_trees/air_defense_adv_anim_tree.json",
-      "filename": "/pa/units/land/air_defense_adv/air_defense_adv.papa",
+      "animtree": "/pa/anim/anim_trees/air_defense_flak_anim_tree.json",
+      "filename": "/pa/units/land/air_defense_flak/air_defense_flak.papa",
       "skirt_decal": "/pa/effects/specs/skirt_air_defense_adv.json"
     },
     {
       "layer": "WL_WaterSurface",
       "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json",
-      "filename": "/pa/units/sea/air_defense_adv/air_defense_adv.papa"
+      "filename": "/pa/units/sea/air_defense_flak/air_defense_flak.papa"
     }
   ],
   "TEMP_texelinfo": 9.09853,
