@@ -52,9 +52,10 @@
 		"arrows": 5
 	},
 	"tools": [{
-		"spec_id": "/pa/units/land/tank_flak_adv/tank_flak_adv_adv_tool_weapon.json",
+		"spec_id": "/pa/units/land/tank_flak_adv/tank_flak_adv_tool_weapon.json",
 		"aim_bone": "bone_pitch",
-		"muzzle_bone": ["socket_rightMuzzle01",	"socket_leftMuzzle02"]},
+		"muzzle_bone": ["socket_rightMuzzle01",	"socket_leftMuzzle02"]
+		},
 		{
 		"spec_id": "/pa/units/land/tank_flak_adv/tank_flak_adv_tool_weapon.json",
 		"aim_bone": "bone_pitch",
