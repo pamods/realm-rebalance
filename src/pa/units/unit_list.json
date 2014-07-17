@@ -129,6 +129,7 @@
     "/pa/units/sea/sea_scout/sea_scout.json",
     "/pa/units/sea/torpedo_launcher/torpedo_launcher.json",
     "/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv.json",
-	"/pa/units/air/bomber_torpedo/bomber_torpedo.json"
+	"/pa/units/air/bomber_torpedo/bomber_torpedo.json",
+	"/pa/units/land/tank_flak_adv/tank_flak_adv.json",
   ]
 }
