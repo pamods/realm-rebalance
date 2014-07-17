@@ -45,25 +45,25 @@
 		"type": "recoil",
 		"bone": "bone_rightRecoil01",
 		"recoil_dist": 2.0,
-		"restore_time": 1.5
+		"restore_time": 0.15
 	},
 	{
 		"type": "recoil",
 		"bone": "bone_leftRecoil01",
 		"recoil_dist": 2.0,
-		"restore_time": 1.5
+		"restore_time": 0.15
 	},
 	{
 		"type": "recoil",
 		"bone": "bone_rightRecoil02",
 		"recoil_dist": 2.0,
-		"restore_time": 1.5
+		"restore_time": 0.15
 	},
 	{
 		"type": "recoil",
 		"bone": "bone_leftRecoil02",
 		"recoil_dist": 2.0,
-		"restore_time": 1.5
+		"restore_time": 0.15
 	},
 	{
 		"type": "fader",
