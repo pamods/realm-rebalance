@@ -52,6 +52,7 @@ function BuildHotkeyModel() {
             "/pa/units/land/land_scout/land_scout.json": ["vehicle", 13],
             "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.json": ["vehicle", 14], 
 			"/pa/units/land/tank_flak_adv/tank_flak_adv.json": ["vehicle", 4],
+			"/pa/units/land/tank_gattling/tank_gattling.json": ["vehicle", 9],
 
             "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv.json": ["bot", 5],   
             "/pa/units/land/assault_bot_adv/assault_bot_adv.json": ["bot", 6],
