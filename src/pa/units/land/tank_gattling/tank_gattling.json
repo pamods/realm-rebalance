@@ -24,7 +24,7 @@
 		"size": 1
 	},
 	"guard_radius": 120,
-	"guard_layer": "WL_Air",
+  "guard_layer": "WL_AnySurface",
 	"navigation": {
 		"type": "land-small",
 		"acceleration": 100,
@@ -56,6 +56,7 @@
 		"aim_bone": "bone_pitch",
 		"muzzle_bone": ["socket_rightMuzzle01"]
 		},
+		{
 		"spec_id": "/pa/units/land/tank_gattling/tank_gattling_tool_weapon.json",
 		"aim_bone": "bone_pitch",
 		"muzzle_bone": ["socket_leftMuzzle01"]
