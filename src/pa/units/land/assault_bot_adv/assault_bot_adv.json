@@ -11,7 +11,7 @@
       ]
     }
   ],
-  "build_metal_cost": 250,
+  "build_metal_cost": 300,
   "navigation": {
     "brake": 120,
     "acceleration": 120,
@@ -42,7 +42,7 @@
     }
   },
   "display_group": 40,
-  "max_health": 800,
+  "max_health": 1000,
   "description": "Heavy Assault Bot: Heavy bot armed with two flame throwers, but slow. Weak vs Fast & Heavy-Hitter",
   "attachable": {
     "offsets": {
