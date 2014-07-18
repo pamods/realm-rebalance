@@ -43,7 +43,7 @@
     "filename": "/pa/units/sea/fabrication_ship_adv/fabrication_ship_adv.papa",
     "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json"
   },
-  "buildable_types": "Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild | FabBuild",
+  "buildable_types": "Naval & Structure & Advanced | Naval & Factory & Advanced | FabAdvBuild  - Bot - Tank - Air",
   "description": "Advanced Fabricator: Builds naval structures",
   "display_name": "Advanced Fabrication Ship",
   "attachable": {

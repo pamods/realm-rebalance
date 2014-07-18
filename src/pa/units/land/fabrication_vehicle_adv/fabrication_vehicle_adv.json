@@ -91,7 +91,7 @@
     }
   },
   "description": "Advanced Fabrication: Builds structures",
-  "buildable_types": "Structure & Land & Advanced - Factory | Factory & Land & Tank & Advanced | FabAdvBuild",
+  "buildable_types": "Structure & Land & Advanced - Factory | Factory & Land & Tank & Advanced | FabAdvBuild  - Bot - Air - Naval",
   "build_metal_cost": 1200,
   "TEMP_texelinfo": 6.38729,
   "tools": [
