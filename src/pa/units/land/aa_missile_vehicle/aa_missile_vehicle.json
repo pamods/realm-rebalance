@@ -10,7 +10,7 @@
   "max_health": 400,
   "guard_radius": 120,
   "display_index": 80,
-  "description": "Anti-Air Salvo Tank: Targets only Air with rapid-fire missiles. Uses Energy. Weak vs Heavy and Heavy-Hitter",
+  "description": "Anti-Air skirmish Tank: Targets enemies with medium-ranged missiles. Weak vs Swarm and Heavy-Hitter",
   "attachable": {
     "offsets": {
       "head": [
@@ -75,7 +75,7 @@
   "transportable": {
     "size": 1
   },
-  "guard_layer": "WL_Air",
+  "guard_layer": "WL_AnySurface",
   "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
   "events": {
     "died": {

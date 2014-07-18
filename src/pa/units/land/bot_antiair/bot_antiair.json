@@ -99,7 +99,7 @@
   },
   "display_name": "Stinger",
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
-  "guard_layer": "WL_Air",
+  "guard_layer": "WL_AnySurface",
   "transportable": {
     "size": 1
   }

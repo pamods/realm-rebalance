@@ -110,7 +110,8 @@ $(document).ready(function () {
             'transport',
 			'orbital_missile',
 			'bomber_torpedo',
-			'tank_flak_adv'
+			'tank_flak_adv',
+			'tank_gattling'
         ]);
 
         self.sendIconList = function () {
