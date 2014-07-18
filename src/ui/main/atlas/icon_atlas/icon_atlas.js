@@ -37,7 +37,7 @@ $(document).ready(function () {
             'laser_defense',
             'laser_defense_single',
             'air_defense',
-            'air_defense_adv',
+            'air_defense_flak',
             'fighter',
             'fighter_adv_antiair',
             'bomber_adv',
@@ -109,7 +109,8 @@ $(document).ready(function () {
             'orbital_factory',
             'transport',
 			'orbital_missile',
-			'bomber_torpedo'
+			'bomber_torpedo',
+			'tank_flak_adv'
         ]);
 
         self.sendIconList = function () {
