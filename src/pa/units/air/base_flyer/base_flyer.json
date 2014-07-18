@@ -13,7 +13,8 @@
 	"command_caps": ["ORDER_Move",
 	"ORDER_Patrol",
 	"ORDER_Attack",
-	"ORDER_Assist"],
+	"ORDER_Assist",
+    "ORDER_Use"],
 	"navigation": {
 		"type": "air",
 		"acceleration": 10000,
@@ -29,6 +30,7 @@
 		"wobble_speed": 1.0,
 		"hover_time": 5.0
 	},
+	"teleportable": {},
 	"physics": {
 		"radius": 6,
 		"gravity_scalar": 1,

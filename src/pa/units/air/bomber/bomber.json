@@ -42,6 +42,9 @@
 			}]
 		}
 	},
+    "transportable": {
+         "size": 2
+    },
 	"model": {
 		"filename": "/pa/units/air/bomber/bomber.papa",
 		"arrows": 5

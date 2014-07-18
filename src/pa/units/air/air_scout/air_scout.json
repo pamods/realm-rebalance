@@ -11,7 +11,8 @@
 	"UNITTYPE_FactoryBuild"],
 	"command_caps": ["ORDER_Move",
 	"ORDER_Patrol",
-	"ORDER_Assist"],
+	"ORDER_Assist",
+    "ORDER_Use"],
 	"navigation": {
 		"type": "air",
 		"dodge_multiplier": 75,
@@ -38,6 +39,9 @@
 			}]
 		}
 	},
+    "transportable": {
+         "size": 2
+    },
 	"model": {
 		"filename": "/pa/units/air/air_scout/air_scout.papa",
 		"arrows": 5

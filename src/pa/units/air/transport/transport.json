@@ -51,7 +51,8 @@
     "ORDER_Patrol",
     "ORDER_Assist",
     "ORDER_Load",
-    "ORDER_Unload"
+    "ORDER_Unload",
+    "ORDER_Use"
   ],
   "useable": {
     "type": "transport",
@@ -95,6 +96,9 @@
       ]
     }
   },
+    "transportable": {
+         "size": 2
+    },
   "consumption": {
     "energy": 100
   },
