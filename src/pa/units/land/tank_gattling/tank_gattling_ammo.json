@@ -5,5 +5,5 @@
   "splash_radius": 0,
   "initial_velocity": 300,
   "max_velocity": 300,
-  "lifetime": 2
+  "lifetime": 1
 }

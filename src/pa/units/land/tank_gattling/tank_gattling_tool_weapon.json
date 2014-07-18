@@ -3,7 +3,7 @@
   "ammo_id": "/pa/units/land/tank_gattling/tank_gattling_ammo.json",
   "rate_of_fire": 5,
   "idle_aim_delay": 1,
-  "max_range": 125,
+  "max_range": 110,
   "yaw_rate": 360,
   "pitch_rate": 360,
   "yaw_range": 360,
@@ -18,6 +18,7 @@
   ],
   "target_priorities": [
     "Air",
+	"Bot",
     "Mobile",
     "Naval",
     "Structure - Wall",
