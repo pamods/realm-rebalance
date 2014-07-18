@@ -1,10 +1,10 @@
 {
 	"base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
-	"display_name": "Fusillade",
-	"description": "Anti-air Riot-Control Tank: Powerful tank armed with 4 flak cannons. Weak vs Ground and Heavy-Hitters",
-	"max_health": 600,
+	"display_name": "Cougar",
+	"description": "Multi-Purpose Riot-Control Tank: A tank armed with 2. Weak vs Heavy and Heavy-Hitters",
+	"max_health": 500,
 	"wreckage_health_frac": 1.0,
-	"build_metal_cost": 400,
+	"build_metal_cost": 300,
 	"attachable": {
 		"offsets": {
 			"root": [0,
@@ -18,7 +18,7 @@
 	"unit_types": ["UNITTYPE_Tank",
 	"UNITTYPE_Mobile",
 	"UNITTYPE_Land",
-	"UNITTYPE_Advanced",
+	"UNITTYPE_Basic",
 	"UNITTYPE_FactoryBuild"],
 	"transportable": {
 		"size": 1
@@ -47,24 +47,18 @@
 		}
 	},
 	"model": {
-		"filename": "/pa/units/land/tank_flak_adv/tank_flak_adv.papa",
-		"animtree": "/pa/anim/anim_trees/tank_flak_adv_anim_tree.json",
+		"filename": "/pa/units/land/tank_gattling/tank_gattling.papa",
+		"animtree": "/pa/anim/anim_trees/tank_gattling_anim_tree.json",
 		"arrows": 5
 	},
 	"tools": [{
-		"spec_id": "/pa/units/land/tank_flak_adv/tank_flak_adv_tool_weapon.json",
+		"spec_id": "/pa/units/land/tank_gattling/tank_gattling_tool_weapon.json",
 		"aim_bone": "bone_pitch",
-		"muzzle_bone": ["socket_rightMuzzle01",	"socket_leftMuzzle02"]
+		"muzzle_bone": ["socket_rightMuzzle01"]
 		},
-		{
-		"spec_id": "/pa/units/land/tank_flak_adv/tank_flak_adv_tool_weapon.json",
+		"spec_id": "/pa/units/land/tank_gattling/tank_gattling_tool_weapon.json",
 		"aim_bone": "bone_pitch",
-		"muzzle_bone": ["socket_leftMuzzle01", "socket_rightMuzzle02"]
-		},
-		{
-		"spec_id": "/pa/units/land/tank_flak_adv/tank_flak_adv_antimissile_tool_weapon.json",
-		"aim_bone": "bone_pitch",
-		"muzzle_bone": ["socket_leftMuzzle01", "socket_rightMuzzle02"]
+		"muzzle_bone": ["socket_leftMuzzle01"]
 		}
 	],
 	"events": {
@@ -72,7 +66,7 @@
 			"audio_cue": "/SE/Build_Complete/veh"
 		},
 		"firing": {
-			"audio_cue": "/SE/Weapons/structure/air_defence_fire",
+			"audio_cue": "/SE/Weapons/veh/land_scout_fire",
 			"effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle01 /pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle01"
 		},
 		"died": {
