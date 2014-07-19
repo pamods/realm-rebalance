@@ -11,7 +11,7 @@
       ]
     }
   ],
-  "build_metal_cost": 300,
+  "build_metal_cost": 275,
   "navigation": {
     "brake": 120,
     "acceleration": 120,
@@ -75,7 +75,7 @@
     "size": 1
   },
   "physics": {
-    "push_class": 2,
+    "push_class": 200,
     "radius": 3.5
   },
   "base_spec": "/pa/units/land/base_bot/base_bot.json",
