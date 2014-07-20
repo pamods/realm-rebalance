@@ -4,7 +4,7 @@
 	"description": "Multi-Purpose Riot-Control Tank: A tank armed with two gattling guns. Weak vs Heavy and Heavy-Hitters",
 	"max_health": 500,
 	"wreckage_health_frac": 1.0,
-	"build_metal_cost": 300,
+	"build_metal_cost": 350,
 	"attachable": {
 		"offsets": {
 			"root": [0,
