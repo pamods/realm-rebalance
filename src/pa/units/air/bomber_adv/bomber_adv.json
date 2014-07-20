@@ -4,6 +4,10 @@
   "description": "Fast Heavy-Hitter Plane: A bomber armed with a single high-powered bomb. Weak vs Anti-Air & Suppression",
   "max_health": 325,
   "build_metal_cost": 1000,
+  "consumption": {
+    "energy": 500
+  },
+  "energy_efficiency_requirement": 0.9,
   "unit_types": [
     "UNITTYPE_Bomber",
     "UNITTYPE_Mobile",
@@ -35,6 +39,11 @@
     "air_friction": 0.2
   },
   "recon": {
+    "observable": {
+      "layer": "surface_and_air",
+      "ignore_radar": true,
+	  "uses_energy": true
+    },
     "observer": {
       "items": [
         {
