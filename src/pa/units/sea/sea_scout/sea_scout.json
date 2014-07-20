@@ -36,6 +36,7 @@
       ]
     }
   },
+  "guard_radius": 90,
   "navigation": {
     "type": "water",
     "turn_speed": 90,

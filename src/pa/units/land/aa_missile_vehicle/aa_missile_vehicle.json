@@ -8,7 +8,7 @@
   },
   "build_metal_cost": 300,
   "max_health": 400,
-  "guard_radius": 120,
+  "guard_radius": 145,
   "display_index": 80,
   "description": "Anti-Air skirmish Tank: Targets enemies with medium-ranged missiles. Weak vs Swarm and Heavy-Hitter",
   "attachable": {
