@@ -35,7 +35,6 @@
   "burn_damage": 200,
   "burn_radius": 15,
   "armor_damage_map": {
-    "AT_Structure": 0.25,
     "AT_Commander": 0.25
   }
 }
