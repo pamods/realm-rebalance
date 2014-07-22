@@ -17,7 +17,7 @@
     "radius": 1,
     "push_class": 1,
     "gravity_scalar": 10,
-    "add_to_spatial_db": false,
+    "add_to_spatial_db": true,
     "allow_underground": true
   },
   "events": {

@@ -1,9 +1,7 @@
 {
   "base_spec": "/pa/ammo/artillery/artillery.json",
   "physics": {
-    "radius": 1,
-    "gravity_scalar": 80,
-    "add_to_spatial_db": false
+    "gravity_scalar": 80
   },
   "model": {
     "filename": "/pa/units/air/shell_large/shell_large.papa"
