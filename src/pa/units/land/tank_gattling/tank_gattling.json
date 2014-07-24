@@ -19,6 +19,7 @@
 	"UNITTYPE_Mobile",
 	"UNITTYPE_Land",
 	"UNITTYPE_Basic",
+	"UNITTYPE_AirDefense",
 	"UNITTYPE_FactoryBuild"],
 	"transportable": {
 		"size": 1
