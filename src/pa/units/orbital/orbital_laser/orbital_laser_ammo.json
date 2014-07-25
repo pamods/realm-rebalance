@@ -25,7 +25,7 @@
   }, 
   "physics": {
     "add_to_spatial_db": false, 
-    "gravity_scalar": 2, 
+    "gravity_scalar": 4, 
     "ignore_gravity": false, 
     "push_class": 1, 
     "radius": 1
