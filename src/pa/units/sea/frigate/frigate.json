@@ -29,7 +29,7 @@
     "brake": 15,
     "turn_speed": 30,
     "acceleration": 5,
-    "type": "water"
+    "type": "deepwater"
   },
   "display_index": 100,
   "max_health": 1000,

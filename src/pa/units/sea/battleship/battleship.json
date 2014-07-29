@@ -46,7 +46,7 @@
     "brake": 6,
     "move_speed": 30,
     "turn_speed": 15,
-    "type": "water"
+    "type": "deepwater"
   },
   "nearby_target_tick_update_interval": 15,
   "physics": {

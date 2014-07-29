@@ -22,7 +22,7 @@
     "UNITTYPE_Basic"
   ],
   "navigation": {
-    "type": "water",
+    "type": "deepwater",
     "turn_speed": 90,
     "move_speed": 10,
     "wobble_speed": 0.2,

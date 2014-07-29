@@ -76,7 +76,7 @@
     "acceleration": 3,
     "brake": 9,
     "turn_speed": 40,
-    "type": "water",
+    "type": "deepwater",
     "move_speed": 12
   },
   "events": {

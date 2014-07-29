@@ -13,7 +13,7 @@
     "acceleration": 1000,
     "move_speed": 1000,
     "turn_speed": 1000,
-    "type": "water"
+    "type": "deepwater"
   },
   "command_caps": [
     "ORDER_Move",

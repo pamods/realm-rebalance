@@ -59,7 +59,7 @@
     "acceleration": 50,
     "move_speed": 10,
     "turn_speed": 30,
-    "type": "water",
+    "type": "deepwater",
     "wobble_factor": 0,
     "dodge_multiplier": 1
   },

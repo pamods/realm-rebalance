@@ -72,7 +72,7 @@
     "acceleration": 4,
     "move_speed": 18,
     "turn_speed": 20,
-    "type": "water"
+    "type": "deepwater"
   },
   "unit_types": [
     "UNITTYPE_Naval",

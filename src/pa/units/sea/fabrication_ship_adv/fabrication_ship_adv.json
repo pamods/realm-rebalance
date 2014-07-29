@@ -111,7 +111,7 @@
     "UNITTYPE_FactoryBuild"
   ],
   "navigation": {
-    "type": "water",
+    "type": "deepwater",
     "turn_speed": 40,
     "move_speed": 12,
     "acceleration": 3,

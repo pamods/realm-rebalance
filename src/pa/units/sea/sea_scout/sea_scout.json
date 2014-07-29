@@ -38,7 +38,7 @@
   },
   "guard_radius": 90,
   "navigation": {
-    "type": "water",
+    "type": "deepwater",
     "turn_speed": 90,
     "move_speed": 20,
     "acceleration": 6,
