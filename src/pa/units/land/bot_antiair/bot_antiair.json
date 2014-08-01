@@ -70,7 +70,7 @@
   "nearby_target_tick_update_interval": 3,
   "max_health": 100,
   "display_index": 80,
-  "guard_radius": 120,
+  "guard_radius": 115,
   "build_metal_cost": 150,
   "navigation": {
     "type": "land-small",

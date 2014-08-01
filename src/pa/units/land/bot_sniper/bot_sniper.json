@@ -2,7 +2,7 @@
   "navigation": {
     "turn_speed": 720,
     "type": "land-small",
-    "move_speed": 9,
+    "move_speed": 7,
     "group_preference": "back",
     "acceleration": 120,
     "brake": 120,
