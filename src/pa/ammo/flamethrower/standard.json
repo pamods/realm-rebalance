@@ -2,6 +2,6 @@
   "ammo_type": "AMMO_Beam",
   "damage": 100,
   "splash_damage": 100,
-  "splash_radius": 5,
+  "splash_radius": 10,
   "splash_damages_allies": false
 }

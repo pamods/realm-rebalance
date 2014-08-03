@@ -1,0 +1,6 @@
+{
+  "base_spec": "/pa/ammo/flak/flak.json", 
+  "initial_velocity": 1000.0, 
+  "lifetime": 2, 
+  "max_velocity": 1000.0, 
+}
