@@ -85,7 +85,7 @@
 			"spec_id": "/pa/units/land/bot_tactical_missile/bot_tactical_missile.json"
 		},
 		"LightLaserTank": {
-			"spec_id": "/pa/units/land/tank_light_laser/tank_light_laser.json"
+			"spec_id": "/pa/units/land/tank_cannon/tank_cannon.json"
 		},
 		"BasicArmorTank": {
 			"spec_id": "/pa/units/land/tank_armor/tank_armor.json"
