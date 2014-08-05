@@ -1,6 +1,6 @@
 {
-  "base_spec": "/pa/tools/base_artillery_turret_unit/base_artillery_turret_unit.json",
-  "ammo_id": "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar_ammo.json",
+  "base_spec": "/pa/tools/artillery/artillery.json",
+  "ammo_id": "/pa/units/land_vehicles/tank_artillery/tank_artillery_ammo.json",
   "rate_of_fire": 0.25,
   "idle_aim_delay": 10,
   "max_range": 250,

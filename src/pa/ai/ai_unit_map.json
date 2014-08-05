@@ -103,7 +103,7 @@
 			"spec_id": "/pa/units/land_vehicles/tank_heavy_armor/tank_heavy_armor.json"
 		},
 		"AdvancedArtilleryVehicle": {
-			"spec_id": "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.json"
+			"spec_id": "/pa/units/land_vehicles/tank_artillery/tank_artillery.json"
 		},
 		"AirScout": {
 			"spec_id": "/pa/units/air/air_scout/air_scout.json"

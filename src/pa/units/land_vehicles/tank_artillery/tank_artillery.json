@@ -1,7 +1,7 @@
 {
   "model": {
     "arrows": 5,
-    "filename": "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.papa",
+    "filename": "/pa/units/land_vehicles/tank_artillery/tank_artillery.papa",
     "animtree": "/pa/anim/anim_trees/turret_anim_tree.json"
   },
   "nearby_target_tick_update_interval": 15,
@@ -24,7 +24,7 @@
     "push_class": 60,
     "radius": 6
   },
-  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+  "base_spec": "/pa/units/land_vehicles/base_vehicle/base_vehicle.json",
   "guard_layer": "WL_AnySurface",
   "display_index": 100,
   "audio": {
@@ -42,7 +42,7 @@
   "tools": [
     {
       "aim_bone": "socket_aim",
-      "spec_id": "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar_tool_weapon.json",
+      "spec_id": "/pa/units/land_vehicles/tank_artillery/tank_artillery_tool_weapon.json",
       "muzzle_bone": "socket_muzzle"
     }
   ],

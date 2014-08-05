@@ -11,6 +11,7 @@ $(document).ready(function () {
 			'tank_cannon',
 			'tank_heavy_armor',
 			'tank_flamer',
+            'tank_artillery',
 			
 			
 			'blip',
