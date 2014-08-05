@@ -88,7 +88,7 @@
 			"spec_id": "/pa/units/land_vehicles/tank_cannon/tank_cannon.json"
 		},
 		"BasicArmorTank": {
-			"spec_id": "/pa/units/land_vehicle/tank_flamer/tank_flamer.json"
+			"spec_id": "/pa/units/land_vehicles/tank_flamer/tank_flamer.json"
 		},
 		"BasicAAVehicle": {
 			"spec_id": "/pa/units/land/tank_gattling/tank_gattling.json"
