@@ -1,7 +1,7 @@
 {
 	"base_spec": "/pa/units/land_vehicle/base_vehicle/base_vehicle.json",
 	"display_name": "BASIC TANK",
-	"description": "Assault Tank: A fast, well armoured unit. Weak vs Heavy-Hitters & Swarms.",
+	"description": "Heavy Assault Tank: A fast, well armoured unit. Weak vs Heavy-Hitters & Swarms.",
 	"max_health": 800,
 	"build_metal_cost": 400,
 	"attachable": {
@@ -14,12 +14,14 @@
 			2.7]
 		}
 	},
-	"unit_types": ["UNITTYPE_Tank",
+	"unit_types": [
+	"UNITTYPE_Tank",
 	"UNITTYPE_Mobile",
 	"UNITTYPE_Offense",
 	"UNITTYPE_Land",
 	"UNITTYPE_Basic",
-	"UNITTYPE_FactoryBuild"],
+	"UNITTYPE_FactoryBuild"
+	],
 	"transportable": {
 		"size": 1
 	},

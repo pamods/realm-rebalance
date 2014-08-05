@@ -1,11 +1,11 @@
 {
-  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+  "base_spec": "/pa/units/land_vehicle/base_vehicle/base_vehicle.json",
   "display_name": "Inferno",
-  "description": "Short-Range Flanker Tank: A fast tank with a short range, high DPS flame thrower. Weak vs Suicide & Assault",
-  "display_group": 60,
-  "display_index": 110,
+  "description": "Flanker Tank: A fast tank with a short range, high DPS flame thrower. Weak vs Suicide & Assault",
   "max_health": 500,
   "build_metal_cost": 400,
+  "display_group": 60,
+  "display_index": 110,
   "attachable": {
     "offsets": {
       "root": [
@@ -58,13 +58,13 @@
     }
   },
   "model": {
-    "filename": "/pa/units/land/tank_armor/tank_armor.papa",
-    "animtree": "/pa/anim/anim_trees/tank_armor_anim_tree.json",
+    "filename": "/pa/units/land_vehicle/tank_flamer/tank_flamer.papa",
+    "animtree": "/pa/anim/anim_trees/tank_flamer_anim_tree.json",
     "arrows": 5
   },
   "tools": [
     {
-      "spec_id": "/pa/units/land/tank_armor/tank_armor_tool_weapon.json",
+      "spec_id": "/pa/units/land_vehicle/tank_flamer/tank_flamer_tool_weapon.json",
       "aim_bone": "bone_turret",
       "muzzle_bone": "socket_muzzle"
     }
@@ -79,7 +79,7 @@
     },
     "fired": {
       "audio_cue": "/SE/Weapons/veh/tank_flame",
-      "effect_spec": "/pa/units/land/tank_armor/tank_armor_muzzle_flame.pfx socket_muzzle"
+      "effect_spec": "/pa/units/land_vehicle/tank_flamer/tank_flamer_muzzle_flame.pfx socket_muzzle"
     }
   },
   "audio": {
