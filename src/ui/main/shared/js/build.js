@@ -50,7 +50,7 @@ function BuildHotkeyModel() {
             "/pa/units/land_vehicles/tank_cannon/tank_cannon.json": ["vehicle", 11],
             "/pa/units/land_vehicles/tank_flamer/tank_flamer.json": ["vehicle", 12],
             "/pa/units/land/land_scout/land_scout.json": ["vehicle", 13],
-            "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.json": ["vehicle", 14], 
+            "/pa/units/land_vehicles/vehicle_missile/vehicle_missile.json": ["vehicle", 14], 
 			"/pa/units/land/tank_flak_adv/tank_flak_adv.json": ["vehicle", 4],
 			"/pa/units/land/tank_gattling/tank_gattling.json": ["vehicle", 9],
 

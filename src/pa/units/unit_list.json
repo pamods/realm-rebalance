@@ -4,6 +4,7 @@
     "/pa/units/land_vehicles/tank_heavy_armor/tank_heavy_armor.json",
     "/pa/units/land_vehicles/tank_flamer/tank_flamer.json",
     "/pa/units/land_vehicles/tank_artillery/tank_artillery.json",
+    "/pa/units/land_vegicles/vehicle_missile/vehicle_missile.json",
 	
 	-------not done from here onwards------------
   
@@ -48,7 +49,6 @@
     "/pa/units/commanders/raptor_rallus/raptor_rallus.json", 
     "/pa/units/commanders/tank_aeson/tank_aeson.json", 
     "/pa/units/commanders/tank_base/tank_base.json", 
-    "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.json",
     "/pa/units/land/air_defense/air_defense.json",
     "/pa/units/land/air_defense_flak/air_defense_flak.json",
     "/pa/units/land/amphibious_bot/amphibious_bot.json",
