@@ -42,11 +42,11 @@ function BuildHotkeyModel() {
             "/pa/units/orbital/ion_defense/ion_defense.json": ["combat", 14],
             
 
-            "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv.json": ["vehicle", 5],
+            "/pa/units/land_vehicles/fabrication_vehicle_adv/fabrication_vehicle_adv.json": ["vehicle", 5],
             "/pa/units/land/tank_laser_adv/tank_laser_adv.json": ["vehicle", 6],
             "/pa/units/land_vehicles/tank_heavy_armor/tank_heavy_armor.json": ["vehicle", 7],
             "/pa/units/land_vehicles/tank_artillery/tank_artillery.json": ["vehicle", 8],
-            "/pa/units/land/fabrication_vehicle/fabrication_vehicle.json": ["vehicle", 10],                        
+            "/pa/units/land_vehicles/fabrication_vehicle/fabrication_vehicle.json": ["vehicle", 10],                        
             "/pa/units/land_vehicles/tank_cannon/tank_cannon.json": ["vehicle", 11],
             "/pa/units/land_vehicles/tank_flamer/tank_flamer.json": ["vehicle", 12],
             "/pa/units/land/land_scout/land_scout.json": ["vehicle", 13],

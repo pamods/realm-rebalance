@@ -12,7 +12,9 @@ $(document).ready(function () {
 			'tank_heavy_armor',
 			'tank_flamer',
             'tank_artillery',
-            'vehicle_missile',			
+            'vehicle_missile',
+            'fabrication_vehicle'
+            'fabrication_vehicle_adv'			
 			
 			'blip',
             'metal_splat_02',
