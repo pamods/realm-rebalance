@@ -51,8 +51,8 @@ function BuildHotkeyModel() {
             "/pa/units/land_vehicles/tank_flamer/tank_flamer.json": ["vehicle", 12],
             "/pa/units/land/land_scout/land_scout.json": ["vehicle", 13],
             "/pa/units/land_vehicles/vehicle_missile/vehicle_missile.json": ["vehicle", 14], 
-			"/pa/units/land/tank_flak_adv/tank_flak_adv.json": ["vehicle", 4],
-			"/pa/units/land/tank_gattling/tank_gattling.json": ["vehicle", 9],
+		"/pa/units/land_vehicles/tank_flak/tank_flak.json": ["vehicle", 4],
+		"/pa/units/land/tank_gattling/tank_gattling.json": ["vehicle", 9],
 
             "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv.json": ["bot", 5],   
             "/pa/units/land/assault_bot_adv/assault_bot_adv.json": ["bot", 6],
@@ -64,7 +64,7 @@ function BuildHotkeyModel() {
             "/pa/units/land/bot_grenadier/bot_grenadier.json": ["bot", 12],
             "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat.json": ["bot", 13],
             "/pa/units/land/bot_antiair/bot_antiair.json": ["bot", 14],
-			"/pa/units/land/bot_tactical_missile/bot_tactical_missile.json": ["bot", 9],
+		"/pa/units/land/bot_tactical_missile/bot_tactical_missile.json": ["bot", 9],
      
             "/pa/units/orbital/orbital_missile/orbital_missile.json": ["orbital", 5],
             "/pa/units/orbital/orbital_laser/orbital_laser.json": ["orbital", 6],

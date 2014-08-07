@@ -14,7 +14,8 @@ $(document).ready(function () {
             'tank_artillery',
             'vehicle_missile',
             'fabrication_vehicle'
-            'fabrication_vehicle_adv'			
+            'fabrication_vehicle_adv'
+            'tank_flak'			
 			
 			'blip',
             'metal_splat_02',

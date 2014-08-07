@@ -1,0 +1,18 @@
+{
+  "tool_type": "TOOL_Weapon",
+  "ammo_id": "/pa/ammo/flak/flak.json",
+  "target_layers": [
+    "WL_Air"
+  ],
+  "rate_of_fire": 6,
+  "max_range": 90,
+  "yaw_rate": 360,
+  "pitch_rate": 3600,
+  "yaw_range": 360,
+  "pitch_range": 89.9,
+  "firing_standard_deviation": 3,
+  "auto_attack": true,
+  "target_priorities": [
+    "Air"
+  ]
+}
