@@ -49,7 +49,7 @@
 		}
 	},
 	"model": {
-		"filename": "/pa/units/land_vehicle/tank_cannon/tank_cannon.papa",
+		"filename": "/pa/units/land/tank_light_laser/tank_light_laser.papa",
 		"animtree": "/pa/anim/anim_trees/turret_anim_tree.json",
 		"arrows": 5
 	},

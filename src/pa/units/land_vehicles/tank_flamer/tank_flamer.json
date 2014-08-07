@@ -58,7 +58,7 @@
     }
   },
   "model": {
-    "filename": "/pa/units/land_vehicles/tank_flamer/tank_flamer.papa",
+    "filename": "/pa/units/land/tank_armor/tank_armor.papa",
     "animtree": "/pa/anim/anim_trees/tank_flamer_anim_tree.json",
     "arrows": 5
   },

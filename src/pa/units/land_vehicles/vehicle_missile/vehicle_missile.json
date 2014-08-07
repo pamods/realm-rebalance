@@ -57,9 +57,9 @@
   "model": {
     "walk_speed": 7,
     "animtree": "/pa/anim/anim_trees/vehicle_missile_anim_tree.json",
-    "filename": "/pa/units/land_vehicles/vehicle_missile/vehicle_missile.papa",
+    "filename": "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle.papa",
     "animations": {
-      "run": "/pa/units/land_vehicles/vehicle_missile/vehicle_missile_anim_run.papa"
+      "run": "/pa/units/land/aa_missile_vehicle/aa_missile_vehicle_anim_run.papa"
     }
   },
   "tools": [

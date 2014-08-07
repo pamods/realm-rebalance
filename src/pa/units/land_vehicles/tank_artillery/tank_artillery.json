@@ -1,7 +1,7 @@
 {
   "model": {
     "arrows": 5,
-    "filename": "/pa/units/land_vehicles/tank_artillery/tank_artillery.papa",
+    "filename": "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.papa",
     "animtree": "/pa/anim/anim_trees/turret_anim_tree.json"
   },
   "nearby_target_tick_update_interval": 15,
