@@ -37,7 +37,7 @@
       }
     }
   },
-  "build_metal_cost": 1500,
+  "build_metal_cost": 1000,
   "TEMP_texelinfo": 9.31488,
   "tools": [
     {
