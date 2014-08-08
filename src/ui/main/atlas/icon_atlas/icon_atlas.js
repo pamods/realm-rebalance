@@ -20,6 +20,7 @@ $(document).ready(function () {
             'tank_gattling',
             'fabrication_bot',
             'fabrication_bot_adv',
+            'tank_double_cannon',
             			
 			
 			'blip',
@@ -79,7 +80,6 @@ $(document).ready(function () {
             'fabrication_sub',
             'nuclear_sub',
             'sea_mine',
-            'tank_laser_adv',
             'tank_heavy_mortar',
             'fabrication_vehicle_adv',
             'fabrication_vehicle',

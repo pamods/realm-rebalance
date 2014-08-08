@@ -97,7 +97,7 @@
 			"spec_id": "/pa/units/land_vehicles/vehicle_missile/vehicle_missile.json"
 		},
 		"AdvancedLaserTank": {
-			"spec_id": "/pa/units/land/tank_laser_adv/tank_laser_adv.json"
+			"spec_id": "/pa/units/land_vehicles/tank_double_cannon/tank_double_cannon.json"
 		},
 		"AdvancedArmorTank": {
 			"spec_id": "/pa/units/land_vehicles/tank_heavy_armor/tank_heavy_armor.json"

@@ -10,7 +10,7 @@
     "/pa/units/land_vehicles/tank_gattling/tank_gattling.json",
     "/pa/units/land_vehicles/vehicle_missile/vehicle_missile.json",
     "/pa/units/land_vehicles/vehicle_scout/vehicle_scout.json",
-
+    "/pa/units/land_vehicles/tank_double_cannon/tank_double_cannon.json",
 
     "/pa/units/land_bots/base_bot/base_bot.json",
     "/pa/units/land_bots/fabrication_bot/fabrication_bot.json",
@@ -106,7 +106,6 @@
     "/pa/units/land/tank_amphibious_adv/tank_amphibious_adv.json",
     "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.json",
     "/pa/units/land/tank_hover/tank_hover.json",
-    "/pa/units/land/tank_laser_adv/tank_laser_adv.json",
     "/pa/units/land/teleporter/teleporter.json",
     "/pa/units/land/unit_cannon/unit_cannon.json",
     "/pa/units/land/vehicle_factory/vehicle_factory.json",

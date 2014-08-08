@@ -1,4 +1,5 @@
 {
+  "tool_type": "TOOL_Weapon",
   "ammo_id": "/pa/ammo/base_ammo/base_ammo.json",
   "target_layers": [
     "WL_LandHorizontal",
@@ -11,5 +12,6 @@
   "yaw_rate": 1000,
   "pitch_rate": 1000,
   "yaw_range": 180,
-  "pitch_range": 180
+  "pitch_range": 180,
+  "auto_attack": true
 }
