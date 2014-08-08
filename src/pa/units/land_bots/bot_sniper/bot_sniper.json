@@ -1,0 +1,112 @@
+{
+  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "display_name": "Gil-E",
+  "description": "Long-Range Heavy-Hitter Bot: A precision bot armed with a rifle. Uses energy. Weak vs Flanker & Swarm",
+  "max_health": 120,
+  "build_metal_cost": 750,
+  "attachable": {
+    "offsets": {
+      "root": [
+        0,
+        0,
+        0
+      ],
+      "head": [
+        0,
+        0,
+        7.4
+      ]
+    }
+  },
+  "unit_types": [
+    "UNITTYPE_Bot",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Land",
+    "UNITTYPE_Artillery",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild"
+  ],
+  "transportable": {
+    "size": 1
+  },
+  "guard_radius": 140,
+  "guard_layer": "WL_AnySurface",
+  "navigation": {
+    "turn_speed": 720,
+    "type": "land-small",
+    "move_speed": 8,
+    "group_preference": "back",
+    "acceleration": 120,
+    "brake": 120,
+    "aggressive_distance": 215
+  },
+  "physics": {
+    "push_class": 2,
+    "radius": 3.5
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "radius": 100,
+          "shape": "capsule",
+          "layer": "surface_and_air",
+          "channel": "sight"
+        }
+      ]
+    }
+  },
+  "model": {
+    "animations": {
+      "idle": "/pa/units/land/bot_sniper/bot_sniper_anim_idle.papa",
+      "aimUp": "/pa/units/land/bot_sniper/bot_sniper_anim_aimUp.papa",
+      "death": "/pa/units/land/bot_sniper/bot_sniper_anim_death.papa",
+      "aimDown": "/pa/units/land/bot_sniper/bot_sniper_anim_aimDown.papa",
+      "walk": "/pa/units/land/bot_sniper/bot_sniper_anim_walk.papa"
+    },
+    "walk_speed": 12,
+    "animtree": "/pa/anim/anim_trees/bot_sniper_anim_tree.json",
+    "filename": "/pa/units/land/bot_sniper/bot_sniper.papa",
+	"comment": "THIS HAS NOT MIGRATED YET!"
+  },
+  "tools": [
+    {
+      "muzzle_bone": "socket_muzzle",
+      "spec_id": "/pa/units/land_bots/bot_sniper/bot_sniper_tool_weapon.json",
+      "aim_bone": "bone_turret"
+    }
+  ],
+  "events": {
+    "died": {
+      "effect_spec": "/pa/effects/specs/default_explosion.pfx",
+      "effect_scale": 0.8,
+      "audio_cue": "/SE/Death/Bot"
+    },
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/bot"
+    },
+    "fired": {
+      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_muzzle",
+      "audio_cue": "/SE/Weapons/bot/artillery_fire"
+    }
+  },
+  "audio": {
+    "loops": {
+      "move": {
+        "flag": "vel_changed",
+        "cue": "/SE/Movement/bot/T2_artillery_loop",
+        "should_start_func": "is_moving",
+        "should_stop_func": "is_not_moving"
+      }
+    }
+  },
+  "mesh_bounds": [
+    6.5,
+    6.5,
+    7.5
+  ],
+  "TEMP_texelinfo": 5.32966,
+  "display_group": 60,
+  "display_index": 100,
+  "nearby_target_tick_update_interval": 15
+}

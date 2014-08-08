@@ -21,6 +21,7 @@ $(document).ready(function () {
             'fabrication_bot',
             'fabrication_bot_adv',
             'tank_double_cannon',
+            'bot_sniper',
             			
 			
 			'blip',
@@ -83,7 +84,6 @@ $(document).ready(function () {
             'tank_heavy_mortar',
             'fabrication_vehicle_adv',
             'fabrication_vehicle',
-
             'land_scout',
             'sonar',
             'sonar_adv',
@@ -113,7 +113,6 @@ $(document).ready(function () {
             'fabrication_bot_combat',
             'fabrication_bot_combat_adv',
             'bot_grenadier',
-            'bot_sniper',
             'bot_tactical_missile',
             'bot_bomb',
             'land_mine',
