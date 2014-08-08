@@ -1,5 +1,6 @@
 {
   "units": [
+    "/pa/units/land_vehicles/base_vehicle/base_vehicle.json",  
     "/pa/units/land_vehicles/fabrication_vehicle/fabrication_vehicle.json",
     "/pa/units/land_vehicles/fabrication_vehicle_adv/fabrication_vehicle_adv.json",
     "/pa/units/land_vehicles/tank_cannon/tank_cannon.json",
@@ -11,6 +12,7 @@
     "/pa/units/land_vehicles/vehicle_scout/vehicle_scout.json",
 
 
+    "/pa/units/land_bots/base_bot/base_bot.json",
     "/pa/units/land_bots/fabrication_bot/fabrication_bot.json",
     "/pa/units/land_bots/fabrication_bot_adv/fabrication_bot_adv.json",
     
