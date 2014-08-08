@@ -8,6 +8,6 @@
   "max_velocity": 1400,
   "lifetime": 2,
   "fx_trail": {
-    "filename": "/pa/units/land/bot_sniper/bot_sniper_ammo_trail.pfx"
+    "filename": "/pa/units/land_bots/bot_sniper/bot_sniper_ammo_trail.pfx"
   }
 }

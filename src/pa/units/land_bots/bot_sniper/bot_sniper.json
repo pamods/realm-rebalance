@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/land_bots/base_bot/base_bot.json",
   "display_name": "Gil-E",
   "description": "Long-Range Heavy-Hitter Bot: A precision bot armed with a rifle. Uses energy. Weak vs Flanker & Swarm",
   "max_health": 120,
