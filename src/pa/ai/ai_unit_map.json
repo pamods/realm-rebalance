@@ -16,10 +16,10 @@
 			"unit_types": "(Fabber & (Advanced | Debug)) - Orbital"
 		},
 		"BasicBotFabber": {
-			"spec_id": "/pa/units/land/fabrication_bot/fabrication_bot.json"
+			"spec_id": "/pa/units/land_bots/fabrication_bot/fabrication_bot.json"
 		},
 		"AdvancedBotFabber": {
-			"spec_id": "/pa/units/land/fabrication_bot_adv/fabrication_bot_adv.json"
+			"spec_id": "/pa/units/land_bots/fabrication_bot_adv/fabrication_bot_adv.json"
 		},
 		"BasicBotCombatFabber": {
 			"spec_id": "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat.json"

@@ -18,6 +18,8 @@ $(document).ready(function () {
             'tank_flak',
             'vehicle_scout',
             'tank_gattling',
+            'fabrication_bot',
+            'fabrication_bot_adv',
             			
 			
 			'blip',
