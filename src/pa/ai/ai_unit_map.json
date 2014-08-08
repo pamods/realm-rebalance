@@ -67,7 +67,7 @@
 			"spec_id": "/pa/units/land/metal_storage/metal_storage.json"
 		},
 		"LandScout": {
-			"spec_id": "/pa/units/land/land_scout/land_scout.json"
+			"spec_id": "/pa/units/land_vehicles/vehicle_scout/vehicle_scout.json"
 		},
 		"BasicAssaultBot": {
 			"spec_id": "/pa/units/land/assault_bot/assault_bot.json"

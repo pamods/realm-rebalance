@@ -13,9 +13,11 @@ $(document).ready(function () {
 			'tank_flamer',
             'tank_artillery',
             'vehicle_missile',
-            'fabrication_vehicle'
-            'fabrication_vehicle_adv'
-            'tank_flak'			
+            'fabrication_vehicle',
+            'fabrication_vehicle_adv',
+            'tank_flak',
+            'vehicle_scout',
+            			
 			
 			'blip',
             'metal_splat_02',

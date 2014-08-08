@@ -36,7 +36,7 @@
   "tools": [
     {
       "aim_bone": "socket_aim",
-      "spec_id": "/pa/units/land/land_scout/land_scout_tool_weapon.json",
+      "spec_id": "/pa/units/land_vehicles/vehicle_scout/vehicle_scout_tool_weapon.json",
       "muzzle_bone": "socket_muzzle"
     }
   ],
@@ -59,7 +59,7 @@
   "model": {
     "filename": "/pa/units/land/land_scout/land_scout.papa",
     "arrows": 5,
-    "animtree": "/pa/anim/anim_trees/land_scout_anim_tree.json",
+    "animtree": "/pa/anim/anim_trees/vehicle_scout_anim_tree.json",
     "animations": {
       "drive": "/pa/units/land/land_scout/land_scout_anim_drive.papa"
     }
@@ -83,7 +83,7 @@
   "transportable": {
     "size": 1
   },
-  "base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+  "base_spec": "/pa/units/land_vehicles/base_vehicle/base_vehicle.json",
   "display_index": 80,
   "audio": {
     "loops": {

@@ -1,6 +1,6 @@
 {
-  "base_spec": "/pa/tools/base_laser_turret/base_laser_turret.json",
-  "ammo_id": "/pa/units/land/land_scout/land_scout_ammo.json",
+  "base_spec": "/pa/tools/laser/gattling.json",
+  "ammo_id": "/pa/units/land_vehicles/vehicle_scout/vehicle_scout_ammo.json",
   "rate_of_fire": 5,
   "idle_aim_delay": 1,
   "max_range": 55,
