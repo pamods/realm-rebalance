@@ -17,6 +17,7 @@ $(document).ready(function () {
             'fabrication_vehicle_adv',
             'tank_flak',
             'vehicle_scout',
+            'tank_gattling',
             			
 			
 			'blip',

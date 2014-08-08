@@ -1,5 +1,5 @@
 {
-	"base_spec": "/pa/units/land/base_vehicle/base_vehicle.json",
+	"base_spec": "/pa/units/land_vehicles/base_vehicle/base_vehicle.json",
 	"display_name": "Cougar",
 	"description": "Multi-Purpose Riot-Control Tank: A tank armed with two gattling guns. Weak vs Heavy and Heavy-Hitters",
 	"max_health": 350,
@@ -48,17 +48,17 @@
 		}
 	},
 	"model": {
-		"filename": "/pa/units/land/tank_gattling/tank_gattling.papa",
+		"filename": "/pa/units/land_vehicles/tank_gattling/tank_gattling.papa",
 		"animtree": "/pa/anim/anim_trees/tank_gattling_anim_tree.json",
 		"arrows": 5
 	},
 	"tools": [{
-		"spec_id": "/pa/units/land/tank_gattling/tank_gattling_tool_weapon.json",
+		"spec_id": "/pa/units/land_vehicles/tank_gattling/tank_gattling_tool_weapon.json",
 		"aim_bone": "bone_pitch",
 		"muzzle_bone": ["socket_rightMuzzle"]
 		},
 		{
-		"spec_id": "/pa/units/land/tank_gattling/tank_gattling_tool_weapon.json",
+		"spec_id": "/pa/units/land_vehicles/tank_gattling/tank_gattling_tool_weapon.json",
 		"aim_bone": "bone_pitch",
 		"muzzle_bone": ["socket_leftMuzzle"]
 		}

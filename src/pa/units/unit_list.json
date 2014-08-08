@@ -1,12 +1,13 @@
 {
   "units": [
+    "/pa/units/land_vehicles/fabrication_vehicle/fabrication_vehicle.json",
+    "/pa/units/land_vehicles/fabrication_vehicle_adv/fabrication_vehicle_adv.json",
     "/pa/units/land_vehicles/tank_cannon/tank_cannon.json",
     "/pa/units/land_vehicles/tank_heavy_armor/tank_heavy_armor.json",
     "/pa/units/land_vehicles/tank_flamer/tank_flamer.json",
     "/pa/units/land_vehicles/tank_artillery/tank_artillery.json",
+    "/pa/units/land_vehicles/tank_gattling/tank_gattling.json",
     "/pa/units/land_vehicles/vehicle_missile/vehicle_missile.json",
-    "/pa/units/land_vehicles/fabrication_vehicle/fabrication_vehicle.json",
-    "/pa/units/land_vehicles/fabrication_vehicle_adv/fabrication_vehicle_adv.json",
     "/pa/units/land_vehicles/vehicle_scout/vehicle_scout.json",
     
 	
