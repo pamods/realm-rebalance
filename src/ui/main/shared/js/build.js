@@ -60,7 +60,7 @@ function BuildHotkeyModel() {
             "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv.json": ["bot", 8],
             "/pa/units/land/bot_bomb/bot_bomb.json": ["bot", 4],
             "/pa/units/land_bots/fabrication_bot/fabrication_bot.json": ["bot", 10],     
-            "/pa/units/land/assault_bot/assault_bot.json": ["bot", 11],
+            "/pa/units/land_bots/bot_assault/bot_assault.json": ["bot", 11],
             "/pa/units/land/bot_grenadier/bot_grenadier.json": ["bot", 12],
             "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat.json": ["bot", 13],
             "/pa/units/land/bot_antiair/bot_antiair.json": ["bot", 14],
