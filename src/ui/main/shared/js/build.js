@@ -55,7 +55,7 @@ function BuildHotkeyModel() {
 		"/pa/units/land_vehicles/tank_gattling/tank_gattling.json": ["vehicle", 9],
 
             "/pa/units/land_bots/fabrication_bot_adv/fabrication_bot_adv.json": ["bot", 5],   
-            "/pa/units/land/assault_bot_adv/assault_bot_adv.json": ["bot", 6],
+            "/pa/units/land_bots/bot_flamer/bot_flamer.json": ["bot", 6],
             "/pa/units/land_bots/bot_sniper/bot_sniper.json": ["bot", 7],
             "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv.json": ["bot", 8],
             "/pa/units/land/bot_bomb/bot_bomb.json": ["bot", 4],

@@ -23,6 +23,8 @@ $(document).ready(function () {
             'tank_double_cannon',
             'bot_sniper',
             'bot_assault',
+            'bot_flamer',
+            
             			
 			
 			'blip',
