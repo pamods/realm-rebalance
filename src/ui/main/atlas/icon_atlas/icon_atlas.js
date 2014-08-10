@@ -22,6 +22,7 @@ $(document).ready(function () {
             'fabrication_bot_adv',
             'tank_double_cannon',
             'bot_sniper',
+            'bot_assault',
             			
 			
 			'blip',
