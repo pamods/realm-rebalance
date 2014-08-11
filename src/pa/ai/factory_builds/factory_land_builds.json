@@ -172,6 +172,53 @@
 		}]]
 	},
 	{
+		"name": "Basic AA Skirmish Bot",
+		"to_build": "BasicAASkirmishBot",
+		"instance_count": -1,
+		"max_num_assisters": 10,
+		"priority": 97,
+		"builders": ["BasicBotFactory"],
+		"build_conditions": [[{
+			"test_type": "AloneOnPlanet",
+			"boolean": false
+		},
+		{
+			"test_type": "CanAffordBuildDemand"
+		},
+		{
+			"test_type": "UnitRatioOnPlanet",
+			"unit_type_string0": "(Tank | Bot) & AirDefense",
+			"unit_type_string1": "(Tank | Bot) - Fabber",
+			"compare0": "<",
+			"value0": 0.1
+		}],
+		[{
+			"test_type": "BaseThreatRatio",
+			"string0": "Air",
+			"string1": "AntiAir",
+			"compare0": ">",
+			"value0": 1.0
+		}],		
+		],
+		[{
+			"test_type": "AloneOnPlanet",
+			"boolean": true
+		},
+		{
+			"test_type": "CanAffordBuildDemand"
+		},
+		{
+			"test_type": "OtherPlanetNeedsLandUnitAssistance",
+			"boolean": true
+		},
+		{
+			"test_type": "UnitCountOnPlanet",
+			"unit_type_string0": "Structure & Teleporter",
+			"compare0": ">",
+			"value0": 0
+		}]]
+	},
+	{
 		"name": "Basic Artillery Bot",
 		"to_build": "BasicArtilleryBot",
 		"instance_count": -1,
@@ -499,6 +546,20 @@
 		},
 		{
 			"test_type": "CanAffordBuildDemand"
+		},
+		{
+			"test_type": "UnitRatioOnPlanet",
+			"unit_type_string0": "(Tank | Bot) & AirDefense",
+			"unit_type_string1": "(Tank | Bot) - Fabber",
+			"compare0": "<",
+			"value0": 0.1
+		}],
+		[{
+			"test_type": "BaseThreatRatio",
+			"string0": "Air",
+			"string1": "AntiAir",
+			"compare0": ">",
+			"value0": 1.0
 		}],
 		[{
 			"test_type": "AloneOnPlanet",

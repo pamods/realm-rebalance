@@ -72,6 +72,9 @@
 		"BasicAssaultBot": {
 			"spec_id": "/pa/units/land_bots/bot_assault/bot_assault.json"
 		},
+		"BasicAASkirmishBot": {
+			"spec_id": "/pa/units/land_bots/bot_antiair/bot_antiair.json"
+		},
 		"BasicArtilleryBot": {
 			"spec_id": "/pa/units/land_bots/bot_mortar/bot_mortar.json"
 		},
