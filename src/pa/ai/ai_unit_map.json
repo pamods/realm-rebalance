@@ -73,7 +73,7 @@
 			"spec_id": "/pa/units/land_bots/bot_assault/bot_assault.json"
 		},
 		"BasicArtilleryBot": {
-			"spec_id": "/pa/units/land/bot_grenadier/bot_grenadier.json"
+			"spec_id": "/pa/units/land_bots/bot_mortar/bot_mortar.json"
 		},
 		"AdvancedAssaultBot": {
 			"spec_id": "/pa/units/land_bots/bot_flamer/bot_flamer.json"

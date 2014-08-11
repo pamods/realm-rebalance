@@ -26,6 +26,7 @@ $(document).ready(function () {
             'bot_assault',
             'bot_flamer',
             'bot_antiair',
+            'bot_mortar',
 			
 			
             
@@ -118,7 +119,6 @@ $(document).ready(function () {
             'defense_satellite',
             'fabrication_bot_combat',
             'fabrication_bot_combat_adv',
-            'bot_grenadier',
             'bot_tactical_missile',
             'bot_bomb',
             'land_mine',
