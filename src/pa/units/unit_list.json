@@ -18,7 +18,7 @@
     "/pa/units/land_bots/fabrication_bot_adv/fabrication_bot_adv.json",
     "/pa/units/land_bots/bot_sniper/bot_sniper.json",
     "/pa/units/land_bots/bot_assault/bot_assault.json",
-    
+    "/pa/units/land_bots/bot_antiair/bot_antiair.json",
 
 	
 	-------not done from here onwards------------
@@ -77,7 +77,6 @@
     "/pa/units/land/base_structure/base_structure.json",
     "/pa/units/land/base_unit/base_unit.json",
     "/pa/units/land/base_vehicle/base_vehicle.json",
-    "/pa/units/land/bot_antiair/bot_antiair.json",
     "/pa/units/land/bot_bomb/bot_bomb.json",
     "/pa/units/land/bot_factory/bot_factory.json",
     "/pa/units/land/bot_factory_adv/bot_factory_adv.json",

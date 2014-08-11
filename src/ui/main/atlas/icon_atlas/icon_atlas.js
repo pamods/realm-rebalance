@@ -8,6 +8,7 @@ $(document).ready(function () {
 
         self.strategicIconSource = function (string) { return 'img/strategic_icons/' + 'icon_si_' + string + '.png' }
         self.strategicIcons = ko.observableArray([
+			'blip',
 			'tank_cannon',
 			'tank_heavy_armor',
 			'tank_flamer',
@@ -24,10 +25,13 @@ $(document).ready(function () {
             'bot_sniper',
             'bot_assault',
             'bot_flamer',
-            
-            			
+            'bot_antiair',
 			
-			'blip',
+			
+            
+			
+			
+
             'metal_splat_02',
             'celestial_object',
             'artillery_short',
@@ -72,7 +76,6 @@ $(document).ready(function () {
             'bot_artillery',
             'fabrication_bot_adv',
             'fabrication_bot',
-            'bot_antiair',
             'battleship',
             'destroyer',
             'frigate',
