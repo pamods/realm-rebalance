@@ -27,6 +27,12 @@ $(document).ready(function () {
             'bot_flamer',
             'bot_antiair',
             'bot_mortar',
+            'air_scout',
+            'bomber',
+            'bomber_adv',
+            'bomber_torpedo',
+            'transport',
+            
 			
 			
             

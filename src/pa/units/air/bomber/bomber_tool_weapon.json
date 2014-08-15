@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/tools/base_bomb_bay/base_bomb_bay.json",
+  "base_spec": "/pa/tools/bomb/light.json",
   "ammo_id": "/pa/units/air/bomber/bomber_ammo.json",
   "ammo_source": "energy",
   "rate_of_fire": 20,
