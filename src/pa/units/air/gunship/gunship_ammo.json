@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/ammo/base_bullet/base_bullet.json",
+  "base_spec": "/pa/ammo/energy_shell/emg.json",
   "fx_trail": {
     "filename": "/pa/units/air/gunship/gunship_ammo_trail.pfx"
   },

@@ -43,15 +43,15 @@
        "size": 2
    },
   "model": {
-    "filename": "/pa/units/air/fighter_adv_antiair/fighter_adv_antiair.papa",
+    "filename": "/pa/units/air/fighter_antiair/fighter_antiair.papa",
     "animations": {
-      "landed": "/pa/units/air/fighter_adv_antiair/fighter_adv_antiair_anim_landed.papa"
+      "landed": "/pa/units/air/fighter_antiair/fighter_antiair_anim_landed.papa"
     },
-    "animtree": "/pa/anim/anim_trees/fighter_adv_antiair_anim_tree.json"
+    "animtree": "/pa/anim/anim_trees/fighter_antiair_anim_tree.json"
   },
   "tools": [
     {
-      "spec_id": "/pa/units/air/fighter_adv_antiair/fighter_adv_antiair_tool_weapon.json",
+      "spec_id": "/pa/units/air/fighter_antiair/fighter_antiair_tool_weapon.json",
       "aim_bone": "bone_root",
       "muzzle_bone": [
         "bone_leftWing",
@@ -74,7 +74,7 @@
   "fx_offsets": [
     {
       "type": "moving_forward",
-      "filename": "/pa/units/air/fighter_adv_antiair/fighter_adv_antiair_jets.pfx",
+      "filename": "/pa/units/air/fighter_antiair/fighter_antiair_jets.pfx",
       "offset": [
         0,
         4.35,

@@ -32,6 +32,12 @@ $(document).ready(function () {
             'bomber_adv',
             'bomber_torpedo',
             'transport',
+            'fighter',
+            'fighter_antiair',
+            'gunship',
+            'fabrication_aircraft_adv',
+            'fabrication_aircraft',
+            
             
 			
 			
