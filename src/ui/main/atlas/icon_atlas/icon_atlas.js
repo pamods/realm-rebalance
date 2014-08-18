@@ -42,19 +42,6 @@ $(document).ready(function () {
             'fabrication_bot_combat_adv',
             'bot_bomb',
             'bot_tactical_missile',
-            
-			
-			
-            
-			
-			
-
-            'metal_splat_02',
-            'celestial_object',
-            'artillery_short',
-            'artillery_long',
-            'land_barrier',
-            'commander',
             'metal_extractor',     
             'metal_extractor_adv',   
             'air_factory_adv',
@@ -63,16 +50,29 @@ $(document).ready(function () {
             'bot_factory',
             'vehicle_factory_adv',
             'vehicle_factory',
+			'energy_plant_adv',
+            'energy_plant',
+            'energy_storage',			
+            'metal_storage',            
+			'orbital_launcher',
+
+
+
+
+			
+
+            'metal_splat_02',
+            'celestial_object',
+            'artillery_short',
+            'artillery_long',
+            'land_barrier',
+            'commander',
             'naval_factory_adv',
             'naval_factory',
-            'energy_plant_adv',
-            'energy_plant',
             'radar_adv',
             'radar',
             'energy_storage_adv',
-            'energy_storage',
             'metal_storage_adv',
-            'metal_storage',
             'laser_defense_adv',
             'laser_defense',
             'laser_defense_single',

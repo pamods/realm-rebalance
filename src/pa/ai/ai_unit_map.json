@@ -49,22 +49,22 @@
 			"spec_id": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.json"
 		},
 		"BasicMetalExtractor": {
-			"spec_id": "/pa/units/land/metal_extractor/metal_extractor.json"
+			"spec_id": "/pa/units/land_econ/metal_extractor/metal_extractor.json"
 		},
 		"BasicEnergyGenerator": {
-			"spec_id": "/pa/units/land/energy_plant/energy_plant.json"
+			"spec_id": "/pa/units/land_econ/energy_plant/energy_plant.json"
 		},
 		"AdvancedMetalExtractor": {
-			"spec_id": "/pa/units/land/metal_extractor_adv/metal_extractor_adv.json"
+			"spec_id": "/pa/units/land_econ/metal_extractor_adv/metal_extractor_adv.json"
 		},
 		"AdvancedEnergyGenerator": {
-			"spec_id": "/pa/units/land/energy_plant_adv/energy_plant_adv.json"
+			"spec_id": "/pa/units/land_econ/energy_plant_adv/energy_plant_adv.json"
 		},
 		"EnergyStorage": {
-			"spec_id": "/pa/units/land/energy_storage/energy_storage.json"
+			"spec_id": "/pa/units/land_econ/energy_storage/energy_storage.json"
 		},
 		"MetalStorage": {
-			"spec_id": "/pa/units/land/metal_storage/metal_storage.json"
+			"spec_id": "/pa/units/land_econ/metal_storage/metal_storage.json"
 		},
 		"LandScout": {
 			"spec_id": "/pa/units/land_vehicles/vehicle_scout/vehicle_scout.json"
@@ -145,22 +145,22 @@
 			"spec_id": "/pa/units/orbital/orbital_laser/orbital_laser.json"
 		},
 		"BasicBotFactory": {
-			"spec_id": "/pa/units/land/bot_factory/bot_factory.json"
+			"spec_id": "/pa/units/land_econ/bot_factory/bot_factory.json"
 		},
 		"AdvancedBotFactory": {
-			"spec_id": "/pa/units/land/bot_factory_adv/bot_factory_adv.json"
+			"spec_id": "/pa/units/land_econ/bot_factory_adv/bot_factory_adv.json"
 		},
 		"BasicVehicleFactory": {
-			"spec_id": "/pa/units/land/vehicle_factory/vehicle_factory.json"
+			"spec_id": "/pa/units/land_econ/vehicle_factory/vehicle_factory.json"
 		},
 		"AdvancedVehicleFactory": {
-			"spec_id": "/pa/units/land/vehicle_factory_adv/vehicle_factory_adv.json"
+			"spec_id": "/pa/units/land_econ/vehicle_factory_adv/vehicle_factory_adv.json"
 		},
 		"BasicAirFactory": {
-			"spec_id": "/pa/units/air/air_factory/air_factory.json"
+			"spec_id": "/pa/units/land_econ/air_factory/air_factory.json"
 		},
 		"AdvancedAirFactory": {
-			"spec_id": "/pa/units/air/air_factory_adv/air_factory_adv.json"
+			"spec_id": "/pa/units/land_econ/air_factory_adv/air_factory_adv.json"
 		},
 		"BasicNavalFactory": {
 			"spec_id": "/pa/units/sea/naval_factory/naval_factory.json"
@@ -169,7 +169,7 @@
 			"spec_id": "/pa/units/sea/naval_factory_adv/naval_factory_adv.json"
 		},
 		"OrbitalLauncher": {
-			"spec_id": "/pa/units/orbital/orbital_launcher/orbital_launcher.json"
+			"spec_id": "/pa/units/land_econ/orbital_launcher/orbital_launcher.json"
 		},
 		"OrbitalFactory": {
 			"spec_id": "/pa/units/orbital/orbital_factory/orbital_factory.json"
