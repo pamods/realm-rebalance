@@ -37,6 +37,7 @@ $(document).ready(function () {
             'gunship',
             'fabrication_aircraft_adv',
             'fabrication_aircraft',
+            'commander',
             
             
 			

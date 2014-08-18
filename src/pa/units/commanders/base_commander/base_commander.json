@@ -29,7 +29,7 @@
   "build_metal_cost": 25000,
   "tools": [
     {
-      "spec_id": "/pa/tools/commander_build_arm/commander_build_arm.json",
+      "spec_id": "/pa/commanders/base_commander/base_commander_build_arm.json",
       "build_arm": true,
       "aim_bone": "bone_turret"
     },
@@ -41,7 +41,7 @@
       "aim_weapon": true
     },
     {
-      "spec_id": "/pa/tools/uber_cannon/uber_cannon.json",
+      "spec_id": "/pa/tools/energy_shell/uber.json",
       "muzzle_bone": "socket_rightMuzzle",
       "ammo_weapon": true,
       "secondary_weapon": true,
@@ -49,7 +49,7 @@
     },
     {
       "death_weapon": true,
-      "spec_id": "/pa/tools/commander_death/commander_death.json"
+      "spec_id": "/pa/tools/self_destruct/com_death.json"
     }
   ],
   "buildable_types": "CmdBuild",
