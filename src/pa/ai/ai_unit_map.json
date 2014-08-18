@@ -22,10 +22,10 @@
 			"spec_id": "/pa/units/land_bots/fabrication_bot_adv/fabrication_bot_adv.json"
 		},
 		"BasicBotCombatFabber": {
-			"spec_id": "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat.json"
+			"spec_id": "/pa/units/land_bots/fabrication_bot_combat/fabrication_bot_combat.json"
 		},
 		"AdvancedBotCombatFabber": {
-			"spec_id": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv.json"
+			"spec_id": "/pa/units/land_bots/fabrication_bot_combat_adv/fabrication_bot_combat_adv.json"
 		},
 		"BasicVehicleFabber": {
 			"spec_id": "/pa/units/land_vehicles/fabrication_vehicle/fabrication_vehicle.json"

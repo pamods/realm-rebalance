@@ -38,6 +38,8 @@ $(document).ready(function () {
             'fabrication_aircraft_adv',
             'fabrication_aircraft',
             'commander',
+            'fabrication_bot_combat',
+            'fabrication_bot_combat_adv',
             
             
 			

@@ -1,5 +1,5 @@
 {
-	"base_spec": "/pa/units/land/base_bot/base_bot.json",
+	"base_spec": "/pa/units/land_bots/base_bot/base_bot.json",
 	"display_name": "Combat Fabrication Bot",
 	"description": "Medium Support Bot: Has a combat lathe for reclamation of wrecks or enemy units. Weak vs Heavy & Swarm",
 	"max_health": 450,
@@ -68,7 +68,7 @@
 		"walk_speed": 15
 	},
 	"tools": [{
-		"spec_id": "/pa/units/land/fabrication_bot_combat/fabrication_bot_combat_build_arm.json",
+		"spec_id": "/pa/units/land_bots/fabrication_bot_combat/fabrication_bot_combat_build_arm.json",
 		"aim_bone": "bone_root"
 	}],
 	"events": {
