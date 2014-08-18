@@ -40,7 +40,8 @@ $(document).ready(function () {
             'commander',
             'fabrication_bot_combat',
             'fabrication_bot_combat_adv',
-            
+            'bot_bomb',
+            'bot_tactical_missile',
             
 			
 			

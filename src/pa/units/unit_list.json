@@ -22,6 +22,8 @@
     "/pa/units/land_bots/bot_assault/bot_assault.json",
     "/pa/units/land_bots/bot_antiair/bot_antiair.json",
     "/pa/units/land_bots/bot_mortar/bot_mortar.json",
+    "/pa/units/land_bots/bot_bomb/bot_bomb.json",
+    "/pa/units/land_bots/bot_tactical_missile/bot_tactical_missile.json",
 
 
     "/pa/units/air/base_flyer/base_flyer.json",
