@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/ammo/base_artillery/base_artillery.json",
+  "base_spec": "/pa/ammo/self_destruct/leaping.json",
   "model": {
     "filename": "/pa/units/land/bot_bomb/bot_bomb.papa"
   },

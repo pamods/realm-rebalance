@@ -20,7 +20,7 @@
     "radius": 2.25
   },
   "spawn_layers": "WL_LandHorizontal",
-  "base_spec": "/pa/units/land/base_bot/base_bot.json",
+  "base_spec": "/pa/units/land_bots/base_bot/base_bot.json",
   "guard_layer": "WL_LandHorizontal",
   "display_index": 60,
   "audio": {
@@ -76,13 +76,13 @@
   "guard_radius": 110,
   "tools": [
     {
-      "spec_id": "/pa/units/land/bot_bomb/bot_bomb_tool_weapon.json",
+      "spec_id": "/pa/units/land_bots/bot_bomb/bot_bomb_tool_weapon.json",
       "muzzle_bone": "bone_root",
       "aim_bone": "bone_root"
     },
     {
       "death_weapon": true,
-      "spec_id": "/pa/units/land/bot_bomb/bot_bomb_tool_deathweapon.json"
+      "spec_id": "/pa/units/land_bots/bot_bomb/bot_bomb_tool_deathweapon.json"
     }
   ],
   "unit_types": [
