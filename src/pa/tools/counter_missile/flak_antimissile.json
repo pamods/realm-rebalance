@@ -1,6 +1,6 @@
 {
-	"base_spec": "/pa/tools/base_turret/base_turret.json",
-	"ammo_id": "/pa/ammo/misc/base_beam.json",
+	"base_spec": "/pa/tools/base_tool/base_turret.json",
+	"ammo_id": "/pa/ammo/base_ammo/base_beam.json",
 	"rate_of_fire": 100,
 	"idle_aim_delay": 4,
 	"max_range": 90,

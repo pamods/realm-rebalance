@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/tools/base_turret/base_turret.json",
+  "base_spec": "/pa/tools/base_tool/base_turret.json",
   "tool_type": "TOOL_Weapon",
   "ammo_id": "/pa/ammo/torpedo/torpedo.json",
   "target_layers": [

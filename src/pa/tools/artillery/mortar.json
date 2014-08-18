@@ -1,4 +1,5 @@
 {
+    "base_spec": "/pa/tools/base_tool/base_turret.json",
     "ammo_id": "/pa/ammo/artillery/mortar.json",
     "target_layers": [
         "WL_LandHorizontal",

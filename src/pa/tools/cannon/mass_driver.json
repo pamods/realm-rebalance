@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/tools/base_turret/base_turret.json",
+  "base_spec": "/pa/tools/base_tool/base_turret.json",
   "ammo_id": "/pa/ammo/cannon/mass_driver.json",
   "rate_of_fire": 1,
   "idle_aim_delay": 5,

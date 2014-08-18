@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/tools/base_tool/base_tool.json",
+  "base_spec": "/pa/tools/base_tool/base_turret.json",
   "ammo_id": "/pa/ammo/bomb/thermobaric.json",
   "ammo_source": "energy",
   "rate_of_fire": 1,
