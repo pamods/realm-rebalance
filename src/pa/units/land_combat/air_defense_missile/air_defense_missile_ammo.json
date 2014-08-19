@@ -1,0 +1,10 @@
+{
+  "base_spec": "/pa/ammo/small_missiles/super_s.json",
+  "damage": 150,
+  "splash_damage": 0,
+  "splash_radius": 0,
+  "initial_velocity": 225,
+  "max_velocity": 225,
+  "turn_rate": 600,
+  "lifetime": 6
+}

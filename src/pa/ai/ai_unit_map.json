@@ -175,13 +175,13 @@
 			"spec_id": "/pa/units/orbital/orbital_factory/orbital_factory.json"
 		},
 		"BasicAirDefense": {
-			"spec_id": "/pa/units/land/air_defense/air_defense.json"
+			"spec_id": "/pa/units/land_combat/air_defense_missile/air_defense_missile.json"
 		},
 		"BasicLandDefenseSingle": {
-			"spec_id": "/pa/units/land/laser_defense_single/laser_defense_single.json"
+			"spec_id": "/pa/units/land_combat/laser_defense_single/laser_defense_single.json"
 		},
 		"BasicLandDefense": {
-			"spec_id": "/pa/units/land/laser_defense/laser_defense.json"
+			"spec_id": "/pa/units/land_combat/laser_defense_double/laser_defense_double.json"
 		},
 		"BasicNavalDefense": {
 			"spec_id": "/pa/units/sea/torpedo_launcher/torpedo_launcher.json"
@@ -193,10 +193,10 @@
 			"spec_id": "/pa/units/land/artillery_short/artillery_short.json"
 		},
 		"AdvancedAirDefense": {
-			"spec_id": "/pa/units/land/air_defense_adv/air_defense_adv.json"
+			"spec_id": "/pa/units/land_combat/air_defense_flak/air_defense_flak.json"
 		},
 		"AdvancedLandDefense": {
-			"spec_id": "/pa/units/land/laser_defense_adv/laser_defense_adv.json"
+			"spec_id": "/pa/units/land_combat/laser_defense_triple/laser_defense_triple.json"
 		},
 		"AdvancedNavalDefense": {
 			"spec_id": "/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv.json"

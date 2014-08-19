@@ -5,7 +5,7 @@
         "filename": ""
     },
     "fx_trail": {
-        "filename": "/pa/units/land/laser_defense_adv/laser_defense_adv_ammo_trail.pfx"
+        "filename": "/pa/effects/laser/blod.pfx"
     },
     "events": {
         "died": {
