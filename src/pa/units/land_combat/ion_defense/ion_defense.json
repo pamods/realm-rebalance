@@ -4,7 +4,7 @@
   "area_build_type": "Sphere", 
   "atrophy_cool_down": 15.0, 
   "atrophy_rate": 29.16667, 
-  "base_spec": "/pa/units/land/base_structure/base_structure.json", 
+  "base_spec": "/pa/units/land_combat/base_structure/base_structure.json", 
   "build_metal_cost": 300, 
   "command_caps": [
     "ORDER_Attack"
@@ -21,7 +21,7 @@
     }, 
     "fired": {
       "audio_cue": "/SE/Weapons/orb/umbrella_laser_fire", 
-      "effect_spec": "/pa/units/orbital/ion_defense/ion_defense_muzzle_flash.pfx socket_muzzle"
+      "effect_spec": "/pa/units/land_combat/ion_defense/ion_defense_muzzle_flash.pfx socket_muzzle"
     }
   }, 
   "guard_layer": "WL_Orbital", 
@@ -120,7 +120,7 @@
       "muzzle_bone": [
         "socket_muzzle"
       ], 
-      "spec_id": "/pa/units/orbital/ion_defense/ion_defense_tool_weapon.json"
+      "spec_id": "/pa/units/land_combat/ion_defense/ion_defense_tool_weapon.json"
     }
   ], 
   "unit_types": [

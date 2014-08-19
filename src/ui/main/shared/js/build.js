@@ -14,7 +14,7 @@ function BuildHotkeyModel() {
             "/pa/units/land_econ/metal_extractor/metal_extractor.json": ["utility", 9],
             "/pa/units/land/teleporter/teleporter.json": ["utility", 10],
             "/pa/units/orbital/deep_space_radar/deep_space_radar.json": ["utility", 11],
-            "/pa/units/land/land_barrier/land_barrier.json": ["utility", 12],
+            "/pa/units/land_combat/land_barrier/land_barrier.json": ["utility", 12],
             "/pa/units/land_econ/energy_storage/energy_storage.json": ["utility", 13],
             "/pa/units/land_econ/metal_storage/metal_storage.json": ["utility", 14],
                               
@@ -29,7 +29,7 @@ function BuildHotkeyModel() {
             "/pa/units/land_econ/vehicle_factory/vehicle_factory.json": ["factory", 14],
 
             "/pa/units/land_combat/laser_defense_triple/laser_defense_triple.json": ["combat", 0],                   
-            "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher.json": ["combat", 2],
+            "/pa/units/land_combat/tactical_missile_launcher/tactical_missile_launcher.json": ["combat", 2],
             "/pa/units/land_combat/laser_defense_double/laser_defense_double.json": ["combat", 5],
             "/pa/units/land_combat/air_defense_flak/air_defense_flak.json": ["combat", 6],       
             "/pa/units/land_combat/artillery_long/artillery_long.json": ["combat", 7],
@@ -39,7 +39,7 @@ function BuildHotkeyModel() {
             "/pa/units/land_combat/air_defense_missile/air_defense_missile.json": ["combat", 11],       
             "/pa/units/land_combat/artillery_short/artillery_short.json": ["combat", 12],
             "/pa/units/sea/torpedo_launcher/torpedo_launcher.json": ["combat", 13],
-            "/pa/units/orbital/ion_defense/ion_defense.json": ["combat", 14],
+            "/pa/units/land_combat/ion_defense/ion_defense.json": ["combat", 14],
             
 
             "/pa/units/land_vehicles/fabrication_vehicle_adv/fabrication_vehicle_adv.json": ["vehicle", 5],
@@ -96,7 +96,7 @@ function BuildHotkeyModel() {
             "/pa/units/sea/destroyer/destroyer.json": ["sea", 12],
             "/pa/units/sea/sea_scout/sea_scout.json": ["sea", 13],
 
-            "/pa/units/land/land_mine/land_mine.json": ["ammo", 10],
+            "/pa/units/land_combat/land_mine/land_mine.json": ["ammo", 10],
 		"/pa/units/land/anti_nuke_launcher/anti_sat_launcher_ammo.json": ["ammo", 11],
             "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json": ["ammo", 12],
             "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json": ["ammo", 14],

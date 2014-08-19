@@ -43,7 +43,7 @@
   },
   "tools": [
     {
-      "spec_id": "/pa/units/land/land_mine/land_mine_tool_weapon.json",
+      "spec_id": "/pa/units/land_combat/land_mine/land_mine_tool_weapon.json",
       "aim_bone": "bone_root",
       "muzzle_bone": "bone_root"
     }

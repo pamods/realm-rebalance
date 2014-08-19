@@ -1,7 +1,7 @@
 {
-  "base_spec": "/pa/tools/base_missile_tactical_turret/base_missile_tactical_turret.json",
+  "base_spec": "/pa/tools/large_missile/cruise.json",
   "tool_type": "TOOL_Weapon",
-  "ammo_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_ammo.json",
+  "ammo_id": "/pa/units/land_combat/tactical_missile_launcher/tactical_missile_launcher_ammo.json",
   "ammo_source": "metal",
   "rate_of_fire": 2,
   "ammo_capacity": 800,

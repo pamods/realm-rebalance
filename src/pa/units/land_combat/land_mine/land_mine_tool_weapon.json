@@ -1,6 +1,6 @@
 {
   "tool_type": "TOOL_Weapon",
-  "ammo_id": "/pa/ammo/mine_pbaoe/mine_pbaoe.json",
+  "ammo_id": "/pa/ammo/self_destruct/he.json",
   "rate_of_fire": 5,
   "idle_aim_delay": 0,
   "max_range": 30,

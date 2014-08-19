@@ -3,7 +3,7 @@
   "damage": 75, 
   "flight_type": "Direct", 
   "fx_trail": {
-    "filename": "/pa/units/orbital/ion_defense/ion_defense_proj_trail.pfx"
+    "filename": "/pa/effects/energy_shell/plasma_pulse.pfx"
   }, 
   "initial_velocity": 1400, 
   "lifetime": 0.75, 

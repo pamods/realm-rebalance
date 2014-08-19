@@ -1,10 +1,7 @@
 {
-  "base_spec": "/pa/ammo/base_shell/base_shell.json", 
+  "base_spec": "/pa/ammo/energy_shell/plasma_pulse.json", 
   "damage": 75, 
   "flight_type": "Direct", 
-  "fx_trail": {
-    "filename": "/pa/units/orbital/ion_defense/ion_defense_proj_trail.pfx"
-  }, 
   "initial_velocity": 1400, 
   "lifetime": 0.75, 
   "max_velocity": 1400, 

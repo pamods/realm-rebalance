@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land_combat/base_structure/base_structure.json",
   "display_name": "Wall",
   "description": "Heavy Suppression Unit: Multifunction terrain obstruction & area denial system. Weak vs Heavy-Hitter & Flanker",
   "display_group": 20,

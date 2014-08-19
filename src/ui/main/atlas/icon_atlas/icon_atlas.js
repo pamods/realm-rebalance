@@ -61,7 +61,11 @@ $(document).ready(function () {
             'laser_defense_double',
             'laser_defense_triple',
             'artillery_short',
-            'artillery_long'
+            'artillery_long',
+            'land_mine',
+            'land_barrier',
+            'tactical_missile_launcher',
+            'ion_defense'
 
 
 

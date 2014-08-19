@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land_combat/base_structure/base_structure.json",
   "display_name": "Catapult",
   "description": "Long-Range Suppression Silo: A silo that holds long-range tactical missiles. Uses metal. Weak vs Fast & Flanker",
   "display_group": 20,
@@ -59,13 +59,13 @@
   ],
   "tools": [
     {
-      "spec_id": "/pa/units/land/tactical_missile_launcher/tactical_missile_launcher_tool_weapon.json",
+      "spec_id": "/pa/units/land_combat/tactical_missile_launcher/tactical_missile_launcher_tool_weapon.json",
       "aim_bone": "bone_missile01",
       "muzzle_bone": "bone_missile01"
     },
     {
       "death_weapon": true,
-      "spec_id": "/pa/units/land/bot_bomb/bot_bomb_tool_deathweapon.json"
+      "spec_id": "/pa/units/land_combat/tactical_missile_launcher/tactical_missile_launcher_tool_death.json"
     }
   ],
   "events": {
