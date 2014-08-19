@@ -61,6 +61,8 @@
     "/pa/units/land_combat/laser_defense_single/laser_defense_single.json",
     "/pa/units/land_combat/laser_defense_double/laser_defense_double.json",
     "/pa/units/land_combat/laser_defense_triple/laser_defense_triple.json",
+    "/pa/units/land_combat/artillery_short/artillery_short.json",
+    "/pa/units/land_combat/artillery_long/artillery_long.json",
 	
 
     "/pa/units/commanders/base_commander/base_commander.json"

@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land_combat/base_structure/base_structure.json",
   "display_name": "Holkins",
   "description": "Extreme-Range Heavy-Hitter Artillery: A strategic artillery. Uses energy. Weak vs Fast & Heavy-Hitter",
   "display_group": 50,
@@ -56,7 +56,7 @@
   "nearby_target_tick_update_interval": 30,
   "tools": [
     {
-      "spec_id": "/pa/units/land/artillery_long/artillery_long_tool_weapon.json",
+      "spec_id": "/pa/units/land_combat/artillery_long/artillery_long_tool_weapon.json",
       "aim_bone": "socket_aim",
       "muzzle_bone": "socket_muzzle"
     }

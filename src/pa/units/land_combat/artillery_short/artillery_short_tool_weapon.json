@@ -1,6 +1,6 @@
 {
-  "base_spec": "/pa/tools/base_artillery_turret/base_artillery_turret.json",
-  "ammo_id": "/pa/units/land/artillery_short/artillery_short_ammo.json",
+  "base_spec": "/pa/tools/artillery/artillery.json",
+  "ammo_id": "/pa/units/land_combat/artillery_short/artillery_short_ammo.json",
   "max_firing_velocity":275,
   "min_firing_velocity":225,
   "rate_of_fire": 0.75,
