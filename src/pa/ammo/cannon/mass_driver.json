@@ -18,6 +18,6 @@
   "max_velocity": 1400,
   "lifetime": 2,
   "fx_trail": {
-    "filename": "/pa/units/land/bot_sniper/bot_sniper_ammo_trail.pfx"
+    "filename": "/pa/effects/cannon/mass_driver.pfx"
   }
 }

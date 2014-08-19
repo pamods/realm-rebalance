@@ -3,5 +3,8 @@
   "damage": 150,
   "splash_damage": 50,
   "splash_radius": 5,
-  "splash_damages_allies": false
+  "splash_damages_allies": false,
+    "fx_trail": {
+    "filename": "/pa/effects/flamethrower/intense.pfx"
+  }
 }
