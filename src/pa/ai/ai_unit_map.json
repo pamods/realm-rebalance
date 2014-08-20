@@ -184,7 +184,7 @@
 			"spec_id": "/pa/units/land_combat/laser_defense_double/laser_defense_double.json"
 		},
 		"BasicNavalDefense": {
-			"spec_id": "/pa/units/sea/torpedo_launcher/torpedo_launcher.json"
+			"spec_id": "/pa/units/surfacenaval_combat/torpedo_launcher/torpedo_launcher.json"
 		},
 		"Umbrella": {
 			"spec_id": "/pa/units/land_combat/ion_defense/ion_defense.json"
@@ -199,7 +199,7 @@
 			"spec_id": "/pa/units/land_combat/laser_defense_triple/laser_defense_triple.json"
 		},
 		"AdvancedNavalDefense": {
-			"spec_id": "/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv.json"
+			"spec_id": "/pa/units/surfacenaval_combat/torpedo_launcher_adv/torpedo_launcher_adv.json"
 		},
 		"TML": {
 			"spec_id": "/pa/units/land_combat/tactical_missile_launcher/tactical_missile_launcher.json"

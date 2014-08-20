@@ -81,6 +81,11 @@
     "/pa/units/surfacenaval_econ/base_structure/base_structure.json",
     "/pa/units/surfacenaval_econ/naval_factory/naval_factory.json",
     "/pa/units/surfacenaval_econ/naval_factory_adv/naval_factory_adv.json",
+
+
+    "/pa/units/surfacenaval_combat/base_structure/base_structure.json",
+    "/pa/units/surfacenaval_combat/torpedo_launcher/torpedo_launcher.json",
+    "/pa/units/surfacenaval_combat/torpedo_launcher_adv/torpedo_launcher_adv.json",
 	
 
     "/pa/units/commanders/base_commander/base_commander.json"

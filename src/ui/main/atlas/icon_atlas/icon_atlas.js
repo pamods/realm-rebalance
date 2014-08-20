@@ -74,7 +74,9 @@ $(document).ready(function () {
             'nuke_launcher',
             'anti_nuke_launcher',
             'naval_factory',
-            'naval_factory_adv'
+            'naval_factory_adv',
+            'torpedo_launcher',
+            'torpedo_launcher_adv'
 
 
 
