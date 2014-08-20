@@ -1,1 +1,26 @@
-BOOO
+{
+  "base_spec": "/pa/tools/base_tool/base_turret.json",
+  "ammo_id": "/pa/ammo/anti_missile/nuke.json",
+  "ammo_source": "factory",
+  "rate_of_fire": 0.5,
+  "max_range": 400,
+  "yaw_rate": 0,
+  "pitch_rate": 0,
+  "yaw_range": 180,
+  "pitch_range": 180,
+  "spread_fire": true,
+  "firing_arc_yaw": 180,
+  "firing_arc_pitch": 180,
+  "manual_fire": true,
+  "auto_attack": false,
+  "auto_task_type": "anti_entity",
+  "anti_entity_targets": [
+    "/pa/ammo/large_missile/nuke_strat.json",
+    "/pa/ammo/large_missile/nuke_tac.json"
+  ],
+  "target_layers": [
+    "WL_LandHorizontal",
+    "WL_WaterSurface",
+    "WL_Orbital"
+  ]
+}
