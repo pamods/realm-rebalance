@@ -40,10 +40,10 @@
 			"spec_id": "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv.json"
 		},
 		"BasicNavalFabber": {
-			"spec_id": "/pa/units/sea/fabrication_ship/fabrication_ship.json"
+			"spec_id": "/pa/units/surfacenaval_units/fabrication_ship/fabrication_ship.json"
 		},
 		"AdvancedNavalFabber": {
-			"spec_id": "/pa/units/sea/fabrication_ship_adv/fabrication_ship_adv.json"
+			"spec_id": "/pa/units/surfacenaval_units/fabrication_ship_adv/fabrication_ship_adv.json"
 		},
 		"OrbitalFabber": {
 			"spec_id": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.json"
@@ -124,16 +124,16 @@
 			"spec_id": "/pa/units/air/gunship/gunship.json"
 		},
 		"Frigate": {
-			"spec_id": "/pa/units/sea/frigate/frigate.json"
+			"spec_id": "/pa/units/surfacenaval_units/frigate/frigate.json"
 		},
 		"Destroyer": {
-			"spec_id": "/pa/units/sea/destroyer/destroyer.json"
+			"spec_id": "/pa/units/surfacenaval_units/destroyer/destroyer.json"
 		},
 		"Battleship": {
-			"spec_id": "/pa/units/sea/battleship/battleship.json"
+			"spec_id": "/pa/units/surfacenaval_units/battleship/battleship.json"
 		},
 		"MissleShip": {
-			"spec_id": "/pa/units/sea/missile_ship/missile_ship.json"
+			"spec_id": "/pa/units/surfacenaval_units/missile_ship/missile_ship.json"
 		},
 		"OrbitalFighter": {
 			"spec_id": "/pa/units/orbital/orbital_fighter/orbital_fighter.json"

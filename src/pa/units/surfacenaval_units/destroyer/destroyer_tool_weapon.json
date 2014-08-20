@@ -1,0 +1,19 @@
+{
+  "base_spec": "/pa/tools/cannon/heavy.json",
+  "ammo_id": "/pa/units/surfacenaval_units/destroyer/destroyer_ammo.json",
+  "max_firing_velocity": 400,
+  "min_firing_velocity": 200,
+  "rate_of_fire": 0.4,
+  "max_range": 160,
+  "yaw_rate": 90,
+  "pitch_rate": 90,
+  "yaw_range": 180,
+  "pitch_range": 45,
+  "auto_attack": true,
+  "firing_standard_deviation": 1,
+  "target_layers": [
+    "WL_LandHorizontal",
+    "WL_Seafloor",
+    "WL_WaterSurface"
+  ]
+}

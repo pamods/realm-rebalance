@@ -86,6 +86,16 @@
     "/pa/units/surfacenaval_combat/base_structure/base_structure.json",
     "/pa/units/surfacenaval_combat/torpedo_launcher/torpedo_launcher.json",
     "/pa/units/surfacenaval_combat/torpedo_launcher_adv/torpedo_launcher_adv.json",
+
+
+    "/pa/units/surfacenaval_units/base_ship/base_ship.json",
+    "/pa/units/surfacenaval_units/fabrication_ship/fabrication_ship.json",
+    "/pa/units/surfacenaval_units/fabrication_ship_adv/fabrication_ship_adv.json",
+    "/pa/units/surfacenaval_units/battle_ship/battle_ship.json",
+    "/pa/units/surfacenaval_units/destroyer/destroyer.json",
+    "/pa/units/surfacenaval_units/frigate/frigate.json",
+    "/pa/units/surfacenaval_units/missile_ship/missile_ship.json",
+    "/pa/units/surfacenaval_units/sea_scout/sea_scout.json",
 	
 
     "/pa/units/commanders/base_commander/base_commander.json"

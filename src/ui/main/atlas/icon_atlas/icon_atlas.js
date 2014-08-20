@@ -76,7 +76,14 @@ $(document).ready(function () {
             'naval_factory',
             'naval_factory_adv',
             'torpedo_launcher',
-            'torpedo_launcher_adv'
+            'torpedo_launcher_adv',
+            'battle_ship',
+            'destroyer',
+            'fabrication_ship',
+            'fabrication_ship_adv',
+            'frigate',
+            'missile_ship',
+            'sea_scout'
 
 
 
