@@ -66,16 +66,16 @@ function BuildHotkeyModel() {
             "/pa/units/land_bots/bot_antiair/bot_antiair.json": ["bot", 14],
 		"/pa/units/land_bots/bot_tactical_missile/bot_tactical_missile.json": ["bot", 9],
      
-            "/pa/units/orbital/orbital_missile/orbital_missile.json": ["orbital", 5],
-            "/pa/units/orbital/orbital_laser/orbital_laser.json": ["orbital", 6],
-            "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.json": ["orbital", 7],
-            "/pa/units/orbital/solar_array/solar_array.json": ["orbital", 8],
-            "/pa/units/orbital/defense_satellite/defense_satellite.json": ["orbital", 9],           
-            "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.json": ["orbital", 10],
-            "/pa/units/orbital/orbital_fighter/orbital_fighter.json": ["orbital", 11],
-            "/pa/units/orbital/radar_satellite/radar_satellite.json": ["orbital", 12],
-            "/pa/units/orbital/orbital_lander/orbital_lander.json": ["orbital", 13],
-            "/pa/units/orbital/orbital_factory/orbital_factory.json": ["orbital", 14],
+            "/pa/units/orbital_units/orbital_missile/orbital_missile.json": ["orbital", 5],
+            "/pa/units/orbital_units/orbital_bombardment_platform/orbital_bombardment_platform.json": ["orbital", 6],
+            "/pa/units/orbital_structures/radar_satellite_adv/radar_satellite_adv.json": ["orbital", 7],
+            "/pa/units/orbital_structures/solar_array/solar_array.json": ["orbital", 8],
+            "/pa/units/orbital_units/defense_satellite/defense_satellite.json": ["orbital", 9],           
+            "/pa/units/orbital_units/orbital_fabrication_satellite/orbital_fabrication_satellite.json": ["orbital", 10],
+            "/pa/units/orbital_units/orbital_sniper/orbital_sniper.json": ["orbital", 11],
+            "/pa/units/orbital_units/radar_satellite/radar_satellite.json": ["orbital", 12],
+            "/pa/units/orbital_units/orbital_transport/orbital_transport.json": ["orbital", 13],
+            "/pa/units/orbital_structures/orbital_factory/orbital_factory.json": ["orbital", 14],
                  
             "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv.json": ["air", 5],
             "/pa/units/air/fighter_antiair/fighter_antiair.json": ["air", 6],
@@ -97,10 +97,9 @@ function BuildHotkeyModel() {
             "/pa/units/surfacenaval_units/sea_scout/sea_scout.json": ["sea", 13],
 
             "/pa/units/land_combat/land_mine/land_mine.json": ["ammo", 10],
-		"/pa/units/land/anti_nuke_launcher/anti_sat_launcher_ammo.json": ["ammo", 11],
-            "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json": ["ammo", 12],
-            "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json": ["ammo", 14],
-		"/pa/units/land/nuke_launcher/nuke_launcher_tactical_ammo.json": ["ammo", 13],
+            "/pa/ammo/anti_missile/nuke.json": ["ammo", 12],
+            "/pa/ammo/large_missile/nuke_tac.json": ["ammo", 14],
+		"/pa/ammo/large_missile/nuke_strat.json": ["ammo", 13],
         }
     );
 };

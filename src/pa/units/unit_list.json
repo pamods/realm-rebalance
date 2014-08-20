@@ -96,6 +96,22 @@
     "/pa/units/surfacenaval_units/frigate/frigate.json",
     "/pa/units/surfacenaval_units/missile_ship/missile_ship.json",
     "/pa/units/surfacenaval_units/sea_scout/sea_scout.json",
+
+
+    "/pa/units/orbital_structures/base_orbital_structure/base_orbital_structure.json",
+    "/pa/units/orbital_structures/orbital_factory/orbital_factory.json",
+    "/pa/units/orbital_structures/radar_satellite_adv/radar_satellite_adv.json",
+    "/pa/units/orbital_structures/solar_array/solar_array.json",
+
+
+    "/pa/units/orbital_units/base_orbital/base_orbital.json",
+    "/pa/units/orbital_units/orbital_fabrication_satellite/orbital_fabrication_satellite.json",
+    "/pa/units/orbital_units/defence_satellite/defence_satellite.json",
+    "/pa/units/orbital_units/orbital_bombardment_platform/orbital_bombardment_platform.json",
+    "/pa/units/orbital_units/orbital_missile/orbital_missile.json",
+    "/pa/units/orbital_units/orbital_sniper/orbital_sniper.json",
+    "/pa/units/orbital_units/orbital_radar/orbital_radar.json",
+    "/pa/units/orbital_units/radar_satellite/radar_satellite.json",
 	
 
     "/pa/units/commanders/base_commander/base_commander.json"

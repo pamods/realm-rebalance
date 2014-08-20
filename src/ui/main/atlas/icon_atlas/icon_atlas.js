@@ -83,14 +83,17 @@ $(document).ready(function () {
             'fabrication_ship_adv',
             'frigate',
             'missile_ship',
-            'sea_scout'
-
-
-
-
-			
-
-
+            'sea_scout',
+            'orbital_factory',
+            'radar_satellite_adv',
+            'solar_array',
+            'defense_satellite',
+            'orbital_bombardment_platform',
+            'orbtial_fabrication_satellite',
+            'orbital_missile',
+            'orbital_sniper',
+            'orbital_transport',
+            'radar_satellite'
         ]);
 
         self.sendIconList = function () {

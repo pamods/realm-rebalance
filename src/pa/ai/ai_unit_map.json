@@ -46,7 +46,7 @@
 			"spec_id": "/pa/units/surfacenaval_units/fabrication_ship_adv/fabrication_ship_adv.json"
 		},
 		"OrbitalFabber": {
-			"spec_id": "/pa/units/orbital/orbital_fabrication_bot/orbital_fabrication_bot.json"
+			"spec_id": "/pa/units/orbital_units/orbital_fabrication_bot/orbital_fabrication_bot.json"
 		},
 		"BasicMetalExtractor": {
 			"spec_id": "/pa/units/land_econ/metal_extractor/metal_extractor.json"
@@ -136,13 +136,13 @@
 			"spec_id": "/pa/units/surfacenaval_units/missile_ship/missile_ship.json"
 		},
 		"OrbitalFighter": {
-			"spec_id": "/pa/units/orbital/orbital_fighter/orbital_fighter.json"
+			"spec_id": "/pa/units/orbital_units/orbital_fighter/orbital_fighter.json"
 		},
 		"DefenseSatellite": {
-			"spec_id": "/pa/units/orbital/defense_satellite/defense_satellite.json"
+			"spec_id": "/pa/units/orbital_units/defense_satellite/defense_satellite.json"
 		},
 		"OrbitalDeathLaser": {
-			"spec_id": "/pa/units/orbital/orbital_laser/orbital_laser.json"
+			"spec_id": "/pa/units/orbital_units/orbital_laser/orbital_laser.json"
 		},
 		"BasicBotFactory": {
 			"spec_id": "/pa/units/land_econ/bot_factory/bot_factory.json"
@@ -172,7 +172,7 @@
 			"spec_id": "/pa/units/land_econ/orbital_launcher/orbital_launcher.json"
 		},
 		"OrbitalFactory": {
-			"spec_id": "/pa/units/orbital/orbital_factory/orbital_factory.json"
+			"spec_id": "/pa/units/orbital_structures/orbital_factory/orbital_factory.json"
 		},
 		"BasicAirDefense": {
 			"spec_id": "/pa/units/land_combat/air_defense_missile/air_defense_missile.json"
@@ -232,16 +232,16 @@
 			"spec_id": "/pa/units/land_utility/deep_space_radar/deep_space_radar.json"
 		},
 		"SolarArray": {
-			"spec_id": "/pa/units/orbital/solar_array/solar_array.json"
+			"spec_id": "/pa/units/orbital_structures/solar_array/solar_array.json"
 		},
 		"BasicRadarSattelite": {
-			"spec_id": "/pa/units/orbital/radar_satellite/radar_satellite.json"
+			"spec_id": "/pa/units/orbital_units/radar_satellite/radar_satellite.json"
 		},
 		"OrbitalLander": {
-			"spec_id": "/pa/units/orbital/orbital_lander/orbital_lander.json"
+			"spec_id": "/pa/units/orbital_units/orbital_lander/orbital_lander.json"
 		},
 		"AdvancedRadarSattelite": {
-			"spec_id": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.json"
+			"spec_id": "/pa/units/orbital_structures/radar_satellite_adv/radar_satellite_adv.json"
 		},
 		"NukeMissile": {
 			"spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json"
