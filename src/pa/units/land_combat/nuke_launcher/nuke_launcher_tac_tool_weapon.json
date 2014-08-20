@@ -1,7 +1,6 @@
 {
-  "base_spec": "/pa/tools/base_missile_tactical_turret/base_missile_tactical_turret.json",
-  "tool_type": "TOOL_Weapon",
-  "ammo_id": "/pa/units/land/nuke_launcher/nuke_launcher_tactical_ammo.json",
+  "base_spec": "/pa/tools/large_missile/nuke_tac.json",
+  "ammo_id": "/pa/ammo/large_missile/nuke_tac.json",
   "ammo_source": "factory",
   "rate_of_fire": 1,
   "max_range": 5000,

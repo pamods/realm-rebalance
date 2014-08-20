@@ -70,7 +70,9 @@ $(document).ready(function () {
             'delta_v_engine',
             'radar',
             'radar_adv',
-            'teleporter'
+            'teleporter',
+            'nuke_launcher',
+            'anti_nuke_launcher'
 
 
 

@@ -66,6 +66,8 @@
     "/pa/units/land_combat/ion_defense/ion_defense.json",
     "/pa/units/land_combat/land_mine/land_mine.json",
     "/pa/units/land_combat/land_barrier/land_barrier.json",
+    "/pa/units/land_combat/nuke_launcher/nuke_launcher.json",
+    "/pa/units/land_combat/anti_nuke_launcher/anti_nuke_launcher.json",
 
 
     "/pa/units/land_utility/base_structure/base_structure.json",

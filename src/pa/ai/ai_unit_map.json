@@ -208,10 +208,10 @@
 			"spec_id": "/pa/units/land_combat/artillery_long/artillery_long.json"
 		},
 		"NukeSilo": {
-			"spec_id": "/pa/units/land/nuke_launcher/nuke_launcher.json"
+			"spec_id": "/pa/units/land_combat/nuke_launcher/nuke_launcher.json"
 		},
 		"AntiNukeSilo": {
-			"spec_id": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher.json"
+			"spec_id": "/pa/units/land_combat/anti_nuke_launcher/anti_nuke_launcher.json"
 		},
 		"PlanetEngine": {
 			"spec_id": "/pa/units/land_utility/delta_v_engine/delta_v_engine.json"

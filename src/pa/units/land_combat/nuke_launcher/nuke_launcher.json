@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land_combat/base_structure/base_structure.json",
   "display_name": "ICBM Silo",
   "description": "Extreme-Range Multi-Purpose Silo: A launcher for manually targeted missiles. Weak vs Anti-Missile & Fast",
   "display_group": 20,
@@ -10,8 +10,8 @@
   "atrophy_cool_down": 30,
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "buildable_projectiles": [
-    "/pa/units/land/nuke_launcher/nuke_launcher_ammo.json",
-    "/pa/units/land/nuke_launcher/nuke_launcher_tactical_ammo.json"
+    "/pa/ammo/large_missile/nuke_strat.json",
+    "/pa/ammo/large_missile/nuke_tac.json"
   ],
   "factory": {
     "store_units": true,
@@ -76,11 +76,15 @@
   ],
   "tools": [
     {
-      "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_tool_weapon.json",
+      "spec_id": "/pa/units/land_combat/nuke_launcher/nuke_launcher_strat_tool_weapon.json",
       "aim_bone": "bone_root"
     },
     {
-      "spec_id": "/pa/units/land/nuke_launcher/nuke_launcher_build_arm.json",
+      "spec_id": "/pa/units/land_combat/nuke_launcher/nuke_launcher_tac_tool_weapon.json",
+      "aim_bone": "bone_root"
+    },    
+    {
+      "spec_id": "/pa/units/land_combat/nuke_launcher/nuke_launcher_build_arm.json",
       "aim_bone": "bone_root"
     }
   ],
