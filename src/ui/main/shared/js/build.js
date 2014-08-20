@@ -4,16 +4,16 @@ function BuildHotkeyModel() {
 
     self.SpecIdToGridMap = ko.observable(
         {
-            "/pa/units/land/radar_adv/radar_adv.json": ["utility", 0],                    
+            "/pa/units/land_utility/radar_adv/radar_adv.json": ["utility", 0],                    
             "/pa/units/land_econ/energy_plant_adv/energy_plant_adv.json": ["utility", 3],
             "/pa/units/land_econ/metal_extractor_adv/metal_extractor_adv.json": ["utility", 4],
-            "/pa/units/orbital/delta_v_engine/delta_v_engine.json": ["utility", 5],
-            "/pa/units/land/radar/radar.json": ["utility", 6],          
+            "/pa/units/land_utility/delta_v_engine/delta_v_engine.json": ["utility", 5],
+            "/pa/units/land_utility/radar/radar.json": ["utility", 6],          
             "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher.json": ["utility", 7],
             "/pa/units/land_econ/energy_plant/energy_plant.json": ["utility", 8],
             "/pa/units/land_econ/metal_extractor/metal_extractor.json": ["utility", 9],
-            "/pa/units/land/teleporter/teleporter.json": ["utility", 10],
-            "/pa/units/orbital/deep_space_radar/deep_space_radar.json": ["utility", 11],
+            "/pa/units/land_utility/teleporter/teleporter.json": ["utility", 10],
+            "/pa/units/land_utility/deep_space_radar/deep_space_radar.json": ["utility", 11],
             "/pa/units/land_combat/land_barrier/land_barrier.json": ["utility", 12],
             "/pa/units/land_econ/energy_storage/energy_storage.json": ["utility", 13],
             "/pa/units/land_econ/metal_storage/metal_storage.json": ["utility", 14],

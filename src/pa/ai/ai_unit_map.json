@@ -214,22 +214,22 @@
 			"spec_id": "/pa/units/land/anti_nuke_launcher/anti_nuke_launcher.json"
 		},
 		"PlanetEngine": {
-			"spec_id": "/pa/units/orbital/delta_v_engine/delta_v_engine.json"
+			"spec_id": "/pa/units/land_utility/delta_v_engine/delta_v_engine.json"
 		},
 		"Teleporter": {
-			"spec_id": "/pa/units/land/teleporter/teleporter.json"
+			"spec_id": "/pa/units/land_utility/teleporter/teleporter.json"
 		},
 		"Wall": {
 			"spec_id": "/pa/units/land_combat/land_barrier/land_barrier.json"
 		},
 		"BasicRadar": {
-			"spec_id": "/pa/units/land/radar/radar.json"
+			"spec_id": "/pa/units/land_utility/radar/radar.json"
 		},
 		"AdvancedRadar": {
-			"spec_id": "/pa/units/land/radar_adv/radar_adv.json"
+			"spec_id": "/pa/units/land_utility/radar_adv/radar_adv.json"
 		},
 		"DeepSpaceRadar": {
-			"spec_id": "/pa/units/orbital/deep_space_radar/deep_space_radar.json"
+			"spec_id": "/pa/units/land_utility/deep_space_radar/deep_space_radar.json"
 		},
 		"SolarArray": {
 			"spec_id": "/pa/units/orbital/solar_array/solar_array.json"

@@ -65,7 +65,12 @@ $(document).ready(function () {
             'land_mine',
             'land_barrier',
             'tactical_missile_launcher',
-            'ion_defense'
+            'ion_defense',
+            'deep_space_radar',
+            'delta_v_engine',
+            'radar',
+            'radar_adv',
+            'teleporter'
 
 
 

@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/land_utility/base_structure/base_structure.json",
   "display_name": "Observation Tower",
   "description": "Observation Tower: sees all in a moderate radius",
   "display_group": 50,
