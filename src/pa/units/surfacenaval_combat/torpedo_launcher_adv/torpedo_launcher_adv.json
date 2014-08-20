@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/surfacenaval_combat/base_structure/base_structure.json",
   "display_name": "Advanced Torpedo Launcher",
   "description": "Long-Range Heavy-Hitting Torpedo Launcher: Fires torpedo swarms. Uses energy. Weak vs Flankers & Swarms",
   "display_group": 50,
@@ -40,7 +40,7 @@
   },
   "tools": [
     {
-      "spec_id": "/pa/units/sea/torpedo_launcher_adv/torpedo_launcher_adv_tool_weapon.json",
+      "spec_id": "/pa/units/surfacenaval_combat/torpedo_launcher_adv/torpedo_launcher_adv_tool_weapon.json",
       "aim_bone": "bone_turret",
       "muzzle_bone": [
         "socket_rightMuzzle",

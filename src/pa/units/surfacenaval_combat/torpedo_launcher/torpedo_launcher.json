@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/surfacenaval_combat/base_structure/base_structure.json",
   "display_name": "Torpedo Launcher",
   "description": "Short-Range Riot-Control Torpedo Launcher: An area denial torpedo launcher. Weak vs Long-Range & Heavy-Hitting",
   "display_group": 50,
@@ -41,7 +41,7 @@
   },
   "tools": [
     {
-      "spec_id": "/pa/units/sea/torpedo_launcher/torpedo_launcher_tool_weapon.json",
+      "spec_id": "/pa/units/surfacenaval_combat/torpedo_launcher/torpedo_launcher_tool_weapon.json",
       "aim_bone": "bone_turret",
       "muzzle_bone": [
         "socket_rightMuzzle",
