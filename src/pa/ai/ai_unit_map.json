@@ -163,10 +163,10 @@
 			"spec_id": "/pa/units/land_econ/air_factory_adv/air_factory_adv.json"
 		},
 		"BasicNavalFactory": {
-			"spec_id": "/pa/units/sea/naval_factory/naval_factory.json"
+			"spec_id": "/pa/units/surfacenaval_econ/naval_factory/naval_factory.json"
 		},
 		"AdvancedNavalFactory": {
-			"spec_id": "/pa/units/sea/naval_factory_adv/naval_factory_adv.json"
+			"spec_id": "/pa/units/surfacenaval_econ/naval_factory_adv/naval_factory_adv.json"
 		},
 		"OrbitalLauncher": {
 			"spec_id": "/pa/units/land_econ/orbital_launcher/orbital_launcher.json"

@@ -72,7 +72,9 @@ $(document).ready(function () {
             'radar_adv',
             'teleporter',
             'nuke_launcher',
-            'anti_nuke_launcher'
+            'anti_nuke_launcher',
+            'naval_factory',
+            'naval_factory_adv'
 
 
 

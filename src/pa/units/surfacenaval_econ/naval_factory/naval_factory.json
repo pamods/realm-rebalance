@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/units/land/base_structure/base_structure.json",
+  "base_spec": "/pa/units/surfacenaval_econ/base_structure/base_structure.json",
   "display_name": "Shipyard",
   "description": "Factory: Builds naval units",
   "display_group": 70,
@@ -69,7 +69,7 @@
   },
   "tools": [
     {
-      "spec_id": "/pa/units/sea/naval_factory/naval_factory_build_arm.json",
+      "spec_id": "/pa/units/surfacenaval_econ/naval_factory/naval_factory_build_arm.json",
       "aim_bone": "bone_root"
     }
   ],

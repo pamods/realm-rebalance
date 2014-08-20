@@ -76,6 +76,11 @@
     "/pa/units/land_utility/radar/radar.json",
     "/pa/units/land_utility/radar_adv/radar_adv.json",
     "/pa/units/land_utility/teleporter/teleporter.json",
+
+
+    "/pa/units/surfacenaval_econ/base_structure/base_structure.json",
+    "/pa/units/surfacenaval_econ/naval_factory/naval_factory.json",
+    "/pa/units/surfacenaval_econ/naval_factory_adv/naval_factory_adv.json",
 	
 
     "/pa/units/commanders/base_commander/base_commander.json"
