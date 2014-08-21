@@ -22,7 +22,6 @@
     "UNITTYPE_Tank",
     "UNITTYPE_Mobile",
     "UNITTYPE_AirDefense",
-    "UNITTYPE_land_vehicles",
     "UNITTYPE_Basic",
     "UNITTYPE_FactoryBuild"
   ],

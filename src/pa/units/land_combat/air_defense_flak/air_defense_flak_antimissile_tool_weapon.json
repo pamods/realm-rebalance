@@ -1,6 +1,6 @@
 {
   "base_spec": "/pa/tools/anti_missile/flak.json",
-  "ammo_id": "/pa/units/land_combat/air_defence_flak/air_defence_flak_antimissile_ammo.json",
+  "ammo_id": "/pa/units/land_combat/air_defense_flak/air_defense_flak_antimissile_ammo.json",
   "rate_of_fire": 0.2,
   "idle_aim_delay": 4,
   "max_range": 90,

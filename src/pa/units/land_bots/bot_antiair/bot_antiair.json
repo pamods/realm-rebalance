@@ -31,7 +31,7 @@
   "guard_radius": 115,
   "guard_layer": "WL_AnySurface",
   "navigation": {
-    "type": "land_bots-small",
+    "type": "land-small",
     "move_speed": 10,
     "turn_speed": 720,
     "brake": 120,
@@ -85,7 +85,7 @@
       "effect_scale": 0.6
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/structure/air_defence_fire",
+      "audio_cue": "/SE/Weapons/structure/air_defense_fire",
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
     }
   },

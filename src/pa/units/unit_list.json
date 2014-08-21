@@ -91,7 +91,7 @@
     "/pa/units/surfacenaval_units/base_ship/base_ship.json",
     "/pa/units/surfacenaval_units/fabrication_ship/fabrication_ship.json",
     "/pa/units/surfacenaval_units/fabrication_ship_adv/fabrication_ship_adv.json",
-    "/pa/units/surfacenaval_units/battle_ship/battle_ship.json",
+    "/pa/units/surfacenaval_units/battleship/battleship.json",
     "/pa/units/surfacenaval_units/destroyer/destroyer.json",
     "/pa/units/surfacenaval_units/frigate/frigate.json",
     "/pa/units/surfacenaval_units/missile_ship/missile_ship.json",
@@ -106,11 +106,11 @@
 
     "/pa/units/orbital_units/base_orbital/base_orbital.json",
     "/pa/units/orbital_units/orbital_fabrication_satellite/orbital_fabrication_satellite.json",
-    "/pa/units/orbital_units/defence_satellite/defence_satellite.json",
+    "/pa/units/orbital_units/defense_satellite/defense_satellite.json",
     "/pa/units/orbital_units/orbital_bombardment_platform/orbital_bombardment_platform.json",
     "/pa/units/orbital_units/orbital_missile/orbital_missile.json",
     "/pa/units/orbital_units/orbital_sniper/orbital_sniper.json",
-    "/pa/units/orbital_units/orbital_radar/orbital_radar.json",
+    "/pa/units/orbital_units/orbital_transport/orbital_transport.json",
     "/pa/units/orbital_units/radar_satellite/radar_satellite.json",
 	
 

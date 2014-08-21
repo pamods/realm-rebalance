@@ -29,7 +29,7 @@
   "build_metal_cost": 25000,
   "tools": [
     {
-      "spec_id": "/pa/commanders/base_commander/base_commander_build_arm.json",
+      "spec_id": "/pa/tools/build_arm/mobile.json",
       "build_arm": true,
       "aim_bone": "bone_turret"
     },

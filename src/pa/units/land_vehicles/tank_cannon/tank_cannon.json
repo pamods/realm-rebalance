@@ -54,7 +54,7 @@
 		"arrows": 5
 	},
 	"tools": [{
-		"spec_id": "/pa/units/land_vehicle/tank_cannon/tank_cannon_tool_weapon.json",
+		"spec_id": "/pa/units/land_vehicles/tank_cannon/tank_cannon_tool_weapon.json",
 		"aim_bone": "socket_aim",
 		"muzzle_bone": "socket_muzzle"
 	}],
