@@ -1,6 +1,6 @@
 {
   "base_spec":"/pa/tools/base_tool/base_turret.json",
-  "ammo_id": "/pa/ammo/small_missile/light_homing_missile.json",
+  "ammo_id": "/pa/ammo/small_missile/light_homing.json",
   "target_layers": [
     "WL_LandHorizontal",
     "WL_WaterSurface",

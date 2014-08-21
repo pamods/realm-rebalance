@@ -1,5 +1,6 @@
 {
-  "base_spec": "/pa/ammo/laser_blast/laser_blast.json",
+  "base_spec": "/pa/ammo/base_ammo/base_ammo.json",
+  "flight_type": "Direct",
   "lifetime": 1,
   "model": null,
   "damage": 150,
