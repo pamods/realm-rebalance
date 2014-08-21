@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/ammo/artillary/monster.json",
+  "base_spec": "/pa/ammo/artillery/monster.json",
   "damage": 300,
   "full_damage_splash_radius": 5,
   "initial_velocity": 400,
