@@ -1,6 +1,6 @@
 {
     "tool_type": "TOOL_Weapon",
-    "ammo_id": "/pa/ammo/flamethrower/basic.json",
+    "ammo_id": "/pa/ammo/flamethrower/standard.json",
     "target_layers": [
         "WL_LandHorizontal",
         "WL_WaterSurface",
