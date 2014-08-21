@@ -1,6 +1,6 @@
 {
   "base_spec": "/pa/tools/base_tool/base_turret.json",
-  "ammo_id": "/pa/ammo/anti_missile/nuke.json",
+  "ammo_id": "/pa/ammo/anti_missile/anti_nuke.json",
   "ammo_source": "factory",
   "rate_of_fire": 0.5,
   "max_range": 400,

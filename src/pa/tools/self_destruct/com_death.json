@@ -1,5 +1,5 @@
 {
   "tool_type": "TOOL_Weapon",
-  "ammo_id": "/pa/ammo/nuke_pbaoe/nuke_pbaoe.json",
+  "ammo_id": "/pa/ammo/self_destruct/com_death.json",
   "manual_fire": true
 }

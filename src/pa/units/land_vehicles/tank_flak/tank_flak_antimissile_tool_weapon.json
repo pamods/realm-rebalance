@@ -1,5 +1,5 @@
 {
-	"base_spec": "/pa/tools/counter_missile/flak_antimissile.json",
+	"base_spec": "/pa/tools/anti_missile/flak.json",
 	"ammo_id": "/pa/units/land_vehicles/tank_flak/tank_flak_antimissile_ammo.json",
 	"rate_of_fire": 0.2,
 	"idle_aim_delay": 4,

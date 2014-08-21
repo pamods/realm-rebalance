@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/ammo/anti_entity/anti_missile.json",
+  "base_spec": "/pa/ammo/anti_missile/flak.json",
   "audio_loop": "/SE/Impacts/laser_blast",
   "collision_audio": "/SE/Impacts/laser_blast",
   "lifetime": 1,
