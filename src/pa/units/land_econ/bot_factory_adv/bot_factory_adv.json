@@ -21,7 +21,7 @@
       0
     ]
   ],
-  "wait_to_rolloff_time": 0,
+  "wait_to_rolloff_time": 1,
   "factory_cooldown_time": 1,
   "storage": {
     "metal": 500
@@ -253,7 +253,7 @@
   ],
   "placement_size": [
     50,
-    80
+    50
   ],
   "area_build_separation": 7,
   "TEMP_texelinfo": 63.0516,

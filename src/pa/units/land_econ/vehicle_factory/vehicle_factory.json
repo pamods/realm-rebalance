@@ -234,9 +234,9 @@
   ],
   "placement_size": [
     30,
-    60
+    30
   ],
-  "area_build_separation": 3,
+  "area_build_separation": 5,
   "TEMP_texelinfo": 39.6154,
   "physics": {
     "collision_layers": "WL_AnyHorizontalGroundOrWaterSurface"

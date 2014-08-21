@@ -97,7 +97,7 @@ function BuildHotkeyModel() {
             "/pa/units/surfacenaval_units/sea_scout/sea_scout.json": ["sea", 13],
 
             "/pa/units/land_combat/land_mine/land_mine.json": ["ammo", 10],
-            "/pa/ammo/anti_missile/nuke.json": ["ammo", 12],
+            "/pa/ammo/anti_missile/anti_nuke.json": ["ammo", 12],
             "/pa/ammo/large_missile/nuke_tac.json": ["ammo", 14],
 		"/pa/ammo/large_missile/nuke_strat.json": ["ammo", 13],
         }

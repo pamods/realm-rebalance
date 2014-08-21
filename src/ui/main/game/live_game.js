@@ -3005,9 +3005,9 @@ $(document).ready(function () {
         // nuke hack 
         // the projectiles are not magically added to the unit_list, so the display details aren't sent to the ui
 
-        var nuke_id = '/pa/units/land/nuke_launcher/nuke_launcher_ammo.json';
-        var anti_nuke_id = '/pa/units/land/anti_nuke_launcher/anti_nuke_launcher_ammo.json';
-		var tac_nuke_id = '/pa/units/land/nuke_launcher/nuke_launcher_tactical_ammo.json';
+        var nuke_id = '/pa/ammo/large_missile/nuke_strat.json';
+        var anti_nuke_id = '/pa/ammo/anti_missile/anti_nuke.json';
+		var tac_nuke_id = '/pa/ammo/large_missile/nuke_tac.json';
 
         model.itemDetails[nuke_id] = new UnitDetailModel('nuke', 'IPBM-96 -Pacifier- Missile', 10000, siconFor(nuke_id));
 		model.itemDetails[tac_nuke_id] = new UnitDetailModel('Tactical Nuke', 'ICBM-64 -Silencer- Missile', 1500, siconFor(tac_nuke_id));
