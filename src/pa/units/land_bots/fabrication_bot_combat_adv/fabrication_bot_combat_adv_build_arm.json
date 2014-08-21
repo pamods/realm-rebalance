@@ -1,5 +1,5 @@
 {
-	"base_spec": "/pa/tools/build_arm_adv/repair.json",
+	"base_spec": "/pa/tools/build_arm/repair.json",
 	"yaw_rate": 360,
 	"pitch_rate": 360,
 	"max_range": 75,

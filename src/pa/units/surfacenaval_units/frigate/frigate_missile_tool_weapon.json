@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/tools/light_missile/light.json",
+  "base_spec": "/pa/tools/small_missile/light_homing.json",
   "ammo_id": "/pa/units/surfacenaval_units/frigate/frigate_missile_ammo.json",
   "rate_of_fire": 0.75,
   "max_range": 130,
