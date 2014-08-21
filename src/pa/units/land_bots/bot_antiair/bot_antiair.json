@@ -55,11 +55,10 @@
   },
   "model": {
     "animations": {
-      "death01": "/pa/units/land/bot_antiair/bot_antiair_anim_death01.papa",
-      "aim_up": "/pa/units/land/bot_antiair/bot_antiair_anim_aimUp.papa",
-      "walk": "/pa/units/land/bot_antiair/bot_antiair_anim_run.papa",
-      "aim_down": "/pa/units/land/bot_antiair/bot_antiair_anim_aimDown.papa",
-	  "comment": "THIS HAS NOT BEEN MIGRATED YET"
+      "death01": "/pa/units/land_bots/bot_antiair/bot_antiair_anim_death01.papa",
+      "aim_up": "/pa/units/land_bots/bot_antiair/bot_antiair_anim_aimUp.papa",
+      "walk": "/pa/units/land_bots/bot_antiair/bot_antiair_anim_run.papa",
+      "aim_down": "/pa/units/land_bots/bot_antiair/bot_antiair_anim_aimDown.papa"
     },
     "arrows": 5,
     "animtree": "/pa/anim/anim_trees/bot_antiair_anim_tree.json",
