@@ -1,5 +1,5 @@
 {
-  "base_spec": "/pa/tools/artillary/monster.json",
+  "base_spec": "/pa/tools/artillery/monster.json",
   "ammo_id": "/pa/units/surfacenaval_units/battleship/battleship_ammo.json",
   "max_firing_velocity": 400,
   "min_firing_velocity": 200,
