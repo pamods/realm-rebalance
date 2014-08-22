@@ -10,8 +10,8 @@
   "atrophy_cool_down": 30,
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
   "buildable_projectiles": [
-    "/pa/ammo/large_missile/nuke_strat.json",
-    "/pa/ammo/large_missile/nuke_tac.json"
+    "/pa/units/land_combat/nuke_launcher/nuke_launcher_strat_ammo.json",
+    "/pa/units/land_combat/nuke_launcher/nuke_launcher_tac_ammo.json"
   ],
   "factory": {
     "store_units": true,

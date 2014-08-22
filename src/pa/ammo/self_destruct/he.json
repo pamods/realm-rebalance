@@ -1,8 +1,13 @@
 {
-  "ammo_type": "PBAOE",
-  "damage": 350,
-  "splash_damage": 350,
+  "ammo_type": "PBAOE", 
+  "damage": 350, 
+  "damage_volume": {
+    "initial_radius": 30
+  }, 
+  "impact_decals": [
+    "/pa/effects/specs/scorch_b_01.json"
+  ], 
+  "splash_damages_allies": false, 
   "splash_radius": 30,
-  "splash_damages_allies": false,
   "sim_fire_effect": "/pa/effects/specs/default_building_explosion.pfx"
 }

@@ -12,7 +12,7 @@
    "area_build_separation":100,
    "spawn_layers":"WL_AnyHorizontalGroundOrWaterSurface",
    "buildable_projectiles":[
-      "/pa/ammo/anti_missile/anti_nuke.json"
+      "/pa/units/land_combat/anti_nuke_launcher/anti_nuke_launcher_ammo.json"
    ],
    "factory_cooldown_time":2.5,
    "factory":{

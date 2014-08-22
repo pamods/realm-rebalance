@@ -97,9 +97,9 @@ function BuildHotkeyModel() {
             "/pa/units/surfacenaval_units/sea_scout/sea_scout.json": ["sea", 13],
 
             "/pa/units/land_combat/land_mine/land_mine.json": ["ammo", 10],
-            "/pa/ammo/anti_missile/anti_nuke.json": ["ammo", 12],
-            "/pa/ammo/large_missile/nuke_tac.json": ["ammo", 14],
-		"/pa/ammo/large_missile/nuke_strat.json": ["ammo", 13],
+            "/pa/units/land_combat/nuke_launcher/nuke_launcher_strat_ammo.json": ["ammo", 12],
+            "/pa/units/land_combat/nuke_launcher/nuke_launcher_tac_ammo.json": ["ammo", 14],
+		"/pa/units/land_combat/anti_nuke_launcher/anti_nuke_launcher_ammo.json": ["ammo", 13],
         }
     );
 };
