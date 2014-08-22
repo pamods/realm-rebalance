@@ -1,10 +1,5 @@
 {
   "base_spec": "/pa/tools/build_arm/repair.json",
-  "yaw_rate": 360,
-  "pitch_rate": 360,
-  "max_range": 40,
-  "auto_repair": true,
-  "auto_reclaim": true,
   "construction_demand": {
     "energy": 100,
     "metal": 20
