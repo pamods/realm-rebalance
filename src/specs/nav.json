@@ -1,7 +1,7 @@
 {
   "flock_cohesion_radius": 40, 
   "flock_cohesion_scalar": 0.1, 
-  "flock_separation_radius": 10, 
+  "flock_separation_radius": 2, 
   "flock_separation_scalar": 0.25, 
   "flock_velocity_radius": 40, 
   "flock_velocity_scalar": 0.25, 

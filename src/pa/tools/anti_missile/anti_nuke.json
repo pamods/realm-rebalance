@@ -15,8 +15,8 @@
   "auto_attack": false,
   "auto_task_type": "anti_entity",
   "anti_entity_targets": [
-    "/pa/ammo/large_missile/nuke_strat.json",
-    "/pa/ammo/large_missile/nuke_tac.json"
+    "/pa/units/land_combat/nuke_launcher/nuke_launcher_strat_ammo.json",
+    "/pa/units/land_combat/nuke_launcher/nuke_launcher_tac_ammo.json"
   ],
   "target_layers": [
     "WL_LandHorizontal",

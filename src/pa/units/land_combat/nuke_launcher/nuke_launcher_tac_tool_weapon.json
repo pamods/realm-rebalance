@@ -1,6 +1,6 @@
 {
   "base_spec": "/pa/tools/large_missile/nuke_tac.json",
-  "ammo_id": "/pa/ammo/large_missile/nuke_tac.json",
+  "ammo_id": "/pa/units/land_combat/nuke_launcher/nuke_launcher_tac_ammo.json",
   "ammo_source": "factory",
   "rate_of_fire": 1,
   "max_range": 5000,

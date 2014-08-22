@@ -1,6 +1,6 @@
 {
   "base_spec": "/pa/tools/anti_missile/anti_nuke.json",
-  "ammo_id": "/pa/ammo/anti_missile/anti_nuke.json",
+  "ammo_id": "/pa/units/land_combat/anti_nuke_launcher/anti_nuke_launcher_ammo.json",
   "ammo_source": "factory",
   "rate_of_fire": 0.5,
   "max_range": 400,
