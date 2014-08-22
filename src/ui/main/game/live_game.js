@@ -3009,8 +3009,8 @@ $(document).ready(function () {
         var anti_nuke_id = '/pa/units/land_combat/anti_nuke_launcher/anti_nuke_launcher_ammo.json';
 		var tac_nuke_id = '/pa/units/land_combat/nuke_launcher/nuke_launcher_tac_ammo.json';
 
-        model.itemDetails[nuke_id] = new UnitDetailModel('nuke', 'IPBM-96 -Pacifier- Missile', 10000, siconFor(nuke_id));
-		model.itemDetails[tac_nuke_id] = new UnitDetailModel('Tactical Nuke', 'ICBM-64 -Silencer- Missile', 1500, siconFor(tac_nuke_id));
+        model.itemDetails[nuke_id] = new UnitDetailModel('nuke', 'IPBM-96 -Pacifier- Missile', 10000, siconFor(nuke_strat_id));
+		model.itemDetails[tac_nuke_id] = new UnitDetailModel('Tactical Nuke', 'ICBM-64 -Silencer- Missile', 1500, siconFor(nuke_tac_id));
         model.itemDetails[anti_nuke_id] = new UnitDetailModel('anti nuke', 'SR-24 -Shield- Missile Defense', 1500, siconFor(anti_nuke_id));
     };
 

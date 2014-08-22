@@ -22,7 +22,7 @@
          "socket_missile02",
          "socket_missile03"
       ],
-      "initial_build_spec":"/pa/ammo/anti_missile/anti_nuke.json",
+      "initial_build_spec":"/pa/units/land_combat/anti_nuke_launcher/anti_nuke_launcher_ammo.json",
       "default_build_stance":"Continuous"
    },
    "unit_types":[
