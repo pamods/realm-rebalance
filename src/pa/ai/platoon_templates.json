@@ -127,7 +127,7 @@
           "unit_types": "((Tank | Bot) & Mobile) & Heavy"
         }, 
         {
-          "min_count": 0, 
+          "min_count": 5, 
           "percent": 0.2, 
           "squad": "Defense", 
           "unit_types": "((Tank | Bot) & Mobile) & (AirDefense | Construction)"
@@ -207,7 +207,7 @@
           "unit_types": "((Tank | Bot) & Mobile) & Heavy"
         }, 
         {
-          "min_count": 0, 
+          "min_count": 2, 
           "percent": 0.2, 
           "squad": "Defense", 
           "unit_types": "((Tank | Bot) & Mobile) & (AirDefense | Construction)"
