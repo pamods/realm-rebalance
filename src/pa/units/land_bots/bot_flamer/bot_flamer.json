@@ -37,7 +37,7 @@
       "effect_scale": 0.9
     },
     "fired": {
-      "effect_spec": "/pa/units/land/tank_armor/tank_armor_muzzle_flame.pfx socket_rightMuzzle /pa/units/land/tank_armor/tank_armor_muzzle_flame.pfx socket_leftMuzzle",
+      "effect_spec": "/pa/effects/flamethrower/intense.pfx socket_rightMuzzle /pa/effects/flamethrower/intense.pfx socket_leftMuzzle",
       "audio_cue": "/SE/Weapons/veh/tank_flame"
     }
   },

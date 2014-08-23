@@ -42,7 +42,7 @@
     "group_preference": "front"
   },
   "physics": {
-    "radius": 4.5,
+    "radius": 3,
     "push_class": 80
   },
   "recon": {
@@ -79,7 +79,7 @@
     },
     "fired": {
       "audio_cue": "/SE/Weapons/veh/tank_flame",
-      "effect_spec": "/pa/units/land_vehicles/tank_flamer/tank_flamer_muzzle_flame.pfx socket_muzzle"
+      "effect_spec": "/pa/effects/flamethrower/standard.pfx socket_muzzle"
     }
   },
   "audio": {

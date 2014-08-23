@@ -68,8 +68,7 @@
 			"audio_cue": "/SE/Build_Complete/veh"
 		},
 		"fired": {
-			"audio_cue": "/SE/Weapons/veh/land_scout_fire",
-			"effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle01 /pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle01"
+			"audio_cue": "/SE/Weapons/veh/land_scout_fire"
 		},
 		"died": {
 			"audio_cue": "/SE/Death/Veh"

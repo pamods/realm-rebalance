@@ -199,7 +199,6 @@
 			"compare0": ">",
 			"value0": 1.0
 		}],		
-		],
 		[{
 			"test_type": "AloneOnPlanet",
 			"boolean": true
