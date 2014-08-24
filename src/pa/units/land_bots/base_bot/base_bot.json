@@ -23,6 +23,11 @@
     "air_friction": 1,
     "radius": 8
   },
+  "mesh_bounds": [
+    1,
+    1,
+    1
+  ],
   "display_index": 99,
   "audio": {
     "loops": {
