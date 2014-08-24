@@ -175,16 +175,11 @@
     },
 	    {
       "spec_id": "/pa/units/surfacenaval_units/battleship/battleship_tool_weapon.json",
-      "aim_bone": "bone_pitch04",
+      "aim_bone": "bone_smallpitch04",
       "muzzle_bone": [
         "socket_smallMuzzle04"
       ]
-    },
-	{
-	  "spec_id": "/pa/units/surfacenaval_units/battleship/battleship_tool_weapon.json",
-      "aim_bone": "bone_root",
-      "muzzle_bone": "bone_root"
-	}
+    }
    ],
   "unit_types": [
     "UNITTYPE_Naval",
