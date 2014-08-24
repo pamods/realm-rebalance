@@ -46,7 +46,7 @@
       "muzzle_bone": "socket_muzzle"
     }
   ],
-  "guard_radius": 180,
+  "guard_radius": 250,
   "navigation": {
     "turn_speed": 60,
     "type": "land-small",
