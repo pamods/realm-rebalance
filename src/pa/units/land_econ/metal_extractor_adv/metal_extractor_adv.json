@@ -59,7 +59,7 @@
     }
   ],
   "replaceable_units": [
-    "/pa/units/land/metal_extractor/metal_extractor.json"
+    "/pa/units/land_econ/metal_extractor/metal_extractor.json"
   ],
   "events": {
     "build_complete": {

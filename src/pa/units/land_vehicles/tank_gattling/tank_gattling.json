@@ -55,12 +55,7 @@
 	"tools": [{
 		"spec_id": "/pa/units/land_vehicles/tank_gattling/tank_gattling_tool_weapon.json",
 		"aim_bone": "bone_pitch",
-		"muzzle_bone": ["socket_rightMuzzle"]
-		},
-		{
-		"spec_id": "/pa/units/land_vehicles/tank_gattling/tank_gattling_tool_weapon.json",
-		"aim_bone": "bone_pitch",
-		"muzzle_bone": ["socket_leftMuzzle"]
+		"muzzle_bone": ["socket_rightMuzzle","socket_leftMuzzle"]
 		}
 	],
 	"events": {
