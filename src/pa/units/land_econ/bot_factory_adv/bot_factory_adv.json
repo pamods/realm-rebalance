@@ -21,8 +21,8 @@
       0
     ]
   ],
-  "wait_to_rolloff_time": 1,
-  "factory_cooldown_time": 1,
+  "wait_to_rolloff_time": 0,
+  "factory_cooldown_time": 3,
   "storage": {
     "metal": 500
   },
