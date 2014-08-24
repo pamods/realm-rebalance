@@ -19,6 +19,11 @@
     "push_class": 2,
     "radius": 2.25
   },
+    "mesh_bounds": [
+    1,
+    1,
+    1
+  ],
   "spawn_layers": "WL_LandHorizontal",
   "base_spec": "/pa/units/land_bots/base_bot/base_bot.json",
   "guard_layer": "WL_LandHorizontal",

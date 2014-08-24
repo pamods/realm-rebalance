@@ -24,9 +24,9 @@
     "radius": 8
   },
   "mesh_bounds": [
-    1,
-    1,
-    1
+    2,
+    2,
+    2
   ],
   "display_index": 99,
   "audio": {

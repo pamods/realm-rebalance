@@ -17,6 +17,7 @@
   "firing_arc_pitch": 2,
   "pitch_range": 89,
   "auto_attack": true,
+  "arc_type": "ARC_High",
   "target_layers": [
     "WL_LandHorizontal",
     "WL_Seafloor",
