@@ -21,7 +21,7 @@
   "enable_orbital_shell": true,
   "burn_damage": 200,
   "burn_radius": 175,
-  "sim_impact_effect": "/pa/effects/specs/default_commander_explosion_ent.json",
+  "sim_impact_effect":"/pa/effects/large_missile/nuke_strat_ent.json",
   "impact_decals": [
     "/pa/effects/specs/nuke_scorch_01.json"
   ],
@@ -55,13 +55,6 @@
       12,
       0
     ]
-  },
-  "events": {
-    "collided": {
-      "audio_cue": "/SE/Impacts/missile_seeking",
-      "effect_spec": "/pa/units/air/missile_nuke/missile_nuke_implosion.pfx",
-      "effect_world_aligned": false
-    }
   },
   "audio_loop": "/SE/Movement/missile/nuke_missile_fly_loop",
   "stages": [

@@ -1,0 +1,6 @@
+{
+  "spawn_response": {
+    "audio_cue": "/SE/Impacts/shell_artillery",
+    "effect_spec": "/pa/effects/specs/default_building_explosion.pfx"
+  }
+}
