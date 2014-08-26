@@ -27,9 +27,9 @@
   ],
   "damage_volume": {
     "initial_radius": 20,
-    "radius_velocity": 50,
-    "radius_accel": 100,
-    "delay": 1,
+    "radius_velocity": 40,
+    "radius_accel": 40,
+    "delay": 20,
     "burnable_remove_radius": 100
   },
   "model": {

@@ -13,9 +13,16 @@
   ],
   "events": {
     "died": {
-      "effect_scale": 5,
       "audio_cue": "/SE/Impacts/shell_artillery",
-      "effect_spec": "/pa/effects/specs/default_building_explosion.pfx"
+      "effect_spec": "/pa/effects/specs/default_building_explosion.pfx",
+      "effect_scale": 3
     }
+  },
+  "damage_volume": {
+    "initial_radius": 5,
+    "radius_velocity": 20,
+    "radius_accel": 20,
+    "delay": 1,
+    "burnable_remove_radius": 100
   }
 }

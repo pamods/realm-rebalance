@@ -15,10 +15,11 @@
   "show_strategic_icon": true,
   "spawn_layers": "WL_Air",
   "burn_damage": 200,
-  "burn_radius": 175,
+  "burn_radius": 80,
   "impact_decals": [
     "/pa/effects/specs/scorch_c_01.json"
   ],
+  "sim_impact_effect": "/pa/effects/specs/default_building_explosion.pfx",
   "events": {
     "collided": {
       "audio_cue": "/SE/Impacts/missile_seeking",
@@ -31,7 +32,7 @@
     "radius_velocity": 10,
     "radius_accel": 10,
     "delay": 1,
-    "burnable_remove_radius": 100
+    "burnable_remove_radius": 60
   },
   "model": {
     "filename": "/pa/units/air/missile_nuke_interplanetary/missile_nuke_interplanetary.papa"

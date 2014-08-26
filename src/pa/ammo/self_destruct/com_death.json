@@ -7,8 +7,8 @@
   "splash_damages_allies": true,
   "damage_volume": {
     "initial_radius": 110,
-    "radius_velocity": 50,
-    "radius_accel": 100,
+    "radius_velocity": 20,
+    "radius_accel": 20,
     "delay": 1,
     "burnable_remove_radius": 250
   },
