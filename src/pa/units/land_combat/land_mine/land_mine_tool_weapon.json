@@ -3,7 +3,7 @@
   "ammo_id": "/pa/ammo/self_destruct/he.json",
   "rate_of_fire": 5,
   "idle_aim_delay": 0,
-  "max_range": 25,
+  "max_range": 18,
   "yaw_rate": 0,
   "pitch_rate": 0,
   "yaw_range": 0,
