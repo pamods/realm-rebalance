@@ -48,7 +48,7 @@
       "aim_bone": "bone_turret"
     }
   ],
-  "death_weapon": {
+	"death_weapon": {
 		"ground_ammo_spec": "/pa/ammo/self_destruct/com_death.json",
 		"air_ammo_spec": "/pa/ammo/self_destruct/com_death.json",
 		"air_height_threshold": 100
