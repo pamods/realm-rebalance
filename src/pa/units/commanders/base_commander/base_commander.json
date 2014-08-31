@@ -46,12 +46,15 @@
       "ammo_weapon": true,
       "secondary_weapon": true,
       "aim_bone": "bone_turret"
-    },
-    {
-      "death_weapon": true,
-      "spec_id": "/pa/tools/self_destruct/com_death.json"
     }
   ],
+  "death_weapon": {
+		"ground_ammo_spec": "/pa/ammo/self_destruct/com_death.json",
+		"air_ammo_spec": "/pa/ammo/self_destruct/com_death.json",
+		"air_height_threshold": 100
+	},
+	
+	
   "buildable_types": "CmdBuild",
   "description": "Base Commander Description - If you're seeing this, something is wrong in your commander.",
   "attachable": {
