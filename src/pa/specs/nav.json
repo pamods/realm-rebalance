@@ -16,9 +16,5 @@
   "formation_slot_size_water": 5, 
   "formation_slot_speed_multiplier_max": 1.5, 
   "formation_slot_speed_multiplier_min": 0.1, 
-  "formation_sub_group_merge_radius": 100, 
-  "parking_stamp_cost": 10, 
-  "pathable_ceiling_height": 2.5, 
-  "pathable_deep_water_depth": 1.5, 
-  "pathable_stair_step_height": 1.5
+  "formation_sub_group_merge_radius": 100
 }
