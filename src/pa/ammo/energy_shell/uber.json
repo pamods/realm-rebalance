@@ -25,7 +25,7 @@
   "turn_rate": 180,
   "damage": 10000,
   "splash_damage": 2500,
-  "splash_radius": 12,
+  "splash_radius": 20,
   "full_damage_splash_radius": 5,
   "lifetime": 5,
   "initial_velocity": 100,
