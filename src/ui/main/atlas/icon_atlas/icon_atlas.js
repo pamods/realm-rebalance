@@ -9,6 +9,8 @@ $(document).ready(function () {
         self.strategicIconSource = function (string) { return 'img/strategic_icons/' + 'icon_si_' + string + '.png' }
         self.strategicIcons = ko.observableArray([
 			'blip',
+            'control_point_01',
+            'metal_splat_02',
 			'tank_cannon',
 			'tank_heavy_armor',
 			'tank_flamer',
