@@ -17,6 +17,7 @@ function BuildHotkeyModel() {
             "/pa/units/land_combat/land_barrier/land_barrier.json": ["utility", 12],
             "/pa/units/land_econ/energy_storage/energy_storage.json": ["utility", 13],
             "/pa/units/land_econ/metal_storage/metal_storage.json": ["utility", 14],
+            "/pa/units/land_econ/control_module/control_module.json": ["utility", 1],
 
                               
             "/pa/units/surfacenaval_econ/naval_factory_adv/naval_factory_adv.json": ["factory", 8],           
@@ -82,7 +83,8 @@ function BuildHotkeyModel() {
 
             "/pa/units/orbital_structures/orbital_factory/orbital_factory.json": ["satellite", 10],
             "/pa/units/orbital_structures/solar_array/solar_array.json": ["satellite", 11],
-            "/pa/units/orbital_structures/radar_satellite_adv/radar_satellite_adv.json": ["satellite", 12],                 
+            "/pa/units/orbital_structures/radar_satellite_adv/radar_satellite_adv.json": ["satellite", 12], 
+            "/pa/units/orbital_structures/gasgiant_mining_platform/gasgiant_mining_platform.json": ["satellite", 13],                
 
 
             "/pa/units/air/fabrication_aircraft/fabrication_aircraft.json": ["air", 10],

@@ -93,7 +93,9 @@ $(document).ready(function () {
             'orbital_missile',
             'orbital_sniper',
             'orbital_transport',
-            'radar_satellite'
+            'radar_satellite',
+            'gasgiant_mining_platform',
+            'control_module'
         ]);
 
         self.sendIconList = function () {

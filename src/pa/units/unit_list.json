@@ -79,6 +79,7 @@
     "/pa/units/land_utility/radar/radar.json",
     "/pa/units/land_utility/radar_adv/radar_adv.json",
     "/pa/units/land_utility/teleporter/teleporter.json",
+    "/pa/units/land_utility/control_module/control_module.json",
 
 
     "/pa/units/surfacenaval_econ/base_structure/base_structure.json",
@@ -105,6 +106,7 @@
     "/pa/units/orbital_structures/orbital_factory/orbital_factory.json",
     "/pa/units/orbital_structures/radar_satellite_adv/radar_satellite_adv.json",
     "/pa/units/orbital_structures/solar_array/solar_array.json",
+    "/pa/units/orbital_structures/gasgiant_mining_platform/gasgiant_mining_platform.json",
 
 
     "/pa/units/orbital_units/base_orbital/base_orbital.json",
