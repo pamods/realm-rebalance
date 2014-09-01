@@ -195,8 +195,11 @@
     "energy": 50000
   }, 
   "unit_types": [
+    "UNITTYPE_Structure", 
     "UNITTYPE_Orbital", 
-    "UNITTYPE_FabOrbBuild", 
-    "UNITTYPE_Structure"
+    "UNITTYPE_EnergyProduction", 
+    "UNITTYPE_Economy", 
+    "UNITTYPE_Advanced", 
+    "UNITTYPE_FabOrbBuild"
   ]
 }
