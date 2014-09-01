@@ -17,7 +17,7 @@ function BuildHotkeyModel() {
             "/pa/units/land_combat/land_barrier/land_barrier.json": ["utility", 12],
             "/pa/units/land_econ/energy_storage/energy_storage.json": ["utility", 13],
             "/pa/units/land_econ/metal_storage/metal_storage.json": ["utility", 14],
-            "/pa/units/land_econ/control_module/control_module.json": ["utility", 1],
+            "/pa/units/land_utility/control_module/control_module.json": ["utility", 1],
 
                               
             "/pa/units/surfacenaval_econ/naval_factory_adv/naval_factory_adv.json": ["factory", 8],           
