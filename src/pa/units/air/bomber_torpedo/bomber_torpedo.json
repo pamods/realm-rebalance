@@ -79,14 +79,24 @@
   },
   "fx_offsets": [
     {
-      "filename": "/pa/units/air/bomber_adv/bomber_adv_jets.pfx",
+      "filename": "/pa/effects/misc/jets.pfx",
       "type": "moving_forward",
       "offset": [
-        0,
-        4.21,
-        2.658
+        5.1,
+        2.5,
+        1
+      ]
+    },
+    {
+      "filename": "/pa/effects/misc/jets.pfx",
+      "type": "moving_forward",
+      "offset": [
+        -5.1,
+        2.5,
+        1
       ]
     }
+
   ],
   "audio": {
     "loops": {
