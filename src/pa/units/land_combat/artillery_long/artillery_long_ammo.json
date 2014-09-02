@@ -5,7 +5,7 @@
   "splash_radius": 50,
   "full_damage_splash_radius": 15,
   "splash_damages_allies": false,
-  "initial_velocity": 200,
+  "initial_velocity": 1200,
   "lifetime": 30,
   "physics": {
     "radius": 1,
