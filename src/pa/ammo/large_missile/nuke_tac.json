@@ -35,7 +35,7 @@
     "burnable_remove_radius": 60
   },
   "model": {
-    "filename": "/pa/units/air/missile_nuke_interplanetary/missile_nuke_interplanetary.papa"
+    "filename": "/pa/units/ammo/nuke_tac/nuke_tac.papa"
   },
   "unit_types": [
     "UNITTYPE_Mobile",
@@ -54,7 +54,7 @@
     "filename": "/pa/units/air/missile_nuke/missile_nuke_trail.pfx",
     "offset": [
       0,
-      12,
+      6,
       0
     ]
   },
