@@ -7,6 +7,9 @@
   "splash_radius": 50,
   "full_damage_splash_radius": 10,
   "splash_damages_allies": true,
+  "interplanetary_type": "INTER_System",
+  "system_velocity_multiplier": 20,
+  "gravwell_velocity_multiplier": 20,
   "cruise_height": 100,
   "initial_velocity": 40,
   "max_velocity": 75,
@@ -35,7 +38,7 @@
     "burnable_remove_radius": 60
   },
   "model": {
-    "filename": "/pa/units/ammo/nuke_tac/nuke_tac.papa"
+    "filename": "/pa/ammo/large_missile/nuke_tac.papa"
   },
   "unit_types": [
     "UNITTYPE_Mobile",
