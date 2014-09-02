@@ -12,11 +12,11 @@
       }
     }
   }, 
-  "base_spec": "/pa/units/orbital_structure/base_orbital_structure/base_orbital_structure.json", 
+  "base_spec": "/pa/units/orbital_structures/base_orbital_structure/base_orbital_structure.json", 
   "build_metal_cost": 6000, 
   "build_restrictions": "Terrainless", 
   "description": "Gas mining satellite. Only works above gas giant planets.", 
-  "display_name": "Somthing better than Jig", 
+  "display_name": "Jig", 
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital_platform"
@@ -150,7 +150,7 @@
       "radius": 6.0
     }
   ], 
-  "max_health": 5000, 
+  "max_health": 7500, 
   "mesh_bounds": [
     50, 
     50, 
@@ -195,11 +195,8 @@
     "energy": 50000
   }, 
   "unit_types": [
-    "UNITTYPE_Structure", 
     "UNITTYPE_Orbital", 
-    "UNITTYPE_EnergyProduction", 
-    "UNITTYPE_Economy", 
-    "UNITTYPE_Advanced", 
-    "UNITTYPE_FabOrbBuild"
+    "UNITTYPE_FabOrbBuild", 
+    "UNITTYPE_Structure"
   ]
 }
