@@ -1,6 +1,6 @@
 {
-	"base_spec": "/pa/ammo/large_missile/nuke_tac.json"
-	  "build_metal_cost": 1500,
+  "base_spec": "/pa/ammo/large_missile/nuke_tac.json"
+  "build_metal_cost": 1500,
   "flight_type": "Staged",
   "damage": 5000,
   "splash_damage": 1500,
@@ -8,6 +8,9 @@
   "full_damage_splash_radius": 10,
   "splash_damages_allies": true,
   "cruise_height": 100,
+  "interplanetary_type": "INTER_System",
+  "system_velocity_multiplier": 20,
+  "gravwell_velocity_multiplier": 20,
   "initial_velocity": 40,
   "max_velocity": 75,
   "turn_rate": 180,
