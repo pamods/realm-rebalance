@@ -16,7 +16,7 @@
   "build_metal_cost": 6000, 
   "build_restrictions": "Terrainless", 
   "description": "Gas mining satellite. Only works above gas giant planets.", 
-  "display_name": "Somthing better than Jig", 
+  "display_name": "SomthingbetterthanJig", 
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/orbital_platform"
