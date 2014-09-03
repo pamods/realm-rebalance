@@ -43,24 +43,32 @@
   "display_index": 80,
   "tools": [
     {
-      "aim_bone": "bone_pitch01",
-      "spec_id": "/pa/units/surfacenaval_units/destroyer/destroyer_tool_weapon.json",
-      "muzzle_bone": "socket_rightMuzzle01"
-    },
+      "aim_bone": "bone_pitch01", 
+      "fire_event": "fired0", 
+      "muzzle_bone": "socket_rightMuzzle01", 
+      "record_index": 0, 
+      "spec_id": "/pa/units/surfacenaval_units/destroyer/destroyer_tool_weapon.json"
+    }, 
     {
-      "spec_id": "/pa/units/surfacenaval_units/destroyer/destroyer_tool_weapon.json",
-      "muzzle_bone": "socket_leftMuzzle01",
-      "aim_bone": "bone_pitch01"
-    },
+      "aim_bone": "bone_pitch01", 
+      "fire_event": "fired0", 
+      "muzzle_bone": "socket_leftMuzzle01", 
+      "record_index": 0, 
+      "spec_id": "/pa/units/surfacenaval_units/destroyer/destroyer_tool_weapon.json"
+    }, 
     {
-      "muzzle_bone": "socket_rightMuzzle02",
-      "spec_id": "/pa/units/surfacenaval_units/destroyer/destroyer_tool_weapon.json",
-      "aim_bone": "bone_pitch02"
-    },
+      "aim_bone": "bone_pitch02", 
+      "fire_event": "fired1", 
+      "muzzle_bone": "socket_rightMuzzle02", 
+      "record_index": 1, 
+      "spec_id": "/pa/units/surfacenaval_units/destroyer/destroyer_tool_weapon.json"
+    }, 
     {
-      "spec_id": "/pa/units/surfacenaval_units/destroyer/destroyer_tool_weapon.json",
-      "muzzle_bone": "socket_leftMuzzle02",
-      "aim_bone": "bone_pitch02"
+      "aim_bone": "bone_pitch02", 
+      "fire_event": "fired1", 
+      "muzzle_bone": "socket_leftMuzzle02", 
+      "record_index": 1, 
+      "spec_id": "/pa/units/surfacenaval_units/destroyer/destroyer_tool_weapon.json"
     }
   ],
   "TEMP_texelinfo": 22.1895,
@@ -82,13 +90,22 @@
   ],
   "events": {
     "died": {
-      "audio_cue": "/SE/Death/Sea_large"
+      "audio_cue": "/SE/Death/Sea_large", 
+      "effect_scale": 1.0, 
+      "effect_spec": "/pa/effects/specs/default_building_explosion.pfx"
     },
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"
     },
-    "fired": {
-      "audio_cue": "/SE/Weapons/sea/destroyer_fire"
+    "fired0": {
+      "audio_cue": "/SE/Weapons/sea/destroyer_fire", 
+      "effect_scale": 5.0, 
+      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_rightMuzzle01 /pa/effects/specs/tank_muzzle_flash.pfx socket_leftMuzzle01"
+    }, 
+    "fired1": {
+      "audio_cue": "/SE/Weapons/sea/destroyer_fire", 
+      "effect_scale": 5.0, 
+      "effect_spec": "/pa/effects/specs/tank_muzzle_flash.pfx socket_rightMuzzle02 /pa/effects/specs/tank_muzzle_flash.pfx socket_leftMuzzle02"
     }
   },
   "display_group": 60,

@@ -2,13 +2,17 @@
   "guard_layer": "WL_AnySurface",
   "events": {
     "died": {
-      "audio_cue": "/SE/Death/Sea_large"
+      "audio_cue": "/SE/Death/Sea_large", 
+      "effect_scale": 0.5, 
+      "effect_spec": "/pa/effects/specs/default_building_explosion.pfx"
     },
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/sea"
     },
-    "fired": {
-      "audio_cue": "/SE/Weapons/sea/frigate_fire_1"
+    "fired0": {
+      "audio_cue": "/SE/Weapons/sea/frigate_fire_1", 
+      "effect_scale": 0.5, 
+      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx"
     }
   },
   "display_name": "Narwhal",
@@ -69,6 +73,7 @@
   "tools": [
     {
       "spec_id": "/pa/units/surfacenaval_units/frigate/frigate_cannon_tool_weapon.json",
+      "fire_event": "fired0",
       "aim_bone": "bone_pitch01",
       "muzzle_bone": [
         "socket_muzzle01"
