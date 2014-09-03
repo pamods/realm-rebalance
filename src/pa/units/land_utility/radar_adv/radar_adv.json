@@ -27,6 +27,13 @@
     "observer": {
       "items": [
         {
+          "channel": "sight", 
+          "layer": "orbital", 
+          "radius": 350, 
+          "shape": "capsule", 
+          "uses_energy": true
+        }, 
+        {
           "layer": "surface_and_air",
           "channel": "sight",
           "shape": "capsule",

@@ -104,7 +104,6 @@
 
     "/pa/units/orbital_structures/base_orbital_structure/base_orbital_structure.json",
     "/pa/units/orbital_structures/orbital_factory/orbital_factory.json",
-    "/pa/units/orbital_structures/radar_satellite_adv/radar_satellite_adv.json",
     "/pa/units/orbital_structures/solar_array/solar_array.json",
     "/pa/units/orbital_structures/mining_platform/mining_platform.json",
 
@@ -117,7 +116,8 @@
     "/pa/units/orbital_units/orbital_sniper/orbital_sniper.json",
     "/pa/units/orbital_units/orbital_transport/orbital_transport.json",
     "/pa/units/orbital_units/radar_satellite/radar_satellite.json",
-	
+    "/pa/units/orbital_units/radar_satellite_adv/radar_satellite_adv.json",	
+
 
     "/pa/units/commanders/avatar/avatar.json", 
     "/pa/units/commanders/base_commander/base_commander.json", 

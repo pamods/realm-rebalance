@@ -1,5 +1,5 @@
 {
-  "TEMP_texelinfo": 22.7385, 
+  "TEMP_texelinfo": 10.6806, 
   "attachable": {
     "offsets": {
       "root": [
@@ -9,25 +9,25 @@
       ]
     }
   }, 
-  "base_spec": "/pa/units/orbital_structures/base_orbital_structure/base_orbital_structure.json",
-  "build_metal_cost": 300, 
+  "base_spec": "/pa/units/orbital_units/base_orbital/base_orbital.json", 
+  "build_metal_cost": 900, 
   "command_caps": [
     "ORDER_Move", 
     "ORDER_Patrol", 
     "ORDER_Assist"
   ], 
   "consumption": {
-    "energy": 2000
+    "energy": 1000
   }, 
-  "description": "Celestial Radar Satellite: For detecting interplanetary travel. Uses energy. Weak vs Anti-orbital & skirmish", 
+  "description": "Celestial Radar Satellite: A stelthed spy satellite for accurate observations", 
   "display_name": "Argus", 
   "energy_efficiency_requirement": 0.9, 
   "events": {
     "build_complete": {
-      "audio_cue": "/SE/Build_Complete/orbital"
+      "audio_cue": "/SE/Build_Complete/radar"
     }, 
     "died": {
-      "audio_cue": "/SE/Death/orbital", 
+      "audio_cue": "/SE/Death/radar", 
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     }, 
     "fired": {
@@ -50,12 +50,25 @@
     "animtree": "/pa/anim/anim_trees/satellite_launched_anim_tree.json", 
     "filename": "/pa/units/orbital/radar_satellite_adv/radar_satellite_adv.papa"
   }, 
+  "navigation": {
+    "acceleration": 5, 
+    "brake": 90, 
+    "hover_time": -1.0, 
+    "move_speed": 60, 
+    "turn_speed": 90, 
+    "type": "orbital"
+  }, 
   "physics": {
     "gravity_scalar": 0.001, 
-    "push_class": 15, 
+    "push_class": 50, 
     "radius": 5
   }, 
   "recon": {
+    "observable": {
+      "layer": "orbital",
+      "ignore_radar": true,
+    "uses_energy": true
+    },
     "observer": {
       "items": [
         {
@@ -64,22 +77,27 @@
           "shape": "capsule",
           "channel": "sight",
           "layer": "celestial"
+        },
+        {
+          "channel": "sight", 
+          "layer": "surface_and_air", 
+          "radius": 250, 
+          "shape": "capsule" 
         }, 
         {
           "channel": "sight", 
           "layer": "orbital", 
-          "radius": 200, 
+          "radius": 250, 
           "shape": "capsule" 
-        } 
+        }
       ]
     }
   }, 
-  "spawn_layers": "WL_Orbital", 
   "unit_types": [
-    "UNITTYPE_Structure", 
+    "UNITTYPE_Mobile", 
     "UNITTYPE_Orbital", 
-    "UNITTYPE_Advanced", 
+    "UNITTYPE_Basic", 
     "UNITTYPE_Recon", 
-    "UNITTYPE_FabOrbBuild"
+    "UNITTYPE_FactoryBuild"
   ]
 }

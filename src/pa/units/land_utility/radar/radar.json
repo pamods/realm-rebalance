@@ -39,7 +39,14 @@
           "shape": "capsule",
           "radius": 500,
           "uses_energy": true
-        }
+        },
+        {
+          "channel": "radar", 
+          "layer": "orbital", 
+          "radius": 500, 
+          "shape": "capsule", 
+          "uses_energy": true
+        } 
       ]
     }
   },
