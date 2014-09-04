@@ -91,7 +91,7 @@ $(document).ready(function () {
             'solar_array',
             'defense_satellite',
             'orbital_bombardment_platform',
-            'orbtial_fabrication_satellite',
+            'orbital_fabrication_satellite',
             'orbital_missile',
             'orbital_sniper',
             'orbital_transport',
