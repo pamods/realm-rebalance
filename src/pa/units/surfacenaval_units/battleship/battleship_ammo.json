@@ -3,7 +3,7 @@
   "damage": 300,
   "full_damage_splash_radius": 5,
   "initial_velocity": 400,
-  "lifetime": 5,
+  "lifetime": 2,
   "physics": {
     "add_to_spatial_db": false,
     "gravity_scalar": 30,

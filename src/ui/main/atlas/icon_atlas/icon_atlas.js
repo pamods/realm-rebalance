@@ -96,7 +96,7 @@ $(document).ready(function () {
             'orbital_sniper',
             'orbital_transport',
             'radar_satellite',
-            'gasgiant_mining_platform',
+            'mining_platform',
             'control_module'
         ]);
 
