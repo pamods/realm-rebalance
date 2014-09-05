@@ -97,5 +97,10 @@
   "TEMP_texelinfo": 10.3794,
   "wreckage_health_frac": 1,
   "display_index": 100,
-  "display_group": 40
+  "display_group": 40,
+  "mesh_bounds":[
+    6.8,
+    7.5,
+    3.6
+  ]
 }

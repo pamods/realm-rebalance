@@ -143,5 +143,10 @@
     }
   },
   "buildable_types": "Land & Structure & Basic | Factory & Basic | Factory & Advanced & Bot & Land | FabBuild",
-  "description": "Fabrication: Builds structures"
+  "description": "Fabrication: Builds structures",
+  "mesh_bounds":[
+    4,
+    3.8,
+    4
+  ]
 }

@@ -122,5 +122,10 @@
     "arrows": 5,
     "filename": "/pa/units/land/fabrication_vehicle/fabrication_vehicle.papa",
     "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json"
-  }
+  },
+  "mesh_bounds":[
+    4.5,
+    6,
+    3
+  ]
 }

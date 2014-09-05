@@ -95,5 +95,10 @@
       }
     }
   },
-  "wreckage_health_frac": 1
+  "wreckage_health_frac": 1,
+  "mesh_bounds":[
+    3.5,
+    4.5,
+    2
+  ]
 }

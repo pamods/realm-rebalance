@@ -101,5 +101,10 @@
   "TEMP_texelinfo": 5.47132,
   "nearby_target_tick_update_interval": 3,
   "display_index": 80,
-  "display_group": 60
+  "display_group": 60,
+  "mesh_bounds":[
+    4.5,
+    3,
+    3.8
+  ]
 }

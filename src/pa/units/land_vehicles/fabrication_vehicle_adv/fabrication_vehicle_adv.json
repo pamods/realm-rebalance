@@ -126,5 +126,10 @@
     "ORDER_Repair",
     "ORDER_Assist",
     "ORDER_Use"
+  ],
+  "mesh_bounds":[
+    5.2,
+    6,
+    4.6
   ]
 }

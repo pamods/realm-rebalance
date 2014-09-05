@@ -108,5 +108,10 @@
       }
     }
   },
-  "TEMP_texelinfo": 5.47132
+  "TEMP_texelinfo": 5.47132,
+  "mesh_bounds":[
+    8.2,
+    7,
+    9.6
+  ]
 }

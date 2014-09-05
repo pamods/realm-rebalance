@@ -101,5 +101,10 @@
       }
     }
   },
-  "display_index": 100
+  "display_index": 100,
+  "mesh_bounds":[
+    9,
+    4.5,
+    6
+  ]
 }

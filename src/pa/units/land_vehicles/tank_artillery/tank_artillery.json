@@ -92,5 +92,10 @@
       ]
     }
   },
-  "description": "Slow Artillery Tank: Slow moving, long range high-arc tank. Uses Energy. Weak vs Fast & Flanker"
+  "description": "Slow Artillery Tank: Slow moving, long range high-arc tank. Uses Energy. Weak vs Fast & Flanker",
+  "mesh_bounds":[
+    7,
+    7.5,
+    3.8
+  ]
 }

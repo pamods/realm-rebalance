@@ -56,10 +56,10 @@
     "push_class": 100,
     "allow_pushing": true
   },
-    "mesh_bounds": [
-    3,
-    3,
-    3
+  "mesh_bounds":[
+    6,
+    6,
+    5
   ],
   "recon": {
     "observer": {
