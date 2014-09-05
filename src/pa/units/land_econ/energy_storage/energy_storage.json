@@ -9,7 +9,7 @@
   "atrophy_rate": 50,
   "atrophy_cool_down": 30,
   "spawn_layers": "WL_AnyHorizontalGroundOrWaterSurface",
-  "area_build_type": "Sphere",
+  "area_build_type": "Line",
   "storage": {
     "energy": 30000
   },
