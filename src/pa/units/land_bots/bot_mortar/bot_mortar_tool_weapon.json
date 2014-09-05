@@ -1,7 +1,7 @@
 {
   "base_spec": "/pa/tools/artillery/mortar.json",
   "ammo_id": "/pa/units/land_bots/bot_mortar/bot_mortar_ammo.json",
-  "rate_of_fire": 0.25,
+  "rate_of_fire": 0.5,
   "idle_aim_delay": 5,
   "max_range": 140,
   "yaw_rate": 360,
