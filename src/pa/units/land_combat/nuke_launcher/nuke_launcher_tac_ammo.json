@@ -38,7 +38,7 @@
     "burnable_remove_radius": 60
   },
   "model": {
-    "filename": "/pa/units/ammo/nuke_tac/nuke_tac.papa"
+    "filename": "/pa/ammo/large_missile/nuke_tac.papa"
   },
   "unit_types": [
     "UNITTYPE_Mobile",
