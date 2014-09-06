@@ -23,7 +23,7 @@
   "burn_radius": 175,
   "sim_impact_effect":"/pa/effects/large_missile/nuke_strat_ent.json",
   "impact_decals": [
-    "/pa/effects/specs/nuke_scorch_01.json"
+    "/pa/effects/large_missile/nuke_strat_scorch.json"
   ],
   "damage_volume": {
     "initial_radius": 20,

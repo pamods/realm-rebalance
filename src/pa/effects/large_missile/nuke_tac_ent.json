@@ -8,7 +8,8 @@
     }
   }, 
   "spawn_response": {
-    "audio_cue": "/SE/Impacts/missile_nuke", 
-    "effect_spec": "/pa/effects/large_missile/nuke_strat_explosion.pfx"
+    "audio_cue": "/SE/Impacts/missile_seeking", 
+    "effect_spec": "/pa/effects/large_missile/nuke_tac_explosion.pfx",
+    "effect_scale": 2
   }
 }
