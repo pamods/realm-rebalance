@@ -88,7 +88,7 @@
 		{
 			"spec_id": "/pa/units/land_bots/fabrication_bot_combat_adv/fabrication_bot_combat_adv_tool_weapon.json",
 			"aim_bone": "bone_turretFront",
-			"muzzle_bone": "socket_muzzle"
+			"muzzle_bone": "socket_muzzleFront"
 		}
 	],
     "events": {

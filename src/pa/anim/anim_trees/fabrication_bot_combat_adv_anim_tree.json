@@ -45,6 +45,24 @@
                 "rotation_axis": "x"
             }
         },
+		{
+		"type": "fader",
+		"lerp_func": "is_active",
+		"child": {
+			"type": "procedural_aim",
+			"rotation_bone": "bone_turretFront",
+			"rotation_axis": "z"
+		}
+		},
+		{
+			"type": "fader",
+			"lerp_func": "is_active",
+			"child": {
+				"type": "procedural_aim",
+				"rotation_bone": "bone_recoil",
+				"rotation_axis": "x"
+			}
+		},
         {
             "type": "fader",
             "lerp_func": "is_dead",
