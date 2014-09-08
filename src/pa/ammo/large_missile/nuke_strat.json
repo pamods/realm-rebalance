@@ -1,0 +1,91 @@
+{
+  "ammo_type": "Projectile",
+  "build_metal_cost": 12000,
+  "flight_type": "Staged",
+  "damage": 10000,
+  "splash_damage": 2250,
+  "splash_radius": 150,
+  "full_damage_splash_radius": 100,
+  "splash_damages_allies": true,
+  "cruise_height": 100,
+  "initial_velocity": 40,
+  "max_velocity": 75,
+  "turn_rate": 180,
+  "lifetime": 0,
+  "show_strategic_icon": true,
+  "interplanetary_type": "INTER_System",
+  "system_velocity_multiplier": 20,
+  "gravwell_velocity_multiplier": 20,
+  "spawn_layers": "WL_Air",
+  "show_in_orbital_layer": true,
+  "enable_orbital_shell": true,
+  "burn_damage": 200,
+  "burn_radius": 175,
+  "sim_impact_effect":"/pa/effects/large_missile/nuke_strat_ent.json",
+  "impact_decals": [
+    "/pa/effects/large_missile/nuke_strat_scorch.json"
+  ],
+  "damage_volume": {
+    "initial_radius": 20,
+    "radius_velocity": 40,
+    "radius_accel": 40,
+    "delay": 20,
+    "burnable_remove_radius": 100
+  },
+  "model": {
+    "filename": "/pa/units/air/missile_nuke/missile_nuke.papa"
+  },
+  "unit_types": [
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Orbital"
+  ],
+  "collision_check": "ground",
+  "physics": {
+    "radius": 10,
+    "push_class": 1,
+    "gravity_scalar": 3,
+    "ignore_gravity": true,
+    "add_to_spatial_db": true,
+    "allow_underground": true
+  },
+  "fx_trail": {
+    "filename": "/pa/units/air/missile_nuke/missile_nuke_trail.pfx",
+    "offset": [
+      0,
+      12,
+      0
+    ]
+  },
+  "audio_loop": "/SE/Movement/missile/nuke_missile_fly_loop",
+  "stages": [
+    {
+      "ignores_gravity": true,
+      "ignores_LOS": true,
+      "stage_duration": 600,
+      "stage_turn_rate": 0,
+      "rotates_to_velocity": true
+    },
+    {
+      "ignores_gravity": true,
+      "ignores_LOS": true,
+      "stage_duration": 0,
+      "stage_turn_rate": 90,
+      "stage_change_range": 75,
+      "rotates_to_velocity": true
+    },
+    {
+      "ignores_gravity": false,
+      "ignores_LOS": false,
+      "stage_duration": 5000,
+      "stage_turn_rate": 360,
+      "rotates_to_velocity": true
+    },
+    {
+      "ignores_gravity": false,
+      "ignores_LOS": false,
+      "stage_duration": 5000,
+      "stage_turn_rate": 1080,
+      "rotates_to_velocity": true
+    }
+  ]
+}

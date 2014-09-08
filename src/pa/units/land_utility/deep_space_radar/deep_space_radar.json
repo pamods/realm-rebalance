@@ -1,0 +1,96 @@
+{
+  "TEMP_texelinfo": 46.4947, 
+  "atrophy_cool_down": 15.0, 
+  "atrophy_rate": 5, 
+  "base_spec": "/pa/units/land_utility/base_structure/base_structure.json", 
+  "build_metal_cost": 300, 
+  "consumption": {
+    "energy": 150
+  }, 
+  "description": "Orbital Radar: Provides Orbital radar Coverage", 
+  "display_name": "Orbital Radar", 
+  "energy_efficiency_requirement": 0.9, 
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/radar"
+    }, 
+    "died": {
+      "audio_cue": "/SE/Death/radar", 
+      "effect_scale": 0.5
+    }
+  }, 
+  "max_health": 750, 
+  "mesh_bounds": [
+    29, 
+    29, 
+    15.2
+  ], 
+  "model": [
+    {
+      "animations": {
+        "end": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_end.papa", 
+        "loop": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_loop.papa", 
+        "start": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_start.papa"
+      }, 
+      "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json", 
+      "filename": "/pa/units/orbital/deep_space_radar/deep_space_radar.papa", 
+      "layer": "WL_LandHorizontal", 
+      "skirt_decal": "/pa/effects/specs/skirt_orbital_radar.json"
+    }, 
+    {
+      "animations": {
+        "end": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_end.papa", 
+        "loop": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_loop.papa", 
+        "start": "/pa/units/orbital/deep_space_radar/deep_space_radar_anim_start.papa"
+      }, 
+      "animtree": "/pa/anim/anim_trees/powered_loop_anim_tree.json", 
+      "filename": "/pa/units/sea/deep_space_radar/deep_space_radar.papa", 
+      "layer": "WL_WaterSurface"
+    }
+  ], 
+  "physics": {
+    "collision_layers": "WL_AnySurface"
+  }, 
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "uses_energy": true,
+          "radius": 1,
+          "shape": "capsule",
+          "channel": "sight",
+          "layer": "celestial"
+        },
+        {
+          "channel": "sight", 
+          "layer": "surface_and_air", 
+          "radius": 70, 
+          "shape": "capsule"
+        }, 
+        {
+          "channel": "sight", 
+          "layer": "orbital", 
+          "radius": 300, 
+          "shape": "capsule", 
+          "uses_energy": true
+        }, 
+        {
+          "channel": "radar", 
+          "layer": "orbital", 
+          "radius": 700, 
+          "shape": "capsule", 
+          "uses_energy": true
+        }
+      ]
+    }
+  }, 
+  "spawn_layers": "WL_AnySurface", 
+  "unit_types": [
+    "UNITTYPE_Orbital", 
+    "UNITTYPE_Structure", 
+    "UNITTYPE_Advanced", 
+    "UNITTYPE_Recon", 
+    "UNITTYPE_FabBuild", 
+    "UNITTYPE_FabAdvBuild"
+  ]
+}

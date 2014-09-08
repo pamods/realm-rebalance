@@ -1,0 +1,152 @@
+{
+  "model": {
+    "walk_speed": 12,
+    "animtree": "/pa/anim/anim_trees/fabrication_bot_anim_tree.json",
+    "filename": "/pa/units/land/fabrication_bot/fabrication_bot.papa",
+    "animations": {
+      "aim_up": "/pa/units/land/fabrication_bot/fabrication_bot_anim_aimUp.papa",
+      "death01": "/pa/units/land/fabrication_bot/fabrication_bot_anim_death01.papa",
+      "walk": "/pa/units/land/fabrication_bot/fabrication_bot_anim_run.papa",
+      "aim_down": "/pa/units/land/fabrication_bot/fabrication_bot_anim_aimDown.papa"
+    }
+  },
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "layer": "surface_and_air",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 100
+        }
+      ]
+    }
+  },
+  "transportable": {
+    "size": 1
+  },
+  "physics": {
+    "push_class": 100,
+    "allow_pushing": true,
+    "radius": 2
+  },
+  "base_spec": "/pa/units/land_bots/base_bot/base_bot.json",
+  "guard_layer": "WL_LandHorizontal",
+  "display_index": 80,
+  "audio": {
+    "loops": {
+      "build": {
+        "should_start_func": "has_build_target",
+        "cue": "/SE/Construction/Fab_contruction_beam_loop",
+        "should_stop_func": "no_build_target",
+        "flag": "build_target_changed"
+      },
+      "move": {
+        "flag": "vel_changed",
+        "should_stop_func": "is_not_moving",
+        "cue": "/SE/Movement/bot/fab_loop",
+        "should_start_func": "is_moving"
+      }
+    }
+  },
+  "build_metal_cost": 200,
+  "TEMP_texelinfo": 5.11028,
+  "tools": [
+    {
+      "aim_bone": "bone_root",
+      "spec_id": "/pa/units/land_bots/fabrication_bot/fabrication_bot_build_arm.json"
+    }
+  ],
+  "guard_radius": 60,
+  "navigation": {
+    "acceleration": 120,
+    "brake": 120,
+    "type": "land-small",
+    "turn_speed": 360,
+    "move_speed": 12,
+    "group_preference": "back"
+  },
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Build",
+    "ORDER_Reclaim",
+    "ORDER_Repair",
+    "ORDER_Assist",
+    "ORDER_Use"
+  ],
+  "unit_types": [
+    "UNITTYPE_Fabber",
+    "UNITTYPE_Construction",
+    "UNITTYPE_Bot",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Land",
+    "UNITTYPE_Basic",
+    "UNITTYPE_FactoryBuild"
+  ],
+  "fx_offsets": [
+    {
+      "type": "build",
+      "bone": "bone_rightElbow",
+      "offset": [
+        0,
+        -1.891,
+        -0.11
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "filename": "/pa/effects/specs/fab_spray.pfx"
+    },
+    {
+      "offset": [
+        0,
+        -1.891,
+        -0.11
+      ],
+      "orientation": [
+        0,
+        0,
+        0
+      ],
+      "filename": "/pa/effects/specs/fab_spray.pfx",
+      "type": "build",
+      "bone": "bone_leftElbow"
+    }
+  ],
+  "display_group": 100,
+  "max_health": 120,
+  "events": {
+    "died": {
+      "audio_cue": "/SE/Death/Bot",
+      "effect_scale": 0.6
+    },
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/fab"
+    }
+  },
+  "display_name": "Fabrication Bot",
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0,
+        3.6
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "buildable_types": "Land & Structure & Basic | Factory & Basic | Factory & Advanced & Bot & Land | FabBuild",
+  "description": "Fabrication: Builds structures",
+  "mesh_bounds":[
+    4,
+    3.8,
+    4
+  ]
+}

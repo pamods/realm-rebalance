@@ -1,0 +1,101 @@
+{
+  "model": {
+    "arrows": 5,
+    "filename": "/pa/units/land/tank_heavy_mortar/tank_heavy_mortar.papa",
+    "animtree": "/pa/anim/anim_trees/turret_anim_tree.json"
+  },
+  "nearby_target_tick_update_interval": 15,
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "layer": "surface_and_air",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 100
+        }
+      ]
+    }
+  },
+  "transportable": {
+    "size": 1
+  },
+  "physics": {
+    "push_class": 60,
+    "radius": 6
+  },
+  "base_spec": "/pa/units/land_vehicles/base_vehicle/base_vehicle.json",
+  "guard_layer": "WL_AnySurface",
+  "display_index": 100,
+  "audio": {
+    "loops": {
+      "move": {
+        "should_stop_func": "is_not_moving",
+        "should_start_func": "is_moving",
+        "cue": "/SE/Movement/veh/tank_heavy_mortar_loop",
+        "flag": "vel_changed"
+      }
+    }
+  },
+  "build_metal_cost": 1000,
+  "TEMP_texelinfo": 9.31488,
+  "tools": [
+    {
+      "aim_bone": "socket_aim",
+      "spec_id": "/pa/units/land_vehicles/tank_artillery/tank_artillery_tool_weapon.json",
+      "muzzle_bone": "socket_muzzle"
+    }
+  ],
+  "guard_radius": 250,
+  "navigation": {
+    "turn_speed": 60,
+    "type": "land-small",
+    "group_preference": "back",
+    "move_speed": 8,
+    "acceleration": 100,
+    "brake": 100
+  },
+  "unit_types": [
+    "UNITTYPE_Tank",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Land",
+    "UNITTYPE_Artillery",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild"
+  ],
+  "max_health": 250,
+  "display_group": 60,
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/veh"
+    },
+    "died": {
+      "effect_scale": 1.4,
+      "audio_cue": "/SE/Death/Veh"
+    },
+    "fired": {
+      "audio_cue": "/SE/Weapons/veh/tank_heavy_mortar_fire"
+    }
+  },
+  "display_name": "Sheller",
+  "attachable": {
+    "offsets": {
+      "root": [
+        0,
+        0,
+        0
+      ],
+      "head": [
+        0,
+        0,
+        3.1
+      ]
+    }
+  },
+  "description": "Slow Artillery Tank: Slow moving, long range high-arc tank. Uses Energy. Weak vs Fast & Flanker",
+  "mesh_bounds":[
+    7,
+    7.5,
+    3.8
+  ]
+}

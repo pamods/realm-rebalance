@@ -1,0 +1,25 @@
+{
+  "base_spec": "/pa/tools/laser/gattling.json",
+  "ammo_id": "/pa/units/land_vehicles/vehicle_scout/vehicle_scout_ammo.json",
+  "rate_of_fire": 5,
+  "idle_aim_delay": 1,
+  "max_range": 55,
+  "yaw_rate": 360,
+  "pitch_rate": 180,
+  "yaw_range": 180,
+  "pitch_range": 40,
+  "auto_attack": true,
+  "firing_standard_deviation": 4,
+  "target_layers": [
+    "WL_LandHorizontal",
+    "WL_Seafloor",
+    "WL_WaterSurface",
+    "WL_Air"
+  ],
+  "target_priorities": [
+    "Mobile",
+    "Naval",
+    "Structure - Wall",
+    "Wall"
+  ]
+}

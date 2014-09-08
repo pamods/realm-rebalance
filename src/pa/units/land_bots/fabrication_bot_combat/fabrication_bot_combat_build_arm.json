@@ -1,0 +1,7 @@
+{
+  "base_spec": "/pa/tools/build_arm/repair.json",
+  "construction_demand": {
+    "energy": 100,
+    "metal": 20
+  }
+}

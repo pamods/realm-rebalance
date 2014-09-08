@@ -1,0 +1,10 @@
+{
+  "base_spec": "/pa/tools/build_arm/mobile.json",
+  "construction_demand": {
+    "energy": 1200,
+    "metal": 15
+  },
+  "yaw_rate": 90,
+  "pitch_rate": 90,
+  "max_range": 50
+}

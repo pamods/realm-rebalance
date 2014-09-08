@@ -1,0 +1,17 @@
+{
+  "base_spec": "/pa/tools/energy_shell/emg.json",
+  "ammo_id": "/pa/units/land_vehicles/tank_heavy_armor/tank_heavy_armor_ammo.json",
+  "rate_of_fire": 5.5,
+  "idle_aim_delay": 1,
+  "max_range": 80,
+  "yaw_rate": 360,
+  "pitch_rate": 360,
+  "yaw_range": 180,
+  "pitch_range": 40,
+  "auto_attack": true,
+  "target_layers": [
+    "WL_LandHorizontal",
+    "WL_Seafloor",
+    "WL_WaterSurface"
+  ]
+}

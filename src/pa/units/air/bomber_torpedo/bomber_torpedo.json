@@ -2,7 +2,7 @@
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "display_name": "Albatross",
   "description": "Long-Range Heavy-Hitter Plane: A bomber armed two long range torpedoes. Weak vs Anti-Air & Long-Range",
-  "max_health": 325,
+  "max_health": 225,
   "build_metal_cost": 400,
   "unit_types": [
     "UNITTYPE_Bomber",
@@ -79,14 +79,24 @@
   },
   "fx_offsets": [
     {
-      "filename": "/pa/units/air/bomber_adv/bomber_adv_jets.pfx",
+      "filename": "/pa/effects/misc/jets.pfx",
       "type": "moving_forward",
       "offset": [
-        0,
-        4.21,
-        2.658
+        5.1,
+        2.5,
+        1
+      ]
+    },
+    {
+      "filename": "/pa/effects/misc/jets.pfx",
+      "type": "moving_forward",
+      "offset": [
+        -5.1,
+        2.5,
+        1
       ]
     }
+
   ],
   "audio": {
     "loops": {

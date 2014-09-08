@@ -1,0 +1,135 @@
+{
+  "recon": {
+    "observer": {
+      "items": [
+        {
+          "layer": "surface_and_air",
+          "channel": "sight",
+          "shape": "capsule",
+          "radius": 100
+        }
+      ]
+    }
+  },
+  "physics": {
+    "radius": 3,
+    "push_class": 100,
+    "allow_pushing": true
+  },
+  "transportable": {
+    "size": 1
+  },
+  "base_spec": "/pa/units/land_vehicles/base_vehicle/base_vehicle.json",
+  "guard_layer": "WL_LandHorizontal",
+  "display_index": 100,
+  "audio": {
+    "loops": {
+      "move": {
+        "should_stop_func": "is_not_moving",
+        "cue": "/SE/Movement/veh/fab_loop",
+        "should_start_func": "is_moving",
+        "flag": "vel_changed"
+      },
+      "build": {
+        "flag": "build_target_changed",
+        "should_stop_func": "no_build_target",
+        "cue": "/SE/Construction/Fab_contruction_beam_loop",
+        "should_start_func": "has_build_target"
+      }
+    }
+  },
+  "model": {
+    "animations": {
+      "drive": "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv_anim_drive.papa",
+      "death01": "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv_anim_death01.papa"
+    },
+    "arrows": 5,
+    "filename": "/pa/units/land/fabrication_vehicle_adv/fabrication_vehicle_adv.papa",
+    "animtree": "/pa/anim/anim_trees/turret_wheels_anim_tree.json"
+  },
+  "fx_offsets": [
+    {
+      "type": "build",
+      "bone": "socket_muzzle",
+      "offset": [
+        0,
+        0,
+        0
+      ],
+      "filename": "/pa/effects/specs/fab_spray.pfx",
+      "orientation": [
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "display_group": 100,
+  "max_health": 600,
+  "events": {
+    "build_complete": {
+      "audio_cue": "/SE/Build_Complete/fab"
+    },
+    "died": {
+      "effect_scale": 0.9,
+      "audio_cue": "/SE/Death/Veh"
+    }
+  },
+  "display_name": "Advanced Fabrication Vehicle",
+  "attachable": {
+    "offsets": {
+      "head": [
+        0,
+        0.5,
+        5
+      ],
+      "root": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "description": "Advanced Fabrication: Builds structures",
+  "buildable_types": "Structure & Land & Advanced - Factory | Factory & Land & Tank & Advanced | FabAdvBuild  - Bot - Air - Naval",
+  "build_metal_cost": 1200,
+  "TEMP_texelinfo": 6.38729,
+  "tools": [
+    {
+      "spec_id": "/pa/units/land_vehicles/fabrication_vehicle_adv/fabrication_vehicle_adv_build_arm.json",
+      "aim_bone": "bone_root"
+    }
+  ],
+  "guard_radius": 60,
+  "navigation": {
+    "acceleration": 120,
+    "brake": 120,
+    "type": "land-small",
+    "turn_speed": 360,
+    "move_speed": 15,
+    "group_preference": "back"
+  },
+  "unit_types": [
+    "UNITTYPE_Fabber",
+    "UNITTYPE_Construction",
+    "UNITTYPE_Tank",
+    "UNITTYPE_Mobile",
+    "UNITTYPE_Land",
+    "UNITTYPE_Advanced",
+    "UNITTYPE_FactoryBuild"
+  ],
+  "command_caps": [
+    "ORDER_Move",
+    "ORDER_Patrol",
+    "ORDER_Build",
+    "ORDER_Reclaim",
+    "ORDER_Repair",
+    "ORDER_Assist",
+    "ORDER_Use"
+  ],
+  "mesh_bounds":[
+    5.2,
+    6,
+    4.6
+  ]
+}

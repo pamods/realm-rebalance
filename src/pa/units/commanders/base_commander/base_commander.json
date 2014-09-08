@@ -29,7 +29,7 @@
   "build_metal_cost": 25000,
   "tools": [
     {
-      "spec_id": "/pa/tools/commander_build_arm/commander_build_arm.json",
+      "spec_id": "/pa/tools/build_arm/mobile.json",
       "build_arm": true,
       "aim_bone": "bone_turret"
     },
@@ -41,17 +41,20 @@
       "aim_weapon": true
     },
     {
-      "spec_id": "/pa/tools/uber_cannon/uber_cannon.json",
+      "spec_id": "/pa/tools/energy_shell/uber.json",
       "muzzle_bone": "socket_rightMuzzle",
       "ammo_weapon": true,
       "secondary_weapon": true,
       "aim_bone": "bone_turret"
-    },
-    {
-      "death_weapon": true,
-      "spec_id": "/pa/tools/commander_death/commander_death.json"
     }
   ],
+	"death_weapon": {
+		"ground_ammo_spec": "/pa/ammo/self_destruct/com_death.json",
+		"air_ammo_spec": "/pa/ammo/self_destruct/com_death.json",
+		"air_height_threshold": 100
+	},
+	
+	
   "buildable_types": "CmdBuild",
   "description": "Base Commander Description - If you're seeing this, something is wrong in your commander.",
   "attachable": {

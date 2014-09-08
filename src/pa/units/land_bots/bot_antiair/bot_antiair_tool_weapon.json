@@ -1,0 +1,17 @@
+{
+  "base_spec": "/pa/tools/small_missile/light_homing.json",
+  "ammo_id": "/pa/units/land_bots/bot_antiair/bot_antiair_ammo.json",
+  "rate_of_fire": 0.5,
+  "max_range": 90,
+  "yaw_rate": 360,
+  "pitch_rate": 360,
+  "yaw_range": 180,
+  "pitch_range": 85,
+  "spread_fire": true,
+  "target_layers": [
+    "WL_LandHorizontal",
+    "WL_Seafloor",
+    "WL_WaterSurface",
+    "WL_Air"
+  ]
+}

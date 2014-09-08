@@ -92,7 +92,7 @@
   "fx_offsets": [
     {
       "type": "moving",
-      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/effects/misc/jets.pfx",
       "bone": "bone_turret",
       "offset": [
         0,
@@ -107,7 +107,7 @@
     },
     {
       "type": "moving",
-      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/effects/misc/jets.pfx",
       "bone": "bone_leftWing",
       "offset": [
         1.449,
@@ -122,7 +122,7 @@
     },
     {
       "type": "moving",
-      "filename": "/pa/units/air/gunship/gunship_jets.pfx",
+      "filename": "/pa/effects/misc/jets.pfx",
       "bone": "bone_rightWing",
       "offset": [
         -1.449,

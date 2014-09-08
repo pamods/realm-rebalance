@@ -1,0 +1,12 @@
+{
+  "base_spec": "/pa/ammo/base_ammo/base_ammo.json",
+  "damage": 30,
+  "splash_damage": 5,
+  "splash_radius": 2,
+  "initial_velocity": 500,
+  "max_velocity": 500,
+  "lifetime": 2,
+  "fx_trail": {
+    "filename": "/pa/effects/laser/light.pfx"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "base_spec": "/pa/tools/large_missile/cruise.json",
+  "ammo_id": "/pa/units/land_bots/bot_tactical_missile/bot_tactical_missile_ammo.json",
+  "rate_of_fire": 2,
+  "max_range": 250,
+  "ammo_source": "metal",
+  "ammo_capacity": 120,
+  "ammo_demand": 5,
+  "ammo_per_shot": 60,
+  "yaw_rate": 30,
+  "pitch_rate": 3600,
+  "yaw_range": 180,
+  "pitch_range": 85,
+  "auto_attack": true,
+  "spread_fire": true,
+  "target_priorities": [
+    "Orbital"
+  ],
+  "target_layers": [
+    "WL_LandHorizontal",
+    "WL_Orbital",
+    "WL_WaterSurface"
+  ]
+}
