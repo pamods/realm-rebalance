@@ -83,8 +83,13 @@
     "tools": [
         {
             "spec_id": "/pa/units/land_bots/fabrication_bot_combat_adv/fabrication_bot_combat_adv_build_arm.json",
-            "aim_bone": "bone_turretBack"
-        }
+            "aim_bone": "bone_turretBack",
+		},
+		{
+			"spec_id": "/pa/units/land_bots/fabrication_bot_combat_adv/fabrication_bot_combat_adv_tool_weapon.json",
+			"aim_bone": "bone_turretFront",
+			"muzzle_bone": "socket_muzzle"
+		}
 	],
     "events": {
         "build_complete": {

@@ -1,6 +1,6 @@
 {
   "TEMP_texelinfo": 32.1806, 
-  "area_build_separation": 75, 
+  "area_build_separation": 50, 
   "area_build_type": "Sphere", 
   "atrophy_cool_down": 15.0, 
   "atrophy_rate": 29.16667, 
