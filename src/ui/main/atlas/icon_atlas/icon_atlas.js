@@ -100,7 +100,8 @@ $(document).ready(function () {
             'control_module',
             'nuke_launcher_strat_ammo',
             'nuke_launcher_tac_ammo',
-			'anti_nuke_launcher_ammo'
+			'anti_nuke_launcher_ammo',
+            'air_defense_missile_adv'
         ]);
 
         self.sendIconList = function () {

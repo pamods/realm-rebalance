@@ -35,6 +35,7 @@ function BuildHotkeyModel() {
             "/pa/units/land_combat/laser_defense_double/laser_defense_double.json": ["combat", 5],
             "/pa/units/land_combat/laser_defense_triple/laser_defense_triple.json": ["combat", 0],                   
             "/pa/units/land_combat/air_defense_missile/air_defense_missile.json": ["combat", 11],  
+            "/pa/units/land_combat/air_defense_missile_adv/air_defense_missile_adv.json": ["combat", 1],
             "/pa/units/land_combat/air_defense_flak/air_defense_flak.json": ["combat", 6],  
             "/pa/units/surfacenaval_combat/torpedo_launcher/torpedo_launcher.json": ["combat", 12],
             "/pa/units/surfacenaval_combat/torpedo_launcher_adv/torpedo_launcher_adv.json": ["combat", 7],

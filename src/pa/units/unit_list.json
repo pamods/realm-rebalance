@@ -60,6 +60,7 @@
     "/pa/units/land_combat/base_structure/base_structure.json",
     "/pa/units/land_combat/air_defense_flak/air_defense_flak.json",
     "/pa/units/land_combat/air_defense_missile/air_defense_missile.json",
+    "/pa/units/land_combat/air_defense_missile_adv/air_defense_missile_adv.json",
     "/pa/units/land_combat/laser_defense_single/laser_defense_single.json",
     "/pa/units/land_combat/laser_defense_double/laser_defense_double.json",
     "/pa/units/land_combat/laser_defense_triple/laser_defense_triple.json",
