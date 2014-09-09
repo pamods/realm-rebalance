@@ -59,13 +59,16 @@
   },
   "model": {
     "filename": "/pa/units/land_vehicles/tank_heavy_armor/tank_heavy_armor.papa",
-    "animtree": "/pa/anim/anim_trees/tank_armor_anim_tree.json"
+    "animtree": "/pa/anim/anim_trees/tank_heavy_armor_anim_tree.json"
   },
   "tools": [
     {
       "spec_id": "/pa/units/land_vehicles/tank_heavy_armor/tank_heavy_armor_tool_weapon.json",
-      "aim_bone": "bone_root",
-      "muzzle_bone": "socket_muzzle"
+      "aim_bone": "bone_pitch",
+      "muzzle_bone": [
+        "socket_rightMuzzle",
+        "socket_leftMuzzle"
+      ]
     }
   ],
   "events": {
@@ -77,8 +80,7 @@
       "effect_scale": 1.4
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/bot/assault_fire",
-      "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_muzzle"
+      "audio_cue": "/SE/Weapons/bot/assault_fire"
     }
   },
   "audio": {
@@ -91,14 +93,10 @@
       }
     }
   },
-  "scrolling_uv": {
-    "scroll_rate": 0.58,
-    "uv_split": 0.855
-  },
   "TEMP_texelinfo": 9.04444,
   "mesh_bounds":[
-    7.5,
-    8.2,
-    6.2
+    8,
+    8.7,
+    6.7
   ]
 }
