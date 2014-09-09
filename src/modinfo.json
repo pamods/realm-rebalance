@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "context": "server",
-  "identifier": "com.realmmods.rebalance",
+  "identifier": "com.pa.realmmods.rebalance",
   "display_name": "The Realm Community Rebalance",
   "description": "Performs Many changes to game direction and balance",
   "author": "The Realm",
