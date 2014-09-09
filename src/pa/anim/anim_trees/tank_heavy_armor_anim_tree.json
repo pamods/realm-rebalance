@@ -38,14 +38,14 @@
         {
             "type": "recoil",
             "bone": "bone_rightRecoil",
-            "recoil_dist": 1,
-            "restore_time": 0.5
+            "recoil_dist": 0.2,
+            "restore_time": 0.2
         },
         {
             "type": "recoil",
             "bone": "bone_leftRecoil",
-            "recoil_dist": 1,
-            "restore_time": 0.5
+            "recoil_dist": 0.2,
+            "restore_time": 0.2
         },
         {
             "type": "fader",
