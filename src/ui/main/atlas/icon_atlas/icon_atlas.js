@@ -97,7 +97,10 @@ $(document).ready(function () {
             'orbital_transport',
             'radar_satellite',
             'mining_platform',
-            'control_module'
+            'control_module',
+            'nuke_launcher_strat_ammo',
+            'nuke_launcher_tac_ammo',
+			'anti_nuke_launcher_ammo'
         ]);
 
         self.sendIconList = function () {
