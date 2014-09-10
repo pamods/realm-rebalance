@@ -59,8 +59,9 @@
       "audio_cue": "/SE/Build_Complete/fab"
     },
     "died": {
-      "audio_cue": "/SE/Death/fab",
-      "effect_spec": "/pa/effects/specs/default_proj_explosion.pfx"
+      "effect_spec": "/pa/effects/specs/default_building_explosion.pfx",
+      "effect_scale": 0.1,
+      "audio_cue": "/SE/Death/fab"
     }
   },
   "mesh_bounds": [
