@@ -33,13 +33,13 @@
     {
       "layer": "WL_LandHorizontal",
       "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json",
-      "filename": "/pa/units/land_combat/air_defense_missile_adv/air_defense_adv.papa",
+      "filename": "/pa/units/land_combat/air_defense_missile_adv/air_defense_missile_adv.papa",
       "skirt_decal": "/pa/effects/specs/skirt_defense.json"
     },
     {
       "layer": "WL_WaterSurface",
       "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json",
-      "filename": "/pa/units/land_combat/air_defense_missile_adv/air_defense_adv.papa"
+      "filename": "/pa/units/land_combat/air_defense_missile_adv/air_defense_missile_adv.papa"
     }
   ],
   "TEMP_texelinfo": 9.4493,
