@@ -1,4 +1,5 @@
 {
+  "strategic_icon_priority":3,
   "base_spec": "/pa/units/land_bots/base_bot/base_bot.json",
   "display_name": "Bluehawk",
   "description": "Long-Range Suppression Bot: Tactical missiles, can target orbital units. Uses Metal. Weak vs Flankers & Assault",
