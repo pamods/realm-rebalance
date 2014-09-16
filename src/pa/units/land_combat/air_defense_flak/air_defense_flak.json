@@ -7,11 +7,11 @@
   "atrophy_cool_down": 30,
   "unit_types": [
     "UNITTYPE_Structure",
-    "UNITTYPE_Advanced",
+    "UNITTYPE_Basic",
     "UNITTYPE_Land",
     "UNITTYPE_AirDefense",
     "UNITTYPE_Defense",
-    "UNITTYPE_FabAdvBuild"
+    "UNITTYPE_FabBuild"
   ],
   "command_caps": [
     "ORDER_Attack"

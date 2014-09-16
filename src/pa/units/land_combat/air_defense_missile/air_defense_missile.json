@@ -1,7 +1,7 @@
 {
   "build_metal_cost": 175,
   "guard_radius": 200,
-  "max_health": 250,
+  "max_health": 300,
   "display_index": 80,
   "area_build_separation": 8,
   "atrophy_cool_down": 30,
@@ -56,7 +56,7 @@
     }
   },
   "nearby_target_tick_update_interval": 3,
-  "description": "Long-Range Anti-Air Tower: A slow-firing area denial SAM emplacement. Weak vs Swarm & Assault",
+  "description": "Short-Range Anti-Air Tower: A slow-firing area denial SAM emplacement. Weak vs Swarm & Assault",
   "base_spec": "/pa/units/land_combat/base_structure/base_structure.json",
   "display_name": "Missile Defense Tower",
   "events": {
