@@ -1,5 +1,5 @@
 {
-  "build_metal_cost": 175,
+  "build_metal_cost": 400,
   "guard_radius": 200,
   "max_health": 250,
   "display_index": 80,
@@ -32,7 +32,7 @@
       "layer": "WL_LandHorizontal",
       "animtree": "/pa/anim/anim_trees/fabrication_turret_anim_tree.json",
       "filename": "/pa/units/land_combat/air_defense_missile_adv/air_defense_missile_adv.papa",
-      "skirt_decal": "/pa/effects/specs/skirt_defense.json"
+      "skirt_decal": "/pa/effects/specs/skirt_air_defense_adv.json"
     },
     {
       "layer": "WL_WaterSurface",
@@ -67,8 +67,7 @@
       "audio_cue": "/SE/Death/structure_small"
     },
     "fired": {
-      "audio_cue": "/SE/Weapons/structure/air_defense_fire",
-      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle"
+      "audio_cue": "/SE/Weapons/structure/air_defense_fire"
     }
   },
   "guard_layer": "WL_Air",

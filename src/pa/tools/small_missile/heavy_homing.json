@@ -6,6 +6,7 @@
     "WL_WaterSurface",
     "WL_Air"
   ],
+  "spread_fire": true,
   "rate_of_fire": 0.6,
   "max_range": 500,
   "range_height": 45,
