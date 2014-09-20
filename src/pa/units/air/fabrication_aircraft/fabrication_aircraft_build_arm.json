@@ -4,7 +4,7 @@
   "yaw_rate": 90,
   "pitch_rate": 90,
   "construction_demand": {
-    "energy": 250,
-    "metal": 2
+    "energy": 350,
+    "metal": 3
   }
 }

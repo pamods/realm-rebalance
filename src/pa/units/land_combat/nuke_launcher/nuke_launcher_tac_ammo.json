@@ -1,6 +1,6 @@
 {
   "base_spec": "/pa/ammo/large_missile/nuke_tac.json",
-  "build_metal_cost": 1500,
+  "build_metal_cost": 2500,
   "flight_type": "Staged",
   "damage": 5000,
   "splash_damage": 1500,
