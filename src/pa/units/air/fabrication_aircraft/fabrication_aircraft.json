@@ -3,7 +3,7 @@
   "display_name": "Fabrication Aircraft",
   "description": "Fabrication Support Plane: Able to repair, reclaim & build basic structures. Weak vs Anti-Air",
   "max_health": 100,
-  "build_metal_cost": 150,
+  "build_metal_cost": 200,
   "attachable": {
     "offsets": {
       "root": [
