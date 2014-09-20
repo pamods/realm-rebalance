@@ -3,7 +3,7 @@
   "guard_radius": 150,
   "display_index": 85,
   "max_health": 2000,
-  "area_build_separation": 10,
+  "area_build_separation": 8,
   "atrophy_cool_down": 30,
   "unit_types": [
     "UNITTYPE_Structure",
@@ -63,7 +63,7 @@
         {
           "shape": "capsule",
           "channel": "sight",
-          "radius": 155,
+          "radius": 120,
           "layer": "surface_and_air"
         }
       ]
