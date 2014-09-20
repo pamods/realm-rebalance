@@ -211,19 +211,25 @@
       "spec_id": "/pa/units/land_combat/nuke_launcher/nuke_launcher.json"
     }, 
     "OrbitalDeathLaser": {
-      "spec_id": "/pa/units/orbital_units/orbital_laser/orbital_laser.json"
+      "spec_id": "/pa/units/orbital_units/orbital_bombardment_platform/orbital_bombardment_platform.json"
     }, 
     "OrbitalFabber": {
-      "spec_id": "/pa/units/orbital_units/orbital_fabrication_bot/orbital_fabrication_bot.json"
+      "spec_id": "/pa/units/orbital_units/orbital_fabrication_satellite/orbital_fabrication_satellite.json"
     }, 
     "OrbitalFactory": {
       "spec_id": "/pa/units/orbital_structures/orbital_factory/orbital_factory.json"
     }, 
+    "OrbitalJig": {
+      "spec_id": "/pa/units/orbital_structures/mining_platform/mining_platform.json"
+    }, 
     "OrbitalFighter": {
-      "spec_id": "/pa/units/orbital_units/orbital_fighter/orbital_fighter.json"
+      "spec_id": "/pa/units/orbital_units/orbital_missile/orbital_missile.json"
+    }, 
+    "OrbitalSniper": {
+      "spec_id": "/pa/units/orbital_units/orbital_sniper/orbital_sniper.json"
     }, 
     "OrbitalLander": {
-      "spec_id": "/pa/units/orbital_units/orbital_lander/orbital_lander.json"
+      "spec_id": "/pa/units/orbital_units/orbital_transport/orbital_transport.json"
     }, 
     "OrbitalLauncher": {
       "spec_id": "/pa/units/land_econ/orbital_launcher/orbital_launcher.json"
