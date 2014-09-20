@@ -2,21 +2,21 @@
   "enabled": true,
   "context": "server",
   "identifier": "com.pa.realmmods.rebalance",
-  "id":"realmbalance",
   "display_name": "The Realm Community Rebalance",
   "build": "71729",
   "date": "2014/09/07",
-  "description": "Adds, diversifies and rebalances the units for a new PA experience.",
+  "description": "Adds, diversifies and rebalances the game for a new PA experience.",
   "category": [
         "in-game",
         "server-mod"
     ],
   "author": "KNight, Liquius, Nanolathe, YourlocalmadSci and Zwiestein000",
-  "version": "7.0.0",
+  "version": "prerelease 8",
   "signature": "(not yet implemented)",
   "forum": "https://forums.uberent.com/threads/wip-the-realm-community-balance-mod.58942/",
-  "icon": "http://pamods.github.io/icons/realmbalance.png",
+  "icon": "http://i.imgur.com/uxzLVtB.png",
   "priority": 100,
-  "requires": ["realmui"]
-    
+  "dependencies": [
+    "com.pa.realmmods.ui"
+  ]  
 }
