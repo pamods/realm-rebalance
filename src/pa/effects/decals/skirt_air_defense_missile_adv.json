@@ -4,14 +4,14 @@
   "count": 1, 
   "fixed_orient": true, 
   "layer": 0, 
-  "material_spec": "/pa/effects/decals/skirt_decal_air_defense_missile_adv.json", 
+  "material_spec": "/pa/effects/decals/skirt_decal_06.json", 
   "pos_range": [
     0, 
     0
   ], 
   "scale": [
-    14, 
-    14, 
+    13, 
+    13, 
     1
   ], 
   "scale_range": 0, 
