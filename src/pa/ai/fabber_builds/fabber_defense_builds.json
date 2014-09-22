@@ -25,7 +25,7 @@
             "value0": 3
           }, 
           {
-            "string0": "BasicAirDefense", 
+            "string0": "BasicAirDefenseMissile", 
             "test_type": "CanFindPlaceToBuild"
           }
         ]
@@ -34,7 +34,7 @@
         "AnyBasicFabber"
       ], 
       "instance_count": 1, 
-      "name": "Basic Air Defense - Mex", 
+      "name": "Basic Air Defense Missile - Mex", 
       "placement_rules": {
         "buffer": 2, 
         "placement_type": "FromMainBasePerimeter", 
@@ -56,8 +56,8 @@
         ]
       }, 
       "priority": 250, 
-      "shared_instance_count": "BasicAirDefense", 
-      "to_build": "BasicAirDefense"
+      "shared_instance_count": "BasicAirDefenseMissile", 
+      "to_build": "BasicAirDefenseMissile"
     }, 
     {
       "base_sort": "FromPerimeter", 
@@ -138,7 +138,7 @@
             "value0": 5
           }, 
           {
-            "string0": "BasicAirDefense", 
+            "string0": "BasicAirDefenseMissile", 
             "test_type": "CanFindPlaceToBuild"
           }
         ], 
@@ -159,7 +159,7 @@
             "value0": 1
           }, 
           {
-            "string0": "BasicAirDefense", 
+            "string0": "BasicAirDefenseMissile", 
             "test_type": "CanFindPlaceToBuild"
           }
         ]
@@ -168,7 +168,7 @@
         "AnyBasicFabber"
       ], 
       "instance_count": 1, 
-      "name": "Basic Air Defense", 
+      "name": "Basic Air Defense Missile", 
       "placement_rules": {
         "buffer": 2, 
         "placement_type": "FromMainBasePerimeter", 
@@ -190,8 +190,8 @@
         ]
       }, 
       "priority": 85, 
-      "shared_instance_count": "BasicAirDefense", 
-      "to_build": "BasicAirDefense"
+      "shared_instance_count": "BasicAirDefenseMissile", 
+      "to_build": "BasicAirDefenseMissile"
     }, 
     {
       "base_sort": "FromPerimeter", 
@@ -220,7 +220,7 @@
             "value0": 5
           }, 
           {
-            "string0": "BasicAirDefense", 
+            "string0": "BasicAirDefenseMissile", 
             "test_type": "CanFindPlaceToBuild"
           }
         ]
@@ -230,7 +230,7 @@
         "AnyBasicFabber"
       ], 
       "instance_count": 1, 
-      "name": "Basic Air Defense - Threat", 
+      "name": "Basic Air Defense Missile - Threat", 
       "placement_rules": {
         "buffer": 2, 
         "placement_type": "FromMainBaseCenter", 
@@ -252,8 +252,8 @@
         ]
       }, 
       "priority": 251, 
-      "shared_instance_count": "BasicAirDefense", 
-      "to_build": "BasicAirDefense"
+      "shared_instance_count": "BasicAirDefenseMissile", 
+      "to_build": "BasicAirDefenseMissile"
     }, 
     {
       "base_sort": "FromPerimeter", 
@@ -612,8 +612,157 @@
           {
             "compare0": "<", 
             "test_type": "UnitCountInBase", 
-            "unit_type_string0": "Structure & Advanced & AirDefense", 
+            "unit_type_string0": "Structure & Basic & AirDefense", 
             "value0": 4
+          }, 
+          {
+            "compare0": ">=", 
+            "test_type": "UnitCountInBase", 
+            "unit_type_string0": "Structure & (EnergyProduction | Factory)", 
+            "value0": 5
+          }, 
+          {
+            "boolean": true, 
+            "test_type": "HaveSeenEnemyUnits", 
+            "unit_type_string0": "Mobile & Air"
+          }, 
+          {
+            "string0": "BasicAirDefenseFlak", 
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ], 
+        [
+          {
+            "test_type": "CanAffordBuildDemand"
+          }, 
+          {
+            "compare0": "<", 
+            "test_type": "UnitCountInBase", 
+            "unit_type_string0": "Structure & Basic & AirDefense", 
+            "value0": 4
+          }, 
+          {
+            "compare0": ">=", 
+            "test_type": "UnitCountInBase", 
+            "unit_type_string0": "Structure & (Tactical | Artillery)", 
+            "value0": 1
+          }, 
+          {
+            "boolean": true, 
+            "test_type": "HaveSeenEnemyUnits", 
+            "unit_type_string0": "Mobile & Air"
+          }, 
+          {
+            "string0": "BasicAirDefenseFlak", 
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ]
+      ], 
+      "builders": [
+        "AnyBasicFabber"
+      ], 
+      "instance_count": 1, 
+      "name": "Basic Air Defense Flak", 
+      "placement_rules": {
+        "buffer": 2, 
+        "placement_type": "FromMainBasePerimeter", 
+        "unit_count_rules": [
+          {
+            "alliance": "Ally", 
+            "compare_type": ">=", 
+            "count": 1, 
+            "range": 50, 
+            "unit_type_string": "Structure & (EnergyProduction | Factory | Tactical | Artillery)"
+          }, 
+          {
+            "alliance": "Ally", 
+            "compare_type": "<", 
+            "count": 1, 
+            "range": 50, 
+            "unit_type_string": "Structure & Basic & AirDefense"
+          }
+        ]
+      }, 
+      "priority": 255, 
+      "to_build": "BasicAirDefenseFlak"
+    }, 
+    {
+      "base_sort": "FromPerimeter", 
+      "build_conditions": [
+        [
+          {
+            "test_type": "CanAffordBuildDemand"
+          }, 
+          {
+            "compare0": "<", 
+            "test_type": "UnitCountInBase", 
+            "unit_type_string0": "Structure & Basic & AirDefense", 
+            "value0": 4
+          }, 
+          {
+            "compare0": ">", 
+            "string0": "Air", 
+            "string1": "AntiAir", 
+            "test_type": "PlanetThreatRatio", 
+            "value0": 1.0
+          }, 
+          {
+            "compare0": ">=", 
+            "test_type": "UnitCountInBase", 
+            "unit_type_string0": "Structure & (EnergyProduction | Factory)", 
+            "value0": 5
+          }, 
+          {
+            "boolean": true, 
+            "test_type": "HaveSeenEnemyUnits", 
+            "unit_type_string0": "Mobile & Air"
+          }, 
+          {
+            "string0": "BasicAirDefenseFlak", 
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ]
+      ], 
+      "builders": [
+        "AnyBasicFabber"
+      ], 
+      "instance_count": 1, 
+      "name": "Basic Air Defense Flak - Threat", 
+      "placement_rules": {
+        "buffer": 2, 
+        "placement_type": "FromMainBaseCenter", 
+        "unit_count_rules": [
+          {
+            "alliance": "Ally", 
+            "compare_type": ">=", 
+            "count": 1, 
+            "range": 50, 
+            "unit_type_string": "Structure & (EnergyProduction | Factory | Tactical | Artillery)"
+          }, 
+          {
+            "alliance": "Ally", 
+            "compare_type": "<", 
+            "count": 2, 
+            "range": 75, 
+            "unit_type_string": "Structure & Basic & AirDefense"
+          }
+        ]
+      }, 
+      "priority": 378, 
+      "to_build": "BasicAirDefenseFlak"
+    }, 
+    {
+      "base_sort": "FromPerimeter", 
+      "build_conditions": [
+        [
+          {
+            "test_type": "CanAffordBuildDemand"
+          }, 
+          {
+            "compare0": "<", 
+            "test_type": "UnitCountInBase", 
+            "unit_type_string0": "Structure & Advanced & AirDefense", 
+            "value0": 2
           }, 
           {
             "compare0": ">=", 
@@ -627,7 +776,7 @@
             "unit_type_string0": "Mobile & Air & Advanced"
           }, 
           {
-            "string0": "AdvancedAirDefense", 
+            "string0": "AdvancedAirDefenseMissile", 
             "test_type": "CanFindPlaceToBuild"
           }
         ], 
@@ -639,7 +788,7 @@
             "compare0": "<", 
             "test_type": "UnitCountInBase", 
             "unit_type_string0": "Structure & Advanced & AirDefense", 
-            "value0": 4
+            "value0": 2
           }, 
           {
             "compare0": ">=", 
@@ -653,7 +802,7 @@
             "unit_type_string0": "Mobile & Air & Advanced"
           }, 
           {
-            "string0": "AdvancedAirDefense", 
+            "string0": "AdvancedAirDefenseMissile", 
             "test_type": "CanFindPlaceToBuild"
           }
         ]
@@ -662,7 +811,7 @@
         "AnyAdvancedFabber"
       ], 
       "instance_count": 1, 
-      "name": "Advanced Air Defense", 
+      "name": "Advanced Air Defense Missile", 
       "placement_rules": {
         "buffer": 2, 
         "placement_type": "FromMainBasePerimeter", 
@@ -684,7 +833,7 @@
         ]
       }, 
       "priority": 255, 
-      "to_build": "AdvancedAirDefense"
+      "to_build": "AdvancedAirDefenseMissile"
     }, 
     {
       "base_sort": "FromPerimeter", 
@@ -697,7 +846,91 @@
             "compare0": "<", 
             "test_type": "UnitCountInBase", 
             "unit_type_string0": "Structure & Advanced & AirDefense", 
-            "value0": 4
+            "value0": 2
+          }, 
+          {
+            "compare0": ">=", 
+            "test_type": "UnitCountInBase", 
+            "unit_type_string0": "Structure & (EnergyProduction | Factory)", 
+            "value0": 5
+          }, 
+          {
+            "boolean": true, 
+            "test_type": "HaveSeenEnemyUnits", 
+            "unit_type_string0": "Mobile & Air"
+          }, 
+          {
+            "string0": "AdvancedAirDefenseMissile", 
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ], 
+        [
+          {
+            "test_type": "CanAffordBuildDemand"
+          }, 
+          {
+            "compare0": "<", 
+            "test_type": "UnitCountInBase", 
+            "unit_type_string0": "Structure & Advanced & AirDefense", 
+            "value0": 2
+          }, 
+          {
+            "compare0": ">=", 
+            "test_type": "UnitCountInBase", 
+            "unit_type_string0": "Structure & (Tactical | Artillery)", 
+            "value0": 1
+          }, 
+          {
+            "boolean": true, 
+            "test_type": "HaveSeenEnemyUnits", 
+            "unit_type_string0": "Mobile & Air"
+          }, 
+          {
+            "string0": "AdvancedAirDefenseMissile", 
+            "test_type": "CanFindPlaceToBuild"
+          }
+        ]
+      ], 
+      "builders": [
+        "AnyAdvancedFabber"
+      ], 
+      "instance_count": 1, 
+      "name": "Advanced Air Defense Missile - Basic Air", 
+      "placement_rules": {
+        "buffer": 2, 
+        "placement_type": "FromMainBasePerimeter", 
+        "unit_count_rules": [
+          {
+            "alliance": "Ally", 
+            "compare_type": ">=", 
+            "count": 1, 
+            "range": 50, 
+            "unit_type_string": "Structure & (EnergyProduction | Factory | Tactical | Artillery)"
+          }, 
+          {
+            "alliance": "Ally", 
+            "compare_type": "<", 
+            "count": 1, 
+            "range": 50, 
+            "unit_type_string": "Structure & Advanced & AirDefense"
+          }
+        ]
+      }, 
+      "priority": 200, 
+      "to_build": "AdvancedAirDefenseMissile"
+    }, 
+    {
+      "base_sort": "FromPerimeter", 
+      "build_conditions": [
+        [
+          {
+            "test_type": "CanAffordBuildDemand"
+          }, 
+          {
+            "compare0": "<", 
+            "test_type": "UnitCountInBase", 
+            "unit_type_string0": "Structure & Advanced & AirDefense", 
+            "value0": 2
           }, 
           {
             "compare0": ">", 
@@ -710,7 +943,7 @@
             "compare0": ">=", 
             "test_type": "UnitCountInBase", 
             "unit_type_string0": "Structure & (EnergyProduction | Factory)", 
-            "value0": 5
+            "value0": 10
           }, 
           {
             "boolean": true, 
@@ -718,7 +951,7 @@
             "unit_type_string0": "Mobile & Air & Advanced"
           }, 
           {
-            "string0": "AdvancedAirDefense", 
+            "string0": "AdvancedAirDefenseMissile", 
             "test_type": "CanFindPlaceToBuild"
           }
         ]
@@ -727,7 +960,7 @@
         "AnyAdvancedFabber"
       ], 
       "instance_count": 1, 
-      "name": "Advanced Air Defense - Threat", 
+      "name": "Advanced Air Defense Missile - Threat", 
       "placement_rules": {
         "buffer": 2, 
         "placement_type": "FromMainBaseCenter", 
@@ -749,7 +982,7 @@
         ]
       }, 
       "priority": 378, 
-      "to_build": "AdvancedAirDefense"
+      "to_build": "AdvancedAirDefenseMissile"
     }, 
     {
       "base_sort": "FromPerimeter", 

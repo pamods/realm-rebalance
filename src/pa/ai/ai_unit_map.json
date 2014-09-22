@@ -1,7 +1,7 @@
 {
   "unit_map": {
-    "AdvancedAirDefense": {
-      "spec_id": "/pa/units/land_combat/air_defense_flak/air_defense_flak.json"
+    "AdvancedAirDefenseMissile": {
+      "spec_id": "/pa/units/land_combat/air_defense_missile_adv/air_defense_missile_adv.json"
     }, 
     "AdvancedAirFabber": {
       "spec_id": "/pa/units/air/fabrication_aircraft_adv/fabrication_aircraft_adv.json"
@@ -96,7 +96,10 @@
     "BasicAAVehicle": {
       "spec_id": "/pa/units/land_vehicles/tank_gattling/tank_gattling.json"
     }, 
-    "BasicAirDefense": {
+    "BasicAirDefenseFlak": {
+      "spec_id": "/pa/units/land_combat/air_defense_flak/air_defense_flak.json"
+    }, 
+    "BasicAirDefenseMissile": {
       "spec_id": "/pa/units/land_combat/air_defense_missile/air_defense_missile.json"
     }, 
     "BasicAirFabber": {
@@ -219,20 +222,20 @@
     "OrbitalFactory": {
       "spec_id": "/pa/units/orbital_structures/orbital_factory/orbital_factory.json"
     }, 
-    "OrbitalJig": {
-      "spec_id": "/pa/units/orbital_structures/mining_platform/mining_platform.json"
-    }, 
     "OrbitalFighter": {
       "spec_id": "/pa/units/orbital_units/orbital_missile/orbital_missile.json"
     }, 
-    "OrbitalSniper": {
-      "spec_id": "/pa/units/orbital_units/orbital_sniper/orbital_sniper.json"
+    "OrbitalJig": {
+      "spec_id": "/pa/units/orbital_structures/mining_platform/mining_platform.json"
     }, 
     "OrbitalLander": {
       "spec_id": "/pa/units/orbital_units/orbital_transport/orbital_transport.json"
     }, 
     "OrbitalLauncher": {
       "spec_id": "/pa/units/land_econ/orbital_launcher/orbital_launcher.json"
+    }, 
+    "OrbitalSniper": {
+      "spec_id": "/pa/units/orbital_units/orbital_sniper/orbital_sniper.json"
     }, 
     "PlanetEngine": {
       "spec_id": "/pa/units/land_utility/delta_v_engine/delta_v_engine.json"
