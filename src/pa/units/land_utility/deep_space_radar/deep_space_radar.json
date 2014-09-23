@@ -55,6 +55,13 @@
     "observer": {
       "items": [
         {
+          "uses_energy": true,
+          "radius": 1,
+          "shape": "capsule",
+          "channel": "sight",
+          "layer": "celestial"
+        },
+        {
           "channel": "sight", 
           "layer": "surface_and_air", 
           "radius": 70, 
