@@ -26,7 +26,7 @@
     "ORDER_FireSecondaryWeapon"
   ],
   "si_name": "commander",
-  "strategic_icon_priority":0,
+  "strategic_icon_priority":1,
   "build_metal_cost": 25000,
   "tools": [
     {

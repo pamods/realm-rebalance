@@ -2,6 +2,7 @@
   "base_spec": "/pa/units/air/base_flyer/base_flyer.json",
   "display_name": "Pelican",
   "description": "Heavy Radar Transport: Slow-moving single unit transport. Weak vs Anti-air & Fast",
+  "strategic_icon_priority": 0,
   "max_health": 350,
   "build_metal_cost": 120,
   "usable": true,
