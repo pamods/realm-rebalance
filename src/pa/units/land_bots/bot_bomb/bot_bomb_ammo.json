@@ -1,12 +1,18 @@
 {
   "ammo_type": "PBAOE",
+  "damage": 350,
   "splash_damage": 350,
-  "splash_radius": 10,
+  "splash_radius": 25,
+  "full_damage_splash_radius": 10,
   "splash_damages_allies": false,
-  "events": {
-    "died": {
-      "audio_cue": "/SE/Impacts/shell_artillery",
-      "effect_spec": "/pa/effects/specs/default_building_explosion.pfx"
-    }
+  "burn_damage": 200,
+  "burn_radius": 25,
+  "sim_fire_effect":"/pa/effects/self_destruct/he_ent.json",
+  "damage_volume": {
+    "initial_radius": 10,
+    "radius_velocity": 30,
+    "radius_accel": 0,
+    "delay": 0,
+    "burnable_remove_radius": 10
   }
 }

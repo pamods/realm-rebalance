@@ -21,7 +21,7 @@
     "UNITTYPE_Economy"
   ],
 	"death_weapon": {
-		"ground_ammo_spec": "/pa/land_econ/energy_plant_adv/energy_plant_adv_ammo.json"
+		"ground_ammo_spec": "/pa/units/land_econ/energy_plant_adv/energy_plant_adv_ammo.json"
 	},
   "recon": {
     "observer": {

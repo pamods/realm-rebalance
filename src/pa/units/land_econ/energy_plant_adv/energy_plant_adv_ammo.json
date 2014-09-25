@@ -2,17 +2,14 @@
   "ammo_type": "PBAOE",
   "damage": 500,
   "splash_damage": 500,
-  "splash_radius": 35,
+  "splash_radius": 50,
   "full_damage_splash_radius": 35,
   "splash_damages_allies": true,
   "burn_damage": 200,
-  "burn_radius": 35,
-  "sim_impact_effect":"/pa/effects/large_missile/nuke_tac_ent.json",
-  "impact_decals": [
-    "/pa/effects/large_missile/nuke_tac_scorch.json"
-  ],
+  "burn_radius": 50,
+  "sim_fire_effect":"/pa/effects/self_destruct/he_ent.json",
   "damage_volume": {
-    "initial_radius": 1,
+    "initial_radius": 35,
     "radius_velocity": 30,
     "radius_accel": 0,
     "delay": 0,
