@@ -1,6 +1,6 @@
 {
     "base_spec": "/pa/units/land_bots/base_bot/base_bot.json",
-    "display_name": "Advanced Combat Fabrication Bot",
+    "display_name": "Advanced Repair Mechanic",
     "description": "Submersible Support Bot: Bot with repair and build tool and short range cannon. Weak vs Long-Range & Skirmishers",
     "max_health": 250,
     "spawn_layers": "WL_LandHorizontal",
