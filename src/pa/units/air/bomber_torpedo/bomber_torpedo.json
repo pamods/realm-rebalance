@@ -46,9 +46,6 @@
       ]
     }
   },
-  "transportable": {
-        "size": 2
-  },
   "model": {
     "filename": "/pa/units/air/bomber_torpedo/bomber_torpedo.papa",
     "arrows": 5

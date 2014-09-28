@@ -67,9 +67,6 @@
       ]
     }
   },
-    "transportable": {
-         "size": 2
-    },
   "model": {
     "filename": "/pa/units/air/gunship/gunship.papa",
     "animations": {

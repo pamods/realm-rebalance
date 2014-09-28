@@ -97,9 +97,6 @@
       ]
     }
   },
-    "transportable": {
-         "size": 2
-    },
   "consumption": {
     "energy": 100
   },

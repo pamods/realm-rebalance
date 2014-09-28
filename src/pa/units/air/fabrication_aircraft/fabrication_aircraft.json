@@ -36,9 +36,6 @@
     "ORDER_Assist",
     "ORDER_Use"
   ],
-  "transportable": {
-    "size": 2
-  },
   "guard_radius": 60,
   "guard_layer": "WL_LandHorizontal",
   "navigation": {

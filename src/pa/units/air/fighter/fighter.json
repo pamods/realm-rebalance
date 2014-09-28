@@ -39,9 +39,6 @@
       ]
     }
   },
-    "transportable": {
-         "size": 2
-    },
   "model": {
     "filename": "/pa/units/air/fighter/fighter.papa",
     "arrows": 5

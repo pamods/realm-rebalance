@@ -39,9 +39,6 @@
       ]
     }
   },
-  "transportable": {
-       "size": 2
-   },
   "model": {
     "filename": "/pa/units/air/fighter_antiair/fighter_antiair.papa",
     "animations": {
