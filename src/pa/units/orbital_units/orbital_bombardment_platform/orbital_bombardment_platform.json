@@ -11,7 +11,6 @@
   }, 
   "base_spec": "/pa/units/orbital_units/base_orbital/base_orbital.json", 
   "build_metal_cost": 1000, 
-  "comment": "These feel a bit lacking for their huge cost. ZWEI",
   "command_caps": [
     "ORDER_Move", 
     "ORDER_Patrol", 
