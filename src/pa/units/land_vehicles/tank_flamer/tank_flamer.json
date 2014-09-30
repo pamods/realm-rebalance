@@ -34,6 +34,7 @@
   "guard_radius": 40,
   "guard_layer": "WL_LandHorizontal",
   "navigation": {
+    "aggressive_distance": 25, 
     "type": "land-small",
     "acceleration": 100,
     "brake": 100,
