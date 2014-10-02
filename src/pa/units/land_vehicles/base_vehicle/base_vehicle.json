@@ -1,5 +1,6 @@
 {
   "strategic_icon_priority":4,
+  "guard_radius": 5,
   "TEMP_texelinfo": 1.0, 
   "armor_type": "AT_Vehicle", 
   "audio": {

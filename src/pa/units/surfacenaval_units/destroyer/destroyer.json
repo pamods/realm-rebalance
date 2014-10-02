@@ -72,7 +72,6 @@
     }
   ],
   "TEMP_texelinfo": 22.1895,
-  "guard_radius": 175,
   "build_metal_cost": 900,
   "navigation": {
     "aggressive_distance": 180,

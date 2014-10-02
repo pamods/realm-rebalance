@@ -32,7 +32,7 @@
   "transportable": {
     "size": 1
   },
-  "guard_radius": 40,
+  "guard_radius": 25,
   "guard_layer": "WL_LandHorizontal",
   "navigation": {
     "type": "land-small",

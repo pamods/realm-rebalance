@@ -37,7 +37,6 @@
   },
   "display_index": 100,
   "max_health": 1000,
-  "guard_radius": 145,
   "build_metal_cost": 650,
   "description": "Anti-air Radar Ship: Frigate with light cannon & missiles. Uses energy. Weak vs Assault & Heavy",
   "consumption": {

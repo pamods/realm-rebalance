@@ -28,7 +28,6 @@
   "transportable": {
     "size": 1
   },
-  "guard_radius": 125,
   "guard_layer": "WL_LandHorizontal",
   "navigation": {
     "acceleration": 100,

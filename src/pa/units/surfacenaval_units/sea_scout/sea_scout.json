@@ -36,7 +36,7 @@
       ]
     }
   },
-  "guard_radius": 90,
+  "guard_radius": 75,
   "navigation": {
     "type": "deepwater",
     "turn_speed": 90,

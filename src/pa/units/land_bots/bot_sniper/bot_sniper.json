@@ -30,7 +30,6 @@
   "transportable": {
     "size": 1
   },
-  "guard_radius": 140,
   "guard_layer": "WL_AnySurface",
   "navigation": {
     "turn_speed": 720,

@@ -24,7 +24,6 @@
 	"transportable": {
 		"size": 1
 	},
-	"guard_radius": 120,
   "guard_layer": "WL_AnySurface",
 	"navigation": {
 		"type": "land-small",

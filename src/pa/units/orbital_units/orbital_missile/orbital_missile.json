@@ -7,7 +7,7 @@
       "muzzle_bone": "bone_root"
     }
   ],
-  "guard_radius": 200,
+  "guard_radius": 500,
   "build_metal_cost": 150,
   "gravwell_velocity_multiplier": 6,
   "planetary_arrival_cooldown_time": 0.5,

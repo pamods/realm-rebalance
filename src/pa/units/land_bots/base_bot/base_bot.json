@@ -1,5 +1,6 @@
 {
   "strategic_icon_priority":4,
+  "guard_radius": 5,
   "death": {
     "decals": [
       "/pa/effects/specs/scorch_a_01.json"

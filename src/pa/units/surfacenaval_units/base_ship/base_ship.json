@@ -1,5 +1,6 @@
 {
   "strategic_icon_priority":4,
+  "guard_radius": 10,
   "unit_types": [
     "UNITTYPE_Naval",
     "UNITTYPE_Mobile",

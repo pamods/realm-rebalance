@@ -41,7 +41,6 @@
     }
   }, 
   "guard_layer": "WL_Air", 
-  "guard_radius": 120, 
   "headlights": [
     {
       "color": [

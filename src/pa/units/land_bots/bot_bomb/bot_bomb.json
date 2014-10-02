@@ -78,7 +78,7 @@
   "description": "Fast Suicide Bot: Leaps at enemies causing large AoE damage. Weak vs Riot-Control and Suppression",
   "build_metal_cost": 50,
   "TEMP_texelinfo": 6.38702,
-  "guard_radius": 110,
+  "guard_radius": 80,
   "tools": [
     {
       "spec_id": "/pa/units/land_bots/bot_bomb/bot_bomb_tool_weapon.json",
@@ -86,9 +86,6 @@
       "aim_bone": "bone_root"
     }
   ],
-  	"death_weapon": {
-		"ground_ammo_spec": "/pa/units/land_bots/bot_bomb/bot_bomb_ammo.json"
-	},
   "unit_types": [
     "UNITTYPE_Bot",
     "UNITTYPE_Mobile",
