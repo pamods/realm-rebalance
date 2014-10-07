@@ -3,7 +3,7 @@
   "display_name": "Hornet",
   "description": "Fast Heavy-Hitter Plane: A bomber armed with a single high-powered bomb. Weak vs Anti-Air & Suppression",
   "max_health": 325,
-  "build_metal_cost": 1000,
+  "build_metal_cost": 1250,
   "consumption": {
     "energy": 500
   },
