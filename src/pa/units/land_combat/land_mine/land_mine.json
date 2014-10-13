@@ -4,11 +4,11 @@
   "display_group": 50,
   "display_index": 40,
   "max_health": 5,
-  "build_metal_cost": 5,
+  "build_metal_cost": 50,
   "wreckage_health_frac": 0,
   "spawn_layers": "WL_LandHorizontal",
   "area_build_type": "Sphere",
-  "area_build_separation": 10,
+  "area_build_separation": 8,
   "unit_types": [
     "UNITTYPE_Basic",
     "UNITTYPE_Land",
