@@ -176,7 +176,7 @@
     100
   ], 
   "production": {
-    "energy": 20000
+    "energy": 30000
   }, 
   "recon": {
     "observer": {
@@ -192,7 +192,7 @@
   }, 
   "spawn_layers": "WL_Orbital", 
   "storage": {
-    "energy": 50000
+    "energy": 100000
   }, 
   "unit_types": [
     "UNITTYPE_Orbital", 
