@@ -106,7 +106,7 @@
   "unit_types": [
     "UNITTYPE_Mobile", 
     "UNITTYPE_Orbital", 
-    "UNITTYPE_Fighter", 
+    "UNITTYPE_Bomber", 
     "UNITTYPE_Advanced", 
     "UNITTYPE_FactoryBuild"
   ] 

@@ -100,7 +100,7 @@
     "UNITTYPE_Orbital", 
     "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild",
-	"UNITTYPE_Fighter",
+	  "UNITTYPE_Fighter",
     "UNITTYPE_Mobile"
   ]
 }

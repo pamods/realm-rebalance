@@ -134,7 +134,8 @@
     "UNITTYPE_Mobile", 
     "UNITTYPE_Land", 
     "UNITTYPE_Advanced", 
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_AirDefense"
   ], 
   "wreckage_health_frac": 1.0
 }

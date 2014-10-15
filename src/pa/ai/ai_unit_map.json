@@ -93,9 +93,15 @@
     "BasicAASkirmishBot": {
       "spec_id": "/pa/units/land_bots/bot_antiair/bot_antiair.json"
     }, 
-    "BasicAAVehicle": {
+    "BasicAAGatlingTank": {
       "spec_id": "/pa/units/land_vehicles/tank_gattling/tank_gattling.json"
     }, 
+    "BasicAAMissileVehicle": {
+      "spec_id": "/pa/units/land_vehicles/vehicle_missile/vehicle_missile.json"
+    },
+    "AdvancedAAFlakTank": {
+      "spec_id": "/pa/units/land_vehicles/tank_flak/tank_flak.json"
+    },
     "BasicAirDefenseFlak": {
       "spec_id": "/pa/units/land_combat/air_defense_flak/air_defense_flak.json"
     }, 
@@ -162,9 +168,6 @@
     "BasicRadarSattelite": {
       "spec_id": "/pa/units/orbital_units/radar_satellite/radar_satellite.json"
     }, 
-    "BasicSkirmishVehicle": {
-      "spec_id": "/pa/units/land_vehicles/vehicle_missile/vehicle_missile.json"
-    }, 
     "BasicVehicleFabber": {
       "spec_id": "/pa/units/land_vehicles/fabrication_vehicle/fabrication_vehicle.json"
     }, 
@@ -179,9 +182,6 @@
     }, 
     "DeepSpaceRadar": {
       "spec_id": "/pa/units/land_utility/deep_space_radar/deep_space_radar.json"
-    }, 
-    "DefenseSatellite": {
-      "spec_id": "/pa/units/orbital_units/defense_satellite/defense_satellite.json"
     }, 
     "Destroyer": {
       "spec_id": "/pa/units/surfacenaval_units/destroyer/destroyer.json"
@@ -222,8 +222,11 @@
     "OrbitalFactory": {
       "spec_id": "/pa/units/orbital_structures/orbital_factory/orbital_factory.json"
     }, 
-    "OrbitalFighter": {
+    "OrbitalMissile": {
       "spec_id": "/pa/units/orbital_units/orbital_missile/orbital_missile.json"
+    }, 
+    "OrbitalDefenseSatellite": {
+      "spec_id": "/pa/units/orbital_units/defense_satellite/defense_satellite.json"
     }, 
     "OrbitalJig": {
       "spec_id": "/pa/units/orbital_structures/mining_platform/mining_platform.json"

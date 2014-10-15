@@ -481,8 +481,8 @@
 		}]]
 	},
 	{
-		"name": "Basic AA Vehicle",
-		"to_build": "BasicAAVehicle",
+		"name": "Basic AA Gatling Tank",
+		"to_build": "BasicAAGatlingTank",
 		"instance_count": 1,
 		"priority": 97,
 		"builders": ["BasicVehicleFactory"],
@@ -533,10 +533,9 @@
 		}]]
 	},
 	{
-		"name": "Light missile Tank",
-		"to_build": "LightSkirmishTank",
-		"instance_count": -1,
-		"max_num_assisters": 10,
+		"name": "Basic AA Missile Vehicle",
+		"to_build": "BasicAAMissileVehicle",
+		"instance_count": 1,
 		"priority": 97,
 		"builders": ["BasicVehicleFactory"],
 		"build_conditions": [[{
@@ -566,6 +565,65 @@
 		},
 		{
 			"test_type": "CanAffordBuildDemand"
+		},
+		{
+			"test_type": "UnitRatioOnPlanet",
+			"unit_type_string0": "(Tank | Bot) & AirDefense",
+			"unit_type_string1": "(Tank | Bot) - Fabber",
+			"compare0": "<",
+			"value0": 0.1
+		},
+		{
+			"test_type": "OtherPlanetNeedsLandUnitAssistance",
+			"boolean": true
+		},
+		{
+			"test_type": "UnitCountOnPlanet",
+			"unit_type_string0": "Structure & Teleporter",
+			"compare0": ">",
+			"value0": 0
+		}]]
+	},
+	{
+		"name": "Advanced AA Flak Tank",
+		"to_build": "AdvancedAAFlakTank",
+		"instance_count": 1,
+		"priority": 98,
+		"builders": ["AdvancedVehicleFactory"],
+		"build_conditions": [[{
+			"test_type": "AloneOnPlanet",
+			"boolean": false
+		},
+		{
+			"test_type": "CanAffordBuildDemand"
+		},
+		{
+			"test_type": "UnitRatioOnPlanet",
+			"unit_type_string0": "(Tank | Bot) & AirDefense",
+			"unit_type_string1": "(Tank | Bot) - Fabber",
+			"compare0": "<",
+			"value0": 0.1
+		}],
+		[{
+			"test_type": "BaseThreatRatio",
+			"string0": "Air",
+			"string1": "AntiAir",
+			"compare0": ">",
+			"value0": 2.0
+		}],
+		[{
+			"test_type": "AloneOnPlanet",
+			"boolean": true
+		},
+		{
+			"test_type": "CanAffordBuildDemand"
+		},
+		{
+			"test_type": "UnitRatioOnPlanet",
+			"unit_type_string0": "(Tank | Bot) & AirDefense",
+			"unit_type_string1": "(Tank | Bot) - Fabber",
+			"compare0": "<",
+			"value0": 0.05
 		},
 		{
 			"test_type": "OtherPlanetNeedsLandUnitAssistance",
