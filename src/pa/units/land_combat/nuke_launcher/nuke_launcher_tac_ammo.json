@@ -3,16 +3,16 @@
   "base_spec": "/pa/ammo/large_missile/nuke_tac.json", 
   "build_metal_cost": 2500, 
   "burn_damage": 200, 
-  "burn_radius": 80, 
+  "burn_radius": 90, 
   "collision_check": "ground", 
   "cruise_height": 100, 
   "damage": 5000, 
   "damage_volume": {
-    "burnable_remove_radius": 60, 
-    "delay": 0, 
-    "initial_radius": 1, 
-    "radius_accel": 0, 
-    "radius_velocity": 30
+    "burnable_remove_radius": 70, 
+    "delay": 10, 
+    "initial_radius": 10, 
+    "radius_accel": 30, 
+    "radius_velocity": 40
   }, 
   "description": "ICBM-64 -Silencer- Missile", 
   "display_name": "Tactical Nuke", 
