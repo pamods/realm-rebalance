@@ -3,8 +3,20 @@
   "context": "server",
   "identifier": "com.pa.realmmods.rebalance",
   "display_name": "The Realm Community Rebalance",
-  "description": "Performs Many changes to game direction and balance",
-  "author": "The Realm",
-  "version": "3.9.0",
-  "signature": "(not yet implemented)"
+  "build": "73939",
+  "date": "2014/10/17",
+  "description": "Adds, diversifies and rebalances the game for a new PA experience.",
+  "category": [
+        "in-game",
+        "server-mod"
+    ],
+  "author": "KNight, Liquius, Nanolathe, YourlocalmadSci and Zwiestein000",
+  "version": "prerelease 9",
+  "signature": "(not yet implemented)",
+  "forum": "https://forums.uberent.com/threads/wip-the-realm-community-balance-mod.58942/",
+  "icon": "http://i.imgur.com/uxzLVtB.png",
+  "priority": 100,
+  "dependencies": [
+    "com.pa.realmmods.ui"
+  ]  
 }
