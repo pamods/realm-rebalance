@@ -3,8 +3,6 @@
   "auto_attack": true, 
   "spread_fire": true,
   "base_spec": "/pa/tools/cannon/mass_driver.json", 
-  "firing_arc_pitch": 45, 
-  "firing_arc_yaw": 5, 
   "max_range": 500, 
   "pitch_range": 15,
   "pitch_rate": 360,  

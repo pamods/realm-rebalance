@@ -11,7 +11,7 @@
     "initial_velocity": 500,
     "max_velocity": 500,
     "turn_rate": 3600,
-    "lifetime": 10,
+    "lifetime": 3,
     "show_strategic_icon": true,
     "model": {
         "filename": "/pa/units/air/missile_anti_nuke/missile_anti_nuke.papa"

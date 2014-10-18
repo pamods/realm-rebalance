@@ -1,138 +1,136 @@
 {
-  "navigation": {
-    "acceleration": 60,
-    "brake": 60,
-    "turn_speed": 90,
-    "type": "amphibious",
-    "turn_in_place": false,
-    "move_speed": 6
-  },
-  "unit_types": [
-    "UNITTYPE_Commander",
-    "UNITTYPE_Construction",
-    "UNITTYPE_Mobile",
-    "UNITTYPE_Land",
-    "UNITTYPE_NoBuild"
-  ],
-  "command_caps": [
-    "ORDER_Move",
-    "ORDER_Patrol",
-    "ORDER_Build",
-    "ORDER_Attack",
-    "ORDER_Reclaim",
-    "ORDER_Repair",
-    "ORDER_Assist",
-    "ORDER_Use",
-    "ORDER_FireSecondaryWeapon"
-  ],
-  "si_name": "commander",
-  "strategic_icon_priority":1,
-  "build_metal_cost": 25000,
-  "tools": [
-    {
-      "spec_id": "/pa/tools/build_arm/mobile.json",
-      "build_arm": true,
-      "aim_bone": "bone_turret"
-    },
-    {
-      "muzzle_bone": "socket_rightMuzzle",
-      "spec_id": "/pa/units/commanders/base_commander/base_commander_tool_weapon.json",
-      "aim_bone": "bone_turret",
-      "primary_weapon": true,
-      "aim_weapon": true
-    },
-    {
-      "spec_id": "/pa/tools/energy_shell/uber.json",
-      "muzzle_bone": "socket_rightMuzzle",
-      "ammo_weapon": true,
-      "secondary_weapon": true,
-      "aim_bone": "bone_turret"
-    }
-  ],
-	"death_weapon": {
-		"ground_ammo_spec": "/pa/ammo/self_destruct/com_death.json",
-		"air_ammo_spec": "/pa/ammo/self_destruct/com_death.json",
-		"air_height_threshold": 100
-	},
-	
-	
-  "buildable_types": "CmdBuild",
-  "description": "Base Commander Description - If you're seeing this, something is wrong in your commander.",
+  "armor_type": "AT_Commander", 
   "attachable": {
     "offsets": {
       "head": [
-        0,
-        0,
+        0, 
+        0, 
         10
-      ],
+      ], 
       "root": [
-        0,
-        0,
+        0, 
+        0, 
         0
       ]
     }
-  },
-  "display_name": "Base Commander",
-  "show_in_orbital_layer": true,
-  "storage": {
-    "energy": 40000,
-    "metal": 2000
-  },
-  "events": {
-    "fired": {
-      "audio_cue": "/SE/Weapons/commander/Commander_uber_what",
-      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
-    }
-  },
-  "display_group": 99,
-  "fx_offsets": [
-    {
-      "type": "build",
-      "bone": "socket_leftMuzzle",
-      "filename": "/pa/effects/specs/fab_spray.pfx"
-    }
-  ],
-  "max_health": 25000,
-  "teleportable": {},
-  "display_index": 99,
-  "production": {
-    "metal": 20,
-    "energy": 2000
-  },
+  }, 
   "audio": {
     "loops": {
       "build": {
-        "should_start_func": "has_build_target",
-        "cue": "/SE/Construction/Commander_contruction_beam_loop",
-        "should_stop_func": "no_build_target",
-        "flag": "build_target_changed"
-      },
+        "cue": "/SE/Construction/Commander_contruction_beam_loop", 
+        "flag": "build_target_changed", 
+        "should_start_func": "has_build_target", 
+        "should_stop_func": "no_build_target"
+      }, 
       "move": {
-        "cue": "/SE/Movement/commander/Commander_move_loop",
-        "should_start_func": "is_moving",
-        "should_stop_func": "is_not_moving",
-        "flag": "vel_changed"
+        "cue": "/SE/Movement/commander/Commander_move_loop", 
+        "flag": "vel_changed", 
+        "should_start_func": "is_moving", 
+        "should_stop_func": "is_not_moving"
       }
     }
-  },
-  "armor_type": "AT_Commander",
+  }, 
+  "build_metal_cost": 25000, 
+  "buildable_types": "CmdBuild", 
+  "command_caps": [
+    "ORDER_Move", 
+    "ORDER_Patrol", 
+    "ORDER_Build", 
+    "ORDER_Attack", 
+    "ORDER_Reclaim", 
+    "ORDER_Repair", 
+    "ORDER_Assist", 
+    "ORDER_Use", 
+    "ORDER_FireSecondaryWeapon"
+  ], 
+  "death_weapon": {
+    "air_ammo_spec": "/pa/ammo/self_destruct/com_death.json", 
+    "air_height_threshold": 100, 
+    "ground_ammo_spec": "/pa/ammo/self_destruct/com_death.json"
+  }, 
+  "description": "Base Commander Description - If you're seeing this, something is wrong in your commander.", 
+  "display_group": 99, 
+  "display_index": 99, 
+  "display_name": "Base Commander", 
+  "events": {
+    "fired": {
+      "audio_cue": "/SE/Weapons/commander/Commander_uber_what", 
+      "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
+    }
+  }, 
+  "fx_offsets": [
+    {
+      "bone": "socket_leftMuzzle", 
+      "filename": "/pa/effects/specs/fab_spray.pfx", 
+      "type": "build"
+    }
+  ], 
+  "max_health": 25000, 
+  "navigation": {
+    "acceleration": 60, 
+    "brake": 60, 
+    "move_speed": 6, 
+    "turn_in_place": false, 
+    "turn_speed": 90, 
+    "type": "amphibious"
+  }, 
+  "physics": {
+    "push_class": 100, 
+    "radius": 9
+  }, 
+  "production": {
+    "energy": 2000, 
+    "metal": 20
+  }, 
   "recon": {
     "observer": {
       "items": [
         {
-          "shape": "capsule",
-          "radius": 150,
-          "channel": "sight",
-          "layer": "surface_and_air"
+          "channel": "sight", 
+          "layer": "surface_and_air", 
+          "radius": 150, 
+          "shape": "capsule"
         }
       ]
     }
-  },
-  "physics": {
-    "radius": 9,
-    "push_class": 100
-  },
+  }, 
+  "show_in_orbital_layer": true, 
+  "si_name": "commander", 
+  "storage": {
+    "energy": 40000, 
+    "metal": 2000
+  }, 
+  "strategic_icon_priority": 1, 
+  "teleportable": {}, 
+  "tools": [
+    {
+      "aim_bone": "bone_turret", 
+      "build_arm": true, 
+      "spec_id": "/pa/tools/build_arm/mobile.json"
+    }, 
+    {
+      "aim_bone": "bone_turret", 
+      "aim_weapon": true, 
+      "muzzle_bone": "socket_rightMuzzle", 
+      "primary_weapon": true, 
+      "spec_id": "/pa/units/commanders/base_commander/base_commander_tool_weapon.json"
+    }, 
+    {
+      "aim_bone": "bone_turret", 
+      "ammo_weapon": true, 
+      "muzzle_bone": "socket_rightMuzzle", 
+      "secondary_weapon": true, 
+      "spec_id": "/pa/tools/uber_cannon/uber_cannon.json"
+    }
+  ], 
   "transportable": {
     "size": 1
-  }
+  }, 
+  "unit_types": [
+    "UNITTYPE_Commander", 
+    "UNITTYPE_Construction", 
+    "UNITTYPE_Mobile", 
+    "UNITTYPE_Land", 
+    "UNITTYPE_NoBuild"
+  ]
 }

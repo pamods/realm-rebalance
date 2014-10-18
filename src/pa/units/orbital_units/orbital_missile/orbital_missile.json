@@ -25,7 +25,7 @@
     "ORDER_Assist"
   ],
   "navigation": {
-    "aggressive_distance": 150,
+    "aggressive_distance": 5,
     "type": "orbital",
     "bank_factor": 1,
     "turn_speed": 90,
