@@ -33,7 +33,8 @@
             "child": {
                 "type": "procedural_aim",
                 "rotation_bone": "bone_turretBack",
-                "rotation_axis": "z"
+                "rotation_axis": "z",
+                "weapon_index": 0
             }
         },
         {
@@ -42,7 +43,8 @@
             "child": {
                 "type": "procedural_aim",
                 "rotation_bone": "bone_pitchBack",
-                "rotation_axis": "x"
+                "rotation_axis": "x",
+                "weapon_index": 0
             }
         },
 		{
@@ -51,7 +53,8 @@
 		"child": {
 			"type": "procedural_aim",
 			"rotation_bone": "bone_turretFront",
-			"rotation_axis": "z"
+			"rotation_axis": "z",
+            "weapon_index": 1
 		}
 		},
 		{
@@ -60,7 +63,8 @@
 			"child": {
 				"type": "procedural_aim",
 				"rotation_bone": "bone_recoil",
-				"rotation_axis": "x"
+				"rotation_axis": "x",
+                "weapon_index": 1
 			}
 		},
         {
