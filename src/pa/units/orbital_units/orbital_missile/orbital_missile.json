@@ -25,14 +25,17 @@
     "ORDER_Assist"
   ],
   "navigation": {
-    "aggressive_distance": 5,
+    "aggressive_behavior": "line", 
+    "aggressive_distance": 5, 
+    "circle_max_time": 4, 
+    "circle_min_time": 1,
     "type": "orbital",
     "bank_factor": 1,
-    "turn_speed": 90,
+    "turn_speed": 180,
     "move_speed": 75,
     "hover_time": -1,
-    "acceleration": 45,
-    "brake": 150
+    "acceleration": 200,
+    "brake": 500
   },
   "fx_offsets": [
     {
