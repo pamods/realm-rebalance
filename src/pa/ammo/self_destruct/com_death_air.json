@@ -7,8 +7,7 @@
   "splash_damages_allies": true,
   "burn_damage": 200,
   "burn_radius": 200,
-  "sim_fire_effect": "/pa/effects/specs/default_commander_explosion_ent.json",
-	"impact_decals": ["/pa/effects/specs/nuke_scorch_01.json"],
+  "sim_fire_effect": "/pa/effects/self_destruct/default_commander_explosion_air_ent.json",
   "damage_volume": {
     "initial_radius": 50,
     "radius_velocity": 20,

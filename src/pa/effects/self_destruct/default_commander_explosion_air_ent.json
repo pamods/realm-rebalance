@@ -1,0 +1,14 @@
+{
+  "recon": {
+    "observable": {
+      "always_visible": true, 
+      "ignore_radar": true, 
+      "layer": "surface_and_air", 
+      "sphere_radius": 5
+    }
+  }, 
+  "spawn_response": {
+    "audio_cue": "/SE/Death/Commander", 
+    "effect_spec": "/pa/effects/self_destruct/default_commander_explosion_air.pfx"
+  }
+}
