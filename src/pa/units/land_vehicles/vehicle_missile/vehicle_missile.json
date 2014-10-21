@@ -2,7 +2,7 @@
   "base_spec": "/pa/units/land_vehicles/base_vehicle/base_vehicle.json",
   "display_name": "Spinner",
   "description": "Anti-Air skirmish Tank: Attacks with medium-ranged missiles. Weak vs Swarm and Heavy-Hitter",
-  "max_health": 400,
+  "max_health": 350,
   "build_metal_cost": 300,
   "attachable": {
     "offsets": {
@@ -32,7 +32,7 @@
   "guard_layer": "WL_AnySurface",
   "navigation": {
     "type": "land-small",
-    "move_speed": 14,
+    "move_speed": 12,
     "brake": 150,
     "turn_speed": 180,
     "acceleration": 100
