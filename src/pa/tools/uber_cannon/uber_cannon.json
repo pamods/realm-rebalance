@@ -1,6 +1,6 @@
 {
   "tool_type": "TOOL_Weapon",
-  "ammo_id": "/pa/ammo/cannon_uber/cannon_uber.json",
+  "ammo_id": "/pa/ammo/energy_shell/uber.json",
   "target_layers": [
     "WL_LandHorizontal",
     "WL_WaterSurface",
