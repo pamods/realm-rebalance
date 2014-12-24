@@ -98,16 +98,19 @@
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle /pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle"
     }
   },
-  "audio": {
-    "loops": {
-      "move": {
-        "cue": "/SE/Movement/bot/aa_loop",
-        "flag": "vel_changed",
-        "should_start_func": "is_moving",
-        "should_stop_func": "is_not_moving"
-      }
-    }
-  },
+    "audio": {
+        "loops": {
+            "move": {
+                "cue": "/SE/Movement/bot/tactical_missile_bot",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/bot/tactical_missile_bot"
+        }
+    },
   "TEMP_texelinfo": 5.47132,
   "mesh_bounds":[
     8.2,

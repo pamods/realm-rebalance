@@ -24,7 +24,8 @@
     "UNITTYPE_Artillery",
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+        "UNITTYPE_CannonBuildable"
   ],
   "transportable": {
     "size": 1
@@ -90,16 +91,19 @@
       "effect_spec": "/pa/effects/specs/default_small_muzzle_flash.pfx socket_rightMuzzle /pa/effects/specs/default_small_muzzle_flash.pfx socket_leftMuzzle"
     }
   },
-  "audio": {
-    "loops": {
-      "move": {
-        "should_stop_func": "is_not_moving",
-        "cue": "/SE/Movement/bot/assault_loop",
-        "should_start_func": "is_moving",
-        "flag": "vel_changed"
-      }
-    }
-  },
+    "audio": {
+        "loops": {
+            "move": {
+                "cue": "/SE/Movement/bot/grenadier_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/bot/grenadier"
+        }
+    },
   "mesh_bounds": [
     4,
     4,

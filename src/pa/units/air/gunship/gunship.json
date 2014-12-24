@@ -25,16 +25,19 @@
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     }
   },
-  "audio": {
-    "loops": {
-      "move": {
-        "cue": "/SE/Movement/air/air_gunship_loop",
-        "flag": "vel_changed",
-        "should_start_func": "is_moving",
-        "should_stop_func": "is_not_moving"
-      }
-    }
-  },
+    "audio": {
+        "loops": {
+            "move": {
+                "cue": "/SE/Movement/air/air_gunship_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/air/gunship"
+        }
+    },
   "guard_radius": 120,
   "guard_layer": "WL_Anysurface",
   "navigation": {

@@ -52,16 +52,19 @@
 			"effect_spec": "/pa/effects/specs/default_explosion.pfx"
 		}
 	},
-	"audio": {
-		"loops": {
-			"move": {
-				"cue": "/SE/Movement/air/air_scout_loop",
-				"flag": "vel_changed",
-				"should_start_func": "is_moving",
-				"should_stop_func": "is_not_moving"
-			}
-		}
-	},
+    "audio": {
+        "loops": {
+            "move": {
+                "cue": "/SE/Movement/air/air_scout_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/air/air"
+        }
+    },
 	"TEMP_texelinfo": 5.39039,
 	"mesh_bounds": [11.5,
 	8,

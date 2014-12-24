@@ -30,7 +30,6 @@
 		"wobble_speed": 1.0,
 		"hover_time": 5.0
 	},
-	"teleportable": {},
 	"physics": {
 		"radius": 6,
 		"gravity_scalar": 1,

@@ -97,7 +97,7 @@
     "UNITTYPE_Mobile", 
     "UNITTYPE_Orbital", 
     "UNITTYPE_Advanced", 
-    "UNITTYPE_Recon", 
+    "UNITTYPE_Scout", 
     "UNITTYPE_FactoryBuild"
   ]
 }

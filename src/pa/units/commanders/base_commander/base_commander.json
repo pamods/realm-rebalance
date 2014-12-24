@@ -28,7 +28,10 @@
         "should_start_func": "is_moving", 
         "should_stop_func": "is_not_moving"
       }
-    }
+    },
+	        "selection_response": {
+            "cue": "/SE/Selection/commander"
+        }
   }, 
   "build_metal_cost": 25000, 
   "buildable_types": "CmdBuild", 

@@ -89,16 +89,19 @@
       ]
     }
   ],
-  "audio": {
-    "loops": {
-      "move": {
-        "cue": "/SE/Movement/air/air_bomber_loop",
-        "flag": "vel_changed",
-        "should_start_func": "is_moving",
-        "should_stop_func": "is_not_moving"
-      }
-    }
-  },
+    "audio": {
+        "loops": {
+            "move": {
+                "cue": "/SE/Movement/air/air_bomber_T2_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/air/bomber_T2"
+        }
+    },
   "TEMP_texelinfo": 11.3221,
   "mesh_bounds": [
     23,

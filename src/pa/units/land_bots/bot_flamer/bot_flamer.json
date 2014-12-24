@@ -25,6 +25,7 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
     "UNITTYPE_Advanced",
+    "UNITTYPE_Heavy",
     "UNITTYPE_FactoryBuild"
   ],
   "events": {
@@ -91,16 +92,19 @@
       ]
     }
   },
-  "audio": {
-    "loops": {
-      "move": {
-        "should_start_func": "is_moving",
-        "cue": "/SE/Movement/bot/T2_assault_loop",
-        "should_stop_func": "is_not_moving",
-        "flag": "vel_changed"
-      }
-    }
-  },
+    "audio": {
+        "loops": {
+            "move": {
+                "cue": "/SE/Movement/bot/T2_assault_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/bot/T2_assault"
+        }
+    },
   "display_index": 100,
   "mesh_bounds":[
     9,

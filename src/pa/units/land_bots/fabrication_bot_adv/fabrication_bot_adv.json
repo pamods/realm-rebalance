@@ -100,22 +100,25 @@
       "effect_scale": 0.8
     }
   },
-  "audio": {
-    "loops": {
-      "build": {
-        "cue": "/SE/Construction/Fab_contruction_beam_loop",
-        "flag": "build_target_changed",
-        "should_start_func": "has_build_target",
-        "should_stop_func": "no_build_target"
-      },
-      "move": {
-        "cue": "/SE/Movement/bot/T2_fab_combat_loop",
-        "flag": "vel_changed",
-        "should_start_func": "is_moving",
-        "should_stop_func": "is_not_moving"
-      }
-    }
-  },
+    "audio": {
+        "loops": {
+            "build": {
+                "cue": "/SE/Construction/Fab_contruction_beam_loop",
+                "flag": "build_target_changed",
+                "should_start_func": "has_build_target",
+                "should_stop_func": "no_build_target"
+            },
+            "move": {
+                "cue": "/SE/Movement/bot/T2_fab_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/bot/T2_fab"
+        }
+    },
   "fx_offsets": [
     {
       "type": "build",

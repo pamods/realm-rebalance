@@ -33,7 +33,10 @@
         "cue": "/SE/Movement/bot/assault_loop",
         "flag": "vel_changed"
       }
-    }
+    },
+	        "selection_response": {
+            "cue": "/SE/Selection/bot/assault"
+        }
   },
   "display_index": 80,
   "model": {
@@ -103,6 +106,7 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+        "UNITTYPE_CannonBuildable"
   ]
 }

@@ -103,6 +103,9 @@
         "should_start_func": "is_moving",
         "should_stop_func": "is_not_moving"
       }
+    },
+	   "selection_response": {
+       "cue": "/SE/Selection/air/bomber"
     }
   },
   "TEMP_texelinfo": 11.3221,

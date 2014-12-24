@@ -90,16 +90,19 @@
       "audio_cue": "/SE/Weapons/bot/artillery_fire"
     }
   },
-  "audio": {
-    "loops": {
-      "move": {
-        "flag": "vel_changed",
-        "cue": "/SE/Movement/bot/T2_artillery_loop",
-        "should_start_func": "is_moving",
-        "should_stop_func": "is_not_moving"
-      }
-    }
-  },
+    "audio": {
+        "loops": {
+            "move": {
+                "cue": "/SE/Movement/bot/sniper_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/bot/sniper"
+        }
+    },
   "mesh_bounds": [
     6.5,
     6.5,

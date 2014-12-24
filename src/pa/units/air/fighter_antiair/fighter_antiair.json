@@ -79,16 +79,19 @@
       ]
     }
   ],
-  "audio": {
-    "loops": {
-      "move": {
-        "cue": "/SE/Movement/air/air_fighter_loop",
-        "flag": "vel_changed",
-        "should_start_func": "is_moving",
-        "should_stop_func": "is_not_moving"
-      }
-    }
-  },
+    "audio": {
+        "loops": {
+            "move": {
+                "cue": "/SE/Movement/air/air_fighter_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/air/fighter"
+        }
+    },
   "TEMP_texelinfo": 7.96209,
   "mesh_bounds": [
     4.5,

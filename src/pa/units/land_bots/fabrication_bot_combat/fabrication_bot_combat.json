@@ -21,7 +21,9 @@
 	"UNITTYPE_Mobile",
 	"UNITTYPE_Land",
 	"UNITTYPE_Basic",
-	"UNITTYPE_FactoryBuild"],
+	"UNITTYPE_FactoryBuild",
+        "UNITTYPE_CannonBuildable"
+	],
 	"command_caps": ["ORDER_Move",
 	"ORDER_Patrol",
 	"ORDER_Build",
@@ -80,22 +82,25 @@
 			"effect_scale": 0.6
 		}
 	},
-	"audio": {
-		"loops": {
-			"build": {
-				"cue": "/SE/Construction/Fab_contruction_beam_loop",
-				"flag": "build_target_changed",
-				"should_start_func": "has_build_target",
-				"should_stop_func": "no_build_target"
-			},
-			"move": {
-				"cue": "/SE/Movement/bot/fab_combat_loop",
-				"flag": "vel_changed",
-				"should_start_func": "is_moving",
-				"should_stop_func": "is_not_moving"
-			}
-		}
-	},
+    "audio": {
+        "loops": {
+            "build": {
+                "cue": "/SE/Construction/Fab_contruction_beam_loop",
+                "flag": "build_target_changed",
+                "should_start_func": "has_build_target",
+                "should_stop_func": "no_build_target"
+            },
+            "move": {
+                "cue": "/SE/Movement/bot/fab_combat_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/bot/fab_combat"
+        }
+    },
 	"fx_offsets": [{
 		"type": "build",
 		"filename": "/pa/effects/specs/fab_combat_spray.pfx",

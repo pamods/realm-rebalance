@@ -1,33 +1,90 @@
 {
-  "TEMP_texelinfo": 5.84968, 
-  "attachable": {
-    "offsets": {
-      "head": [
-        0, 
-        0, 
-        2.7
-      ], 
-      "root": [
-        0, 
-        0, 
-        0
+	"base_spec": "/pa/units/land_vehicles/base_vehicle/base_vehicle.json", 
+    "display_name": "Fusillade", 
+	"description": "Anti-air Riot-Control Tank: Powerful tank armed with 4 flak cannons. Weak vs Ground and Heavy-Hitters", 
+	"max_health": 600,
+	"build_metal_cost": 400, 
+	"TEMP_texelinfo": 5.84968, 
+	"attachable": {
+		"offsets": {
+			"head": [
+			0, 
+			0, 
+			2.7
+			], 
+			"root": [
+			0, 
+			0, 
+			0
+			]
+		}
+	}, 
+  "unit_types": [
+    "UNITTYPE_Tank", 
+    "UNITTYPE_Mobile", 
+    "UNITTYPE_Land", 
+    "UNITTYPE_Advanced", 
+    "UNITTYPE_FactoryBuild",
+    "UNITTYPE_AirDefense"
+  ],
+  "transportable": {
+    "size": 1
+  }, 
+  "guard_layer": "WL_Air", 
+  "navigation": {
+    "acceleration": 100, 
+    "brake": 100, 
+    "move_speed": 13, 
+    "turn_speed": 90, 
+    "type": "land-small"
+  }, 
+    "physics": {
+    "push_class": 60, 
+    "radius": 4
+  }, 
+    "recon": {
+    "observer": {
+      "items": [
+        {
+          "channel": "sight", 
+          "layer": "surface_and_air", 
+          "radius": 140, 
+          "shape": "capsule"
+        }
       ]
     }
   }, 
-  "audio": {
-    "loops": {
-      "move": {
-        "cue": "/SE/Movement/veh/tank_light_laser_loop", 
-        "flag": "vel_changed", 
-        "should_start_func": "is_moving", 
-        "should_stop_func": "is_not_moving"
-      }
-    }
+    "model": {
+    "animtree": "/pa/anim/anim_trees/tank_flak_anim_tree.json", 
+    "arrows": 5, 
+    "filename": "/pa/units/land_vehicles/tank_flak/tank_flak.papa"
   }, 
-  "base_spec": "/pa/units/land_vehicles/base_vehicle/base_vehicle.json", 
-  "build_metal_cost": 400, 
-  "description": "Anti-air Riot-Control Tank: Powerful tank armed with 4 flak cannons. Weak vs Ground and Heavy-Hitters", 
-  "display_name": "Fusillade", 
+    "tools": [
+    {
+      "aim_bone": "bone_pitch", 
+      "muzzle_bone": [
+        "socket_rightMuzzle01", 
+        "socket_leftMuzzle02"
+      ], 
+      "spec_id": "/pa/units/land_vehicles/tank_flak/tank_flak_tool_weapon.json"
+    }, 
+    {
+      "aim_bone": "bone_pitch", 
+      "muzzle_bone": [
+        "socket_leftMuzzle01", 
+        "socket_rightMuzzle02"
+      ], 
+      "spec_id": "/pa/units/land_vehicles/tank_flak/tank_flak_tool_weapon.json"
+    },
+    {
+      "aim_bone": "bone_pitch", 
+      "muzzle_bone": [
+        "socket_leftMuzzle01", 
+        "socket_rightMuzzle02"
+      ], 
+      "spec_id": "/pa/units/land_vehicles/tank_flak/tank_flak_antimissile_tool_weapon.json"
+    }
+  ],	
   "events": {
     "build_complete": {
       "audio_cue": "/SE/Build_Complete/veh"
@@ -40,7 +97,19 @@
       "effect_spec": "/pa/effects/specs/default_muzzle_flash.pfx socket_rightMuzzle01 /pa/effects/specs/default_muzzle_flash.pfx socket_leftMuzzle01"
     }
   }, 
-  "guard_layer": "WL_Air", 
+  "audio": {
+    "loops": {
+      "move": {
+        "cue": "/SE/Movement/veh/tank_light_laser_loop", 
+        "flag": "vel_changed", 
+        "should_start_func": "is_moving", 
+        "should_stop_func": "is_not_moving"
+      }
+    }, 
+        "selection_response": {
+            "cue": "/SE/Selection/veh/aa_missile_vehicle"
+        }
+    },
   "headlights": [
     {
       "color": [
@@ -65,77 +134,11 @@
         0.0
       ]
     }
-  ], 
-  "max_health": 600, 
+  ],  
   "mesh_bounds": [
     5.3, 
     9, 
     4.2
-  ], 
-  "model": {
-    "animtree": "/pa/anim/anim_trees/tank_flak_anim_tree.json", 
-    "arrows": 5, 
-    "filename": "/pa/units/land_vehicles/tank_flak/tank_flak.papa"
-  }, 
-  "navigation": {
-    "acceleration": 100, 
-    "brake": 100, 
-    "move_speed": 13, 
-    "turn_speed": 90, 
-    "type": "land-small"
-  }, 
-  "physics": {
-    "push_class": 60, 
-    "radius": 4
-  }, 
-  "recon": {
-    "observer": {
-      "items": [
-        {
-          "channel": "sight", 
-          "layer": "surface_and_air", 
-          "radius": 140, 
-          "shape": "capsule"
-        }
-      ]
-    }
-  }, 
-  "tools": [
-    {
-      "aim_bone": "bone_pitch", 
-      "muzzle_bone": [
-        "socket_rightMuzzle01", 
-        "socket_leftMuzzle02"
-      ], 
-      "spec_id": "/pa/units/land_vehicles/tank_flak/tank_flak_tool_weapon.json"
-    }, 
-    {
-      "aim_bone": "bone_pitch", 
-      "muzzle_bone": [
-        "socket_leftMuzzle01", 
-        "socket_rightMuzzle02"
-      ], 
-      "spec_id": "/pa/units/land_vehicles/tank_flak/tank_flak_tool_weapon.json"
-    }, 
-    {
-      "aim_bone": "bone_pitch", 
-      "muzzle_bone": [
-        "socket_leftMuzzle01", 
-        "socket_rightMuzzle02"
-      ], 
-      "spec_id": "/pa/units/land_vehicles/tank_flak/tank_flak_antimissile_tool_weapon.json"
-    }
-  ], 
-  "transportable": {
-    "size": 1
-  }, 
-  "unit_types": [
-    "UNITTYPE_Tank", 
-    "UNITTYPE_Mobile", 
-    "UNITTYPE_Land", 
-    "UNITTYPE_Advanced", 
-    "UNITTYPE_FactoryBuild",
-    "UNITTYPE_AirDefense"
   ], 
   "wreckage_health_frac": 1.0
 }

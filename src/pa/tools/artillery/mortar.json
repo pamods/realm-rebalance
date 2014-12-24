@@ -14,8 +14,9 @@
     "pitch_range": 70,
     "auto_attack": true,
     "target_priorities": [
-        "Structure - Wall",
+        "Structure - Wall - Construction - Economy - Recon - Scout",
         "Mobile - Air",
+		"Structure - Wall",
         "Wall"
     ]
 }

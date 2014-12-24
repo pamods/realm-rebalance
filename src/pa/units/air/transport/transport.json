@@ -20,6 +20,7 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Transport",
     "UNITTYPE_Basic",
+    "UNITTYPE_Recon",
     "UNITTYPE_FactoryBuild"
   ],
   "events": {
@@ -37,17 +38,20 @@
       "effect_spec": "/pa/effects/specs/default_explosion.pfx"
     }
   },
-  "audio": {
-    "loops": {
-      "move": {
-        "cue": "/SE/Movement/air/air_gunship_loop",
-        "flag": "vel_changed",
-        "should_start_func": "is_moving",
-        "should_stop_func": "is_not_moving"
-      }
-    }
-  },
-  "command_caps": [
+    "audio": {
+        "loops": {
+            "move": {
+                "cue": "/SE/Movement/air/air_transport_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/air/transport"
+        }
+    },
+	"command_caps": [
     "ORDER_Move",
     "ORDER_Patrol",
     "ORDER_Assist",

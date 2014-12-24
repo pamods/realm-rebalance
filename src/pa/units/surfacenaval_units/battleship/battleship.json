@@ -1,15 +1,18 @@
 {
   "TEMP_texelinfo": 47.2606,
-  "audio": {
-    "loops": {
-      "move": {
-        "cue": "/SE/Movement/sea/T2_battleship_loop",
-        "flag": "vel_changed",
-        "should_start_func": "is_moving",
-        "should_stop_func": "is_not_moving"
-      }
-    }
-  },
+    "audio": {
+        "loops": {
+            "move": {
+                "cue": "/SE/Movement/sea/T2_battleship_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/sea/sea_large"
+        }
+    },
   "base_spec": "/pa/units/surfacenaval_units/base_ship/base_ship.json",
   "build_metal_cost": 3500,
   "description": "Heavy Assault Ship: A battleship with long-range cannons. Uses energy. Weak vs Heavy-Hitters & Long-Range",

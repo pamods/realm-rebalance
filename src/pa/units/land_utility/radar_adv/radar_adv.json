@@ -17,7 +17,7 @@
     "UNITTYPE_Land",
     "UNITTYPE_Structure",
     "UNITTYPE_Advanced",
-    "UNITTYPE_Recon",
+    "UNITTYPE_Scout",
     "UNITTYPE_FabAdvBuild"
   ],
   "physics": {

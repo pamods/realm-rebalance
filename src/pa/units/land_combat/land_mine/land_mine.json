@@ -13,6 +13,7 @@
     "UNITTYPE_Basic",
     "UNITTYPE_Land",
     "UNITTYPE_Defense",
+    "UNITTYPE_Bomb",
     "UNITTYPE_CombatFabBuild",
     "UNITTYPE_CombatFabAdvBuild"
   ],

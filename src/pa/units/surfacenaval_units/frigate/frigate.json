@@ -102,6 +102,7 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Basic",
     "UNITTYPE_AirDefense",
+    "UNITTYPE_Recon",
     "UNITTYPE_FactoryBuild"
   ]
 }

@@ -23,7 +23,8 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_AirDefense",
     "UNITTYPE_Basic",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+        "UNITTYPE_CannonBuildable"
   ],
   "transportable": {
     "size": 1
@@ -95,7 +96,10 @@
         "should_start_func": "is_moving",
         "cue": "/SE/Movement/bot/aa_loop"
       }
-    }
+    },
+	        "selection_response": {
+            "cue": "/SE/Selection/bot/assault"
+        }
   },
   "TEMP_texelinfo": 5.47132,
   "nearby_target_tick_update_interval": 3,

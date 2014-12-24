@@ -33,22 +33,28 @@
   "base_spec": "/pa/units/land_bots/base_bot/base_bot.json",
   "guard_layer": "WL_LandHorizontal",
   "display_index": 80,
-  "audio": {
-    "loops": {
-      "build": {
-        "should_start_func": "has_build_target",
-        "cue": "/SE/Construction/Fab_contruction_beam_loop",
-        "should_stop_func": "no_build_target",
-        "flag": "build_target_changed"
-      },
-      "move": {
-        "flag": "vel_changed",
-        "should_stop_func": "is_not_moving",
-        "cue": "/SE/Movement/bot/fab_loop",
-        "should_start_func": "is_moving"
-      }
-    }
-  },
+    "audio": {
+        "loops": {
+            "build": {
+                "cue": "/SE/Construction/Fab_bot_contruction_beam_loop",
+                "flag": "build_target_changed",
+                "should_start_func": "has_build_target",
+                "should_stop_func": "no_build_target"
+            },
+            "move": {
+                "cue": "/SE/Movement/bot/fab_loop",
+                "flag": "vel_changed",
+                "should_start_func": "is_moving",
+                "should_stop_func": "is_not_moving"
+            }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/bot/fab"
+        },
+        "command_response": {
+            "cue": "/SE/Confirmation/bot/fab"
+        }
+    },
   "build_metal_cost": 200,
   "TEMP_texelinfo": 5.11028,
   "tools": [
@@ -82,7 +88,8 @@
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
     "UNITTYPE_Basic",
-    "UNITTYPE_FactoryBuild"
+    "UNITTYPE_FactoryBuild",
+        "UNITTYPE_CannonBuildable"
   ],
   "fx_offsets": [
     {

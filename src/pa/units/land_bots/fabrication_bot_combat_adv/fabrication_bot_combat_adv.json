@@ -111,11 +111,14 @@
                 "should_stop_func": "no_build_target"
             },
             "move": {
-                "cue": "/SE/Movement/bot/T2_fab_loop",
+                "cue": "/SE/Movement/bot/T2_fab_combat_loop",
                 "flag": "vel_changed",
                 "should_start_func": "is_moving",
                 "should_stop_func": "is_not_moving"
             }
+        },
+        "selection_response": {
+            "cue": "/SE/Selection/bot/T2_fab_combat"
         }
     },
     "fx_offsets": [

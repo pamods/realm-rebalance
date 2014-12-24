@@ -36,7 +36,10 @@
         "should_stop_func": "is_not_moving",
         "flag": "vel_changed"
       }
-    }
+    },
+	        "selection_response": {
+            "cue": "/SE/Selection/bot/bot_bomb"
+        }
   },
   "wreckage_health_frac": 0,
   "model": {
@@ -51,15 +54,20 @@
   },
   "max_health": 45,
   "display_group": 40,
-  "events": {
-    "died": {
-      "effect_scale": 0.01,
-      "audio_cue": "/SE/Death/Bot"
+    "events": {
+        "build_complete": {
+            "audio_cue": "/SE/Build_Complete/bot"
+        },
+        "fired": {
+            "audio_cue": "",
+            "effect_spec": ""
+        },
+        "died": {
+            "audio_cue": "/SE/Death/Bot_bomb",
+            "effect_spec": "/pa/units/land/bot_bomb/bot_bomb_ammo_explosion.pfx",
+            "effect_scale": 1
+        }
     },
-    "build_complete": {
-      "audio_cue": "/SE/Build_Complete/bot"
-    }
-  },
   "attachable": {
     "offsets": {
       "head": [
@@ -90,6 +98,7 @@
     "UNITTYPE_Bot",
     "UNITTYPE_Mobile",
     "UNITTYPE_Land",
+    "UNITTYPE_Bomb",
     "UNITTYPE_Advanced",
     "UNITTYPE_FactoryBuild"
   ],

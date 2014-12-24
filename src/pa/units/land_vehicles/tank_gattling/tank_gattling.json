@@ -3,24 +3,31 @@
 	"display_name": "Cougar",
 	"description": "Multi-Purpose Riot-Control Tank: A tank armed with two gattling guns. Weak vs Heavy and Heavy-Hitters",
 	"max_health": 350,
-	"wreckage_health_frac": 1.0,
 	"build_metal_cost": 400,
+	"wreckage_health_frac": 1.0,
 	"attachable": {
 		"offsets": {
-			"root": [0,
+			"root": [
 			0,
-			0],
-			"head": [0,
 			0,
-			2.7]
+			0
+			],
+			"head": [
+			0,
+			0,
+			2.7
+			]
 		}
 	},
-	"unit_types": ["UNITTYPE_Tank",
-	"UNITTYPE_Mobile",
-	"UNITTYPE_Land",
-	"UNITTYPE_Basic",
-	"UNITTYPE_AirDefense",
-	"UNITTYPE_FactoryBuild"],
+	"unit_types": [
+		"UNITTYPE_Tank",
+		"UNITTYPE_Mobile",
+		"UNITTYPE_Land",
+		"UNITTYPE_Basic",
+		"UNITTYPE_AirDefense",
+		"UNITTYPE_FactoryBuild",
+		"UNITTYPE_CannonBuildable"
+	],
 	"transportable": {
 		"size": 1
 	},
@@ -38,12 +45,14 @@
 	},
 	"recon": {
 		"observer": {
-			"items": [{
-				"layer": "surface_and_air",
-				"channel": "sight",
-				"shape": "capsule",
-				"radius": 100
-			}]
+			"items": [
+				{
+					"layer": "surface_and_air",
+					"channel": "sight",
+					"shape": "capsule",
+					"radius": 100
+				}
+			]
 		}
 	},
 	"model": {
@@ -51,10 +60,14 @@
 		"animtree": "/pa/anim/anim_trees/tank_gattling_anim_tree.json",
 		"arrows": 5
 	},
-	"tools": [{
-		"spec_id": "/pa/units/land_vehicles/tank_gattling/tank_gattling_tool_weapon.json",
-		"aim_bone": "bone_pitch",
-		"muzzle_bone": ["socket_rightMuzzle","socket_leftMuzzle"]
+	"tools": [
+		{
+			"spec_id": "/pa/units/land_vehicles/tank_gattling/tank_gattling_tool_weapon.json",
+			"aim_bone": "bone_pitch",
+			"muzzle_bone": [
+				"socket_rightMuzzle",
+				"socket_leftMuzzle"
+				]
 		}
 	],
 	"events": {
@@ -76,7 +89,10 @@
 				"should_start_func": "is_moving",
 				"should_stop_func": "is_not_moving"
 			}
-		}
+		},
+	    "selection_response": {
+            "cue": "/SE/Selection/veh/tank_light_laser"
+        }
 	},
 	"headlights": [{
 		"gobo": "/pa/effects/textures/gobo/spotlight_gobo.papa",
