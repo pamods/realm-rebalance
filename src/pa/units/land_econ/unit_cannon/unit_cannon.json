@@ -8,7 +8,7 @@
     "wait_to_rolloff_time": 3,
     "buildable_types": "CannonBuildable",
     "factory": {
-        "deploy_projectile": "/pa/units/land/unit_cannon/unit_cannon_deploy.json",
+        "deploy_projectile": "/pa/units/land_econ/unit_cannon/unit_cannon_deploy.json",
         "store_units": true,
         "pass_on_orders": false,
         "spawn_points": [
@@ -51,13 +51,13 @@
     },
     "tools": [
         {
-            "spec_id": "/pa/units/land/unit_cannon/unit_cannon_tool_weapon.json",
+            "spec_id": "/pa/units/land_econ/unit_cannon/unit_cannon_tool_weapon.json",
             "record_index": 0,
             "aim_bone": "bone_turret",
             "muzzle_bone": "socket_muzzle"
         },
         {
-            "spec_id": "/pa/units/land/unit_cannon/unit_cannon_build_arm.json",
+            "spec_id": "/pa/units/land_econ/unit_cannon/unit_cannon_build_arm.json",
             "record_index": 1,
             "aim_bone": "bone_root"
         }
