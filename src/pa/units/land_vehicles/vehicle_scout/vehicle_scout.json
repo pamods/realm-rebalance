@@ -63,14 +63,14 @@
             ]
         }
     },
-    "model": {
-        "filename": "/pa/units/land/land_scout/land_scout.papa",
-        "animations": {
-            "drive": "/pa/units/land/land_scout/land_scout_anim_drive.papa"
-        },
-        "animtree": "/pa/anim/anim_trees/land_scout_anim_tree.json",
-        "arrows": 5
-    },
+  "model": {
+    "filename": "/pa/units/land_vehicles/vehicle_scout/vehicle_scout.papa",
+    "arrows": 5,
+    "animtree": "/pa/anim/anim_trees/vehicle_scout_anim_tree.json",
+    "animations": {
+      "drive": "/pa/units/land_vehicles/vehicle_scout/vehicle_scout_anim_drive.papa"
+    }
+  },
 	"tools": [
     {
       "aim_bone": "bone_turret",
