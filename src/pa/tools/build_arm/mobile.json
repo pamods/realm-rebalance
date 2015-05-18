@@ -1,5 +1,19 @@
 {
   "tool_type": "TOOL_BuildArm",
+  "assist_layers": [
+    "WL_AnyHorizontalGroundOrWaterSurface",
+    "WL_Air",
+    "WL_Underwater"
+  ],
+  "reclaim_layers": [
+    "WL_AnyHorizontalGroundOrWaterSurface",
+    "WL_Air"
+  ],
+  "reclaim_types": [
+    "Unit",
+    "Wreckage",
+    "Feature"
+  ],
   "max_range": 20,
   "construction_demand": {
     "energy": 2500,
